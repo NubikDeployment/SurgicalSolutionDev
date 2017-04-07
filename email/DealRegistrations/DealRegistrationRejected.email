@@ -1,0 +1,8 @@
+{!Lead.OwnerFullName},
+The {!Organization.Name} channel development management team has reviewed your submitted deal registration for {!Lead.Company} and have denied the submission. Refer to the workflow approval history in the portal for the specific rejection reason. 
+
+https://apps.salesforce.com/prm/detail/{!Lead.Id}  
+
+If you feel this is an error please contact your channel develompent manager or resubmit the deal with different attributes.
+
+The {!Organization.Name} Channel Development Team

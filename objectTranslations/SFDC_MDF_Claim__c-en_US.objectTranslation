@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label><!-- Approval History --></label>
+        <name>Approval_History__c</name>
+    </fields><fields>
+        <label><!-- Approved Amount --></label>
+        <name>Approved_Amount__c</name>
+    </fields><fields>
+        <label><!-- Claim Age In Days --></label>
+        <name>Claim_Age_In_Days__c</name>
+    </fields><fields>
+        <label><!-- Claim Name --></label>
+        <name>Claim_Name__c</name>
+    </fields><fields>
+        <label><!-- Claimed Amount --></label>
+        <name>Claimed_Amount__c</name>
+    </fields><fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label><!-- Expenditure Description --></label>
+        <name>Description_of_Cost__c</name>
+    </fields><fields>
+        <label><!-- Fund Request --></label>
+        <name>MDF__c</name>
+        <relationshipLabel><!-- Claims --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Expenditure Type --></label>
+        <name>Marketing_Expenditure_Detail__c</name>
+        <picklistValues>
+            <masterLabel>Conference Fees</masterLabel>
+            <translation><!-- Conference Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Execution</masterLabel>
+            <translation><!-- Event Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List Rental</masterLabel>
+            <translation><!-- List Rental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printing Charges</masterLabel>
+            <translation><!-- Printing Charges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional Goods</masterLabel>
+            <translation><!-- Promotional Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketing Services</masterLabel>
+            <translation><!-- Telemarketing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Costs</masterLabel>
+            <translation><!-- Training Costs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Marketing</masterLabel>
+            <translation><!-- Web Marketing --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Payee Information --></label>
+        <name>Payee_Information__c</name>
+    </fields><fields>
+        <label><!-- % Approved --></label>
+        <name>Percent_Approved__c</name>
+    </fields><fields>
+        <label><!-- Performance Attached --></label>
+        <name>Performance_Attached__c</name>
+    </fields><fields>
+        <label><!-- Performance Verified Date --></label>
+        <name>Performance_Verified_Date__c</name>
+    </fields><fields>
+        <label><!-- Performance Verified --></label>
+        <name>Performance_Verified__c</name>
+    </fields><fields>
+        <label><!-- s_Servlet Location --></label>
+        <name>S1__c</name>
+    </fields><fields>
+        <label><!-- s_Document Directory --></label>
+        <name>S2__c</name>
+    </fields><fields>
+        <label><!-- Channel Budget --></label>
+        <name>SFDC_Channel_Budget__c</name>
+        <relationshipLabel><!-- Fund Claims --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Settlement Method --></label>
+        <name>Settlement_Method__c</name>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation><!-- Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Memo</masterLabel>
+            <translation><!-- Credit Memo --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Approval Action --></label>
+        <name>Status_Action__c</name>
+    </fields><fields>
+        <label><!-- Approval Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Fund Claim</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Fund Claims</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Fund Claim Layout</layout>
+        <sections>
+            <label><!-- Approval --></label>
+            <section>Approval</section>
+        </sections>
+        <sections>
+            <label><!-- Claim Details --></label>
+            <section>Claim Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Descripción detallada</label>
+        <name>Detailed_Description__c</name>
+    </fields><fields>
+        <label>Comentarios internos</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>Antiguedad del problema</label>
+        <name>Issue_Age__c</name>
+    </fields><fields>
+        <label>Estado del problema</label>
+        <name>Issue_Status__c</name>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>Escalado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventable</masterLabel>
+            <translation>Prevenibles</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>Resuelto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresolved</masterLabel>
+            <translation>Sin resolver</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation>En curso</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Proyecto</label>
+        <name>Project__c</name>
+        <relationshipLabel>Problemas idea</relationshipLabel>
+    </fields><fields>
+        <label>Estrategia de la solución</label>
+        <name>Resolution_Strategy__c</name>
+    </fields><fields>
+        <label>Solución</label>
+        <name>Resolution__c</name>
+    </fields><fields>
+        <label>Miembro del equipo responsable</label>
+        <name>Team_Member_Responsible__c</name>
+        <relationshipLabel>Problemas idea</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Problema idea</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Problemas idea</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Número del problema</nameFieldLabel><layouts>
+        <layout>Project Issue Layout</layout>
+        <sections>
+            <label>Detalle del problema</label>
+            <section>Issue Detail</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

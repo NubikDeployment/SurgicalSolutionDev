@@ -1,0 +1,25 @@
+.THIS .slds-media__body.timeline-item {
+    position: relative;
+}
+
+.THIS .slds-media__body .timeline-item-date {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    background: rgb(244, 246, 249);
+    z-index: 1;
+    padding-left: .5rem;
+}
+
+.THIS .activity-name {
+    font-weight: bold;
+    color: #16325c;
+    max-width: 45%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.THIS .warning-icon {
+    vertical-align: 3px;
+    margin-left: 5px;
+}

@@ -1,0 +1,946 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Balance_Correction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this if you are correcting a previously submitted request for time off that you are no longer going to take.</inlineHelpText>
+        <label>Reverse previously processed request</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Comments_text__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>4000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields><fields>
+        <fullName>Date_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields><fields>
+        <fullName>Date_Submitted__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Submitted</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields><fields>
+        <fullName>Days_Awaiting_Approval__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND( NOW() - Date_Submitted__c , 0 )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Awaiting Approval</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Employee_Description__c</fullName>
+        <externalId>false</externalId>
+        <formula>Employee_Number__c &amp; " - " &amp; Employee_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Employee Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Employee_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Name</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Employee_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>End_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The last day of the requested time off.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>I_accept_terms__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>By checking this checkbox, you are acknowledging that you have read the negative balance terms and agree to bound by them.</inlineHelpText>
+        <label>I accept terms</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Negative_Balance_Terms__c</fullName>
+        <defaultValue>"I understand that Salesforce.com may allow me to take advance PTO (up to 40 hours). In order to receive this advance, I authorize Salesforce.com to deduct the borrowed PTO from my future vacation accruals. These deductions shall continue each pay period until such time as the total hours of borrowed paid time off advanced to me have been reimbursed in full or until the termination of my employment with Company for any reason, whichever occurs first.  In the event my employment with the Company terminates for any reason before I repay this PTO advance, I acknowledge and agree that any remaining PTO advance shall be deducted by Salesforce.com from my final paycheck upon termination so long as that deduction does not exceed the amount of the deductions that have been regularly made from my paycheck. However, if the outstanding amount of my vacation advance exceeds this regular deduction, I also agree to repay Salesforce.com for any additional vacation advance owed by me upon the date of my employment termination either by payment of a personal check or by authorizing a deduction from my final paycheck for the remaining balance."</defaultValue>
+        <externalId>false</externalId>
+        <label>Negative Balance Terms</label>
+        <length>4000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields><fields>
+        <fullName>Number_of_Days_Absolute__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Days (Absolute)</label>
+        <summaryForeignKey>Requested_Day__c.Time_Off_Request__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>Number_of_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Balance_Correction__c, -1 *  Number_of_Days_Absolute__c ,  Number_of_Days_Absolute__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of business days between the Start Date and End Date of this request.  Does not include weekends or company holidays.  This is the number of days that will be deducted from your time-off balance.</inlineHelpText>
+        <label>Number of Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Payroll_System__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payroll System</label>
+        <referenceTo>Payroll_System__c</referenceTo>
+        <relationshipName>Time_Off_Request</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Pending_Approval__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pending Approval</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Policy_Exception__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Start_Date__c &lt;  DATEVALUE(Date_Submitted__c),  IMAGE( "/img/samples/flag_red.gif", "red flag") &amp;  "  Request submitted after start of time-off.", "")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The policy exception flag indicates that a request does not comply with one or more company policies. (e.g., a request submitted after the time-off was already taken)</inlineHelpText>
+        <label>Policy Exception</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Requestor__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Requestor</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Time_Off_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The first day of the requested time off.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Status_image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE("/servlet/servlet.FileDownload?file=" &amp;     CASE( Status__c,      "Not Submitted", "01541000001Qwup",      "Pending Approval", "01541000001Qwuq",      "Approved", "01541000001Qwur",      "Processed", "01541000001Qwus",      "Canceled", "01541000001Qwut",      "Requires Re-Approval", "01541000001Qwuu",      "Rejected", "01541000001Qwuv",    "") ,    CASE( Status__c,      "Not Submitted", "Not Submitted",      "Pending Approval", "Pending Approval",      "Approved", "Approved",      "Processed", "Processed",      "Canceled", "Canceled",      "Requires Re-Approval", "Requires Re-Approval",      "Rejected", "Rejected",    "Unknown Status"))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Status of this request.  If the lock icon is displayed, it means the request cannot be edited in its current status.</inlineHelpText>
+        <label>&amp;nbsp;Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><customHelp>TOM_User_Guide</customHelp><deploymentStatus>Deployed</deploymentStatus><description>TOM: A request for time-off, such as PTO, floating holidays, etc.  A time-off request may be for 1 or more days.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>Private</externalSharingModel><label>Time-Off Request</label><nameField>
+        <displayFormat>TO-{YYMMDD}-{0}</displayFormat>
+        <label>Request ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Time-Off Requests</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
+        <customTabListAdditionalFields>Requestor__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Start_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Number_of_Days__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status_image__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <lookupDialogsAdditionalFields>Requestor__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Start_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Requestor__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Number_of_Days__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Comments_text__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>Private</sharingModel><listViews>
+        <fullName>AllTimeOffRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Employee_Name__c</columns>
+        <columns>Date_Submitted__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Number_of_Days__c</columns>
+        <columns>Status_image__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Time-Off Requests</label>
+    </listViews><listViews>
+        <fullName>ApprovedRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Employee_Name__c</columns>
+        <columns>Date_Submitted__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Number_of_Days__c</columns>
+        <columns>Status_image__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Approval,Pending 2nd Level Approval,Approved,Processed</value>
+        </filters>
+        <label>Approved Requests</label>
+    </listViews><listViews>
+        <fullName>PendingApproval</fullName>
+        <columns>NAME</columns>
+        <columns>Employee_Name__c</columns>
+        <columns>Date_Submitted__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Number_of_Days__c</columns>
+        <columns>Status_image__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Pending Approval</value>
+        </filters>
+        <label>Pending Approval</label>
+    </listViews><listViews>
+        <fullName>RejectedRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Employee_Name__c</columns>
+        <columns>Date_Submitted__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Number_of_Days__c</columns>
+        <columns>Status_image__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Rejected Requests</label>
+    </listViews><listViews>
+        <fullName>Time_Off_Manager_Payroll</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Time_Off_Manager_Payroll</label>
+        <queue>Time_Off_Manager_Payroll</queue>
+    </listViews><listViews>
+        <fullName>UnsubmittedRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Employee_Name__c</columns>
+        <columns>Date_Submitted__c</columns>
+        <columns>Start_Date__c</columns>
+        <columns>Number_of_Days__c</columns>
+        <columns>Status_image__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Not Submitted,Rejected,Requires Re-Approval</value>
+        </filters>
+        <label>Unsubmitted Requests</label>
+    </listViews><recordTypes>
+        <fullName>TESTApproved</fullName>
+        <active>true</active>
+        <label>TEST-Approved</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTCanceled</fullName>
+        <active>true</active>
+        <label>TEST-Canceled</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTNotSubmitted</fullName>
+        <active>true</active>
+        <label>TEST-Not Submitted</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTPendingApproval</fullName>
+        <active>true</active>
+        <label>TEST-Pending Approval</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTProcessed</fullName>
+        <active>true</active>
+        <label>TEST-Processed</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTRejected</fullName>
+        <active>true</active>
+        <label>TEST-Rejected</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>TESTRequiresReApproval</fullName>
+        <active>true</active>
+        <label>TEST-Requires Re-Approval</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USApproved</fullName>
+        <active>true</active>
+        <label>US-Approved</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USCanceled</fullName>
+        <active>true</active>
+        <label>US-Canceled</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USNotSubmitted</fullName>
+        <active>true</active>
+        <label>US-Not Submitted</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USPendingApproval</fullName>
+        <active>true</active>
+        <label>US-Pending Approval</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USProcessed</fullName>
+        <active>true</active>
+        <label>US-Processed</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USRejected</fullName>
+        <active>true</active>
+        <label>US-Rejected</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>USRequiresReApproval</fullName>
+        <active>true</active>
+        <label>US-Requires Re-Approval</label>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requires Re-Approval</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><validationRules>
+        <fullName>End_Date_Cannot_Come_Before_Start_Date</fullName>
+        <active>true</active>
+        <errorConditionFormula>End_Date__c &lt;  Start_Date__c</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>The End Date cannot be before the Start Date.</errorMessage>
+    </validationRules><validationRules>
+        <fullName>End_Date_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(NULLVALUE(End_Date__c , null) = null)</errorConditionFormula>
+        <errorDisplayField>End_Date__c</errorDisplayField>
+        <errorMessage>The End Date is Required.</errorMessage>
+    </validationRules><validationRules>
+        <fullName>I_accept_terms_checkbox_is_required</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT( I_accept_terms__c )</errorConditionFormula>
+        <errorDisplayField>I_accept_terms__c</errorDisplayField>
+        <errorMessage>Please read the negative balance terms and check the "I accept terms" checkbox</errorMessage>
+    </validationRules><validationRules>
+        <fullName>Start_Date_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(NULLVALUE(Start_Date__c , null) = null)</errorConditionFormula>
+        <errorDisplayField>Start_Date__c</errorDisplayField>
+        <errorMessage>The Start Date is Required</errorMessage>
+    </validationRules><webLinks>
+        <fullName>Cancel_Request</fullName>
+        <availability>online</availability>
+        <description>Cancel a request that has been submitted</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Cancel Request</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!requireScript("/soap/ajax/8.0/connection.js")}
+{!requireScript("/soap/ajax/8.0/apex.js")}
+
+if (("{!Time_Off_Request__c.Status__c}" == "Approved") || ("{!Time_Off_Request__c.Status__c}" == "Rejected")  || ("{!Time_Off_Request__c.Status__c}" == "Requires Re-Approval")) {
+	if (window.confirm('Are you sure you want to cancel this time-off request? This will cancel the entire request -- not just the most recent edits.')) {
+		sforce.apex.execute("pto_web_services","cancelRequest", {a:"{!Time_Off_Request__c.Id}" });
+		window.location.reload(true);	
+	}
+	else {
+		window.alert("Requests with this status cannot be canceled");
+	}
+}</url>
+    </webLinks><webLinks>
+        <fullName>Submit_for_Approval</fullName>
+        <availability>online</availability>
+        <description>This button duplicates the functionality of the standard Submit for Approval button on the Approval History related list.  It allows the button to be placed at the top of the page.</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Submit for Approval</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>if (( "{!Time_Off_Request__c.Status__c}" == "Not Submitted" )  || ( "{!Time_Off_Request__c.Status__c}" == "Rejected" ) || ( "{!Time_Off_Request__c.Status__c}" == "Requires Re-Approval" ))
+{
+navigateToUrl('/p/process/Submit?retURL=%2F{!Time_Off_Request__c.Id}&amp;id={!Time_Off_Request__c.Id}');
+} else {
+window.alert("Pending, approved, processed, and canceled requests cannot be submitted for approval.");
+}</url>
+    </webLinks><webLinks>
+        <fullName>View_Accrual_Schedule</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>400</height>
+        <isResizable>true</isResizable>
+        <linkType>sControl</linkType>
+        <masterLabel>View Accrual Schedule</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <scontrol>Text_Accrual_Schedule</scontrol>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <width>800</width>
+    </webLinks><webLinks>
+        <fullName>View_Employee_Time_Off_Requests</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>View Employee's Time-Off Requests</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>/00O41000005BWpx?pv0={!Time_Off_Request__c.Employee_Number__c}</url>
+    </webLinks></CustomObject>

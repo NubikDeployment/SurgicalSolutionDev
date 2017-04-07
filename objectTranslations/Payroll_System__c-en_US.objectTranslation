@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label><!-- Enabled for Time-Off Manager --></label>
+        <name>Enabled_for_Time_Off_Manager__c</name>
+    </fields><fields>
+        <help><!-- The maximum number of days off that can be requested in a single time-off request. If this is left blank, then a default of 50 will be used. --></help>
+        <label><!-- Max Days in a Single Request --></label>
+        <name>Max_Days_in_a_Single_Request__c</name>
+    </fields><fields>
+        <label><!-- Max Negative Floating Holiday Balance --></label>
+        <name>Max_Negative_Floating_Holiday_Balance__c</name>
+    </fields><fields>
+        <label><!-- Max Negative PTO Balance --></label>
+        <name>Max_Negative_PTO_Balance__c</name>
+    </fields><fields>
+        <label><!-- Record Type Prefix --></label>
+        <name>Record_Type_Prefix__c</name>
+        <picklistValues>
+            <masterLabel>TEST</masterLabel>
+            <translation><!-- TEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Payroll System</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Payroll Systems</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

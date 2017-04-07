@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkRewardFund</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Reward Fund statistics such as remaining rewards and fund values</description>
+    <join>
+        <outerJoin>false</outerJoin>
+        <relationship>Rewards</relationship>
+    </join>
+    <label>Reward Funds Statistics</label>
+    <sections>
+        <masterLabel>Reward Funds</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Reward Recipients</masterLabel>
+    </sections>
+</ReportType>

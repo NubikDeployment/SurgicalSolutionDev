@@ -1,0 +1,9 @@
+{!Lead.OwnerFullName} has submitted a deal registration with the following details to be reviewed.
+
+Company: {!Lead.Company}
+Contact: {!Lead.Name}
+Created Date: {!Lead.CreatedDate}
+
+You have 24 hours to approve or reject the deal registration.
+
+View the lead at {!Lead.Link}

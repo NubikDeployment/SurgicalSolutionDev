@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Opciones</label>
+        <name>Choices__c</name>
+    </fields><fields>
+        <help>Entre aqui la posición de la pregunta dentro de la encuesta.</help>
+        <label><!-- OrderNumber --></label>
+        <name>OrderNumber__c</name>
+    </fields><fields>
+        <label>Pregunta</label>
+        <name>Question__c</name>
+    </fields><fields>
+        <help>Marque esta casilla si desea que el encuestado debe responder en forma obligatoria a la pregunta.</help>
+        <label>Requerido</label>
+        <name>Required__c</name>
+    </fields><fields>
+        <label>Encuesta</label>
+        <name>Survey__c</name>
+        <relationshipLabel>PreguntasEncuesta</relationshipLabel>
+    </fields><fields>
+        <label>Total de respuestas</label>
+        <name>Total_Responses__c</name>
+    </fields><fields>
+        <label>Tipo</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Free Text</masterLabel>
+            <translation>Texto libre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Select--Vertical</masterLabel>
+            <translation>Multiple selección - Vertical</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Select--Horizontal</masterLabel>
+            <translation>Unica slección - Horizontal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Select--Vertical</masterLabel>
+            <translation>Unica selección - Vertical</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Survey Question --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- Survey Question --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- Name --></nameFieldLabel></CustomObjectTranslation>

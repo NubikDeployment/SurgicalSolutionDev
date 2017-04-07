@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Comentarios adicionales</label>
+        <name>Additional_Feedback__c</name>
+    </fields><fields>
+        <label>Creatividad</label>
+        <name>Creativity__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Personalidad adecuada</label>
+        <name>Personality_Fit__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Profesionalismo</label>
+        <name>Professionalism__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Qué le preocuparía en esta contratación?</label>
+        <name>What_gives_you_concerns_about_this_hire__c</name>
+    </fields><fields>
+        <label>Cuál es la mejor razón xra contratarlos?</label>
+        <name>What_is_the_best_reason_to_hire_them__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Comentario entrevistador</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Comentarios entrevistador</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre entrevistador</nameFieldLabel></CustomObjectTranslation>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>Seleccione este campo para bloquear a los usuarios de la posibilidad de agregar esta habilidad a su perfil ellos mismos.</help>
+        <label>Habilidad restringida</label>
+        <name>Restricted_skill__c</name>
+    </fields></CustomObjectTranslation>

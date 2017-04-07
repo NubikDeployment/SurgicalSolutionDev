@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Fréquence de paiement</label>
+        <name>Compensation_frequency__c</name>
+    </fields><fields>
+        <label>Devise</label>
+        <name>Currency__c</name>
+    </fields><fields>
+        <label>Type d'employé</label>
+        <name>Employee_type__c</name>
+    </fields><fields>
+        <label>Grade</label>
+        <name>Grade_level__c</name>
+    </fields><fields>
+        <label><!-- Id --></label>
+        <name>Id__c</name>
+    </fields><fields>
+        <label>Catégorie de poste</label>
+        <name>Job_category__c</name>
+    </fields><fields>
+        <label>Code du poste</label>
+        <name>Job_code__c</name>
+    </fields><fields>
+        <label><!-- Description --></label>
+        <name>Job_description__c</name>
+    </fields><fields>
+        <label>Famille de poste</label>
+        <name>Job_family__c</name>
+    </fields><fields>
+        <label>Statut</label>
+        <name>Job_status__c</name>
+    </fields><fields>
+        <label>Titre du poste</label>
+        <name>Job_title__c</name>
+    </fields><fields>
+        <label>Salaire Maximum</label>
+        <name>Maximum_salary__c</name>
+    </fields><fields>
+        <label>Salaire Médian</label>
+        <name>Mid_point_salary__c</name>
+    </fields><fields>
+        <label>Salaire Minimum</label>
+        <name>Minimum_salary__c</name>
+    </fields><fields>
+        <label>Heures de présence standard</label>
+        <name>Standard_hours__c</name>
+    </fields><fields>
+        <label>Période de présence</label>
+        <name>Standard_work_period__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Poste</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Postes</value>
+    </caseValues><gender>Masculine</gender><startsWith>Consonant</startsWith><layouts>
+        <layout>Jobs Layout</layout>
+        <sections>
+            <label>Champs</label>
+            <section>Fields</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

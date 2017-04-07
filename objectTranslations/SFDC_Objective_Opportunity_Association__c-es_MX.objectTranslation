@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Objetivo</label>
+        <name>Objective__c</name>
+        <relationshipLabel>Oportunidades</relationshipLabel>
+    </fields><fields>
+        <label>Oportunidad</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel>Objetivos plan del canal</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Asociación objectivo - Oportunidad</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Asociaciones objectivo - Oportunidad</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Asociación objectivo - Oportunidad Association</nameFieldLabel></CustomObjectTranslation>

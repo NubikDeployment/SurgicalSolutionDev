@@ -1,0 +1,48 @@
+.THIS {
+
+}
+
+.THIS .btn {
+    cursor:pointer;
+}
+
+.THIS .item-list li {
+    margin-bottom:10px;
+}
+
+.THIS .hidden {
+    display:none;
+}
+
+.THIS .qty {
+    width: 30px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-right:0.5rem;
+}
+
+.THIS .controls div {
+    float:left;
+}
+
+.THIS .equip-select {
+    width:50%;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.THIS .controls-wrapper {
+    float:right;
+}
+
+@media(max-width:479px) {
+    .THIS .controls-wrapper {
+        float:left;
+        margin-left:10px;
+        margin-top:10px;
+    }
+
+    .THIS .equip-select {
+        width:75%;
+    }
+}

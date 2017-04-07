@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>ApprovalStatus</name>
+        <picklistValues>
+            <masterLabel>Activated</masterLabel>
+            <translation><!-- Activated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Approval Process</masterLabel>
+            <translation><!-- In Approval Process --></translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>Service Contract Layout</layout>
+        <sections>
+            <label>Servicevertragsinformationen</label>
+            <section>Service Contract Information</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

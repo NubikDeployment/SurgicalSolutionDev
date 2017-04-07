@@ -1,0 +1,18 @@
+<img src="{!Contact.URLsrc__c}/servlet/servlet.ImageServer?id=01541000001Qwv3&oid=00D41000001MYfZ"><hr width="100%">
+
+Dear {!Contact.Name},<br>
+Thank you for contacting us!  We have received your question and a Customer Service agent has been assigned to your case.  We will make every effort to resolve this issue as quickly as possible.<br><br>
+
+For your reference, here are your case details:<br><br>
+
+- Case #: {!Case.CaseNumber}<br><br>
+
+- Subject: {!Case.Subject}<br><br>
+
+- Description: {!Case.Description}<br><br>
+
+In the meantime, you can search for your issue in our knowledge base at http://service.{!Organization.Name}.com. We hope this is helpful and again, thank you for contacting us!<br><br>
+
+Sincerely,<br>
+{!User.FirstName}<br>
+{!Organization.Name} Customer Service

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The banner of which this image is a part. --></help>
+        <label><!-- Banner --></label>
+        <name>Banner__c</name>
+        <relationshipLabel><!-- Banner Images --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The id of the attachment that has the image. --></help>
+        <label>Image Attachment ID</label>
+        <name>ImageAttachmentId__c</name>
+    </fields><fields>
+        <help><!-- The URL the user is directed to after clicking on the banner image. --></help>
+        <label><!-- Link --></label>
+        <name>Link__c</name>
+    </fields><fields>
+        <help><!-- The order in which this image should show up in rotation on the banner. --></help>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields><fields>
+        <help><!-- The window to be used for the redirection link when the user clicks on the banner. --></help>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+        <picklistValues>
+            <masterLabel>Current</masterLabel>
+            <translation><!-- Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Banner Image</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Banner Images</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

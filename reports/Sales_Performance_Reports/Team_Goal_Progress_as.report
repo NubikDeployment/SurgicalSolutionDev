@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Adam User&apos;s Team Goal Progress</description>
+    <format>Matrix</format>
+    <name>Team Goal Progress as %</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Goals_and_Metrics_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

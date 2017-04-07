@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Product2.External_ID__c</field>
+    </columns>
+    <columns>
+        <field>NAME</field>
+    </columns>
+    <columns>
+        <field>DESCRIPTION</field>
+    </columns>
+    <columns>
+        <field>SERIAL_NUMBER</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Assets</name>
+    <reportType>AssetWithProduct</reportType>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>INSTALL_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

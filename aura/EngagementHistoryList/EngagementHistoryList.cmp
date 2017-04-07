@@ -1,0 +1,63 @@
+<aura:component controller="pi.EngagementHistoryControllerV2" access="public">
+    <ltng:require scripts="{!$Resource.pi__Promise + '/js/promise.js'}" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="EngagementHistoryPageChange" event="pi:EngagementHistoryPageChange" action="{!c.pageChange}" includeFacets="true"/>
+
+    <aura:dependency resource="pi:EngagementHistoryListItem" />
+    <aura:dependency resource="pi:SvgIcon" />
+
+    <aura:attribute name="recordId" type="String" access="public"/>
+    <aura:attribute name="recordType" type="String" access="public"/>
+    <aura:attribute name="sObjectName" type="String" access="public"/>
+    <aura:attribute name="limit" type="Integer" default="5" access="public"/>
+    <aura:attribute name="page" type="Integer" default="1" access="public"/>
+    <aura:attribute name="totalPages" type="Integer" default="0" access="public"/>
+    <aura:attribute name="data" type="Object[]" access="public"/>
+    <aura:attribute name="hasActivities" type="Boolean" access="public"/>
+    <aura:attribute name="errorText" type="String" default="" access="public"/>
+    <aura:attribute name="historyComponents" type="Aura.Component[]" access="public"/>
+    <aura:attribute name="errorComponent" type="Aura.Component" access="public"/>
+    <aura:attribute name="componentMode" type="String" access="public"/>
+
+    <div class="slds">
+        <div class="slds-card slds-card--narrow">
+            <div class="slds-card__header slds-truncate">
+                <img src="{!$Resource.pi__EngagementHistory + '/EngagementHistory.svg'}" class="slds-icon slds-icon--small slds-media__figure "/>
+                <span class="slds-text-heading--small">Engagement History</span>
+                <aura:renderIf isTrue="{!v.hasActivities}">
+                    <span class="activity-count">{!' (' + v.data.length + ') '}</span>
+                </aura:renderIf>
+
+            </div>
+            <div aura:id="spinner" class="slds-hidden slds__spinner">
+                <img src="{!$Resource.pi__LightningDesignSystem + '/images/spinners/slds_spinner.gif'}" class="slds-icon--small slds-icon__spinner"/>
+                <span class="slds-text-body--small">Loading activities...</span>
+            </div>
+            <div aura:id="lcbody" class="slds-card__body">
+                <div class="slds-card__body--inner slds-m-bottom--large">
+                    {!v.errorComponent}
+                </div>
+                <aura:renderIf isTrue="{!v.hasActivities}">
+                    <div class="slds-card__body--inner">
+                        <ul>
+                            <aura:iteration items="{!v.historyComponents}" var="historyComponent">
+                                <li>
+                                    {!historyComponent}
+                                </li>
+                            </aura:iteration>
+                        </ul>
+                        <pi:EngagementHistoryPaginator aura:id="engHistPaginator"/>
+                    </div>
+                <aura:set attribute="else">
+                    <div aura:id="errorText" class="slds-card__body--inner slds-m-bottom--large">
+                        {!v.errorText}
+                    </div>
+                </aura:set>
+                </aura:renderIf>
+            </div>
+        </div>
+    </div>
+
+
+</aura:component>

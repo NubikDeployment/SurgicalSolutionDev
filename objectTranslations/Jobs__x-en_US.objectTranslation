@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Compensation Frequency --></label>
+        <name>Compensation_frequency__c</name>
+    </fields><fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+    </fields><fields>
+        <label><!-- Employee Type --></label>
+        <name>Employee_type__c</name>
+    </fields><fields>
+        <label><!-- Grade Level --></label>
+        <name>Grade_level__c</name>
+    </fields><fields>
+        <label><!-- Id --></label>
+        <name>Id__c</name>
+    </fields><fields>
+        <label><!-- Job Category --></label>
+        <name>Job_category__c</name>
+    </fields><fields>
+        <label><!-- Job Code --></label>
+        <name>Job_code__c</name>
+    </fields><fields>
+        <label><!-- Description --></label>
+        <name>Job_description__c</name>
+    </fields><fields>
+        <label><!-- Job Family --></label>
+        <name>Job_family__c</name>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>Job_status__c</name>
+    </fields><fields>
+        <label><!-- Job Title --></label>
+        <name>Job_title__c</name>
+    </fields><fields>
+        <label><!-- Maximum Salary --></label>
+        <name>Maximum_salary__c</name>
+    </fields><fields>
+        <label><!-- Mid Point Salary --></label>
+        <name>Mid_point_salary__c</name>
+    </fields><fields>
+        <label><!-- Minimum Salary --></label>
+        <name>Minimum_salary__c</name>
+    </fields><fields>
+        <label><!-- Standard Hours --></label>
+        <name>Standard_hours__c</name>
+    </fields><fields>
+        <label><!-- Standard Work Period --></label>
+        <name>Standard_work_period__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Jobs</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Jobs</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Jobs Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

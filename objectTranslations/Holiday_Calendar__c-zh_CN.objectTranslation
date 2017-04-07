@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>日期</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label>工资系统</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>假期</relationshipLabel>
+    </fields><fields>
+        <label>年</label>
+        <name>Year__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Holiday --></value>
+    </caseValues><nameFieldLabel><!-- Holiday --></nameFieldLabel></CustomObjectTranslation>

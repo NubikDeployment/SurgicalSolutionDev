@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label>Habilitado por el gerente</label>
+        <name>Enabled_for_Time_Off_Manager__c</name>
+    </fields><fields>
+        <help>El número máximo de días de vacaciones que se puede solicitar en una solicitud de vacaciones. Si se deja en blanco, se utilizará un valor predeterminado de 50.</help>
+        <label>Número máximo de días en una solicitud</label>
+        <name>Max_Days_in_a_Single_Request__c</name>
+    </fields><fields>
+        <label>Balance máx negativo dias feriados</label>
+        <name>Max_Negative_Floating_Holiday_Balance__c</name>
+    </fields><fields>
+        <label>Balance máximo negativo vacaciones</label>
+        <name>Max_Negative_PTO_Balance__c</name>
+    </fields><fields>
+        <label>Tipo de registro prefijo</label>
+        <name>Record_Type_Prefix__c</name>
+        <picklistValues>
+            <masterLabel>TEST</masterLabel>
+            <translation><!-- TEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Sistema de nómina</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Sistema de nómina</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>ID del nombre del sistema de nómina</nameFieldLabel></CustomObjectTranslation>

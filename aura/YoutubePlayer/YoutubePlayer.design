@@ -1,0 +1,10 @@
+<design:component label="Youtube Player">
+	<design:attribute name="youtube_id" label="Youtube Video ID" default="FwKpaBMTvJM" description="You can find the ID at the end of a youtube URL (eg. https://www.youtube.com/watch?v=YOUTUBE_ID)"/>
+    <design:attribute name="fullscreen" label="Full Screen" default="0" description="Video will occupy the whole screen ignoring Video Height."/>
+    <design:attribute name="autoplay" label="Autoplay" default="1" />
+    <design:attribute name="loop" label="Loop" default="1" />
+    <design:attribute name="controls" label="Video Controls" default="0" />
+    <design:attribute name="width" label="Video Width" default="100%" description="Applicable only when the Full Screen is unchecked. Please specify whether the value is in pixels (eg. 740px) or percentage (eg. 100%)"/>
+    <design:attribute name="height" label="Video Height" default="405" description="Applicable only when the Full Screen is unchecked."/>
+    <design:attribute name="effect" label="Video Filter" datasource="Off, Invert, Grayscale light, Grayscale strong, Sepia light, Sepia strong, Blur light, Blur strong" default="Off" />
+</design:component>

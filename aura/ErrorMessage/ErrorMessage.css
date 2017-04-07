@@ -1,0 +1,18 @@
+.THIS .bBody {
+    padding: .5rem;
+    position: relative;
+}
+
+.THIS .error-message {
+    margin-left: 25px;
+}
+
+.THIS .warning-icon {
+    position: absolute;
+    top: 5px;
+    margin-left: 0;
+}
+
+.THIS .uiOutputText {
+    margin-left: 25px;
+}

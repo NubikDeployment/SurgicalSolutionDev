@@ -1,0 +1,12 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif">Dear {!Contact.FirstName},&nbsp;</font></span></p>
+<p class="p2" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><span class="s1"></span><br></font></p>
+<p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif">Thank you for your interest in {!Organization.Name}!&nbsp;</font></span></p><p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif"><br></font></span></p><p class="p1" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><span class="s1"><span style="background-color: rgb(255, 255, 255);">I've been assigned as your account manager, and would like to introduce myself. &nbsp;When is a convenient time to talk with you? &nbsp;I can be reached directly by phone at&nbsp;</span></span><span style="background-color: rgb(255, 255, 255);">{!User.Phone} or by email at {!User.Email}.&nbsp;</span></font></p>
+<p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif"><br></font></span></p><p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif">I'm confident {!Organization.Name} will serve you well and I look forward to speaking to you soon!</font></span></p>
+<p class="p2" style="color: rgb(0, 0, 0);"><font face="Arial, sans-serif"><span class="s1"></span><br></font></p>
+<p class="p1" style="color: rgb(0, 0, 0);"><span class="s1"><font face="Arial, sans-serif">Best Regards,&nbsp;</font></span></p>
+<p class="p1"><font face="Arial, sans-serif">{!User.Name}</font></p>]]></td>
+</tr>
+</table>

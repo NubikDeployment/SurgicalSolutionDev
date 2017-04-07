@@ -1,0 +1,13 @@
+<img src="{!Contact.URLsrc__c}/servlet/servlet.ImageServer?id=01541000001Qwv3&oid=00D41000001MYfZ"><hr width="100%">
+
+Dear {!Contact.FirstName},
+<br><br>
+Thank you for contacting us!  I've researched the issue and found an article that I think will help you.  If you have any other questions, please don't hesitate to reply to this email or visit the {!Organization.Name} Community.  
+<br><br>
+We are always looking to improve our customer service, so would you mind taking this brief survey about your experience?  <a href="{!Case.Case_Survey_URL__c}?contactid={!Contact.Id}&caseid={!Case.Id}">Customer Experience Survey </a>
+<br><br>
+Thank you! 
+<br>
+{!User.FirstName}
+<br>
+{!Organization.Name} Customer Service

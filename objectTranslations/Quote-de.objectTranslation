@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- Logo --></label>
+        <name>Logo__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Angenommen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Freigegeben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation>Abgelehnt</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Entwurf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Review</masterLabel>
+            <translation>Benötigt Prüfung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presented</masterLabel>
+            <translation>Präsentiert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Abgewiesen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Eingereicht</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Allgemeine Geschäftsbedingungen</label>
+        <name>Terms__c</name>
+    </fields><quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions></CustomObjectTranslation>

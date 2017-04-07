@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <content>asb_listingAssetActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <content>asb_listingAssetActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <content>asb_listingAssetActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <content>asb_listingAssetActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <content>asb_listingAssetActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><fields>
+        <fullName>Caption__c</fullName>
+        <description>The caption on a video or screenshot listing asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The caption on a video or screenshot listing asset.</inlineHelpText>
+        <label>Caption</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>CompanyId__c</fullName>
+        <description>The Company ID of the Brainshark video that is embedded on the listing if applicable.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Company ID of the Brainshark  video that is embedded on the listing if applicable.</inlineHelpText>
+        <label>Company ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Location__c</fullName>
+        <description>The URL location where the asset can be found if it is referenced, not uploaded.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL location where the asset can be found if it is referenced, not uploaded.</inlineHelpText>
+        <label>Link</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields><fields>
+        <fullName>Order__c</fullName>
+        <description>The order in which assets of the same type are shown on the listing. Lower numbers are shown first.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The order in which assets of the same type are shown on the listing. Lower numbers are shown first.</inlineHelpText>
+        <label>Order</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>VideoEmbedId__c</fullName>
+        <description>The ID of the video that is embedded on the listing if applicable.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the video that is embedded on the listing if applicable.</inlineHelpText>
+        <label>Video Embed ID</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>VideoType__c</fullName>
+        <description>The type of video (YouTube, Vimeo or Brainshark) that is included on the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The type of video (YouTube, Vimeo or Brainshark) that is included on the listing.</inlineHelpText>
+        <label>Video Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Vimeo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>asb_Listing__c</fullName>
+        <description>The listing that owns the asset.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The listing that owns the asset.</inlineHelpText>
+        <label>Listing</label>
+        <referenceTo>asb_Listing__c</referenceTo>
+        <relationshipLabel>Listing Assets</relationshipLabel>
+        <relationshipName>ListingAssets</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Uploaded or referenced assets (e.g. videos, images) for each listing in the store.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Listing Asset</label><nameField>
+        <label>Listing Asset Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Listing Assets</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts /><sharingModel>ControlledByParent</sharingModel><recordTypes>
+        <fullName>Document</fullName>
+        <active>true</active>
+        <description>A document for a listing.</description>
+        <label>Document</label>
+        <picklistValues>
+            <picklist>VideoType__c</picklist>
+            <values>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vimeo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Image</fullName>
+        <active>true</active>
+        <description>An image for a listing.</description>
+        <label>Image</label>
+        <picklistValues>
+            <picklist>VideoType__c</picklist>
+            <values>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vimeo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Video</fullName>
+        <active>true</active>
+        <description>A video for a listing.</description>
+        <label>Video</label>
+        <picklistValues>
+            <picklist>VideoType__c</picklist>
+            <values>
+                <fullName>Brainshark</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vimeo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>YouTube</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes></CustomObject>

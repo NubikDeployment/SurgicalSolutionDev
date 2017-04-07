@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkThanks</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Thanks and Badges given and received</description>
+    <join>
+        <outerJoin>false</outerJoin>
+        <relationship>Badges</relationship>
+    </join>
+    <label>Thanks and Badges</label>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Thanks Created Date</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Thanks: Created By</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Thanks Message</displayNameOverride>
+            <field>Message</field>
+            <table>WorkThanks</table>
+        </columns>
+        <masterLabel>Thanks Posted</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Thanks Giver: Full Name</displayNameOverride>
+            <field>Giver</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Country</displayNameOverride>
+            <field>Giver.Country</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Department</displayNameOverride>
+            <field>Giver.Department</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Division</displayNameOverride>
+            <field>Giver.Division</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: E-mail</displayNameOverride>
+            <field>Giver.Email</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Employee Number</displayNameOverride>
+            <field>Giver.EmployeeNumber</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Role</displayNameOverride>
+            <field>Giver.UserRole</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: State/Province</displayNameOverride>
+            <field>Giver.State</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Title</displayNameOverride>
+            <field>Giver.Title</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver: Username</displayNameOverride>
+            <field>Giver.Username</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver&apos;s Manager: Full Name</displayNameOverride>
+            <field>Giver.Manager.Name</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver&apos;s Manager: Department</displayNameOverride>
+            <field>Giver.Manager.Department</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver&apos;s Manager: Division</displayNameOverride>
+            <field>Giver.Manager.Division</field>
+            <table>WorkThanks</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Giver&apos;s Manager: Employee Number</displayNameOverride>
+            <field>Giver.Manager.EmployeeNumber</field>
+            <table>WorkThanks</table>
+        </columns>
+        <masterLabel>Giver Data</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Recipient: Full Name</displayNameOverride>
+            <field>Recipient</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Company Name</displayNameOverride>
+            <field>Recipient.CompanyName</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Country</displayNameOverride>
+            <field>Recipient.Country</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Division</displayNameOverride>
+            <field>Recipient.Division</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Department</displayNameOverride>
+            <field>Recipient.Department</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Employee Number</displayNameOverride>
+            <field>Recipient.EmployeeNumber</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: E-mail</displayNameOverride>
+            <field>Recipient.Email</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Phone</displayNameOverride>
+            <field>Recipient.Phone</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Role</displayNameOverride>
+            <field>Recipient.UserRole</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: State/Province</displayNameOverride>
+            <field>Recipient.State</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Title</displayNameOverride>
+            <field>Recipient.Title</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient: Username</displayNameOverride>
+            <field>Recipient.Username</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient&apos;s Manager: Full Name</displayNameOverride>
+            <field>Recipient.Manager</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient&apos;s Manager: Department</displayNameOverride>
+            <field>Recipient.Manager.Department</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient&apos;s Manager: Division</displayNameOverride>
+            <field>Recipient.Manager.Division</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient&apos;s Manager: Employee Number</displayNameOverride>
+            <field>Recipient.Manager.EmployeeNumber</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recipient&apos;s Manager: E-mail</displayNameOverride>
+            <field>Recipient.Manager.Email</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <masterLabel>Recipient Data</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Badge Name</displayNameOverride>
+            <field>Definition.Name</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Reward Fund</displayNameOverride>
+            <field>Definition.RewardFund</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Owner Name</displayNameOverride>
+            <field>Definition.Owner</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Created By</displayNameOverride>
+            <field>Definition.CreatedBy</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Created Date</displayNameOverride>
+            <field>Definition.CreatedDate</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Description</displayNameOverride>
+            <field>Definition.Description</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Active Badge</displayNameOverride>
+            <field>Definition.IsActive</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Last Modified By</displayNameOverride>
+            <field>Definition.LastModifiedBy</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Badge Given: Last Modified Date</displayNameOverride>
+            <field>Definition.LastModifiedDate</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Reward</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Company Wide</displayNameOverride>
+            <field>Definition.IsCompanyWide</field>
+            <table>WorkThanks.Badges</table>
+        </columns>
+        <masterLabel>Badge Given Details</masterLabel>
+    </sections>
+</ReportType>

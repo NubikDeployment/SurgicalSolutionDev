@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Part of the Escalation URL package. Alena Abrosimova</description>
+    <height>30</height>
+    <label>Escalate</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <page>Console_URL</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

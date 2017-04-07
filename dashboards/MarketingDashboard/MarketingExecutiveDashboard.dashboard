@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>TopToBottom</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>AMOUNT_WON</column>
+            </chartSummary>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>AMOUNT_ALL</column>
+            </chartSummary>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Which campaigns have generated the most pipeline and revenue?</footer>
+            <groupingColumn>CAMPAIGN_NAME</groupingColumn>
+            <header>Top Campaigns by Revenue and Pipeline</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>5</maxValuesDisplayed>
+            <report>DashboardReportsDashboardUnknown/CampaignSuccess</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top Campaigns by Revenue and Pipeline</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Donut</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>What&apos;s our plan for driving revenue this year?</footer>
+            <header>Expected Revenue by Marketing Channel</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marketing_Executive_Reports/Expected_Revenue_by_Marketing_Channel</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>false</showTotal>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Expected Revenue by Marketing Channel</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>ColumnStacked</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Which types of marketing activities generate the most revenue?</footer>
+            <header>Actual Revenue by Marketing Channel</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>5</maxValuesDisplayed>
+            <report>Marketing_Executive_Reports/Top_Marketing_Channels</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Actual Revenue by Marketing Channel</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Bar</componentType>
+            <displayUnits>Integer</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>What types of marketing activities generate the highest returns?</footer>
+            <header>Average ROI by Marketing Channel</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marketing_Executive_Reports/CampaignROIbyCampaignType</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>true</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Average ROI by Marketing Channel</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Which campaigns are generating the best leads?</footer>
+            <header>Top Campaigns by Leads Generated</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>5</maxValuesDisplayed>
+            <report>Marketing_Executive_Reports/Leads_By_Campaign</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Top Campaigns by Leads Generated</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Integer</displayUnits>
+            <footer>How many new leads have we generated for the sales team?</footer>
+            <gaugeMax>350.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>New Leads this Month</header>
+            <indicatorBreakpoint1>150.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>250.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marketing_Executive_Reports/New_Leads_Generated</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>New Leads this Month</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <axisBinding>y</axisBinding>
+                <column>RowCount</column>
+            </chartSummary>
+            <componentType>BarStacked</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Who has our leads, and what have they done with them?</footer>
+            <groupingColumn>OWNER</groupingColumn>
+            <groupingColumn>STATUS</groupingColumn>
+            <header>Lead Status by Owner</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marketing_Executive_Reports/Lead_Status_by_Owner</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Lead Status by Owner</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Pie</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>Why do some leads fall out of the pipeline?</footer>
+            <header>Reasons for Archived Leads</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marketing_Executive_Reports/Reasons_for_Archived_Leads</report>
+            <showPercentage>true</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Reasons for Archived Leads</title>
+            <useReportChart>false</useReportChart>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Millions</displayUnits>
+            <footer>What is our contribution to the business this year?</footer>
+            <gaugeMax>6000000.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>Pipeline and Revenue Sourced from Marketing Activities</header>
+            <indicatorBreakpoint1>3000000.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>4500000.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marketing_Executive_Reports/Pipeline_and_Revenue_from_Marketing</report>
+            <showPercentage>false</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>Pipeline and Revenue Sourced from Market</title>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>How are we performing against our expectations?</footer>
+            <header>Campaign Revenue - Expected vs. Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>Marketing_Executive_Reports/Campaign_Revenue_Expected_vs_Actual</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <title>Campaign Revenue - Expected vs. Actual</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>BUDGETED_COST</column>
+            </chartSummary>
+            <chartSummary>
+                <aggregate>Sum</aggregate>
+                <axisBinding>y</axisBinding>
+                <column>ACTUAL_COST</column>
+            </chartSummary>
+            <componentType>Bar</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>true</enableHover>
+            <expandOthers>false</expandOthers>
+            <footer>How well are we managing marketing expenses this year?</footer>
+            <groupingColumn>CAMPAIGN_NAME</groupingColumn>
+            <header>Campaign Costs - Budgeted vs. Actual</header>
+            <legendPosition>Bottom</legendPosition>
+            <maxValuesDisplayed>8</maxValuesDisplayed>
+            <report>Marketing_Executive_Reports/Campaign_Costs_Budgeted_vs_Actual</report>
+            <showPercentage>false</showPercentage>
+            <showPicturesOnCharts>false</showPicturesOnCharts>
+            <showValues>false</showValues>
+            <sortBy>RowValueDescending</sortBy>
+            <title>Campaign Costs - Budgeted vs. Actual</title>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Integer</displayUnits>
+            <footer>How are we tracking against our overall budget this year?</footer>
+            <gaugeMax>200000.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <header>Remaining Marketing Budget</header>
+            <indicatorBreakpoint1>50000.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>100000.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>Marketing_Executive_Reports/Unspent_Marketing_Budget_2</report>
+            <showPercentage>true</showPercentage>
+            <showTotal>true</showTotal>
+            <showValues>false</showValues>
+            <title>Remaining Marketing Budget</title>
+        </components>
+    </rightSection>
+    <runningUser>rnarayan@surgicalsolutions.demo</runningUser>
+    <textColor>#000000</textColor>
+    <title>* Marketing Executive Dashboard</title>
+    <titleColor>#DDDDDD</titleColor>
+    <titleSize>8</titleSize>
+</Dashboard>

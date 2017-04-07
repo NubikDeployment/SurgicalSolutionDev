@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>有关日志的详细信息。这是自由的文本供用户获取任何数据，他们希望在日志中保持跟踪。</help>
+        <label>详情</label>
+        <name>Detail__c</name>
+    </fields><fields>
+        <help>一期工程的费用，我们要记录一些信息。</help>
+        <label>项目费用</label>
+        <name>Project_Expense__c</name>
+        <relationshipLabel>日志</relationshipLabel>
+    </fields><fields>
+        <help>具有里程碑意义的，我们要记录有关。</help>
+        <label>项目里程碑</label>
+        <name>Project_Milestone__c</name>
+        <relationshipLabel>日志</relationshipLabel>
+    </fields><fields>
+        <help>项目任务，我们要记录一些信息。</help>
+        <label>项目任务</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>日志</relationshipLabel>
+    </fields><fields>
+        <help>一时间进入，我们要记录一些信息。</help>
+        <label>项目时间</label>
+        <name>Project_Time__c</name>
+        <relationshipLabel>日志</relationshipLabel>
+    </fields><fields>
+        <help>这是我们要保持这个日志记录的项目。</help>
+        <label>项目</label>
+        <name>Project__c</name>
+        <relationshipLabel>日志</relationshipLabel>
+    </fields><fields>
+        <help>该日志条目的主题。</help>
+        <label>学科</label>
+        <name>Subject__c</name>
+    </fields><fields>
+        <help>日志的类型。这可以用来命令登录到不同的类型。</help>
+        <label>类型</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Decision</masterLabel>
+            <translation>决策</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation>一般</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk</masterLabel>
+            <translation>风险</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Log --></value>
+    </caseValues><nameFieldLabel><!-- Project Log Name --></nameFieldLabel><layouts>
+        <layout>Project Log Layout</layout>
+        <sections>
+            <label>相关记录</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

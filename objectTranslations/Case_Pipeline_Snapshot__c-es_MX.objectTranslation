@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Cuenta</label>
+        <name>Account__c</name>
+    </fields><fields>
+        <label>Número del caso</label>
+        <name>Case_Number__c</name>
+    </fields><fields>
+        <label>Propietario del caso</label>
+        <name>Case_Owner__c</name>
+    </fields><fields>
+        <label>Prioridad del caso</label>
+        <name>Case_Priority__c</name>
+    </fields><fields>
+        <label>Estado del caso</label>
+        <name>Case_Status__c</name>
+    </fields><fields>
+        <label>Asunto del caso</label>
+        <name>Case_Subject__c</name>
+    </fields><fields>
+        <label>Fecha de ejecución</label>
+        <name>Run_Date__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- CPS # --></nameFieldLabel></CustomObjectTranslation>

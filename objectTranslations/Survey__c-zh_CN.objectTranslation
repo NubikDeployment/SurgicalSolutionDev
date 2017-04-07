@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>隐藏调查名称</label>
+        <name>Hide_Survey_Name__c</name>
+    </fields><fields>
+        <help>已提交的调查时消息被显示给用户</help>
+        <label>递交响应</label>
+        <name>Submit_Response__c</name>
+    </fields><fields>
+        <help>示例：#survey_container {保证金：0汽车;宽度：600px的;的box-shadow：0 0 14px的#CCCCCC; -moz-的box-shadow：0 0 14px的#CCCCCC; -webkit-的box-shadow：0 0 14px的#CCCCCC; }</help>
+        <label>调查集装箱CSS</label>
+        <name>Survey_Container_CSS__c</name>
+    </fields><fields>
+        <label>调查标题</label>
+        <name>Survey_Header__c</name>
+    </fields><fields>
+        <label>感谢您文本</label>
+        <name>Thank_You_Text__c</name>
+    </fields><fields>
+        <label>网址</label>
+        <name>URL__c</name>
+    </fields><fields>
+        <label>感谢您的链接</label>
+        <name>thankYouLink__c</name>
+    </fields><fields>
+        <label>感谢您文本</label>
+        <name>thankYouText__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Survey --></value>
+    </caseValues><nameFieldLabel><!-- Survey Name --></nameFieldLabel></CustomObjectTranslation>

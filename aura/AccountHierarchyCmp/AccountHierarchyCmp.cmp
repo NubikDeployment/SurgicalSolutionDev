@@ -1,0 +1,68 @@
+<aura:component controller="accHierarchy.AccountHierarchyController" implements="force:appHostable">
+    <ltng:require styles="/resource/accHierarchy__SLDS100/assets/styles/salesforce-lightning-design-system-vf.min.css,/resource/accHierarchy__fontAwesome/css/font-awesome.min.css"/>
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="term" type="String" access="private" default=""/>
+    <aura:attribute name="timer" type="Object" access="private" />
+    <aura:attribute name="numberOfItems" type="Object" access="private" />
+    <aura:attribute name="isSearching" type="Boolean" access="private" />
+    <aura:attribute name="wasSearched" type="Boolean" access="private" default="false" />
+    <aura:attribute name="active" type="Object" access="private" />
+    <aura:attribute name="gridHoverText" type="String"/>
+    <aura:attribute name="canCreateAccount" type="Boolean" default="false"/>
+    <aura:attribute name="recordtypes" type="Object[]" default="[]" access="private"/>
+    <aura:registerEvent name="onWindowClick" type="accHierarchy:WindowOnClickEvent"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="accHierarchy:AccountHierarchyItemsEvent" action="{!c.refreshItemAndBread}"/>
+    <aura:handler event="accHierarchy:OnHoverExpandEvent" action="{!c.showToolTip}"/>
+    <aura:handler event="accHierarchy:OnLeaveExpandEvent" action="{!c.hideToolTip}"/>
+    <div id="parent-container" onclick="{!c.onWindowClick}" class="slds">
+    	<div class="slds-page-header" role="banner">
+        	<nav class="slds-m-bottom--xx-small" role="navigation">
+            	<ol class="slds-breadcrumb slds-list--horizontal" aria-labelledby="bread-crumb-label">
+              		<li class="slds-list__item slds-text-heading--label"><a href="/one/one.app#/sObject/Account/home">ACCOUNTS</a></li>
+              		<li class="slds-list__item slds-text-heading--label"><a href="{!'/one/one.app#/sObject/' + v.active.id + '/view'}">{!v.active.name}</a></li>
+            	</ol>
+          	</nav>
+  			<div class="slds-grid">
+            	<div class="slds-col slds-size--7-of-12 slds-medium-size--9-of-12">
+            		<h1 class="slds-text-heading--medium" title="Account Hierarchy">Account Hierarchy</h1>
+            	</div>
+                <div class="slds-col slds-size--5-of-12 slds-medium-size--3-of-12 ">
+                    <div class="slds-form--horizontal">
+                   		<div class="slds-form-element search-container">
+                      		<button aura:id="searchBtn" class="slds-button slds-button--icon slds-button--icon-border-filled search-button" aria-haspopup="true" onclick="{!c.openSearch}">
+                            	<accHierarchy:Svg class="slds-button__icon slds-button__icon--hint slds-button__icon--medium" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/utility-sprite/svg/symbols.svg#search" />
+                                	<span class="slds-assistive-text">Search</span>
+                            </button>
+                            <div aura:id="searchInputContainer" class="searchInput-container hide">
+                            	<ui:inputText aura:id="searchTerm" class="slds-input slds-input--small searchInput" placeholder="Search Accounts" updateOn="keyup" keyup="{!c.doSearch}" blur="{!c.closeSearch}" value="{!v.term}" />
+                           	</div>
+                            <button aura:id="closeSearch" class="slds-button slds-button--icon hide clear" onclick="{!c.closeSearch}">
+                            	<accHierarchy:Svg class="slds-button__icon slds-button__icon--small" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/utility-sprite/svg/symbols.svg#clear" />
+                                	<span class="slds-assistive-text">Cancel</span>
+                            </button>
+                    	</div>
+                   </div>
+            	</div>
+                <div>
+                     <button aura:id="newBtn" class="slds-button slds-button--neutral" style="margin-left:.25rem;" onclick="{!c.newAccount}">New</button>
+                </div>
+  			</div>
+  			<p class="slds-text-body--small slds-m-top--x-small">{!v.numberOfItems} {!v.numberOfItems == '1' ? ' Item': ' Items'}</p>
+            <!-- tooltip when hover on gridview component -->
+            <div aura:id="gridTooltip" class="slds-popover slds-theme--info slds-popover--tooltip slds-nubbin--bottom-left gridview--tooltip slds-hide" role="tooltip">
+            	<div class="slds-popover__body">
+                    {!v.gridHoverText}
+                </div>
+            </div>
+		</div>
+        <div>
+        </div>
+        <accHierarchy:SelectRecordType recordtypes="{!v.recordtypes}" />
+        <div class="slds-grid slds-scrollable--x">
+        	<div class="slds-col">
+            	<accHierarchy:GridView recordId='{!v.recordId}'/>
+            </div>
+        </div>
+    </div>
+</aura:component>

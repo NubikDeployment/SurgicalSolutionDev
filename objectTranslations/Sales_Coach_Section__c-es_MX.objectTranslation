@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Etapa entrenador de venta</label>
+        <name>Sales_Coach_Stage__c</name>
+        <relationshipLabel>Secciones entrenador de ventas</relationshipLabel>
+    </fields><fields>
+        <label>Nombre de la sección</label>
+        <name>Section_Name__c</name>
+    </fields><fields>
+        <label>Orden de la sección</label>
+        <name>Section_Ordering__c</name>
+    </fields><fields>
+        <label>Ancho de sección</label>
+        <name>Section_Width__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Sección entrenador de ventas</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Secciones entrenador de ventas</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre de la sección</nameFieldLabel></CustomObjectTranslation>

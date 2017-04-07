@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;iframe id=&quot;SSEPortalOrgLogoFrame&quot; frameborder=&quot;0&quot; src=&quot;/apex/SSEPortalOrgLogo&quot; width=&quot;100%&quot; height=&quot;90px&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;&lt;script type=&quot;text/javascript&quot;&gt;var children = document.getElementById(&apos;SSEPortalOrgLogoFrame&apos;).parentNode.parentNode.childNodes;	for (var i=0; i &lt; children.length; i++) {	if (children[i].className == &quot;sidebarModuleHeader brandPrimaryBgr&quot;) {	 children[i].style.display = &apos;none&apos;;}	if (children[i].className == &quot;sidebarModuleBody&quot;) {	 children[i].style.padding = &apos;0px&apos;;}}&lt;/script&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

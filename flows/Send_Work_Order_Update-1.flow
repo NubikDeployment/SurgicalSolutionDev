@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>apexSelection</name>
+            <value>
+                <stringValue>Schedule Messages</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send a message</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>LiveText__ScheduleMessageAction</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Message</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>Message</name>
+            <value>
+                <elementReference>formula_2_myRule_1_A1_Message</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Object Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ObjectId</name>
+            <value>
+                <elementReference>myVariable_current.CaseId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Reference Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ReferenceId</name>
+            <value>
+                <stringValue>Work order scheduled</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <processMetadataValues>
+            <name>apexSelection</name>
+            <value>
+                <stringValue>Schedule Messages</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_4_A1</name>
+        <label>Send a message</label>
+        <locationX>400</locationX>
+        <locationY>200</locationY>
+        <actionName>LiveText__ScheduleMessageAction</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Message</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>Message</name>
+            <value>
+                <elementReference>formula_5_myRule_4_A1_Message</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Object Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ObjectId</name>
+            <value>
+                <elementReference>myVariable_current.CaseId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Reference Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ReferenceId</name>
+            <value>
+                <stringValue>Work order completion</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <assignments>
+        <name>myVariable_waitStartTimeAssignment</name>
+        <label>myVariable_waitStartTimeAssignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>myVariable_waitStartTimeVariable</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>myDecision</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>myDecision3</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>ID</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.CaseId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>DateTime</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>DateTime</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.StartDate</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>&quot;Scheduled&quot;, has case and start date</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision3</name>
+        <label>myDecision3</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>ID</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Boolean</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.CaseId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_4_A1</targetReference>
+            </connector>
+            <label>&quot;Completed&quot; and has case</label>
+        </rules>
+    </decisions>
+    <description>Sends a notification to the contact or account linked to a case linked to a work order when a work order is scheduled or completed.</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>&quot;Your work order has now been confirmed for &quot;
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( [WorkOrder].StartDate - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE([WorkOrder].StartDate - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE([WorkOrder].StartDate - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT([WorkOrder].StartDate - 0.291666667), 10), 2)
+&amp; &quot;. If you need to rebook just text us back. Thanks!&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_2_myRule_1_A1_Message</name>
+        <dataType>String</dataType>
+        <expression>&quot;Your work order has now been confirmed for &quot;
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( {!myVariable_current.StartDate} - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE({!myVariable_current.StartDate} - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE({!myVariable_current.StartDate} - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT({!myVariable_current.StartDate} - 0.291666667), 10), 2)
+&amp; &quot;. If you need to rebook just text us back. Thanks!&quot;</expression>
+    </formulas>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>&quot;Your work order was completed at &quot;
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( [WorkOrder].LastModifiedDate  - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE([WorkOrder].LastModifiedDate  - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE([WorkOrder].LastModifiedDate  - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT([WorkOrder].LastModifiedDate  - 0.291666667), 10), 2)
+&amp; &quot;. Please take a moment to complete this brief survey www.getfeedback.com. Thank You.&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_5_myRule_4_A1_Message</name>
+        <dataType>String</dataType>
+        <expression>&quot;Your work order was completed at &quot;
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( {!myVariable_current.LastModifiedDate}  - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE({!myVariable_current.LastModifiedDate}  - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE({!myVariable_current.LastModifiedDate}  - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT({!myVariable_current.LastModifiedDate}  - 0.291666667), 10), 2)
+&amp; &quot;. Please take a moment to complete this brief survey www.getfeedback.com. Thank You.&quot;</expression>
+    </formulas>
+    <interviewLabel>Send_Work_Order_Update-1_WorkOrder</interviewLabel>
+    <label>LiveMessage - Send Work Order Update</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>WorkOrder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>WorkOrder</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>WorkOrder</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_waitStartTimeVariable</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+</Flow>

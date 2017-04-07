@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Community Name --></label>
+        <name>Community_Name__c</name>
+    </fields><fields>
+        <label><!-- Community --></label>
+        <name>Community__c</name>
+    </fields><fields>
+        <label><!-- Demo Template --></label>
+        <name>Demo_Template__c</name>
+        <relationshipLabel><!-- Template Maps --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Profile Name --></label>
+        <name>Profile_Name__c</name>
+    </fields><fields>
+        <label><!-- Profile --></label>
+        <name>Profile__c</name>
+    </fields><fields>
+        <label><!-- Widget CSS --></label>
+        <name>Widget_CSS__c</name>
+        <relationshipLabel><!-- Template Maps --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Template Map</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Template Maps</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

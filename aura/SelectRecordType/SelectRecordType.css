@@ -1,0 +1,21 @@
+.THIS {
+}
+
+.THIS .slds-form-element__label.recordtype-details{
+    margin-left:23px;
+    display:block;
+    color:#8998AE;
+}
+
+.THIS .slds-form-element__label.recordtype-name{
+    color:#2A4467;
+}
+.THIS .slds-form-element__label.recordtype-title{
+    font-size:16px;
+    color:#8998AE;
+    margin-bottom:10px;
+}
+
+.THIS .slds-radio.recordtype-radio{
+    margin-bottom:10px;
+}

@@ -1,0 +1,4 @@
+<design:component label="RSS Feed">
+    <design:attribute name="theHeader" label="Feed Header" description="The Header label above your feed" default="Latest News" />
+	<design:attribute name="theUrl" label="Feed URL" description="URL of the RSS Feed (Domain must be included under Remote Sites. MUST be an HTTPS URL)" />    
+</design:component>

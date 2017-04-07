@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>的ComponentID</label>
+        <name>ComponentId__c</name>
+    </fields><fields>
+        <label>模板地图</label>
+        <name>Template_Map__c</name>
+        <relationshipLabel>自定义窗口小部件</relationshipLabel>
+    </fields><fields>
+        <label>显示模式</label>
+        <name>isDisplayed__c</name>
+        <picklistValues>
+            <masterLabel>Center</masterLabel>
+            <translation>中央</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation>剩下</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation>对</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Custom Widget --></value>
+    </caseValues><nameFieldLabel><!-- Custom Widgets Name --></nameFieldLabel><recordTypes>
+        <label>中心窗口小部件</label>
+        <name>Center_Widgets</name>
+    </recordTypes><recordTypes>
+        <label>方小工具</label>
+        <name>Side_Widgets</name>
+    </recordTypes></CustomObjectTranslation>

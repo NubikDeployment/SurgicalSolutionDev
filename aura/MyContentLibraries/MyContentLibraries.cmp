@@ -1,0 +1,41 @@
+<aura:component controller="ContentLibraryController" implements="forceCommunity:availableForAllPageTypes">
+    <ltng:require styles="/resource/LDS0120/assets/styles/salesforce-lightning-design-system.min.css"/>
+    <ltng:require styles="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <aura:attribute name="title" type="String" default="My Libraries" />
+    <aura:attribute name="isHighVolumeUser" type="boolean" />
+    <aura:attribute name="userRoleId" type="String" default="default" />
+    <aura:attribute name="userType" type="String" default="default" />
+    <aura:attribute name="isGuestUser" type="boolean" />
+    <!-- Handle component initialization in a client-side controller -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <!-- form.cmp markup -->
+    <aura:handler event="aura:waiting" action="{!c.waiting}"/>
+    <aura:handler event="aura:doneWaiting" action="{!c.doneWaiting}"/>
+    <aura:attribute name="wait" type="String"/>
+  	<div class="wait">{!v.wait}</div>
+
+    <!-- Dynamically load the list of assets from the Library -->
+    <aura:attribute name="selectedLibraryId" type="ID"/>
+    <aura:attribute name="libraryNames" type="ContentWorkspaceDoc[]"/>
+    <aura:attribute name="contentWorkspaceDocs" type="ContentWorkspaceDoc[]"/>
+    <aura:attribute name="hasLibraryMembership" type="boolean" default="true" />
+    <span class="slds-text-heading--medium" style="font-weight:bold;">{!v.title}</span><br/>
+    <!-- Iterate over the Libraries the user has access to and display them -->
+    <aura:renderIf isTrue="{!false}">
+        <div class="container slds-p-top--medium">You are not a member of any libraries.</div>
+    </aura:renderIf>
+    <aura:iteration var="libraryName" items="{!v.libraryNames}">
+        <a href="javascript:void(0);" class="slds-button slds-button--neutral" id="{!libraryName.ContentWorkspaceId}" data-value ="{!libraryName.ContentWorkspaceId}" onclick="{!c.displayLibraryRecords}">{!libraryName.ContentWorkspace.Name}</a>
+    </aura:iteration>    
+    
+    <!-- Iterate over the list of records and display them -->
+    <div class="container slds-p-top--medium">
+       	<div id="list" class="row">
+       		<aura:iteration var="contentWorkspaceDoc" items="{!v.contentWorkspaceDocs}">
+                <c:ContentLibraryDisplay contentWorkspaceDoc="{!contentWorkspaceDoc}"/>
+   			</aura:iteration>
+   		</div>
+   	</div>
+
+</aura:component>

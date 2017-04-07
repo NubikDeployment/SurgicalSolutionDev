@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Metric</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Metrics Report Type</description>
+    <label>Metrics - Summer &apos;15</label>
+    <sections>
+        <masterLabel>Metrics</masterLabel>
+    </sections>
+</ReportType>

@@ -1,0 +1,47 @@
+<aura:component >
+    <aura:attribute name='value' type='String' />
+	<aura:attribute name='name' type='String' />
+    <aura:attribute name='type' type='String' />
+    <aura:attribute name='id' type='String' />
+    <aura:attribute name='link' type='String' default="" />
+
+    <aura:if isTrue="{!v.name == 'Account Name'}">
+        	<a class="slds-truncate" href="{!'/one/one.app#/sObject/' + v.id + '/view'}"  >
+            	<span>{!v.value}</span>
+            </a>
+    <aura:set attribute="else">
+        <aura:if isTrue="{! v.type == 'REFERENCE' }">
+            <a class="slds-truncate" href="{! v.link!='' ? v.link : '/one/one.app#/sObject/' + v.value + '/view'}" target="_blank">{!v.value} </a>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'URL' }">
+            <ui:outputURL value="{!'http://' + v.value}" label="{!v.value}" target="_blank"></ui:outputURL>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'PICKLIST' || v.type == 'INTEGER' || v.type == 'STRING' || v.type == 'DOUBLE' || v.type == 'LOCATION' || v.type == 'TEXTAREA' || v.type == 'ID'}">
+            <span class="slds-truncate">{!v.value}</span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'PHONE'}">
+            <span class="slds-truncate"><ui:outputPhone value="{!v.value}"></ui:outputPhone> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'CURRENCY'}">
+            <span class="slds-truncate">
+                <ui:outputCurrency value="{!v.value}"/>
+            </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'EMAIL'}">
+            <span class="slds-truncate"><ui:outputEmail value="{!v.value}"></ui:outputEmail> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'PERCENT'}">
+            <span class="slds-truncate">{!v.value} {!v.value != null ? '%' : ''} </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'BOOLEAN'}">
+            <span class="slds-truncate"> <ui:outputCheckbox value="{!v.value}"/> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'DATETIME'}">
+            <span class="slds-truncate"> <ui:outputDateTime format="MM/dd/yyyy hh:mm a" value="{!v.value}"/> </span>
+        </aura:if>
+        <aura:if isTrue="{!v.type == 'DATE'}">
+        	<span class="slds-truncate"><ui:outputDate format="MM/dd/yyyy" value="{!v.value}"/></span>
+        </aura:if>
+    </aura:set>
+    </aura:if>
+</aura:component>

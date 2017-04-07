@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkCoaching</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Reports on the coaching feed</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>FeedItems</relationship>
+    </join>
+    <label>Coaching Feeds</label>
+    <sections>
+        <masterLabel>Coaching</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Coaching Feed</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Comments</masterLabel>
+    </sections>
+</ReportType>

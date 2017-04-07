@@ -1,0 +1,122 @@
+<script language="javascript">
+	
+	//Pass the ElementIds, comma separated
+	function makeTextReadOnly (fieldNames) {
+		var textfield;
+		var fieldName=fieldNames.split(",");
+		
+		for (var i=0; i<fieldName.length; i++) {
+			textField = document.getElementById(fieldName[i]);
+			if(textField != null) {
+				//alert("Field value=" + readOnlyField.readOnly); 
+				textField.readOnly=true;
+				textField.style.backgroundColor="#EAEAEA";
+				//alert("Field value=" + readOnlyField.readOnly); 
+			}
+		}
+	}
+
+
+	//Pass the ElementIds, comma separated
+	function makeSelectReadOnly(fieldNames) {
+
+		var selectField,i;
+
+		fieldName=fieldNames.split(",");
+
+		for (var x=0; x<fieldName.length; x++) {
+			selectField = document.getElementById(fieldName[x]);
+			//alert("selectField="+selectField.name);
+			if(selectField != null) {
+				i=0;
+				while (selectField.options[i] != null) {
+					//document.writeln("i="+ i +", selected="+selectField.options[i].selected+", value="+selectField.options[i].value + "<br>"); 
+					if (!selectField.options[i].selected) {
+						//document.writeln("removing i="+i+"<br>");
+						selectField.options[i]=null;
+					} else {
+						i++;
+					}
+				}
+				selectField.style.backgroundColor="#EAEAEA";
+			} 
+		}
+	}
+
+
+	//Pass the ElementIds, comma separated
+	function makeDateReadOnly (fieldNames) {
+		var textfield;
+		var fieldName=fieldNames.split(",");
+		
+		for (var i=0; i<fieldName.length; i++) {
+			textField = document.getElementById(fieldName[i]);
+			if(textField != null) {
+				//Disable Text Field of Date
+				textField.readOnly=true;
+				textField.style.backgroundColor="#EAEAEA";
+				
+				//Disable the Data Picker Icon for the field
+				imgField=document.getElementById("cal_" + fieldName[i]);
+				imgField.onclick=null;
+
+				//Disable the current date hyperlink- NEEDS WORK
+				textField.onchange=null;
+			}
+		}
+	}
+
+
+	// THIS IS THE CODE YOU NEED TO MODIFY. YOU NEED TO 
+	// SPECIFY THE OBJECT THIS CODE APPLIES TO (e.g. LEADS, 
+	// OPPORTUNITIES, ETC).  THEN YOU NEED TO SELECT THE FIELDS
+	// TO DISABLE BY CALLING THE APPROPRIATE FUNCTION.
+	function disablefield() {
+		var name=document.getElementsByName("value(type)");
+		// Repeat this If Statement for each object and replace the If Statement with the appropriate Object
+		if (name[0] != null) {
+			if (name[0].value == "Lead") {
+				var fieldPresent = document.getElementById("Estimated_Close_Date__c");
+				if(fieldPresent != null) {
+					//Its a deal registration form, not a regular lead. Make the status read only
+					makeSelectReadOnly("Status");		
+				} else {
+					//do nothing for now!
+				}
+			}
+		}
+	}
+
+	//This function appends additional functions onto the onload event
+	//Need to append the disable code on the window onload event because
+	//the app sets some of the picklist in the onload event when you have
+	//dependent picklists and multiselect picklists
+	//so this code needs to be called after
+	function addLoadEvent(func) {
+	  var oldonload = window.onload;
+	  if (typeof window.onload != 'function') {
+		window.onload = func;
+	  } else {
+		window.onload = function() {
+		  if (oldonload) {
+			oldonload();
+		  }
+		  func();
+		}
+	  }
+	}
+
+	//Appends the disable Javascript after the onpageload
+	addLoadEvent(disablefield);
+
+</script>
+
+<!-- Footer Begin -->
+<div class="portalfooter">
+  <table cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="center"><a href="https://www.salesforce.com/products/partner-relationship-management.jsp" target="_blank"><img src="/prm/img/powered_by_salesforce-logo.gif" alt="Powered By salesforce.com" border="0"></a></td>
+      </tr>
+  </table>
+</div>
+<!-- Footer End -->

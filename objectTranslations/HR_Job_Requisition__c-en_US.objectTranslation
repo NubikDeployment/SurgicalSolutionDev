@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Close Date --></label>
+        <name>HR_Close_Date__c</name>
+    </fields><fields>
+        <help><!-- The HR contact for this job requisition. --></help>
+        <label><!-- HR Contact --></label>
+        <name>HR_Contact__c</name>
+        <relationshipLabel><!-- Job Requisitions (HR Contact) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Days Open --></label>
+        <name>HR_Days_Open__c</name>
+    </fields><fields>
+        <label><!-- Description --></label>
+        <name>HR_Description__c</name>
+    </fields><fields>
+        <label><!-- Functional Area --></label>
+        <name>HR_Functional_Area__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Engineering</masterLabel>
+            <translation><!-- Hardware Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation><!-- Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Technology</masterLabel>
+            <translation><!-- Information Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation><!-- Product Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Operations</masterLabel>
+            <translation><!-- Retail Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Department</masterLabel>
+            <translation><!-- Sales Department --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Engineering</masterLabel>
+            <translation><!-- Software Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehousing</masterLabel>
+            <translation><!-- Warehousing --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Hire by Date --></label>
+        <name>HR_Hire_by_Date__c</name>
+    </fields><fields>
+        <help><!-- The hiring manager for this job requisition. --></help>
+        <label><!-- Hiring Manager --></label>
+        <name>HR_Hiring_Manager__c</name>
+        <relationshipLabel><!-- Job Requisitions (Hiring Manager) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Location --></label>
+        <name>HR_Location__c</name>
+    </fields><fields>
+        <label><!-- Master Job Definition --></label>
+        <name>HR_Master_Job_Definition__c</name>
+        <relationshipLabel><!-- Job Requisitions --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Max Pay --></label>
+        <name>HR_Max_Pay__c</name>
+    </fields><fields>
+        <label><!-- Min Pay --></label>
+        <name>HR_Min_Pay__c</name>
+    </fields><fields>
+        <label><!-- Rec Open Date --></label>
+        <name>HR_Rec_Open__c</name>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>HR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Approval</masterLabel>
+            <translation><!-- Needs Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Approved</masterLabel>
+            <translation><!-- Open - Approved --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Travel Required --></label>
+        <name>HR_Travel_Required__c</name>
+    </fields><fields>
+        <label><!-- Type --></label>
+        <name>HR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation><!-- Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Time</masterLabel>
+            <translation><!-- Full Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internship</masterLabel>
+            <translation><!-- Internship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time</masterLabel>
+            <translation><!-- Part Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation><!-- Remote --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Position ID --></label>
+        <name>Position_ID__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Job Requisition</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Job Requisitions</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Job Requisition Layout</layout>
+        <sections>
+            <label><!-- Additional Details --></label>
+            <section>Additional Details</section>
+        </sections>
+        <sections>
+            <label><!-- Compensation --></label>
+            <section>Compensation</section>
+        </sections>
+    </layouts><quickActions>
+        <label><!-- Update Status --></label>
+        <name>Update_Status</name>
+    </quickActions></CustomObjectTranslation>

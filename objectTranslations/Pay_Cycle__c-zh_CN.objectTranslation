@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>结束日期</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>工资系统</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>支付周期</relationshipLabel>
+    </fields><fields>
+        <label>处理</label>
+        <name>Processed__c</name>
+    </fields><fields>
+        <label>年</label>
+        <name>Year__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Pay Cycle --></value>
+    </caseValues><nameFieldLabel><!-- Pay Cycle Name --></nameFieldLabel><layouts>
+        <layout>Pay Cycle Layout</layout>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>处理付费周期不能被改变。重设支付周期。</errorMessage>
+        <name>Processed_pay_cycles_cannot_be_changed</name>
+    </validationRules><webLinks>
+        <label>创建提取文件</label>
+        <name>Create_Extract_File</name>
+    </webLinks><webLinks>
+        <label>支付周期总结报告</label>
+        <name>Pay_Cycle_Summary_Report</name>
+    </webLinks><webLinks>
+        <label>流程支付周期</label>
+        <name>Process_Pay_Cycle_2</name>
+    </webLinks><webLinks>
+        <label>复位支付周期</label>
+        <name>Reset_Pay_Cycle_2</name>
+    </webLinks></CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>VERSION_TITLE</field>
+    </columns>
+    <columns>
+        <field>WS_NAME</field>
+    </columns>
+    <columns>
+        <field>CONTENT_CREATED</field>
+    </columns>
+    <columns>
+        <field>VERSION_MODIFIER</field>
+    </columns>
+    <columns>
+        <field>VERSION_REVISED</field>
+    </columns>
+    <description>Summary of all content published by various authors</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CONTENT_CREATOR</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Most Active Authors</name>
+    <reportType>Content</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>WS_CREATED</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Budget Variance --></label>
+        <name>Budget_Variance__c</name>
+    </fields><fields>
+        <help><!-- ROI is Net Gain. (Total Amount Won - Actual Cost) / Actual Cost --></help>
+        <label>ROI de la campagne</label>
+        <name>Campaign_ROI__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <help><!-- Campaign Effectiveness is driven by the ROI.  5 Dollars signs is over 300%. --></help>
+        <label><!-- Campaign Effectiveness --></label>
+        <name>Effectiveness_Rating__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Primary Offer --></label>
+        <name>Primary_Offer__c</name>
+        <picklistValues>
+            <masterLabel>Case Study</masterLabel>
+            <translation>Etude de Cas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Us Form</masterLabel>
+            <translation>Formulaire de Contact</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo</masterLabel>
+            <translation>Démo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Trial</masterLabel>
+            <translation>Essai Gratuit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation>Webinaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitepaper</masterLabel>
+            <translation>Livre Blanc</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- ROI Chart --></label>
+        <name>ROI_Chart__c</name>
+    </fields><fields>
+        <label><!-- Revenue Towards Goal --></label>
+        <name>Revenue_Towards_Goal__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Annulée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Terminée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation>Planifiée</translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation>Courrier</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Marketing</masterLabel>
+            <translation>Marketing direct</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>Email</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>Séminaire / Conférence</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Channel</masterLabel>
+            <translation>Multicanal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autres</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Marketing</masterLabel>
+            <translation>Publicité</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Réseaux sociaux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Marketing</masterLabel>
+            <translation>Pubs &amp; Bannières Web</translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label>Graphiques</label>
+            <section>Campaign Charts</section>
+        </sections>
+        <sections>
+            <label>Résultats</label>
+            <section>Campaign Results</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Parent Campaign Layout</layout>
+        <sections>
+            <label>Graphiques</label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label>Planification -Hiérarchie</label>
+            <section>Hierarchy Planning</section>
+        </sections>
+        <sections>
+            <label>Résultats - Hiérarchie</label>
+            <section>Hierarchy Results</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>Campagne Enfant</label>
+        <name>ChildCampaign</name>
+    </recordTypes><recordTypes>
+        <label>Campagne Parent</label>
+        <name>ParentCampaign</name>
+    </recordTypes><webLinks>
+        <label><!-- Send_Text_To_Campaign_Members --></label>
+        <name>LiveText__Send_Text_To_Campaign_Members</name>
+    </webLinks><webLinks>
+        <label>ROI de cette année</label>
+        <name>ThisyearsROI</name>
+    </webLinks><webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks></CustomObjectTranslation>

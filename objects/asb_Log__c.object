@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Category__c</fullName>
+        <description>The category of the logged event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The category of the logged event.</inlineHelpText>
+        <label>Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>General</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Search</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>DML</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Data__c</fullName>
+        <description>The data captured in the logged event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The data captured in the logged event.</inlineHelpText>
+        <label>Data</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>20</visibleLines>
+    </fields><fields>
+        <fullName>Exception__c</fullName>
+        <description>Details of the exception thrown in the logged event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Details of the exception thrown in the logged event.</inlineHelpText>
+        <label>Exception</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>20</visibleLines>
+    </fields><fields>
+        <fullName>Severity__c</fullName>
+        <description>Severity of the logged event.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Severity of the logged event.</inlineHelpText>
+        <label>Severity</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Warning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Info</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>StackTraceId__c</fullName>
+        <description>A unique ID for the particular type of error. Can be used to track how often the error occurs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A unique ID for the particular type of error. Can be used to track how often the error occurs.</inlineHelpText>
+        <label>Stack Trace ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Logs to capture information to assist with debugging if needed.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Log</label><nameField>
+        <displayFormat>L-{0}</displayFormat>
+        <label>Log Number</label>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Logs</pluralLabel><searchLayouts /><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>Exception__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

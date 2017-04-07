@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Taux d'abandon</label>
+        <name>Abandon_Rate__c</name>
+    </fields><fields>
+        <label>Appels Abandonnés</label>
+        <name>Abandoned_Calls__c</name>
+    </fields><fields>
+        <label>Temps moyen en file</label>
+        <name>Avg_Queue_Time__c</name>
+    </fields><fields>
+        <label>Appels par Agent</label>
+        <name>Calls_Per_Agent__c</name>
+    </fields><fields>
+        <label>Appels en file</label>
+        <name>Calls_Queued__c</name>
+    </fields><fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label>Temps en ligne</label>
+        <name>Handle_Time__c</name>
+    </fields><fields>
+        <label>Appels entrants</label>
+        <name>Inbound_Calls__c</name>
+    </fields><fields>
+        <label>Temps le plus long en file</label>
+        <name>Longest_Queue_Time__c</name>
+    </fields><fields>
+        <label>Appels sortants</label>
+        <name>Outbound_Calls__c</name>
+    </fields><fields>
+        <label>Nom de la file</label>
+        <name>Queue_Name__c</name>
+    </fields><fields>
+        <label>Rapidité de décroché</label>
+        <name>Speed_to_Answer__c</name>
+    </fields><fields>
+        <label>Utilisation</label>
+        <name>Utilization__c</name>
+    </fields><fields>
+        <label><!-- db_days --></label>
+        <name>dbdays__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Queue Stat --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- Queue Stat --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- Queue Stat Name --></nameFieldLabel><startsWith><!-- Consonant --></startsWith></CustomObjectTranslation>

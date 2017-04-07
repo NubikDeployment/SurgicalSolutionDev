@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>CSAT</label>
+        <name>CSAT__c</name>
+    </fields><fields>
+        <label>Caso</label>
+        <name>Case__c</name>
+        <relationshipLabel>Encuestas al cliente</relationshipLabel>
+    </fields><fields>
+        <label>Contacto</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Encuestas al cliente</relationshipLabel>
+    </fields><fields>
+        <label>Esfuerzo</label>
+        <name>Effort__c</name>
+    </fields><fields>
+        <label>NPS</label>
+        <name>NPS__c</name>
+    </fields><fields>
+        <help>¿En qué medida está usted de acuerdo o en desacuerdo con la siguiente afirmación: La compañía hizo fácil para mí manejar mi problema.</help>
+        <label>Experiencia sencilla?</label>
+        <name>Question_1__c</name>
+        <picklistValues>
+            <masterLabel>1 - Strongly Disagree</masterLabel>
+            <translation>1 - Totalmente en desacuerdo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Disagree</masterLabel>
+            <translation>2 - En desacuerdo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Somewhat Disagree</masterLabel>
+            <translation>3 - Un poco en desacuerdo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Neither Agree Nor Disagree</masterLabel>
+            <translation>4 - Neutral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Somewhat Agree</masterLabel>
+            <translation>5 - Un poco de acuerdo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Agree</masterLabel>
+            <translation>6 - De acuerdo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Strongly Agree</masterLabel>
+            <translation>7 - Totalmente de acuerdo</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>¿Cómo calificaría su nivel de satisfacción con su experiencia de servicio al cliente?</help>
+        <label>Calificación CSAT</label>
+        <name>Question_2__c</name>
+        <picklistValues>
+            <masterLabel>1 - Very Dissatisfied</masterLabel>
+            <translation>1 - Muy insatisfecho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Not Satisfied</masterLabel>
+            <translation>2 - Insatisfecho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Neutral</masterLabel>
+            <translation><!-- 3 - Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Satisfied</masterLabel>
+            <translation>4 - Satisfecho</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Very Satisfied</masterLabel>
+            <translation>5 - Muy satisfecho</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>¿Qué tan probable es que usted recomiende esta empresa a un amigo o colega?</help>
+        <label>Calificación NPS</label>
+        <name>Question_3__c</name>
+        <picklistValues>
+            <masterLabel>0 - Not at all likely</masterLabel>
+            <translation>0 - Nada probable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Extremely Likely</masterLabel>
+            <translation>10 - Muy probable</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Fue su problema resuelto completamente?</help>
+        <label>Problema resuelto?</label>
+        <name>Question_4__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Si</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Encuesta cliente</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Encuestas clientes</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre de la encuesta</nameFieldLabel></CustomObjectTranslation>

@@ -1,0 +1,18 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1"><span class="s1">Please review the following quote. A discount of {!SBQQ__Quote__c.SBQQ__AverageCustomerDiscount__c}% has been requested, which exceeds the standard discount level.&nbsp;</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">The following quote has exceeded the allowed corporate total price and should be reviewed for approval.</span></p>
+<p class="p1"><span class="s1">Prepared for: {!SBQQ__Quote__c.SBQQ__BillingName__c}</span></p>
+<p class="p1"><span class="s1">Expiration Date: {!SBQQ__Quote__c.SBQQ__ExpirationDate__c}</span></p>
+<p class="p1"><span class="s1">List Price: {!SBQQ__Quote__c.SBQQ__ListAmount__c}</span></p><p class="p1"><span class="s1">Discount: {!SBQQ__Quote__c.SBQQ__TotalCustomerDiscountAmount__c}</span></p><p class="p1"><span class="s1">Net Price: {!SBQQ__Quote__c.SBQQ__NetAmount__c}</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">To approve or reject this, please reply to this email with one of the following words in the first line: APPROVE, APPROVED, YES, NO, REJECT, or REJECTED.&nbsp;</span></p>
+<p class="p1"><span class="s1">You may also add comments on the second line of the email.</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">To go to the opportunity, please click here: {!SBQQ__Quote__c.Link}.</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">Thank you!</span></p><p class="p1"><br></p>]]></td>
+</tr>
+</table>

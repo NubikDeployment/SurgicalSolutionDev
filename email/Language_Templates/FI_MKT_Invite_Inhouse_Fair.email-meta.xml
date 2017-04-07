@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kutsu asiakastapahtumaan</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>FI MKT: Invite Inhouse Fair</name>
+    <style>freeForm</style>
+    <subject>Kutsu Asiakaspäivään</subject>
+    <textOnly>{!Lead.FirstName},
+
+
+
+Koska olet arvokas asiakkaamme kutsumme teitä tutustumaan uusiin tuotteisiimme ja seurustelemaan muiden asiakkaimme, joihin kuuluu mm. IBM, Suntrust, ADP ja Avis, kanssa keskiviikkona Helmiikuun 25. päivä.
+
+
+Uskomme että tämä tapahtuma voi auttaa teidän tulevien projektejen hahmottamiseen.
+
+
+Tarjoamme myös illallisen ja konsertin illemmalla. Konsertissa soittavat maailmankuuluja muusikkoja kuten David Byrne (Talking Heads) ja Ray Davies (The Kinks).
+
+
+
+Voitte ilmoittautua osoitteesta info@universal.com.
+
+
+
+Aikataulu
+
+
+12 - 14: Lounas
+
+21 Club
+
+Aloitamme päivän lounaalla missä voitte kuulla miten Salesforce.com ja heidän asiakkaat kerääntyvät kuulemaan tietoja Universalin uusimmista tuotteista. Myös kuulemme IBM:ltä yllätysuutisen.
+
+
+14 - 17.30 : Foorumi
+
+Le Parker Meridien Hotel
+
+Tutustu muihin asiakkaimme, jakakaa vinkkejä miten voitte parhaiten käyttää tuotteitamme ja tutustu tuleviin tuotteisiimme.
+
+
+17.30 - 19.30: Drinkkejä
+Le Parker Meridien Hotel
+
+Nauti cocktaileistä ja naposteltavista. Voit myös noutaa lippusi illan konserttia varten.
+
+
+
+19.30: Konsertti
+Carnegie Hall
+Bright Eyes, David Byrne, Ray Davies, Philip Glass, Keb&apos;Mo&apos;, Yo La Tengo, Drepung Gomang Monks.
+
+
+Ystävällisin Terveisin,
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Phone}</textOnly>
+    <type>html</type>
+</EmailTemplate>

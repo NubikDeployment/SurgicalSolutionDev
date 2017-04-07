@@ -1,0 +1,16 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p>Hallo&nbsp;{!Contact.Salutation}&nbsp;{!Contact.LastName},</p><p><br></p><p>im Anhang finden Sie wie vereinbart das besprochene Angebot.</p><p>Bitte prüfen Sie und sende es unterschrieben an uns zurück sofern Sie keine Einwände haben.</p>
+<p>&nbsp;</p>
+<p><strong>Achtung:</strong> Das Angebot ist gültig bis zum {!Quote.ExpirationDate}</p>
+<p><strong></strong>&nbsp;</p>
+<p><strong>Gesamtpreis:</strong> {!Quote.TotalPrice}</p>
+<p>&nbsp;</p>
+<p>Mit freundlichen Grüßen,</p>
+<p><em style="font-size: 12pt;"><font color="#000066"><strong>{!User.FirstName} {!User.LastName}</strong></font></em></p>
+<p><font color="#000066">{!User.CompanyName}</font></p>
+<p><font color="#000066">{!User.Email}</font></p>
+<p><font color="#000066">{!User.Phone}</font></p>]]></td>
+</tr>
+</table>

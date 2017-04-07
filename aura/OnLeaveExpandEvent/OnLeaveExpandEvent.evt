@@ -1,0 +1,1 @@
+<aura:event type="APPLICATION" description="the event is fired when leave the expand button" />

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID délément d'ordre d'exécution racine</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>root_workorderlineitem_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Élément d'ordre d'exécution racine</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>workorderlineitem_rootworkorderlineitem</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Haute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Basse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyenne</translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Clôturé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Complété</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+    </fields><quickActions>
+        <label>Terminé</label>
+        <name>Complete</name>
+    </quickActions></CustomObjectTranslation>

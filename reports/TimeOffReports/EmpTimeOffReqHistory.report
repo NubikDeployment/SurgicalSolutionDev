@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CHILD_NAME</field>
+    </columns>
+    <columns>
+        <field>Requested_Day__c.Requested_Day__c</field>
+    </columns>
+    <columns>
+        <field>Requested_Day__c.Pay_Cycle__c</field>
+    </columns>
+    <columns>
+        <field>Time_Off_Request__c.Status__c</field>
+    </columns>
+    <description>List of all Time-Off requests for a specified employee</description>
+    <filter>
+        <criteriaItems>
+            <column>Time_Off_Request__c.Employee_Number__c</column>
+            <operator>equals</operator>
+            <value>[Employee_Number]</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Time_Off_Request__c.Employee_Description__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Emp Time-Off Req History</name>
+    <reportType>CustomEntityCustomEntity$Time_Off_Request__c$Requested_Day__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Time_Off_Request__c.Date_Submitted__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

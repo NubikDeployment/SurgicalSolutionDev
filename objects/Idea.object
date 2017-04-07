@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>Now () - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This formula field tracks the number of days since the idea was submitted.</inlineHelpText>
+        <label>Idea Age (in days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Categories</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Portal Enhancements</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner Enhancements</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Enhancements</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Company-Wide Improvements - Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Team - Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing Team - Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Support Team - Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Activity Management</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Audio Conferencing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Best Practices</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Change Requests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Conference Room Setup</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Corporate Wireless</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Culture</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Feedback</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Me Page</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data Quality</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Executive Sponsorship</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Google Apps</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Alt Transport Credit</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Car / Van Pooling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Carbon Offset</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Electric Reduction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Glass / Can Recycling</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Paper Waste</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Waste Reduction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Green - Water Reduction</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing Requests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Print Advertising</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Google Apps Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Marketing Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Partner Relationship Management Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Salesforce Content Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Salesforce Ideas Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Search Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My Service &amp; Support Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>My SFA Idea</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Viral Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web Site</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>AppExchange Apps</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PC/Laptop/Hardware</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>PDA/Blackberry</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Performance Management</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Phone/Voicemail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Printer/Copier/Fax</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Software</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Templates</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Video Conferencing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Volunteering</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>VPN/RSA</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Me Requests</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Channel Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Testimonials</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Demo Center</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Email Templates</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Free Trial</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Landing Page Design</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Lead Generation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online Community</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Launches</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Search Advertising</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Search Engine Optimization</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Trade Shows</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>TV and Radio Advertising</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>White Papers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Recruiting</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>External_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Idea_in_Action__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Idea in Action</label>
+        <referenceTo>Ideas_Projects__c</referenceTo>
+        <relationshipLabel>Ideas</relationshipLabel>
+        <relationshipName>Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>It's Been Reviewed, But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Submitted_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName &amp; " " &amp; CreatedBy.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Submitted By</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Update__c</fullName>
+        <externalId>false</externalId>
+        <label>Update</label>
+        <length>32000</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>false</enableFeeds><searchLayouts>
+        <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.BODY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>COMMUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_BY_NICKNAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.NUM_COMMENTS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>VOTE.HAS_VOTED</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CATEGORIES</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.LAST_COMMENT_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.IDEA_THEME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>IDEA.TITLE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>COMMUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IDEA.TITLE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>COMMUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.BODY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>COMMUNITY.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.NUM_COMMENTS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_BY_NICKNAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CATEGORIES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><listViews>
+        <fullName>Ideas_Last_7_Days</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <columns>IDEA.IDEA_THEME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>Last 7 Days</label>
+    </listViews><recordTypes>
+        <fullName>AnnouncementsIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>Announcements: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Company-Wide Improvements - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>CRMRolloutIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>CRM Rollout: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>AppExchange Apps</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Best Practices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Quality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>My SFA Idea</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>CompanywideIdeasIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record Type used to associate ideas with a specific community</description>
+        <label>*Company-wide Ideas*: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Company-Wide Improvements - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Team - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portal Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Enhancements</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Sales Team - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Team - Internal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>GreenOfficeInitiativeReduceReuseRecycleIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>Green Office Initiative - Reduce, Reuse, Recycle: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Green - Alt Transport Credit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Car %2F Van Pooling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Carbon Offset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Electric Reduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Glass %2F Can Recycling</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Paper Waste</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Waste Reduction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Green - Water Reduction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyFoundationIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My Foundation Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Company-Wide Improvements - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Culture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Volunteering</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyITIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My IT Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Audio Conferencing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corporate Wireless</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PC%2FLaptop%2FHardware</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PDA%2FBlackberry</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone%2FVoicemail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Printer%2FCopier%2FFax</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Software</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VPN%2FRSA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Video Conferencing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyMarketingIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My Marketing Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Channel Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Team - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Engine Optimization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Search Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TV and Radio Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Templates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Shows</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>White Papers</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyPortalIdeasIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record Type used to associate ideas with a specific community</description>
+        <label>Customer Community Ideas*: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Channel Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Free Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portal Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Enhancements</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyProductIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My Product Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Free Trial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Launches</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MySalesIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My Sales Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Activity Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Team - Internal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>MyServicesIdeaIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record type used to associate ideas with a specific community</description>
+        <label>My Services Idea: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>My Service %26 Support Idea</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Online Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Support Team - Internal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>It%27s Been Reviewed%2C But Not Feasible At This Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a300000004uGeAAI_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Answers: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a3000000050d1AAA_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>*Customers Answers Community*: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a30000000L9iTAAS_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Social Support Answers: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a30000000LApuAAG_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Video Conferencing: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a30000000LApzAAG_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Wireless Solutions: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09a30000000LAq4AAG_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific community</description>
+        <label>Routers and Switches: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09aa0000000LBtOAAW_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>customer community ideas: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09aa0000000LBtTAAW_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>partner communities ideas: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09aa0000000LFBUAA4_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>MSS: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09aa0000000LFBZAA4_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>MSS 2: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09ao000000028rRAAQ_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>AudioPro Ideas: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09ao000000028rWAAQ_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>Audiophiles Ideas: Idea Record Type</label>
+    </recordTypes><recordTypes>
+        <fullName>Record_type_for_community_09ao0000000altbAAA_entity_Idea</fullName>
+        <active>true</active>
+        <description>Record type used to associate Idea with a specific zone</description>
+        <label>Partner Central Ideas: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Best Practices</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Feedback</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Events</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Requests</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portal Enhancements</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Print Advertising</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Enhancements</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><validationRules>
+        <fullName>Obscene_entries</fullName>
+        <active>false</active>
+        <errorConditionFormula>CONTAINS( Title, "crap")</errorConditionFormula>
+        <errorMessage>Please revise your post with appropriate language.</errorMessage>
+    </validationRules></CustomObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <businessHours>North America</businessHours>
+    <entitlementProcess>Basic Support Process</entitlementProcess>
+    <isPerIncident>false</isPerIncident>
+    <term>90</term>
+    <type>Phone Support</type>
+</EntitlementTemplate>

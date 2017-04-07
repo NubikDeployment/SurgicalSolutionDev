@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Approval_History__c</fullName>
+        <description>This URL runs a report which queries the channel budget entry table for source transactions matching the {id} of the current record</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK("/00O41000005BWpO?pv0=" &amp; Id , "View Approval History" )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval History</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Approved_Amount__c</fullName>
+        <description>The total amount of the claim approved.</description>
+        <externalId>false</externalId>
+        <label>Approved Amount</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Claim_Age_In_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOW() - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Claim Age In Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Claim_Name__c</fullName>
+        <description>Optional field which is more descriptive than the automatically assigned claim number</description>
+        <externalId>false</externalId>
+        <label>Claim Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Claimed_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Claimed Amount</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Date_Approved__c</fullName>
+        <description>Indicates the date the claim was approved. Used to drive claim trend reports.</description>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Description_of_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Expenditure Description</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields><fields>
+        <fullName>MDF__c</fullName>
+        <description>This allows the Fund Claims to roll up to the Fund Request.</description>
+        <externalId>false</externalId>
+        <label>Fund Request</label>
+        <referenceTo>SFDC_MDF__c</referenceTo>
+        <relationshipLabel>Claims</relationshipLabel>
+        <relationshipName>FundClaims</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>Marketing_Expenditure_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Expenditure Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Conference Fees</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event Execution</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>List Rental</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Printing Charges</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Promotional Goods</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Telemarketing Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Costs</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>10</visibleLines>
+    </fields><fields>
+        <fullName>Payee_Information__c</fullName>
+        <description>Alternate payee</description>
+        <externalId>false</externalId>
+        <label>Payee Information</label>
+        <length>500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields><fields>
+        <fullName>Percent_Approved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Approved_Amount__c /  Claimed_Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% Approved</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields><fields>
+        <fullName>Performance_Attached__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Performance Attached</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Performance_Verified_Date__c</fullName>
+        <description>POP Verified Date</description>
+        <externalId>false</externalId>
+        <label>Performance Verified Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Performance_Verified__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>POP verified</description>
+        <externalId>false</externalId>
+        <label>Performance Verified</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>S1__c</fullName>
+        <externalId>false</externalId>
+        <formula>"/servlet/servlet.Integration?lid="</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>s_Servlet Location</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>S2__c</fullName>
+        <externalId>false</externalId>
+        <formula>"/servlet/servlet.FileDownload?file="</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>s_Document Directory</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>SFDC_Channel_Budget__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Channel Budget</label>
+        <referenceTo>SFDC_Channel_Budget__c</referenceTo>
+        <relationshipLabel>Fund Claims</relationshipLabel>
+        <relationshipName>R00N4100000GiurjEAB</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Settlement_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Settlement Method</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Check</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Credit Memo</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Status_Action__c</fullName>
+        <externalId>false</externalId>
+        <formula>case(Status__c , "", HYPERLINK(S1__c&amp;"01N41000000ZIfB&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwux", "Submit") ), "Submitted", HYPERLINK(S1__c&amp;"01N41000000ZIfC&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuy", "Approve") ) &amp; HYPERLINK(S1__c&amp;"01N41000000ZIfD&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuz", "Reject") ), "Approved", HYPERLINK(S1__c&amp;"01N41000000ZIfD&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuz", "Reject") ), "Cancelled", HYPERLINK(S1__c&amp;"01N41000000ZIfB&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwux", "Submit") ), "Rejected", HYPERLINK(S1__c&amp;"01N41000000ZIfB&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwux", "Submit") ), "N/A")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Submitted</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>A set of claims tied to a specific request. Each claim is approved individually and tracks partner proof of performance. Claims can be analyzed by the claim age in days.</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Fund Claim</label><nameField>
+        <displayFormat>FC-{00000000}</displayFormat>
+        <label>Claim Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Fund Claims</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>MDF__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status_Action__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Claimed_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Approved_Amount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>MDF__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Claimed_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Approved_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>MDF__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Claimed_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Approved_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>ApprovedClaims</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <columns>Date_Approved__c</columns>
+        <columns>Percent_Approved__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <label>Approved Claims</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>PendingApprovalAll</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <label>Pending Approval - All</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>PendingApprovalLast30Days</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Pending Approval - Last 30 Days</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>PendingApprovalLast7Days</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>Pending Approval - Last 7 Days</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>Rejected</fullName>
+        <columns>NAME</columns>
+        <columns>MDF__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Claimed_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Rejected</label>
+        <language>en_US</language>
+    </listViews></CustomObject>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Milestone - 1st Response - SUCCESSFUL</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Milestone - First Response - SUCCESS</name>
+    <style>freeForm</style>
+    <subject>Milestone - First Response - SUCCESSFUL</subject>
+    <textOnly>Milestone - First Response - SUCCESSFUL
+ 
+Case#{!Case.CaseNumber}, First Response milestone has been completed successfully.</textOnly>
+    <type>html</type>
+</EmailTemplate>

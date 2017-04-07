@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <default>false</default>
+    <description>Allows a channel manager to approve a deal registration from the feed.</description>
+    <fields>Name</fields>
+    <fields>Company</fields>
+    <fields>Product_Interest__c</fields>
+    <label>Deal Reg Approval</label>
+</PostTemplate>

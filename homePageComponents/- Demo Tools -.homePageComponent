@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>SDO_Home</links>
+    <links>Login_as_Cindy_Central_Sales</links>
+    <links>Login_as_Service_Agent</links>
+    <links>Login_as_Mark_Watson_Platform</links>
+    <links>Web2Case</links>
+    <links>Web2Lead</links>
+    <links>Web_to_Lead_Data_com</links>
+    <links>SF1_Mobile_Plugin</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

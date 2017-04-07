@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplicationComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buttonIconUrl>http://www.salesforce.com</buttonIconUrl>
+    <buttonStyle>buttonStyleCSS</buttonStyle>
+    <buttonText>LiveText (0)</buttonText>
+    <buttonWidth>170</buttonWidth>
+    <height>400</height>
+    <isHeightFixed>false</isHeightFixed>
+    <isHidden>true</isHidden>
+    <isWidthFixed>true</isWidthFixed>
+    <visualforcePage>LiveText__ConsoleIntegrationPage</visualforcePage>
+    <width>350</width>
+</CustomApplicationComponent>

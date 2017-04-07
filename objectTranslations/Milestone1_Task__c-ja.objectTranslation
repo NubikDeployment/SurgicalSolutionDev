@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The user responsible for completing the task. Defaults to current user if left blank. --></help>
+        <label>担当者</label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields><fields>
+        <help><!-- If blocked, why? --></help>
+        <label>理由</label>
+        <name>Blocked_Reason__c</name>
+    </fields><fields>
+        <help><!-- Is this task blocked for some reason? --></help>
+        <label>ブロック</label>
+        <name>Blocked__c</name>
+    </fields><fields>
+        <help><!-- Classify this task as appropriate for your use. --></help>
+        <label>クラス</label>
+        <name>Class__c</name>
+        <picklistValues>
+            <masterLabel>Ad Hoc</masterLabel>
+            <translation>一時的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation>欠陥</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rework</masterLabel>
+            <translation>再開</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- The status of this task. A task is either in-complete or complete. --></help>
+        <label>完了</label>
+        <name>Complete__c</name>
+    </fields><fields>
+        <label><!-- DB Duration --></label>
+        <name>DB_Days_Start__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label>遅延日数（数式）</label>
+        <name>Days_Late_Formula__c</name>
+    </fields><fields>
+        <help><!-- How many days late is this task? --></help>
+        <label>遅延日数</label>
+        <name>Days_Late__c</name>
+    </fields><fields>
+        <label><!-- Dependency --></label>
+        <name>Dependencies__c</name>
+        <relationshipLabel><!-- Dependencies --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The general description of the task. For example, what is the purpose of the task. --></help>
+        <label>説明</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help><!-- The date this task is due to be completed. Defaults to milestone due date if left blank. --></help>
+        <label>期限日</label>
+        <name>Due_Date__c</name>
+    </fields><fields>
+        <label>メールGUID</label>
+        <name>Email_GUID__c</name>
+    </fields><fields>
+        <help><!-- The estimated amount of expenses which will be incurred during the task. --></help>
+        <label>推定費用</label>
+        <name>Estimated_Expense__c</name>
+    </fields><fields>
+        <help><!-- The estimated time to complete the task. --></help>
+        <label>推定時間</label>
+        <name>Estimated_Hours__c</name>
+    </fields><fields>
+        <help><!-- Calculated as estimated expense - total expense --></help>
+        <label>費用バランス</label>
+        <name>Expense_Balance__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <help><!-- Calculated as estimated hours - total hours --></help>
+        <label>時間バランス</label>
+        <name>Hours_Balance__c</name>
+    </fields><fields>
+        <label><!-- Import ID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <label><!-- Index Helper --></label>
+        <name>Index_Helper__c</name>
+    </fields><fields>
+        <label><!-- Index --></label>
+        <name>Index__c</name>
+    </fields><fields>
+        <help><!-- The date the last email was attached to this task. A task can be created via an email, and additional emails can be attached to the task in the notes section. --></help>
+        <label>最終メール受診日時</label>
+        <name>Last_Email_Received__c</name>
+    </fields><fields>
+        <label>マイルストーン（親の親）</label>
+        <name>Milestone_Grandparent__c</name>
+    </fields><fields>
+        <help><!-- Calculated field indicating if the task is complete, open, late, blocked or late and blocked. --></help>
+        <label>ステータス</label>
+        <name>Overall_Status__c</name>
+    </fields><fields>
+        <label>所有者</label>
+        <name>OwnerId__c</name>
+    </fields><fields>
+        <label><!-- Percent Complete --></label>
+        <name>Percent__c</name>
+    </fields><fields>
+        <help><!-- This is the priority of the task. 0,1,2,3 or 4. --></help>
+        <label>優先度</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>プロジェクトID</label>
+        <name>ProjectId__c</name>
+    </fields><fields>
+        <label>プロジェクトのステータス</label>
+        <name>ProjectStatus__c</name>
+    </fields><fields>
+        <help><!-- The milestone that this task is assigned to. --></help>
+        <label>マイルストーン</label>
+        <name>Project_Milestone__c</name>
+        <relationshipLabel><!-- Tasks --></relationshipLabel>
+    </fields><fields>
+        <help><!-- A link to the Project which this task is included in via its milestone. --></help>
+        <label>プロジェクト</label>
+        <name>Project__c</name>
+    </fields><fields>
+        <help><!-- Unique number for each task and across all projects. --></help>
+        <label>ショートID</label>
+        <name>Short_ID__c</name>
+    </fields><fields>
+        <help><!-- When should this task start by? --></help>
+        <label>開始日</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <help><!-- Unique number for each task and across all projects. --></help>
+        <label>タスクショートID</label>
+        <name>Task_Number__c</name>
+    </fields><fields>
+        <help><!-- Where is this task on the road to completion? --></help>
+        <label>ステータス</label>
+        <name>Task_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Close</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>完了済</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>進行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>無</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>解決済</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Calculated from all child expense records --></help>
+        <label>総費用</label>
+        <name>Total_Expense__c</name>
+    </fields><fields>
+        <help><!-- Calculated from all child time records --></help>
+        <label>総時間</label>
+        <name>Total_Hours__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>タスク</value>
+    </caseValues><nameFieldLabel>プロジェクトタスク名</nameFieldLabel><layouts>
+        <layout>Project Task Layout</layout>
+        <sections>
+            <label>予測</label>
+            <section>Estimates</section>
+        </sections>
+        <sections>
+            <label>指標: 時間 &amp; 経費</label>
+            <section>Metrics: Hours &amp; Expenses</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- You cannot mark a completed task as blocked. --></errorMessage>
+        <name>CannotBeBlockedIfComplete</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- You cannot complete a task marked as blocked. --></errorMessage>
+        <name>CannotBeCompleteIfBlocked</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Due Date should be smaller than Milestone Deadline --></errorMessage>
+        <name>Due_Date_Greater_Than_Milestone_Deadline</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Due Date should be greater than Milestone Kickoff Date --></errorMessage>
+        <name>Due_Date_Smaller_Than_Milestone_Kickoff</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Must be blank if &quot;blocked&quot; is not checked. --></errorMessage>
+        <name>Must_be_blank_if_not_blocked</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- If this task is blocked you must enter a reason. --></errorMessage>
+        <name>Must_not_be_blank_if_blocked</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Due Date should be greater than Start Date --></errorMessage>
+        <name>Start_Date_More_Than_Due_Date</name>
+    </validationRules><webLinks>
+        <label><!-- Change_Milestone --></label>
+        <name>Change_Milestone</name>
+    </webLinks><webLinks>
+        <label><!-- Move_to_New_Milestone --></label>
+        <name>Move_to_New_Milestone</name>
+    </webLinks></CustomObjectTranslation>

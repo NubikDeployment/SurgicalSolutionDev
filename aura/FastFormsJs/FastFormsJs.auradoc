@@ -1,0 +1,6 @@
+<aura:documentation>
+	<aura:description>Documentation</aura:description>
+	<aura:example name="FastFormsLightningComponent" ref="FastFormsJs" label="Lightning Component Fast Forms">
+		Lightning component to add Fast Forms in communities or Force.com sites
+	</aura:example>
+</aura:documentation>

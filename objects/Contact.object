@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>EnableCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>EnablePartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>EnableSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Merge</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>NewContact</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>RequestUpdate</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides><actionOverrides>
+        <actionName>ViewCustomerPortal</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>ViewPartnerPortalUser</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>ViewSelfService</actionName>
+        <type>Default</type>
+    </actionOverrides><compactLayouts>
+        <fullName>Contact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>Title</fields>
+        <fields>AccountId</fields>
+        <fields>Phone</fields>
+        <fields>Email</fields>
+        <label>Contact Layout</label>
+    </compactLayouts><fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ActiveLiveAgentUser__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ActiveLiveAgentUser</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Activity_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (Total_of_Activities__c &gt; 0, '01541000001Qwum', '01541000001Qwun'),'',22,22) &amp;""&amp;
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (Total_of_Activities__c &gt; 3, '01541000001Qwum', '01541000001Qwun'),'',22,22) &amp;""&amp;
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (Total_of_Activities__c &gt; 6, '01541000001Qwum', '01541000001Qwun'),'',22,22) &amp;""&amp; 
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (Total_of_Activities__c &gt; 9, '01541000001Qwum', '01541000001Qwun'),'',22,22) &amp;""&amp;
+IMAGE('/servlet/servlet.FileDownload?file='&amp; IF (Total_of_Activities__c &gt; 12, '01541000001Qwum', '01541000001Qwun'),'',22,22)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Activity_Indicator_partner__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Total_of_Activities__c &lt; 5, IMAGE("https://na13.salesforce.com/servlet/servlet.FileDownload?file=01541000001Qwv4&amp;oid=00D41000001MYfZ","1 Star",20,100), 
+IF(Total_of_Activities__c &lt; 10, IMAGE("https://na13.salesforce.com/servlet/servlet.FileDownload?file=01541000001Qwv5&amp;oid=00D41000001MYfZ", "3 Stars",20,100), 
+IMAGE("https://na13.salesforce.com/servlet/servlet.FileDownload?file= 01541000001Qwv6&amp;oid=00D41000001MYfZ", "5 Stars",20,100)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Activity Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>AssistantName</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>AssistantPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Birthdate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>CanAllowPortalSelfReg</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Certification_Level__c</fullName>
+        <description>Partner Contact certification level, used on the Partner Contact layout.</description>
+        <externalId>false</externalId>
+        <label>Certification Level</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Professional</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Expert</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>CleanStatus</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Contact_Location__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(
+
+"https://maps.googleapis.com/maps/api/staticmap?center=" +  MailingStreet + ","  + MailingCity + "," +  MailingState + "&amp;zoom=13&amp;size=650x250&amp;markers=color:red|" +  MailingStreet + ","  + MailingCity + "," +  MailingState + "&amp;sensor=false"
+
+
+
+
+
+, "no map available", 250, 650)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Location</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Days_Since_Last_Activity__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL(LastActivityDate)=false, TODAY() - LastActivityDate, null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Since Last Activity</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Department</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields><fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields><fields>
+        <fullName>External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <inlineHelpText>This is used to consistently import data to a version of the SDO and translate data into other languages.</inlineHelpText>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><fields>
+        <fullName>FB_Id_for_Identity__c</fullName>
+        <description>This field is used for the FB auth provider demo.</description>
+        <externalId>false</externalId>
+        <label>FB Id for Identity</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Facebook_Persona_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Facebook Persona ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Facebook_Picture__c</fullName>
+        <externalId>false</externalId>
+        <label>Facebook Picture</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Url</type>
+    </fields><fields>
+        <fullName>Facebook_Profile_Picture__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( Facebook_Picture__c,'' )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Facebook Profile Picture</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>HomePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Klout_Score__c</fullName>
+        <defaultValue>76</defaultValue>
+        <externalId>false</externalId>
+        <label>Klout Score</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>LastCURequestDate</fullName>
+    </fields><fields>
+        <fullName>LastCUUpdateDate</fullName>
+    </fields><fields>
+        <fullName>LeadSource</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing Event</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Data.com</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Community</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>MailingAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields><fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Number_of_Friends__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Friends</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Open_Address_in_Google_Maps__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK("http://maps.google.com?q=" &amp;  MailingStreet  &amp; "%20" &amp;  MailingCity  &amp; "%20" &amp;  MailingState  &amp; "%20" &amp;  MailingPostalCode ,IMAGE("/servlet/servlet.FileDownload?file=01541000001Qwuo", "Map Address in Google"))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Open Address in Google Maps</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>OtherAddress</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>OtherPhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields><fields>
+        <fullName>ReportsToId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>SSP_User__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SSP User</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>SlickSidebar_AccountAddress__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(LEN(Account.BillingStreet)&gt;0, Account.BillingStreet&amp; " " , "" ) &amp; BR() &amp;
+if(LEN(Account.BillingCity)&gt;0, Account.BillingCity&amp; ", " , "" )&amp;
+if(LEN(Account.BillingState)&gt;0, Account.BillingState&amp; " " , "" )&amp;
+if(LEN(Account.BillingPostalCode)&gt;0, Account.BillingPostalCode,"") &amp; BR() &amp;
+If(LEN( Account.BillingCountry) &gt;0, Account.BillingCountry,"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields><fields>
+        <fullName>Total_of_Activities__c</fullName>
+        <description>Used as part of Relationship_Indicator__c formula field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>for Activity Indicator field. &lt;5 = 1 Star, &lt;10 = 3 Stars, &gt;10 = 5 Stars</inlineHelpText>
+        <label>Total # of Activities</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Twitter_Persona_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Twitter Persona ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>URLsrc__c</fullName>
+        <description>This is used by email templates to determine the instance that the Company Logo image is hosted on.  It's required so that the image will render correctly when the email is received by a customer.  The value of this field is the same for every Contact.</description>
+        <externalId>false</externalId>
+        <formula>LEFT ($Api.Enterprise_Server_URL_350, 
+FIND("/",$Api.Enterprise_Server_URL_350, 
+FIND(".",$Api.Enterprise_Server_URL_350))-1 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URLsrc</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><compactLayoutAssignment>Contact_Layout</compactLayoutAssignment><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>true</enableHistory><externalSharingModel>ControlledByParent</externalSharingModel><recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.EMAIL</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.PHONE1</customTabListAdditionalFields>
+        <listViewButtons>pi__Send_Pardot_Emails</listViewButtons>
+        <listViewButtons>LiveText__Send_Bulk_SMS2</listViewButtons>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+        <lookupFilterFields>FULL_NAME</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.NAME</lookupFilterFields>
+        <lookupFilterFields>ACCOUNT.SITE</lookupFilterFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE3</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE4</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
+        <searchFilterFields>CONTACT.ADDRESS2_CITY</searchFilterFields>
+        <searchFilterFields>CONTACT.ADDRESS2_STATE</searchFilterFields>
+        <searchFilterFields>CONTACT.ADDRESS2_ZIP</searchFilterFields>
+        <searchFilterFields>CONTACT.PHONE1</searchFilterFields>
+        <searchFilterFields>CONTACT.PHONE2</searchFilterFields>
+        <searchFilterFields>CONTACT.PHONE3</searchFilterFields>
+        <searchFilterFields>CONTACT.EMAIL</searchFilterFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.PHONE1</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><fieldSets>
+        <fullName>SLICK_CTI_CONTACT</fullName>
+        <description>Slick CTI - Record Popup display</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MobilePhone</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SLICK_CTI_CONTACT</label>
+    </fieldSets><fieldSets>
+        <fullName>SlickSidebarPardotContact</fullName>
+        <description>SlickSidebarPardotContact</description>
+        <label>SlickSidebarPardotContact</label>
+    </fieldSets><listViews>
+        <fullName>AllContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.DEPARTMENT</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.IS_PERSON_ACCOUNT</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Contacts</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>CLevelContacts</fullName>
+        <booleanFilter>1 or 2</booleanFilter>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.TITLE</field>
+            <operation>startsWith</operation>
+            <value>CEO,CFO,CIO,CTO,CMO</value>
+        </filters>
+        <filters>
+            <field>CONTACT.TITLE</field>
+            <operation>contains</operation>
+            <value>Chief</value>
+        </filters>
+        <label>C-Level Contacts</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>My_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.DEPARTMENT</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <filterScope>Mine</filterScope>
+        <label>*My Contacts</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>NewThisWeek</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_WEEK</value>
+        </filters>
+        <label>New This Week</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>Pardot_Contacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <columns>pi__score__c</columns>
+        <columns>pi__grade__c</columns>
+        <columns>pi__last_activity__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Contact.Pardot_Contact</value>
+        </filters>
+        <label>Pardot Contacts</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>VPContacts</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>CONTACT.TITLE</columns>
+        <columns>CONTACT.DEPARTMENT</columns>
+        <columns>CONTACT.PHONE1</columns>
+        <columns>CONTACT.EMAIL</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CONTACT.TITLE</field>
+            <operation>startsWith</operation>
+            <value>Vice,VP</value>
+        </filters>
+        <label>VP-Level Contacts</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+    </listViews><recordTypes>
+        <fullName>Customer</fullName>
+        <active>true</active>
+        <description>For contacts who are customers.</description>
+        <label>Customer</label>
+        <picklistValues>
+            <picklist>Certification_Level__c</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Pardot_Contact</fullName>
+        <active>true</active>
+        <description>Demonstrates the capabilities of Pardot.</description>
+        <label>Pardot Contact</label>
+        <picklistValues>
+            <picklist>Certification_Level__c</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Partner</fullName>
+        <active>true</active>
+        <description>For contacts who are partners, distributors or resellers.</description>
+        <label>Partner</label>
+        <picklistValues>
+            <picklist>Certification_Level__c</picklist>
+            <values>
+                <fullName>Architect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Associate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expert</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Professional</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>LeadSource</picklist>
+            <values>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Community</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data%2Ecom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inbound Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Marketing Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Name</picklist>
+            <values>
+                <fullName>Dr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mr%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mrs%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ms%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prof%2E</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><webLinks>
+        <fullName>Diagnose_Issue</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>page</linkType>
+        <masterLabel>Diagnose Issue</masterLabel>
+        <openType>replace</openType>
+        <page>AssetDiagnostics_KB_Pane</page>
+        <protected>false</protected>
+    </webLinks><webLinks>
+        <fullName>DocuSign_NDA</fullName>
+        <availability>online</availability>
+        <description>3 Click Demo for DocuSign on Contact</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>DocuSign NDA</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var rndnum = Math.floor(Math.random()*1000000); 
+
+window.open('https://demo.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=26f573a5-8e5d-448e-abbd-cdcb54ffe1ca&amp;Signer_Email=any.signer%2b'+rndnum+'@live.com&amp;Signer_UserName={!Contact.FirstName}+{!Contact.LastName}&amp;DSFSSourceObjectId={!Contact.Id}&amp;Signer_Title={!Contact.Title}&amp;Signer_Company={!Account.Name}&amp;Sender_Email={!$User.Email}&amp;Sender_Company={!$User.CompanyName}&amp;Sender_Name={!$User.FirstName}+{!$User.LastName}&amp;%23%23SFContact={!Contact.Id}','PowerFormWindow'+rndnum);</url>
+    </webLinks><webLinks>
+        <fullName>Opt_Out_for_Text_Messaging_detail</fullName>
+        <availability>online</availability>
+        <description>Opt out of LiveMessage texts</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Opt Out for Text Messages</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT("/soap/ajax/10.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/14.0/apex.js")}
+{!REQUIRESCRIPT('/support/console/31.0/integration.js')};
+
+var recordId = window.location.pathname.substring(1);
+var returnURL = '/' + recordId;
+
+var urlStart = 'https://'+window.location.hostname+'/apex/LiveText__LiveTextOptinStatusPage?records='+recordId+'&amp;retURL='+returnURL;
+
+if(sforce.console.isInConsole()) {
+sforce.console.openPrimaryTab(null, urlStart + '&amp;inConsole=yes&amp;optType=0', true, 'Opt-out for Text Messages');
+}else{
+window.top.location.href = urlStart + '&amp;inConsole=no&amp;optType=0';
+}</url>
+    </webLinks><webLinks>
+        <fullName>Opt_in_for_Text_Messaging_detail</fullName>
+        <availability>online</availability>
+        <description>Opt in for LiveMessage texts</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Opt in for Text Messaging</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT("/soap/ajax/10.0/connection.js")}
+{!REQUIRESCRIPT("/soap/ajax/14.0/apex.js")}
+{!REQUIRESCRIPT('/support/console/31.0/integration.js')};
+
+var recordId = window.location.pathname.substring(1);
+var returnURL = '/' + recordId;
+
+var urlStart = 'https://'+window.location.hostname+'/apex/LiveText__LiveTextOptinStatusPage?records='+recordId+'&amp;retURL='+returnURL;
+
+if(sforce.console.isInConsole()) {
+sforce.console.openPrimaryTab(null, urlStart + '&amp;inConsole=yes&amp;optType=1', true, 'Opt-in for Text Messages');
+}else{
+window.top.location.href = urlStart + '&amp;inConsole=no&amp;optType=1';
+}</url>
+    </webLinks><webLinks>
+        <fullName>Send_Text_Message</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Text Message</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT('/soap/ajax/31.0/connection.js')};
+{!REQUIRESCRIPT('/soap/ajax/31.0/apex.js')};
+{!REQUIRESCRIPT('/support/console/31.0/integration.js')};
+
+var objectId = window.location.pathname.substring(1);
+
+var accountPrefix = objectId.substring(0, 3);
+var phoneInformation = JSON.parse(sforce.apex.execute("LiveText.RetrievePreferredPhoneNumber","getToPhoneInformationFromObject",{selectedObjId:objectId}));
+var phoneNumber = phoneInformation['phone'];
+var ownerId = phoneInformation['ownerId'];
+var params = '&amp;phone='+encodeURIComponent(phoneNumber) +'&amp;oid='+objectId+'&amp;conversationtype=outbound&amp;objectprefix='+accountPrefix+'&amp;ownerId='+ownerId;
+
+var conversationSessionPrefix = '/{!$ObjectType.LiveText__Conversation_Session__c}/e?cvid=null'+params;
+
+if(sforce.console.isInConsole()) {
+sforce.console.openPrimaryTab(null, conversationSessionPrefix, true, '{!HTMLENCODE($Label.LiveText__TXT_Conversation)}', null);
+var closeSubtab = function closeSubtab(result) {
+var tabId = result.id;
+sforce.console.closeTab(tabId);
+};
+sforce.console.getEnclosingTabId(closeSubtab);
+}
+else{
+var query = "SELECT Id FROM AppMenuItem WHERE Name='LiveText_Console'";
+sforce.connection.sessionId = '{!$Api.Session_ID}';
+var queryResult = sforce.connection.query(query);
+var records = queryResult.getArray('records');
+var ltId = records[0].Id;
+window.top.location.href = 'https://'+window.location.hostname+'/console?tsid='+ltId +'#'+conversationSessionPrefix;
+}</url>
+    </webLinks><webLinks>
+        <fullName>Troubleshoot_Laptop</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Troubleshoot Audio</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/LaptopTroubleshootVF?vaContactId={!Contact.Id}&amp;vaEmail={!Contact.Email}</url>
+    </webLinks><webLinks>
+        <fullName>map</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>map</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Contact_MailingCountry}&amp;csz={!Contact_MailingCity}+{!Contact_MailingState}+{!Contact_MailingPostalCode}+&amp;addr={!Contact_MailingAddress}</url>
+    </webLinks></CustomObject>

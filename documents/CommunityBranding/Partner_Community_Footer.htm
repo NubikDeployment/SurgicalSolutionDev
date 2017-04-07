@@ -1,0 +1,178 @@
+<div id="banner-image">
+	<img src="/partners/resource/globalchannel_bannerimage" alt="" />
+</div>
+<style>
+	/*
+		This just does it all ;)
+	*/ 
+	#contentWrapper{
+		width: 1024px;
+		margin: 0px auto;
+		background: #ccc;
+	}
+	/* 
+		This is the global header containing the dropdowns for communities and user profile
+	*/
+	.globalHeaderBar{
+		width: 1024px;
+		margin: 0px auto;
+	}
+	
+	/* 
+		This is the header image and tabNav
+	*/
+	header{
+		width: 1024px;
+		margin:0px auto;
+	}
+	
+	#searchComp{	
+    	position: relative;
+		top: -56px;
+		left: 819px;
+		display: none;    
+	}
+	
+	.searchTxtbox{
+		width: 159px;
+		border: 1px solid #CCC;
+		height: 22px;
+		position: relative;
+		top: -3px;
+		border-radius: 10px 0px 0px 10px;
+		left: -11px;
+		padding-left: 5px;
+	}
+	
+	#searchBtn{
+		display: none;
+	}
+	
+	#pseudoSearchBtn{
+    	position: relative;
+		width: 41px;
+		height: 20px;		
+		top: -25px;
+		left: 150px;	
+    }
+	
+	.customHeader{
+		width: 1024px;
+		margin:0px auto;
+		height: 89px;
+	}
+	
+	.customHeader img{
+    	width: 1024px;
+    }
+
+	.zen .zen-bodyZen {
+		width: 1024px;
+		margin:0px auto;
+	}
+	
+	.zen #tabContainer{
+		background-image: none !important;
+		background: #ccc;
+		border-radius: 0px; 
+	}
+	
+	.zen #tabContainer nav{
+		background: #ccc;
+	}
+	
+	html .brandQuaternaryBgr{
+        /*background: -moz-linear-gradient(top, #373a3e 0%, #111111 100%) !important; 
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#373a3e), color-stop(100%,#111111)) !important; 
+        background: -webkit-linear-gradient(top, #373a3e 0%,#111111 100%) !important;*/        
+    }
+    
+    .zen .zen-tabMenu .zen-active { /*Active tab only*/
+    	box-shadow: none;
+    	-webkit-box-shadow: none;
+    	background: none !important;
+    	padding: 5px;    	
+    }
+    
+    .zen .zen-tabMenu > li{
+    	padding: 5px;
+    }
+    
+    .zen .zen-tabMenu {
+    	margin: 0 25px;
+    }
+    .zen .zen-tabMenu .zen-active > a{
+    	font-weight: bold;
+    	color: #5f5f5f !important;
+    }
+    .zen .zen-tabMenu a {
+    	font-weight: normal;    	
+    	padding-right: 10px;
+    	color: #5f5f5f;
+    	font-size: 1.2em;
+    	border-right: 1px solid grey;
+    	text-decoration: none;
+    }
+    
+    .zen .zen-tabMenu a:hover{
+    	text-decoration: none;
+    	color: #5f5f5f;
+    	font-weight: bold;    	
+    }
+    
+    /* This is for the body */    
+    .zen .zen-bodyZen {
+    	border: none;
+    }
+    
+    .bodyDiv, #body_content{
+    	width: 1024px;
+    	margin:0px auto;
+    	border-top: 0px;
+    }
+    
+    body.sfdcBody {
+    	min-height: 800px;
+    }
+    
+     /* Style for the widgets */
+    
+    #banner-image img{
+    	width: 1024px;
+    }
+    .customHeader{
+     	-moz-box-shadow: 0 8px 10px hsla(0,0%,0%,.25);
+		-webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, .25);
+		box-shadow: 0 8px 10px rgba(0, 0, 0, .25);
+	}
+	#trending-topics-widget div{
+		width: 125px;
+		height: 52px;
+		position: relative;
+		top: -160px;
+		cursor: pointer;
+	}
+</style>
+<script>
+	function initialize(){
+		var tabBar = document.getElementById("tabBar");
+		tabBar.children[tabBar.children.length - 2].children[0].style.borderRight = "none";
+		//document.getElementById("Chatter_Tab").children[0].innerHTML="Home";
+		var rightCon = document.getElementById("rightContent");
+		//only load the widgets on the Chatter Home page!
+		if(window.location.href.indexOf("ChatterPage") != -1){
+			document.getElementsByTagName("title")[0].innerHTML = 'Home ~ Global Channel Best Practices';
+			document.getElementById("searchComp").style.display = "block";
+			//adding the banner image below the tabs
+			var parentmain = document.getElementById("bodyInner");
+			var banner = document.getElementById("banner-image");
+			banner.style.display = "block";
+			var mainCon = document.getElementsByClassName("zen-main")[0];
+			parentmain.insertBefore(banner,mainCon);
+			
+		}
+		document.getElementById("sidebarCell").style.display = "none";
+	}
+	
+	setTimeout("initialize()",100);
+</script>

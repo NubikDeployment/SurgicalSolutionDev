@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Check this if you are correcting a previously submitted request for time off that you are no longer going to take. --></help>
+        <label><!-- Reverse previously processed request --></label>
+        <name>Balance_Correction__c</name>
+    </fields><fields>
+        <label><!-- Comments --></label>
+        <name>Comments_text__c</name>
+    </fields><fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label><!-- Date Submitted --></label>
+        <name>Date_Submitted__c</name>
+    </fields><fields>
+        <label><!-- Days Awaiting Approval --></label>
+        <name>Days_Awaiting_Approval__c</name>
+    </fields><fields>
+        <label><!-- Employee Description --></label>
+        <name>Employee_Description__c</name>
+    </fields><fields>
+        <label><!-- Employee Name --></label>
+        <name>Employee_Name__c</name>
+    </fields><fields>
+        <label><!-- Employee Number --></label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <help><!-- The last day of the requested time off. --></help>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <help><!-- By checking this checkbox, you are acknowledging that you have read the negative balance terms and agree to bound by them. --></help>
+        <label><!-- I accept terms --></label>
+        <name>I_accept_terms__c</name>
+    </fields><fields>
+        <label><!-- Negative Balance Terms --></label>
+        <name>Negative_Balance_Terms__c</name>
+    </fields><fields>
+        <label><!-- Number of Days (Absolute) --></label>
+        <name>Number_of_Days_Absolute__c</name>
+    </fields><fields>
+        <help><!-- Number of business days between the Start Date and End Date of this request.  Does not include weekends or company holidays.  This is the number of days that will be deducted from your time-off balance. --></help>
+        <label><!-- Number of Days --></label>
+        <name>Number_of_Days__c</name>
+    </fields><fields>
+        <label><!-- Payroll System --></label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel><!-- Time-Off Requests --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Pending Approval --></label>
+        <name>Pending_Approval__c</name>
+    </fields><fields>
+        <help><!-- The policy exception flag indicates that a request does not comply with one or more company policies. (e.g., a request submitted after the time-off was already taken) --></help>
+        <label><!-- Policy Exception --></label>
+        <name>Policy_Exception__c</name>
+    </fields><fields>
+        <label><!-- Requestor --></label>
+        <name>Requestor__c</name>
+        <relationshipLabel><!-- Time-Off Requests --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The first day of the requested time off. --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Re-Approval</masterLabel>
+            <translation><!-- Requires Re-Approval --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Status of this request.  If the lock icon is displayed, it means the request cannot be edited in its current status. --></help>
+        <label><!-- &amp;nbsp;Status --></label>
+        <name>Status_image__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Time-Off Request</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Time-Off Requests</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>US-Admin Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Hidden Fields --></label>
+            <section>Hidden Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Negative Balance Terms --></label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Info --></label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Calendar --></label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Clone</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Negative Balance Terms --></label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Info --></label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Calendar --></label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Cancel</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Negative Balance Terms --></label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Info --></label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Calendar --></label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Submit-Cancel</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Negative Balance Terms --></label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Info --></label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Calendar --></label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Delete-Clone-Submit</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Negative Balance Terms --></label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Request Details --></label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label><!-- Request Info --></label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Calendar --></label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- TEST-Approved --></label>
+        <name>TESTApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Canceled --></label>
+        <name>TESTCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Not Submitted --></label>
+        <name>TESTNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Pending Approval --></label>
+        <name>TESTPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Processed --></label>
+        <name>TESTProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Rejected --></label>
+        <name>TESTRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Requires Re-Approval --></label>
+        <name>TESTRequiresReApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Approved --></label>
+        <name>USApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Canceled --></label>
+        <name>USCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Not Submitted --></label>
+        <name>USNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Pending Approval --></label>
+        <name>USPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Processed --></label>
+        <name>USProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Rejected --></label>
+        <name>USRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Requires Re-Approval --></label>
+        <name>USRequiresReApproval</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- The End Date cannot be before the Start Date. --></errorMessage>
+        <name>End_Date_Cannot_Come_Before_Start_Date</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- The End Date is Required. --></errorMessage>
+        <name>End_Date_Required</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please read the negative balance terms and check the &quot;I accept terms&quot; checkbox --></errorMessage>
+        <name>I_accept_terms_checkbox_is_required</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- The Start Date is Required --></errorMessage>
+        <name>Start_Date_Required</name>
+    </validationRules><webLinks>
+        <label><!-- Cancel_Request --></label>
+        <name>Cancel_Request</name>
+    </webLinks><webLinks>
+        <label><!-- Submit_for_Approval --></label>
+        <name>Submit_for_Approval</name>
+    </webLinks><webLinks>
+        <label><!-- View_Accrual_Schedule --></label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks><webLinks>
+        <label><!-- View_Employee_Time_Off_Requests --></label>
+        <name>View_Employee_Time_Off_Requests</name>
+    </webLinks></CustomObjectTranslation>

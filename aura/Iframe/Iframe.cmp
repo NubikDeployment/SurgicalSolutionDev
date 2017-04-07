@@ -1,0 +1,15 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes">
+	<aura:attribute name="frameURL" type="String" required="true" />
+    <aura:attribute name="width" type="String" required="true" />
+    <aura:attribute name="height" type="String" required="true" />
+    <aura:attribute name="name" type="String" required="true" />
+    <div>
+        <h2 class="trendingHeader">{!v.name}</h2>
+        <iframe
+                src="{!v.frameURL}"
+                width="{!v.width}"
+                height="{!v.height}"
+                name="{!v.name}">
+        </iframe>
+    </div>
+</aura:component>

@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <content>asb_listingActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <content>asb_listingEditAction</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <content>asb_listingEditAction</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <content>asb_listingActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <content>asb_listingActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><fields>
+        <fullName>BannerAttachmentId__c</fullName>
+        <description>The ID of the banner attachment for the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the banner attachment for the listing.</inlineHelpText>
+        <label>Banner Attachment ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Description__c</fullName>
+        <description>A text description of the app, written in the specified language.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>A text description of the app, written in the specified language.</inlineHelpText>
+        <label>Description</label>
+        <length>2000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields><fields>
+        <fullName>Language__c</fullName>
+        <description>The language for the listing. When viewing the store, users see listings matching their language.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The language for the listing. When viewing the store, users see listings matching their language.</inlineHelpText>
+        <label>Language</label>
+        <picklist>
+            <picklistValues>
+                <fullName>da</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>de</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>en_US</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>es</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>fi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>fr</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>it</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ja</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ko</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>nl_NL</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>pt_BR</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>ru</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>sv</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>th</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>zh_CN</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>zh_TW</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>ListedDate__c</fullName>
+        <description>The date when the listing was first published in the store.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the listing was first published in the store.</inlineHelpText>
+        <label>Listed Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>PageViewsAllTime__c</fullName>
+        <description>The number of page views on the listing for all time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of page views on the listing for all time.</inlineHelpText>
+        <label>Page Views (All Time)</label>
+        <summaryFilterItems>
+            <field>asb_ListingActivity__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>PageView</value>
+        </summaryFilterItems>
+        <summaryForeignKey>asb_ListingActivity__c.asb_Listing__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>PageViews__c</fullName>
+        <description>Page views of the listing in the last 30 days.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Page views of the listing in the last 30 days.</inlineHelpText>
+        <label>Page Views (30 Days)</label>
+        <summarizedField>asb_ListingPopularity__c.PageViews__c</summarizedField>
+        <summaryForeignKey>asb_ListingPopularity__c.asb_Listing__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>PopularityAllTime__c</fullName>
+        <description>Popularity by installs (dependent on app type) for all time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Popularity by installs (dependent on app type) for all time.</inlineHelpText>
+        <label>Popularity (All Time)</label>
+        <summaryFilterItems>
+            <field>asb_ListingActivity__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Install</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>asb_ListingActivity__c.Duplicate__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </summaryFilterItems>
+        <summaryForeignKey>asb_ListingActivity__c.asb_Listing__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>Popularity__c</fullName>
+        <description>Popularity by installs (dependent on app type) for last 30 days.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Popularity by installs (dependent on app type) for last 30 days.</inlineHelpText>
+        <label>Popularity (30 Days)</label>
+        <summarizedField>asb_ListingPopularity__c.InstallCount__c</summarizedField>
+        <summaryForeignKey>asb_ListingPopularity__c.asb_Listing__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>Requirements__c</fullName>
+        <description>The requirements (e.g. devices, operating systems, browsers) needed to use this app, written in the specified language.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The requirements (e.g. devices, operating systems, browsers) needed to use this app, written in the specified language.</inlineHelpText>
+        <label>Requirements</label>
+        <length>2000</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <description>Status indicates the current state of the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Status indicates the current state of the listing.</inlineHelpText>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Live</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Tagline__c</fullName>
+        <description>Brief tagline describing the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Brief tagline describing the listing.</inlineHelpText>
+        <label>Tagline</label>
+        <length>100</length>
+        <required>true</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>asb_App__c</fullName>
+        <description>The app that is listed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The app that is listed.</inlineHelpText>
+        <label>App</label>
+        <referenceTo>asb_App__c</referenceTo>
+        <relationshipLabel>Listings</relationshipLabel>
+        <relationshipName>Listings</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>isDefaultAppListing__c</fullName>
+        <description>Indicates if the listing is the default listing for its associated app.</description>
+        <externalId>false</externalId>
+        <formula>Id  =  asb_App__r.DefaultListing__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates if the listing is the default listing for its associated app.</inlineHelpText>
+        <label>Default App Listing</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Language-specific content for an app in the store.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Listing</label><nameField>
+        <displayFormat>L-{0000}</displayFormat>
+        <label>Listing Name</label>
+        <trackHistory>true</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Listings</pluralLabel><searchLayouts /><sharingModel>ControlledByParent</sharingModel><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

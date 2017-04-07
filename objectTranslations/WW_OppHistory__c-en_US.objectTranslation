@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label><!-- Close Date --></label>
+        <name>CloseDate__c</name>
+    </fields><fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields><fields>
+        <label><!-- Expected Revenue --></label>
+        <name>ExpectedRevenue__c</name>
+    </fields><fields>
+        <label><!-- External Id --></label>
+        <name>ExternalId__c</name>
+    </fields><fields>
+        <label><!-- To ForecastCategory --></label>
+        <name>ForecastCategory__c</name>
+    </fields><fields>
+        <label><!-- Opportunity --></label>
+        <name>OpportunityId__c</name>
+        <relationshipLabel><!-- Opportunity History --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Probability --></label>
+        <name>Probability__c</name>
+    </fields><fields>
+        <label><!-- Stage Name --></label>
+        <name>StageName__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Opportunity History</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Opportunity History</value>
+    </caseValues><startsWith>Vowel</startsWith></CustomObjectTranslation>

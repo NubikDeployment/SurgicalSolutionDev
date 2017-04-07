@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- signUpProfile --></label>
+        <name>signUpProfile__c</name>
+    </fields><fields>
+        <help><!-- Data category group assigned to chatter answers. --></help>
+        <label><!-- Chatter Answers Data Category Group --></label>
+        <name>umChatterAnswers_dataCategoryGroup__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable Chatter Answers feature (mobile). --></help>
+        <label><!-- Chatter Answers Enabled --></label>
+        <name>umChatterAnswers_enabled__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable rich text editor for chatter answers (mobile). --></help>
+        <label><!-- Chatter Answers Rich text editor enabled --></label>
+        <name>umChatterAnswers_richTextEnabled__c</name>
+    </fields><fields>
+        <help><!-- Zone label plural to be displayed in mobile site (example Zones,Communities,Products,etc.). --></help>
+        <label><!-- Chatter Answers Zone label plural --></label>
+        <name>umChatterAnswers_zoneLabelPlural__c</name>
+    </fields><fields>
+        <help><!-- Zone label to be used in mobile chatter answers feature (example zone,community,product,etc.). --></help>
+        <label><!-- Chatter Answers Zone label singular --></label>
+        <name>umChatterAnswers_zoneLabelSingular__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable add case number to phone call feature. --></help>
+        <label><!-- Contact Us add case number --></label>
+        <name>umContactus_addCaseNumberEnabled__c</name>
+    </fields><fields>
+        <help><!-- Contact us authenticated or unauthenticated access --></help>
+        <label><!-- Contact Us Authenticated --></label>
+        <name>umContactus_authenticated__c</name>
+    </fields><fields>
+        <help><!-- Business hour name for call feature. --></help>
+        <label><!-- Contact Us business hours --></label>
+        <name>umContactus_businessHourName__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable the creation of contact and account when user make use of contact us feature. --></help>
+        <label><!-- Contact Us enable create contact/account --></label>
+        <name>umContactus_createContactAndAccount__c</name>
+    </fields><fields>
+        <help><!-- CTI configuration for call feature (if add case number enabled). --></help>
+        <label><!-- Contact Us CTI configuration --></label>
+        <name>umContactus_ctiConfiguration__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable call feature. --></help>
+        <label><!-- Contact Us enable call --></label>
+        <name>umContactus_enableCall__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable Live Agent. --></help>
+        <label><!-- Contact Us Live Agent Enabled --></label>
+        <name>umContactus_enableLiveAgent__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable contact us section. --></help>
+        <label><!-- Contact Us Enabled --></label>
+        <name>umContactus_enabled__c</name>
+    </fields><fields>
+        <help><!-- Live Agent Button Id (if contact us enabled). --></help>
+        <label><!-- Contact Us Live Agent Chat button id --></label>
+        <name>umContactus_liveAgentChatButtonId__c</name>
+    </fields><fields>
+        <help><!-- Live Agent chat server URL. --></help>
+        <label><!-- Contact Us Live Agent chat server url --></label>
+        <name>umContactus_liveAgentChatServerURL__c</name>
+    </fields><fields>
+        <help><!-- Live Agent Deployment Id. --></help>
+        <label><!-- Contact Us Live Agent deployment id --></label>
+        <name>umContactus_liveAgentDeploymentId__c</name>
+    </fields><fields>
+        <help><!-- Live Agent deployment URL. --></help>
+        <label><!-- Contact Us Live Agent deployment url --></label>
+        <name>umContactus_liveAgentDeploymentURL__c</name>
+    </fields><fields>
+        <help><!-- Phone number to use in call feature (if enabled). --></help>
+        <label><!-- Contact Us Phone number --></label>
+        <name>umContactus_phoneNumber__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable Knowledge Base. --></help>
+        <label><!-- Knowledge Base Enabled --></label>
+        <name>umKnowledgeBase_enabled__c</name>
+    </fields><fields>
+        <help><!-- Knowledge Article Version Id to display as Announcement in site Announcement area (if enabled). --></help>
+        <label><!-- Site Announcement Knowledge Article Id --></label>
+        <name>umSite_announcementsKaId__c</name>
+    </fields><fields>
+        <help><!-- Enable / Disable Article Display as announcement in mobile site header (by enabling this option the announcements Knowledge Article Id field must be filled. --></help>
+        <label><!-- Site Announcements Area --></label>
+        <name>umSite_announcements__c</name>
+    </fields><fields>
+        <help><!-- Site API Name --></help>
+        <label><!-- Site Api Name --></label>
+        <name>umSite_apiName__c</name>
+    </fields><fields>
+        <label><!-- Site Authentication --></label>
+        <name>umSite_authenticated__c</name>
+    </fields><fields>
+        <help><!-- Mobile Site header background color (if no background image set up mobile application will use this field value as background color), specified as hex color (example #FFF). --></help>
+        <label><!-- Site Header Background Color --></label>
+        <name>umSite_backgroundColor__c</name>
+    </fields><fields>
+        <help><!-- Mobile Site header background image, this image must be inside the static resource selected for this site. --></help>
+        <label><!-- Site Header Background Image --></label>
+        <name>umSite_backgroundImage__c</name>
+    </fields><fields>
+        <help><!-- Cases access level, authenticated or unauthenticated. --></help>
+        <label><!-- Site Cases Authenticated --></label>
+        <name>umSite_casesAuthenticated__c</name>
+    </fields><fields>
+        <help><!-- Cases enabled for site. --></help>
+        <label><!-- Site Cases Enabled/Disabled --></label>
+        <name>umSite_casesEnabled__c</name>
+    </fields><fields>
+        <help><!-- Profile Name for guest users in mobile application. --></help>
+        <label><!-- Site Guest Profile Id --></label>
+        <name>umSite_guestProfileId__c</name>
+    </fields><fields>
+        <help><!-- Site Header icon image, this image must be allocated in the selected static resource for this site. --></help>
+        <label><!-- Site Header Icon Image --></label>
+        <name>umSite_iconImage__c</name>
+    </fields><fields>
+        <help><!-- Mobile Site search banner label. --></help>
+        <label><!-- Site search banner label --></label>
+        <name>umSite_searchBannerLabel__c</name>
+    </fields><fields>
+        <help><!-- Site Static Resource (used for mobile site stylesheet and images) --></help>
+        <label><!-- Site Static Resource --></label>
+        <name>umSite_staticResource__c</name>
+    </fields><fields>
+        <help><!-- Mobile Site welcome message --></help>
+        <label><!-- Site Welcome Message --></label>
+        <name>umSite_welcomeMessage__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>umSite</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>umSite</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

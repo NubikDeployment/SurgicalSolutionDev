@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Comentarios</label>
+        <name>Comments__c</name>
+    </fields><fields>
+        <label>Idea</label>
+        <name>Idea__c</name>
+        <relationshipLabel>Ideas relacionadas</relationshipLabel>
+    </fields><fields>
+        <label>Publicada por</label>
+        <name>Posted_By__c</name>
+    </fields><fields>
+        <label>Publicada</label>
+        <name>Posted__c</name>
+    </fields><fields>
+        <label>Proyecto</label>
+        <name>Project__c</name>
+        <relationshipLabel>Ideas relacionadas</relationshipLabel>
+    </fields><fields>
+        <label>Votos</label>
+        <name>Votes__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Idea relacionada</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Ideas relacionadas</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Idea relacionada</nameFieldLabel><layouts>
+        <layout>Related Idea Layout</layout>
+        <sections>
+            <label>Detalles</label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label>Idea</label>
+            <section>Idea</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

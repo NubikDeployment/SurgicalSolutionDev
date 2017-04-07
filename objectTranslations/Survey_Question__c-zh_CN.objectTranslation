@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>选择</label>
+        <name>Choices__c</name>
+    </fields><fields>
+        <help>在此输入的调查范围内的问题的位置。</help>
+        <label>订单号</label>
+        <name>OrderNumber__c</name>
+    </fields><fields>
+        <label>题</label>
+        <name>Question__c</name>
+    </fields><fields>
+        <help>请选中此复选框选取问题。</help>
+        <label>需要</label>
+        <name>Required__c</name>
+    </fields><fields>
+        <label>调查</label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- SurveyQuestions --></relationshipLabel>
+    </fields><fields>
+        <label>总回应</label>
+        <name>Total_Responses__c</name>
+    </fields><fields>
+        <label>类型</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Free Text</masterLabel>
+            <translation>自由文本</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Select--Vertical</masterLabel>
+            <translation>多选 - 立式</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Select--Horizontal</masterLabel>
+            <translation>单选择 - 卧式</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Select--Vertical</masterLabel>
+            <translation>单选择 - 垂直</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Survey Question --></value>
+    </caseValues><nameFieldLabel><!-- Name --></nameFieldLabel></CustomObjectTranslation>

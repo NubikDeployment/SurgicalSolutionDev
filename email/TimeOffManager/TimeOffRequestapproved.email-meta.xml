@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Time-Off request approved.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Time_Off_Manager_Approvals</letterhead>
+    <name>Time-Off Request Approved</name>
+    <style>freeForm</style>
+    <subject>Approved: Time-Off Request starting {!Time_Off_Request__c.Start_Date__c} for {!Time_Off_Request__c.Number_of_Days__c} days</subject>
+    <textOnly>Time-Off Request {!Time_Off_Request__c.Name}
+
+Your time-off request has been approved!  
+
+Here are the details:
+
+Employee Number: {!Time_Off_Request__c.Employee_Number__c}
+Employee Name: {!Time_Off_Request__c.Employee_Name__c}
+
+Start Date: {!Time_Off_Request__c.Start_Date__c}
+End Date: {!Time_Off_Request__c.End_Date__c}
+# of Days Off: {!Time_Off_Request__c.Number_of_Days__c}
+
+Date Approved: {!Time_Off_Request__c.Date_Approved__c}
+
+Note that you can make changes to this approved request until it has been sent to payroll. Changes will require re-approval.  Once the request has been processed by payroll, you can only make changes via a separate correction request.
+
+Sincerely yours,
+{!User.Name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

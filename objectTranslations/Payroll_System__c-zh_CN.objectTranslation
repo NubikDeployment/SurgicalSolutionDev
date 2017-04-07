@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label><!-- Enabled for Time-Off Manager --></label>
+        <name>Enabled_for_Time_Off_Manager__c</name>
+    </fields><fields>
+        <help>关闭该天的最大数量可以在一个单一的时间区切换请求被请求。如果此留空</help>
+        <label><!-- Max Days in a Single Request --></label>
+        <name>Max_Days_in_a_Single_Request__c</name>
+    </fields><fields>
+        <label>最大负浮动假日平衡</label>
+        <name>Max_Negative_Floating_Holiday_Balance__c</name>
+    </fields><fields>
+        <label>最大负PTO余额</label>
+        <name>Max_Negative_PTO_Balance__c</name>
+    </fields><fields>
+        <label>记录类型前缀</label>
+        <name>Record_Type_Prefix__c</name>
+        <picklistValues>
+            <masterLabel>TEST</masterLabel>
+            <translation>测试</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation>我们</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Payroll System --></value>
+    </caseValues><nameFieldLabel><!-- Payroll System ID Name --></nameFieldLabel></CustomObjectTranslation>

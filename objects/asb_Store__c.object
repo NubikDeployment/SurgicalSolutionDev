@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <content>asb_storeActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <content>asb_storeActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <content>asb_storeActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <content>asb_storeActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><fields>
+        <fullName>AppTypes__c</fullName>
+        <description>The types of apps that can be listed in the store.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The types of apps that can be listed in the store.</inlineHelpText>
+        <label>App Types</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Android</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>iOS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>EnableChatter__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Indicates if Chatter is enabled to facilitate communication and collaboration around the app. Only available if Chatter is enabled in the Salesforce organization.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if Chatter is enabled to facilitate communication and collaboration around the app. Only available if Chatter is enabled in the Salesforce organization.</inlineHelpText>
+        <label>Enable Chatter</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>LiveApps__c</fullName>
+        <description>The number of apps that are currently listed in the store and available for install.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of apps that are currently listed in the store and available for install.</inlineHelpText>
+        <label>Published Apps</label>
+        <summaryFilterItems>
+            <field>asb_App__c.LiveListings__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>1</value>
+        </summaryFilterItems>
+        <summaryForeignKey>asb_App__c.Store__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>PageViewsAllTime__c</fullName>
+        <description>The total number page views of listings in the store over all time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total number page views of listings in the store over all time.</inlineHelpText>
+        <label>Page Views (All Time)</label>
+        <summarizedField>asb_App__c.PageViewsAllTime__c</summarizedField>
+        <summaryForeignKey>asb_App__c.Store__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>PopularityAllTime__c</fullName>
+        <description>The total installs done on listings in the store over all time.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The total installs done on listings in the store over all time.</inlineHelpText>
+        <label>Installs</label>
+        <summarizedField>asb_App__c.PopularityAllTime__c</summarizedField>
+        <summaryForeignKey>asb_App__c.Store__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <description>Describes whether the store is online and available to standard users or offline and available only to store administrators.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Describes whether the store is online and available to standard users or offline and available only to store administrators.</inlineHelpText>
+        <label>Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Offline</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Online</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Branding and settings for the store.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>Private</externalSharingModel><label>Store</label><nameField>
+        <label>Store Name</label>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Stores</pluralLabel><searchLayouts /><sharingModel>Private</sharingModel><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

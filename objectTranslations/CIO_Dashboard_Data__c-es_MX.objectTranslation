@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Adoption --></label>
+        <name>CIO_Adoption__c</name>
+    </fields><fields>
+        <label><!-- Completed? --></label>
+        <name>CIO_Completed__c</name>
+    </fields><fields>
+        <label><!-- Developer Skill Name --></label>
+        <name>CIO_Developer_Skill_Name__c</name>
+    </fields><fields>
+        <label><!-- IT Timesheet Name --></label>
+        <name>CIO_IT_Timesheet_Name__c</name>
+    </fields><fields>
+        <label><!-- Role --></label>
+        <name>CIO_Role__c</name>
+        <picklistValues>
+            <masterLabel>Field Service</masterLabel>
+            <translation>Servicio de campo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation>RH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation>TI</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation>Operaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventas</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Sprint --></label>
+        <name>CIO_Sprint__c</name>
+        <picklistValues>
+            <masterLabel>Sprint 1</masterLabel>
+            <translation><!-- Sprint 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 2</masterLabel>
+            <translation><!-- Sprint 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 3</masterLabel>
+            <translation><!-- Sprint 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 4</masterLabel>
+            <translation><!-- Sprint 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 5</masterLabel>
+            <translation><!-- Sprint 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>CIO_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation>Aceptado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backlog</masterLabel>
+            <translation>Trabajo pendiente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En Progreso</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Total Staff --></label>
+        <name>CIO_Total_Staff__c</name>
+    </fields><fields>
+        <label><!-- Trailhead Badge --></label>
+        <name>CIO_Trailhead_Badge__c</name>
+        <picklistValues>
+            <masterLabel>Apex Basics</masterLabel>
+            <translation>Apex básico</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex Triggers</masterLabel>
+            <translation>Desencadenadores de Apex</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>App Customization</masterLabel>
+            <translation>Personalización de la aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Lifecycle Management</masterLabel>
+            <translation>Administración del ciclo de vida de la aplicación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management</masterLabel>
+            <translation>Administración del cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management</masterLabel>
+            <translation>Asministración de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Modelling</masterLabel>
+            <translation>Modelado de datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Security</masterLabel>
+            <translation>Seguridad en los datos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Monitoring</masterLabel>
+            <translation>Monitoreamento de eventos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTML5 &amp; Hybrid</masterLabel>
+            <translation>HTML5 &amp; Hibrido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning App Builder</masterLabel>
+            <translation><!-- Lightning App Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Components</masterLabel>
+            <translation>Componentes Lightning</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Connect</masterLabel>
+            <translation><!-- Lightning Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Design System</masterLabel>
+            <translation><!-- Lightning Design System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native Android</masterLabel>
+            <translation>Android nativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native iOS</masterLabel>
+            <translation>iOS nativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Automation</masterLabel>
+            <translation>Automatización de procesos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UI Customization</masterLabel>
+            <translation>Personalización de la interfaz del usuario</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- User Story Name --></label>
+        <name>CIO_User_Story_Name__c</name>
+    </fields><fields>
+        <label><!-- Work Type --></label>
+        <name>CIO_work_type__c</name>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation>Innovación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keeping the Lights On</masterLabel>
+            <translation>Mantener los sistemas en funcionamiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects</masterLabel>
+            <translation>Proyectos</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Datos tablero CIO</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Datos tablero CIO</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre adopción</nameFieldLabel></CustomObjectTranslation>

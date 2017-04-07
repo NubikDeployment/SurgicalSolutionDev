@@ -1,0 +1,45 @@
+<apex:page standardstylesheets="false" showheader="false" sidebar="false">
+    <!-- Include a JavaScript file in your Visualforce page -->
+    <apex:includelightning />
+    <style>
+        html, body {
+            height: 100%;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        #lightning {
+            overflow: scroll;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+    <div id="lightning" style="position:absolute;top:0px;left:0px;width:100%" />
+    <script>
+        var oppId = "{!$CurrentPage.parameters.oppId}";
+        var pcId = "{!$CurrentPage.parameters.pcId}";
+        //Tell your Visualforce page to use ExposeVF Lightning app
+       $Lightning.use("c:PreferenceCardApp", function() {
+            // Write a function that creates the component on the page
+          $Lightning.createComponent("c:PreferenceCard",
+          {"oppId":oppId,"pcId":pcId},
+          "lightning",
+          function(cmp) {
+            // do some stuff
+          });
+        });
+        
+        function FixHeight()
+        {
+            var body = document.body,
+            html = document.documentElement;
+            var elem = document.getElementById('lightning');
+            var lightningHeight = Math.max(elem.scrollHeight, elem.offsetHeight);
+            elem.style.height =   body.clientHeight + 'px';
+            setTimeout('FixHeight();',500);
+        }
+        FixHeight();
+    </script>
+    <script>
+         window.onkeydown=function(){window.focus();}
+    </script>
+</apex:page>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>的时间（以秒计）的量的内容分发网络（CDN）服务器缓存的PKB网站的网页。值为零（0）禁用缓存。 CDN缓存网站上自动启用。我们建议将其设置为300秒（5分钟）。</help>
+        <label>高速缓存最大 Age</label>
+        <name>CacheMaxAge__c</name>
+    </fields><fields>
+        <label>第1类说明</label>
+        <name>Category1Description__c</name>
+    </fields><fields>
+        <label>第2类说明</label>
+        <name>Category2Description__c</name>
+    </fields><fields>
+        <label>第3类说明</label>
+        <name>Category3Description__c</name>
+    </fields><fields>
+        <label>第4类说明</label>
+        <name>Category4Description__c</name>
+    </fields><fields>
+        <help>在主页的第三类的描述。</help>
+        <label>5类说明</label>
+        <name>Category5Description__c</name>
+    </fields><fields>
+        <label>6类说明</label>
+        <name>Category6Description__c</name>
+    </fields><fields>
+        <help>类别组的名称。根类别必须是一个类这组。</help>
+        <label>类别组</label>
+        <name>CategoryGroupName__c</name>
+    </fields><fields>
+        <help>复制并粘贴到客户门户登录URL。它应like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7</help>
+        <label>客户门户登录网址</label>
+        <name>Customer_Portal_Login_Link__c</name>
+    </fields><fields>
+        <label>客户门户登录</label>
+        <name>Customer_Portal_Login__c</name>
+    </fields><fields>
+        <label>客户门户注册</label>
+        <name>Customer_Portal_Sign_Up__c</name>
+    </fields><fields>
+        <help>该广告在主页上的说明。</help>
+        <label>首页广告文字</label>
+        <name>HomeAdText__c</name>
+    </fields><fields>
+        <help>在主页上的广告的标题。</help>
+        <label>首页广告标题</label>
+        <name>HomeAdTitle__c</name>
+    </fields><fields>
+        <label>知识分类</label>
+        <name>Knowledge_Categories__c</name>
+    </fields><fields>
+        <label>知识搜索</label>
+        <name>Knowledge_Search__c</name>
+    </fields><fields>
+        <label>最热门文章</label>
+        <name>Most_Popular_Articles__c</name>
+    </fields><fields>
+        <label>相关PKB网站名称</label>
+        <name>PKBSiteName__c</name>
+    </fields><fields>
+        <help>复制并粘贴到客户门户登录URL。它应like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7</help>
+        <label>合作伙伴门户登录网址</label>
+        <name>Partner_Portal_Login_URL__c</name>
+    </fields><fields>
+        <label>合作伙伴门户登录</label>
+        <name>Partner_Portal_Login__c</name>
+    </fields><fields>
+        <label>合作伙伴门户注册</label>
+        <name>Partner_Portal_Sign_Up__c</name>
+    </fields><fields>
+        <label>门户网站品牌来源</label>
+        <name>Portal_Branding_Source__c</name>
+        <picklistValues>
+            <masterLabel>Customer Portal</masterLabel>
+            <translation>客户门户</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Portal</masterLabel>
+            <translation>合作伙伴门户</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>门户网站品牌</label>
+        <name>Portal_Branding__c</name>
+    </fields><fields>
+        <label>根类别</label>
+        <name>RootCategoryName__c</name>
+    </fields><fields>
+        <label>网站登录</label>
+        <name>Site_Login__c</name>
+    </fields><fields>
+        <label>标签</label>
+        <name>Tabs__c</name>
+        <picklistValues>
+            <masterLabel>Answers</masterLabel>
+            <translation>解答</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community (Ideas)</masterLabel>
+            <translation>社区（想法）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Us</masterLabel>
+            <translation>联系我们</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customers (Tab to Site)</masterLabel>
+            <translation>客户（Tab键网站）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge</masterLabel>
+            <translation>知识</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners (Tab to Site)</masterLabel>
+            <translation>合作伙伴（Tab键网站）</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Web-to-Lead --></label>
+        <name>W2L__c</name>
+    </fields><fields>
+        <label><!-- Web-to-Case --></label>
+        <name>Web_to_Case__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- SDO SiteSetup --></value>
+    </caseValues><nameFieldLabel><!-- PKB Site Setup Name --></nameFieldLabel><layouts>
+        <layout>PKB Site Setup Layout</layout>
+        <sections>
+            <label>分类</label>
+            <section>Categories</section>
+        </sections>
+        <sections>
+            <label>一般站点信息</label>
+            <section>General Site Information</section>
+        </sections>
+        <sections>
+            <label>首页文字和字幕</label>
+            <section>Home Page Text and Titles</section>
+        </sections>
+        <sections>
+            <label>户外广告</label>
+            <section>Home advertising</section>
+        </sections>
+        <sections>
+            <label>门户网站登录网址</label>
+            <section>Portal Login URLs</section>
+        </sections>
+        <sections>
+            <label>选择什么样突起物，您想在这个网站</label>
+            <section>Select what tabs you want on this site</section>
+        </sections>
+        <sections>
+            <label>侧边栏组件</label>
+            <section>Sidebar Components</section>
+        </sections>
+        <sections>
+            <label>门户网站是什么你想要的网站品牌的？ （插入门户网站ID）</label>
+            <section>What Portal do you want the Site Branded as? (insert portal ID)</section>
+        </sections>
+        <sections>
+            <label>你想干什么默认类别组是这个网站？</label>
+            <section>What do you want the default category group to be for this site?</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

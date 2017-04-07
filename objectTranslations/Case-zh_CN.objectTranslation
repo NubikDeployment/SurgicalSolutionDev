@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- CSAT --></label>
+        <name>CSAT__c</name>
+    </fields><fields>
+        <label>个案调查网址</label>
+        <name>Case_Survey_URL__c</name>
+    </fields><fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+    </fields><fields>
+        <label><!-- Community Contact Match --></label>
+        <name>Community_Contact_Match__c</name>
+    </fields><fields>
+        <label>估计成本</label>
+        <name>Cost__c</name>
+    </fields><fields>
+        <label>客户类型</label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>企业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation>家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small and Medium Business</masterLabel>
+            <translation>中小企业</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>如何得到客户的感觉，当他进入支持案例。</help>
+        <label>客户表情</label>
+        <name>Customer_emoticon__c</name>
+    </fields><fields>
+        <label>客户表情值</label>
+        <name>Customer_emoticon_value__c</name>
+        <picklistValues>
+            <masterLabel>annoyed</masterLabel>
+            <translation>懊恼</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>confused</masterLabel>
+            <translation>困惑</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>frustrated</masterLabel>
+            <translation>受挫</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>happy</masterLabel>
+            <translation>快乐</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>所使用的完美时间向导</help>
+        <label>DB案例持续时间</label>
+        <name>DB_Case_Duration_Hours__c</name>
+    </fields><fields>
+        <help>所使用的完美时间向导</help>
+        <label>DB小时</label>
+        <name>DB_Hours__c</name>
+    </fields><fields>
+        <help>所使用的完美时间向导</help>
+        <label>日期时间关闭</label>
+        <name>DateTime_Closed_c__c</name>
+    </fields><fields>
+        <help>所使用的完美时间向导</help>
+        <label>日期时间开业</label>
+        <name>DateTime_Opened_c__c</name>
+    </fields><fields>
+        <label>持续时间</label>
+        <name>Duration__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label>旧说明</label>
+        <name>EDY_ORGCUSTOM__Old_Description__c</name>
+    </fields><fields>
+        <label>旧主题</label>
+        <name>EDY_ORGCUSTOM__Old_Subject__c</name>
+    </fields><fields>
+        <label><!-- Escalation URL --></label>
+        <name>Escalation_URL__c</name>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>第一次接触关闭</label>
+        <name>First_Contact_Close__c</name>
+    </fields><fields>
+        <help>当存在附连到的情况下的知识库文章检查。</help>
+        <label>知识库文章附件</label>
+        <name>KB_Article_Attached__c</name>
+    </fields><fields>
+        <label>组织个性化案例ID</label>
+        <name>Org_Cust_Case_ID__c</name>
+    </fields><fields>
+        <name>Origin</name>
+        <picklistValues>
+            <masterLabel>Chat</masterLabel>
+            <translation>沟通</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>社区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>电子邮件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation>Facebook的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation>谷歌</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram</masterLabel>
+            <translation>Instagram的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Device</masterLabel>
+            <translation>移动设备</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation>电话</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q&amp;A</masterLabel>
+            <translation>Q＆A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text Session</masterLabel>
+            <translation><!-- Text Session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation>推特</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>网站</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Pick Up --></label>
+        <name>Pick_Up__c</name>
+    </fields><fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>临界</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Procedure --></label>
+        <name>Procedure__c</name>
+        <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields><fields>
+        <label>产品系列</label>
+        <name>Product_Family_KB__c</name>
+        <picklistValues>
+            <masterLabel>Conferencing</masterLabel>
+            <translation>会议</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer</masterLabel>
+            <translation>消费者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>企业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Headphones</masterLabel>
+            <translation>头戴耳机</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Theatre</masterLabel>
+            <translation>家庭影院</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotspot Services</masterLabel>
+            <translation>热点服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projectors</masterLabel>
+            <translation>投影机</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Speakers</masterLabel>
+            <translation>音箱</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>产品名</label>
+        <name>Product_Name__c</name>
+    </fields><fields>
+        <label>质量得分</label>
+        <name>Quality_Score__c</name>
+    </fields><fields>
+        <help>此记录相关的关键字</help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Reason</name>
+        <picklistValues>
+            <masterLabel>Documentation Issue</masterLabel>
+            <translation>文档问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing problem</masterLabel>
+            <translation>存在问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature Request</masterLabel>
+            <translation>功能要求</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Issue</masterLabel>
+            <translation>硬件问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mail delivery issue</masterLabel>
+            <translation>邮件投递问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New problem</masterLabel>
+            <translation>新问题</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Problem Resolved</masterLabel>
+            <translation>问题解决</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Issue</masterLabel>
+            <translation>软件问题</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>响应时间（分钟）</label>
+        <name>Response_Time_mins__c</name>
+    </fields><fields>
+        <label><!-- chatKey --></label>
+        <name>SCQuickSetup__chatKey__c</name>
+    </fields><fields>
+        <label>SLA标准</label>
+        <name>SLA_Compliant__c</name>
+    </fields><fields>
+        <label>SLA类型</label>
+        <name>SLA_Type__c</name>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation>保费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>标准</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>发送电​​子邮件触发</label>
+        <name>Send_Email_Trigger__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Attention</masterLabel>
+            <translation>注意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>关闭</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed in Community</masterLabel>
+            <translation>封闭社区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>升级</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>新</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>等候接听</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Received</masterLabel>
+            <translation>收到响应</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Customer</masterLabel>
+            <translation>等待客户</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation>警告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation>加工</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>指示符</label>
+        <name>Status_Indicator__c</name>
+    </fields><fields>
+        <label>子型</label>
+        <name>Sub_Type__c</name>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation>开票</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint</masterLabel>
+            <translation>诉状</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Order or Invoice</masterLabel>
+            <translation>订单或发票</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Profile</masterLabel>
+            <translation>简介</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup and Usage</masterLabel>
+            <translation>安装和使用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suggestion</masterLabel>
+            <translation>建议</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Troubleshooting</masterLabel>
+            <translation>故障排除</translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Account Support</masterLabel>
+            <translation>客户支持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preference Card Change</masterLabel>
+            <translation>一般</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procedure Issue</masterLabel>
+            <translation>产品支持</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>支持的类型</label>
+        <name>Type_of_Support__c</name>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation>保费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation>标准</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>客户表情</label>
+        <name>UMCustomer_emoticon__c</name>
+    </fields><fields>
+        <label>客户表情值</label>
+        <name>UMCustomer_emoticon_value__c</name>
+        <picklistValues>
+            <masterLabel>awesome</masterLabel>
+            <translation>真棒</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>happy</masterLabel>
+            <translation>快乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>neutral</masterLabel>
+            <translation>中性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sad</masterLabel>
+            <translation>伤心</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>当该案已创建时的客户是</help>
+        <label>客户位置</label>
+        <name>UMgeolocalization__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label>紧迫</label>
+        <name>Urgency__c</name>
+    </fields><fields>
+        <label><!-- Fast Forms Auto-Assign --></label>
+        <name>VisualAntidote__Fast_Forms_Auto_Assign__c</name>
+    </fields><fields>
+        <label><!-- Fast Forms Autoresponse --></label>
+        <name>VisualAntidote__Fast_Forms_Autoresponse__c</name>
+    </fields><fields>
+        <label>卷</label>
+        <name>Volume__c</name>
+    </fields><fields>
+        <help>当该案已创建时的客户是</help>
+        <label>客户位置</label>
+        <name>pkbgeolocalization__c</name>
+    </fields><layouts>
+        <layout>Account Case Page Layout</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Chat Case Page Layout</layout>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Communities Page Layout</layout>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Community Templates Page Layout</layout>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Case</layout>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Social Case Page Layout</layout>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Technical Case Page Layout</layout>
+        <sections>
+            <label><!-- Entitlement Information --></label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Technical Case Page Layout - Lightning Console</layout>
+        <sections>
+            <label><!-- Timeline --></label>
+            <section>Timeline</section>
+        </sections>
+    </layouts><quickActions>
+        <label>附加文章</label>
+        <name>Attach_Article</name>
+    </quickActions><quickActions>
+        <label>关闭案例</label>
+        <name>Close_Case</name>
+    </quickActions><quickActions>
+        <label><!-- Create Article from Case --></label>
+        <name>Create_Article_from_Case</name>
+    </quickActions><quickActions>
+        <label><!-- Create Work Order --></label>
+        <name>Create_Work_Order</name>
+    </quickActions><quickActions>
+        <label>详细信息</label>
+        <name>Details</name>
+    </quickActions><quickActions>
+        <label>气质</label>
+        <name>Disposition</name>
+    </quickActions><quickActions>
+        <label><!-- Escalate --></label>
+        <name>Escalate</name>
+    </quickActions><quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions><quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions><quickActions>
+        <label><!-- SocialPublisher --></label>
+        <name>SocialPublisher</name>
+    </quickActions><quickActions>
+        <label>社会发布</label>
+        <name>Social_Post</name>
+    </quickActions><quickActions>
+        <label>更新状态</label>
+        <name>Update_Status</name>
+    </quickActions><recordTypes>
+        <label>沟通天案例</label>
+        <name>Chat_Case</name>
+    </recordTypes><recordTypes>
+        <label><!-- Chat Live Agent --></label>
+        <name>Chat_Live_Agent</name>
+    </recordTypes><recordTypes>
+        <label><!-- SOS Recodr --></label>
+        <name>SOS_Recodr</name>
+    </recordTypes><recordTypes>
+        <label>账户服务</label>
+        <name>SimpleIssue</name>
+    </recordTypes><recordTypes>
+        <label>社会客服</label>
+        <name>Social_Customer_Service</name>
+    </recordTypes><recordTypes>
+        <label>技术服务</label>
+        <name>TechnicalIssueAdvanced</name>
+    </recordTypes><webLinks>
+        <label>客户满意度调查</label>
+        <name>Customer_Satisfaction_Survey</name>
+    </webLinks><webLinks>
+        <label>邮件</label>
+        <name>Email_Article</name>
+    </webLinks><webLinks>
+        <label>邮件解决方案</label>
+        <name>Email_Solution</name>
+    </webLinks><webLinks>
+        <label>查找解决方案</label>
+        <name>Find_Solution</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label>登录自助服务</label>
+        <name>Login_to_Self_Service</name>
+    </webLinks><webLinks>
+        <label><!-- UpsellCrosssellOpportunity --></label>
+        <name>SCQuickSetup__UpsellCrosssellOpportunity</name>
+    </webLinks><webLinks>
+        <label>升级销售/交叉销售机会</label>
+        <name>UpSellCrossSellOpp</name>
+    </webLinks><workflowTasks>
+        <name>EngineeringReview</name>
+        <subject>工程回顾</subject>
+    </workflowTasks><workflowTasks>
+        <name>FeatureRequestSubmitted</name>
+        <subject>功能要求提交</subject>
+    </workflowTasks><workflowTasks>
+        <description>该服务案例中的首次响应的里程碑是成功的</description>
+        <name>Milestone_1st_Response_Successful</name>
+        <subject>里程碑 - 首次响应 - 成功</subject>
+    </workflowTasks><workflowTasks>
+        <description>里程碑 - 第一反应 - 侵犯</description>
+        <name>Milestone_1st_Response_VIOLATION</name>
+        <subject>里程碑 - 首次响应 - 侵犯</subject>
+    </workflowTasks><workflowTasks>
+        <name>Sendnewstatement</name>
+        <subject>发送新的声明</subject>
+    </workflowTasks><workflowTasks>
+        <name>Yourcustomerhadabillingquestion</name>
+        <subject>您的客户有一个关于账单的问题</subject>
+    </workflowTasks><workflowTasks>
+        <name>YourcustomerhasopenedaCase</name>
+        <subject>你的客户已创建了一个服务案例</subject>
+    </workflowTasks></CustomObjectTranslation>

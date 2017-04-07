@@ -1,0 +1,61 @@
+<aura:component controller="ContentLibraryController">
+    <!--aura:handler name="init" value="{!this}" action="{!c.doInit}"/-->
+    <aura:attribute name="contentWorkspaceDoc" type="ContentWorkspaceDoc"/>
+
+    <div class="slds-card">
+        <div class="slds-card__body">
+    		<table style="border-color:black" class="slds-table slds-table--bordered slds-max-medium-table--stacked-horizontal slds-no-row-hover">
+      			<thead>
+        			<tr>
+          				<th class="slds-text-heading--label slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" scope="col">Name</th>
+          				<th class="slds-text-heading--label slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" scope="col">File</th>
+          				<th class="slds-text-heading--label slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" scope="col">Author</th>
+           				<th class="slds-text-heading--label slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" scope="col">Preview</th>
+          	        </tr>
+      			</thead>
+      			<tbody>
+        			<tr class="slds-hint-parent">
+          				<td class="slds-cell-wrap slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" data-label="Name"><ui:outputText value="{!v.contentWorkspaceDoc.ContentDocument.Title}"/></td>
+                        <td class="slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" data-label="File"><img style="width:70%" class="thumbnailImg small" src="{!$SfdcSite.pathPrefix+'/sfc/servlet.shepherd/version/renditionDownload?rendition=SVGZ&amp;operationContext=CHATTER&amp;page=0&amp;versionId='+v.contentWorkspaceDoc.ContentDocument.LatestPublishedVersionId}"/></td>
+                        <td class="slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" data-label="Author">
+                            <ui:outputText value="{!v.contentWorkspaceDoc.ContentDocument.Owner.FirstName}"/><ui:outputText value="{!v.contentWorkspaceDoc.ContentDocument.Owner.LastName}"/>
+                        </td>
+                        <td class="slds-size--1-of-1 slds-medium-size--1-of-4 slds-large-size--1-of-4" data-label="Preview">
+                            <aura:if isTrue="{!(v.contentWorkspaceDoc.ContentDocument.FileExtension=='doc') || (v.contentWorkspaceDoc.ContentDocument.FileExtension=='docx')}">
+                                <img class="slds-icon--small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/word_60.png'}"/>&nbsp;&nbsp;
+       						<aura:set attribute="else">
+                                <aura:if isTrue="{!(v.contentWorkspaceDoc.ContentDocument.FileExtension=='xls') || v.contentWorkspaceDoc.ContentDocument.FileExtension=='xlsx'}">
+                                    <img class="slds-icon--small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/excel_60.png'}"/>&nbsp;&nbsp;
+          						<aura:set attribute="else">
+                                    <!--added pdf icon March 31, 2016-->
+                                    <aura:if isTrue="{!(v.contentWorkspaceDoc.ContentDocument.FileExtension=='pdf')}">
+                                        <img class="slds-icon--small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/pdf_60.png'}"/>&nbsp;&nbsp;
+                                    <!--aura:if isTrue="{!(v.contentWorkspaceDoc.ContentDocument.FileExtension=='') || (v.contentWorkspaceDoc.ContentDocument.FileExtension==null)}">
+                                        <img class="slds-icon-dash-small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/unknown_60.png'}"/>&nbsp;&nbsp;-->
+                                    <aura:set attribute="else">
+                                        <!-- unable to prepend baseURL to svgPath via concatenation .. go figure. Ended up using png Icons -->
+                                     	<!--c:svgIcon size="small" svgPath="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype-sprite/svg/symbols.svg#'+v.contentWorkspaceDoc.ContentDocument.FileExtension}"/-->
+                                        <aura:if isTrue="{!(v.contentWorkspaceDoc.ContentDocument.FileExtension=='ppt') || (v.contentWorkspaceDoc.ContentDocument.FileExtension=='pptx')}">
+                                        	<img class="slds-icon--small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/ppt_60.png'}"/>&nbsp;&nbsp;
+										<aura:set attribute="else">
+                                            <img class="slds-icon--small" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/doctype/unknown_60.png'}"/>&nbsp;&nbsp;	
+                                        </aura:set>
+                                        </aura:if>
+    								</aura:set>
+                            		</aura:if>
+    							</aura:set>
+                            	</aura:if>
+    				        </aura:set>
+                            </aura:if> 
+                            <img class="slds-icon--small" style="cursor:hand;cursor:pointer" data-value="{!v.contentWorkspaceDoc.ContentDocumentId}" onclick="{!c.libraryContent}" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/utility/preview_60.png'}"/>&nbsp;&nbsp;
+                            <img class="slds-icon--small" style="cursor:hand;cursor:pointer" data-value="{!v.contentWorkspaceDoc.ContentDocumentId}" onclick="{!c.libraryContent}" src="{!$SfdcSite.pathPrefix+'/resource/LDS0120/assets/icons/utility/download_60.png'}"/>
+                            <!--div class="fa fa-search fa-2x" style="cursor:hand;cursor:pointer;color:#000000" value="{!v.contentWorkspaceDoc.ContentDocumentId}" onclick="{!c.libraryContent}"/>&nbsp;&nbsp;
+                            <div class="fa fa-download fa-2x" style="cursor:hand;cursor:pointer;color:#000000" value="{!v.contentWorkspaceDoc.ContentDocumentId}" onclick="{!c.libraryContent}"/-->
+                        </td>
+                    </tr>
+      			</tbody>
+    		</table>
+  		</div>
+    </div>
+
+</aura:component>

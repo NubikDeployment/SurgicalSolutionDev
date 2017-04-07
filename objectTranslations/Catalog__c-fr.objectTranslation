@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Détails Additionnels</label>
+        <name>Item_Additional_Details__c</name>
+    </fields><fields>
+        <label>Code Article</label>
+        <name>Item_Code__c</name>
+    </fields><fields>
+        <label>Détail</label>
+        <name>Item_Detail__c</name>
+    </fields><fields>
+        <label>Fonctionnalités</label>
+        <name>Item_Features__c</name>
+    </fields><fields>
+        <label>Grande Image</label>
+        <name>Item_Image_Large__c</name>
+    </fields><fields>
+        <label>Image</label>
+        <name>Item_Image__c</name>
+    </fields><fields>
+        <label>Description Longue</label>
+        <name>Item_Long_Description__c</name>
+    </fields><fields>
+        <label>MSRP</label>
+        <name>Item_MSRP__c</name>
+    </fields><fields>
+        <label>Numéro Modèle</label>
+        <name>Item_Model_Number__c</name>
+    </fields><fields>
+        <label>Nom</label>
+        <name>Item_Name__c</name>
+    </fields><fields>
+        <label>Description Courte</label>
+        <name>Item_Short_Description__c</name>
+    </fields><fields>
+        <label>Spécifications</label>
+        <name>Item_Specifications__c</name>
+    </fields><fields>
+        <label>Statut</label>
+        <name>Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Approuvé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>Revue en cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation>Publié sur le site Web</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Catalogue</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Catalogue</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nom du Catalogue</nameFieldLabel><startsWith>Consonant</startsWith></CustomObjectTranslation>

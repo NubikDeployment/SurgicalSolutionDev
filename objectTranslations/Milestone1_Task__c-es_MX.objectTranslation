@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>El usuario responsable de completar la tarea. Por defecto el usuario actual si se deja en blanco.</help>
+        <label>Asignado a</label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel>Tareas</relationshipLabel>
+    </fields><fields>
+        <help>Si está bloqueada, porque?</help>
+        <label>Razón</label>
+        <name>Blocked_Reason__c</name>
+    </fields><fields>
+        <help>Esta está tarea bloqueada por alguna razón?</help>
+        <label>Bloqueado</label>
+        <name>Blocked__c</name>
+    </fields><fields>
+        <help>Clasificar esta tarea de acuerdo con su uso.</help>
+        <label>Clase</label>
+        <name>Class__c</name>
+        <picklistValues>
+            <masterLabel>Ad Hoc</masterLabel>
+            <translation>Ad hoc</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation>Defecto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rework</masterLabel>
+            <translation>Rehacer</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>El estado de esta tarea. Una tarea está incompleta o completa.</help>
+        <label>Completado</label>
+        <name>Complete__c</name>
+    </fields><fields>
+        <label>Inicio días DB</label>
+        <name>DB_Days_Start__c</name>
+    </fields><fields>
+        <label>Días DB</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label>Formula días atrasados</label>
+        <name>Days_Late_Formula__c</name>
+    </fields><fields>
+        <help>Cuántos días está atrasada este tarea?</help>
+        <label>Días atrasados</label>
+        <name>Days_Late__c</name>
+    </fields><fields>
+        <label>Dependencia</label>
+        <name>Dependencies__c</name>
+        <relationshipLabel>Dependencias</relationshipLabel>
+    </fields><fields>
+        <help>La descripción general de la tarea. Por ejemplo, ¿cuál es el propósito de la tarea.</help>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>La fecha en que esta tarea se debe completar. Si la fecha de vencimiento del hito es dejado en blanco se coloca la fecha limite del hito</help>
+        <label>Fecha de vencimiento</label>
+        <name>Due_Date__c</name>
+    </fields><fields>
+        <label><!-- Email GUID --></label>
+        <name>Email_GUID__c</name>
+    </fields><fields>
+        <help>El importe estimado de los gastos en que se incurrirá durante la tarea</help>
+        <label>Gastos estimados</label>
+        <name>Estimated_Expense__c</name>
+    </fields><fields>
+        <help>El tiempo estimado para completar la tarea</help>
+        <label>Horas estimadas</label>
+        <name>Estimated_Hours__c</name>
+    </fields><fields>
+        <help>Calculado como gasto estimado - Total del gasto</help>
+        <label>Balance de gastos</label>
+        <name>Expense_Balance__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <help>Calculado como horas estimadas - Total de horas</help>
+        <label>Balance de horas</label>
+        <name>Hours_Balance__c</name>
+    </fields><fields>
+        <label><!-- Import ID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <label>Indice de ayuda</label>
+        <name>Index_Helper__c</name>
+    </fields><fields>
+        <label>Indice</label>
+        <name>Index__c</name>
+    </fields><fields>
+        <help>La fecha en que el último correo electrónico se adjuntó a esta tarea. Una tarea puede ser creada a través de un correo electrónico y mensajes de correo electrónico adicionales pueden ser anexados a la tarea en la sección de notas.</help>
+        <label>Ultimo correo electrónico recibido</label>
+        <name>Last_Email_Received__c</name>
+    </fields><fields>
+        <label>Abuelo hito</label>
+        <name>Milestone_Grandparent__c</name>
+    </fields><fields>
+        <help>El campo Calculado que indica si la tarea está completa, abierta, atrasada, bloqueada o atrasada y bloqueada.</help>
+        <label>Estado general</label>
+        <name>Overall_Status__c</name>
+    </fields><fields>
+        <label><!-- OwnerId --></label>
+        <name>OwnerId__c</name>
+    </fields><fields>
+        <label>Porcentaje completado</label>
+        <name>Percent__c</name>
+    </fields><fields>
+        <help>Esta es la prioridad de la tarea, 0,1,2,3 o 4</help>
+        <label>Prioridad</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- ProjectId --></label>
+        <name>ProjectId__c</name>
+    </fields><fields>
+        <label><!-- ProjectStatus --></label>
+        <name>ProjectStatus__c</name>
+    </fields><fields>
+        <help>El hito al cual esta tarea esta asignada</help>
+        <label>Hito</label>
+        <name>Project_Milestone__c</name>
+        <relationshipLabel>Tareas</relationshipLabel>
+    </fields><fields>
+        <help>Un enlace con el proyecto, al cual esta tarea esta incluida por medio de su hito.</help>
+        <label>Proyecto</label>
+        <name>Project__c</name>
+    </fields><fields>
+        <help>Número único para cada tarea y a través de todos los proyectos.</help>
+        <label>ID corto</label>
+        <name>Short_ID__c</name>
+    </fields><fields>
+        <help>¿Cuándo debe comenzar esta tarea?</help>
+        <label>Fecha de inicio</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <help>Número único para cada tarea y a través de todos los proyectos.</help>
+        <label>ID corto de la tarea</label>
+        <name>Task_Number__c</name>
+    </fields><fields>
+        <help>¿En dónde está esta tarea en el camino hacia la finalización?</help>
+        <label>Etapa</label>
+        <name>Task_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Close</masterLabel>
+            <translation>Cerrar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Ninguno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>Resuelto</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Calculada a partir de todos los registros de gastos hijos</help>
+        <label>Total del gasto</label>
+        <name>Total_Expense__c</name>
+    </fields><fields>
+        <help>Calculada a partir de todos los registros de tiempo hijos</help>
+        <label>Total de horas</label>
+        <name>Total_Hours__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Tarea proyecto</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Tareas proyecto</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre tarea del proyecto</nameFieldLabel><layouts>
+        <layout>Project Task Layout</layout>
+        <sections>
+            <label>Estimados</label>
+            <section>Estimates</section>
+        </sections>
+        <sections>
+            <label>Métricas: Horas y gastos</label>
+            <section>Metrics: Hours &amp; Expenses</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>No puede marcar una tarea completada como bloqueada</errorMessage>
+        <name>CannotBeBlockedIfComplete</name>
+    </validationRules><validationRules>
+        <errorMessage>No puede completar una tarea que esta marcada como bloqueada</errorMessage>
+        <name>CannotBeCompleteIfBlocked</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de vencimiento debe ser menor que la fecha limite del hito</errorMessage>
+        <name>Due_Date_Greater_Than_Milestone_Deadline</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de vencimiento debe ser mayor que la fecha inicial del hito</errorMessage>
+        <name>Due_Date_Smaller_Than_Milestone_Kickoff</name>
+    </validationRules><validationRules>
+        <errorMessage>Debe dejar en blanco si "Bloqueado" no esta marcado</errorMessage>
+        <name>Must_be_blank_if_not_blocked</name>
+    </validationRules><validationRules>
+        <errorMessage>Si esta tarea esta bloqueada debe entra una razón</errorMessage>
+        <name>Must_not_be_blank_if_blocked</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de vencimiento debe ser mayor que la fecha de inicio</errorMessage>
+        <name>Start_Date_More_Than_Due_Date</name>
+    </validationRules><webLinks>
+        <label>Mover a nuevo hito</label>
+        <name>Change_Milestone</name>
+    </webLinks><webLinks>
+        <label>Mover a nuevo hito</label>
+        <name>Move_to_New_Milestone</name>
+    </webLinks></CustomObjectTranslation>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>先进的信息</label>
+        <name>Advanced_Information__c</name>
+    </fields><fields>
+        <label>说明</label>
+        <name>Instructions__c</name>
+    </fields><fields>
+        <label>SDO工具</label>
+        <name>SDO_Tool__c</name>
+        <relationshipLabel>SDO向导步骤工具</relationshipLabel>
+    </fields><fields>
+        <label>工具订购</label>
+        <name>Tool_Order__c</name>
+    </fields><fields>
+        <label>向导步骤</label>
+        <name>Wizard_Step__c</name>
+        <relationshipLabel>SDO向导步骤工具</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- SDO Wizard Step Tool --></value>
+    </caseValues><nameFieldLabel><!-- Wizard Step Tool Name --></nameFieldLabel></CustomObjectTranslation>

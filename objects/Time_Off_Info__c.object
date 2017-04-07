@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Disable_time_off_requests__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>This checkbox is used to allow the TOM administrator to disable a user from making time-off requests.</description>
+        <externalId>false</externalId>
+        <label>Disable time-off requests</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Employee_Number__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Employee Number</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><fields>
+        <fullName>Note2__c</fullName>
+        <externalId>false</externalId>
+        <formula>"Total Floating Holidays Available  =  Total Floating Holidays Accrued - Pending Floating Holiday Requests" &amp; BR() &amp; BR() &amp; "Please note that the Floating Holiday balances shown may not be 100% accurate.  The actual balances are stored in the payroll system."</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>&amp;nbsp;Note</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Note__c</fullName>
+        <externalId>false</externalId>
+        <formula>"The balances shown do not include future Time-Off accruals.  The actual balances are stored in the payroll system."  &amp;  BR() &amp; BR() &amp;   "PTO Available  =  PTO Accrued - PTO Pending" &amp;  BR() &amp;    "If you believe your PTO Accrued shown is incorrect, please file an IT Ticket to request a correction."</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Note</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>PTO_Balance_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND( PTO_Balance_Hours__c / 8, 2)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PTO Balance (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>PTO_Balance_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>Total_PTO_Hours_Accrued_2__c  -  Pending_PTO_Balance_Hours__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total PTO Available (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Payroll_System__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Payroll System</label>
+        <referenceTo>Payroll_System__c</referenceTo>
+        <relationshipName>Time_Off_Info</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Pending_PTO_Balance_Hours__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Pending PTO Requests (Hours)</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Total_PTO_Accrued__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(  Total_PTO_Hours_Accrued_2__c  ) &amp; " hours  ("  &amp; TEXT( ROUND(Total_PTO_Hours_Accrued_2__c / 8, 2) ) &amp; " days)"</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PTO Accrued</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Total_PTO_Available__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(PTO_Balance_Hours__c) &amp; " hours (" &amp; TEXT(ROUND( PTO_Balance_Hours__c / 8, 2)) &amp; " days)"</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PTO Available</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Total_PTO_Hours_Accrued_2__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Total PTO Hours Accrued</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Total_Pending_PTO_Requests__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Pending_PTO_Balance_Hours__c ) &amp; " hours  (" &amp; TEXT( ROUND(Pending_PTO_Balance_Hours__c / 8, 2)) &amp; " days)"</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PTO Pending</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Total_Time_Off_Available_Hours__c</fullName>
+        <externalId>false</externalId>
+        <formula>PTO_Balance_Hours__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Time-Off Available (Hours)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Time_Off_Balances</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><customHelp>TOM_User_Guide</customHelp><deploymentStatus>Deployed</deploymentStatus><description>TOM: Time-Off balance information, including PTO &amp; Floating Holiday Balances. This object is loaded every pay cycle via an interface with the payroll system.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>Private</externalSharingModel><label>Time-Off Balances</label><nameField>
+        <label>Employee Number</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Time-Off Balances</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>User__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PTO_Balance_Days__c</customTabListAdditionalFields>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+    </searchLayouts><sharingModel>Private</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>User__c</columns>
+        <columns>PTO_Balance_Days__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><listViews>
+        <fullName>Time_Off_Manager_Payroll</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Time_Off_Manager_Payroll</label>
+        <queue>Time_Off_Manager_Payroll</queue>
+    </listViews><validationRules>
+        <fullName>pending_balance_cannot_be_null</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL( Pending_PTO_Balance_Hours__c )</errorConditionFormula>
+        <errorDisplayField>Pending_PTO_Balance_Hours__c</errorDisplayField>
+        <errorMessage>Pending PTO Balance cannot be blank</errorMessage>
+    </validationRules><webLinks>
+        <fullName>View_Accrual_Schedule</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>400</height>
+        <isResizable>true</isResizable>
+        <linkType>sControl</linkType>
+        <masterLabel>View Time-Off Accrual Schedule</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <scontrol>Text_Accrual_Schedule</scontrol>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <width>800</width>
+    </webLinks></CustomObject>

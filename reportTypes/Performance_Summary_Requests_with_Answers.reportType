@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkPerformanceCycle</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Contains Performance Summary Cycle fields that can be used to analyze performance summary questions, question sets, feedback requests and answers.  At least one answer needs to be saved to view data in this report.</description>
+    <join>
+        <join>
+            <join>
+                <outerJoin>false</outerJoin>
+                <relationship>Feedbacks</relationship>
+            </join>
+            <outerJoin>false</outerJoin>
+            <relationship>FeedbackRequests</relationship>
+        </join>
+        <outerJoin>false</outerJoin>
+        <relationship>FeedbackQuestionSets</relationship>
+    </join>
+    <label>Performance Summary Requests with Answers</label>
+    <sections>
+        <masterLabel>Performance Cycles</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Performance Question Sets (performance, self, peer, and skip level details)</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Summary Requests</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Subject Information</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Writer Information</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Answers</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Questions</masterLabel>
+    </sections>
+</ReportType>

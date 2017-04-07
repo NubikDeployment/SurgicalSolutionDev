@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplicationComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buttonIconUrl>https://na17.salesforce.com/resource/icon_search</buttonIconUrl>
+    <buttonText>Quick Search</buttonText>
+    <height>405</height>
+    <isHeightFixed>true</isHeightFixed>
+    <isHidden>false</isHidden>
+    <isWidthFixed>true</isWidthFixed>
+    <visualforcePage>SCCQuickSeachPage</visualforcePage>
+    <width>470</width>
+</CustomApplicationComponent>

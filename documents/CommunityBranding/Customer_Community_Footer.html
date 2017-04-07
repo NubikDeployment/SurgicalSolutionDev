@@ -1,0 +1,315 @@
+<div id="banner-image">
+	<img src="/customers/resource/smbplatinum_bannerimage" alt="" />
+</div>
+
+<style>
+	/*
+        This just does it all ;)
+    */ 
+    #contentWrapper{
+        width: 1024px;
+        margin: 0px auto;
+    }
+    
+    /* 
+        This is the global header containing the dropdowns for communities and user profile
+    */
+    .globalHeaderBar{
+        width: 1024px;
+        margin: 0px auto;
+    }
+    #searchComp{
+    	position: relative;
+		top: -57px;
+		left: 810px;
+		display: none;
+    }
+    
+    .searchTxtbox{
+		width: 159px;
+		border: 1px solid #CCC;
+		height: 20px;
+		position: relative;
+		top: -2px;
+		border-radius: 10px 0px 0px 10px;
+		left: -11px;
+		padding-left: 5px;
+	}
+	
+	#searchBtn{
+		display: none;
+	}
+    
+    #pseudoSearchBtn{
+    	position: relative;
+		width: 41px;
+		height: 20px;		
+		top: -25px;
+		left: 150px;	
+    }
+    
+    .customHeader{
+        width: 1024px;
+        margin:0px auto;
+        height: 89px;
+    }
+    
+    .customHeader img{
+    	width: 1024px;
+    }
+    /* 
+        This is the header image and tabNav
+    */
+    header{
+        width: 1024px;
+        margin:0px auto;
+    }
+    
+    /* This for the Tabs */
+    body #AppBodyHeader {
+        width: 1024px;
+        margin: 0px auto;
+    }
+    
+    .zen .zen-bodyZen {
+        width: 1024px;
+        margin:0px auto;
+    }
+    
+    .zen #tabContainer{        
+        border-radius: 0px;      
+    }
+    
+    
+    html .brandQuaternaryBgr{
+       
+    }
+    
+    .zen .zen-tabMenu{
+        margin-left: 25px;
+    }
+    
+    .zen .zen-tabMenu .zen-active { /*Active tab only*/
+        box-shadow: none;
+        -webkit-box-shadow: none;
+        background: none !important;
+        padding: 5px;               
+    }
+    .zen .zen-tabMenu > li{
+        padding: 5px;
+    }
+    
+    .zen .zen-tabMenu .zen-active > a{
+        font-weight: bold;
+        color: #37A6E7 !important;
+    }
+    .zen .zen-tabMenu a {
+        color: #37A6E7;
+        font-weight: normal;
+        border-right: 1px solid #37A6E7;
+        padding-right: 10px;
+        font-size: 1.383em;
+    }
+    
+    .zen .zen-tabMenu a:hover{
+        text-decoration: none;
+        color: #37A6E7;
+        font-weight: bold;
+    }
+    
+    
+    /* This is for the body */
+    .zen .zen-bodyZen {
+        border: none;
+    }
+    
+    .bodyDiv{
+        width: 1024px;
+        margin:0px auto;
+        border-top: 0px;
+    }
+    
+    body.sfdcBody {
+        min-height: 800px;
+    }
+    
+    /* Style for the widgets */
+    
+    
+    #banner-image img{
+    	width: 1024px;
+    }
+    /* Idea Page */
+    body.ideaTab #ideaSubtabs #nav{
+        border-bottom: 0px; 
+    }
+    
+    #ideaSubtabs .bg {
+        background: none !important;
+    }
+    
+    #ideaSubtabs ul#nav li div {
+        border: none;
+    }
+    
+    body .miniTab .miniTabList li, body.ideaTab #ideaSubtabs #nav li{
+        background: none !important;
+    }
+    
+    #ideaSubtabs ul#nav .ideasNonCurrentTab div,#ideaSubtabs #nav li.ideasCurrentTab div {
+        background-image: none !important;
+        border-radius: 6px 6px 0px 0px;
+    }
+    
+    #ideaSubtabs ul#nav .ideasNonCurrentTab div a{
+        font-weight: bold;
+    }
+    
+    #ideaSubtabs #nav li.ideasCurrentTab div a{
+        color: #fff;
+    }
+    
+    .ideaContentWidth {
+        width: 850px;
+    }
+    
+    
+    /*
+        Site.com branding       
+     */
+     
+     .bodyDiv .outerNoSidebar {
+        padding: 0px;
+     }
+     
+     .customHeader{
+        -moz-box-shadow: 0 8px 10px hsla(0,0%,0%,.25);
+        -webkit-box-shadow: 0 8px 10px rgba(0, 0, 0, .25);
+        box-shadow: 0 8px 10px rgba(0, 0, 0, .25);
+    }
+	
+	#trending-topics-widget div{
+		width: 125px;
+		height: 52px;
+		position: relative;
+		top: -160px;
+		cursor: pointer;
+	}
+	
+	
+</style>
+<script>
+	function initialize(){
+		
+		var tabBar = document.getElementById("tabBar");
+		tabBar.children[tabBar.children.length - 2].children[0].style.borderRight = "none";
+		
+		//This happens on all pages as well
+		var tabBar = document.getElementById("tabBar");
+		var eleAfter = document.getElementById("tabBar").children[1];
+		//var liEle = document.createElement("li");
+		//var aEle = document.createElement("a");
+		//aEle.setAttribute("id","profilLink");
+		//load widgets for bronze only
+		if(document.getElementById("globalHeaderNameMink").children[1].innerHTML.indexOf("Tom Reseller") != -1){
+			if(window.location.href.indexOf("ChatterPage") == -1){
+				if(document.getElementById("sidebarCell") != undefined){
+					document.getElementById("sidebarCell").style.display = "none";
+				}
+			}
+			if(document.getElementsByClassName("chatterUserStatusName").length > 0){
+				link = document.getElementsByClassName("chatterUserStatusName")[0].children[0].getAttribute("href");
+				aEle.setAttribute("href",link);
+			}			
+			//aEle.setAttribute("href","/customers/_ui/core/userprofile/UserProfilePage?u=005x0000000KV2g");
+			
+		} else if(document.getElementById("globalHeaderNameMink").children[1].innerHTML.indexOf("Lauren Boyle") != -1){
+			if(document.getElementsByClassName("chatterUserStatusName").length > 0){
+				link = document.getElementsByClassName("chatterUserStatusName")[0].children[0].getAttribute("href");
+				aEle.setAttribute("href",link);
+			}			
+			//aEle.setAttribute("href","/customers/_ui/core/userprofile/UserProfilePage?u=005x0000000KV2W");
+				
+		}		
+		aEle.innerHTML = "Profile";
+		liEle.appendChild(aEle);
+		tabBar.insertBefore(liEle,eleAfter);
+		
+		//This needs to happen on all pages renaming the chatter tab to home
+		//document.getElementById("Chatter_Tab").children[0].innerHTML="Home";
+		
+		if(window.location.href.indexOf("userprofile") != -1){
+			aEle.style.fontWeight = "bold";
+			aEle.style.color = "#37A6E7";
+		} 
+		
+		//only loading the widgets on the Chatter page and not on any other page!
+		if(window.location.href.indexOf("ChatterPage") != -1){
+			//adding the banner image below the tabs
+			var parentmain = document.getElementById("bodyInner");
+			var banner = document.getElementById("banner-image");
+			var mainCon = document.getElementsByClassName("zen-main")[0];
+			parentmain.insertBefore(banner,mainCon);
+			
+			banner.style.display = "block";
+			document.getElementsByTagName("title")[0].innerHTML = 'Home ~ SMB Platinum';
+			document.getElementById("searchComp").style.display = 'block';			
+			
+			var rightCon = document.getElementById("rightContent");
+			//load widgets for lauren boyle only
+			var mUserName = document.getElementById("globalHeaderNameMink").children[1];
+			if(mUserName.innerHTML.indexOf("Mark Metz") != -1 || mUserName.innerHTML.indexOf("Lauren Boyle") != -1){
+				//getting the link to the user profile page
+				var profilelink = document.getElementsByClassName("chatterUserStatusName")[0].children[0].getAttribute("href");
+				
+			}			
+			
+		}
+		
+		//if it is ideas page remove the sidebar
+		if(window.location.href.indexOf("ideas") != -1){
+			document.getElementById("sidebarCell").style.display = "none";			
+		}
+		
+		
+		//check for iframes
+		var iframes = document.getElementsByTagName("iframe");
+		if(iframes.length > 0){
+			for(var il=0;il<iframes.length;il++){
+				iframes[il].setAttribute("scrolling","no");
+				iframes[il].style.position = "relative";
+				iframes[il].style.left = "-4px";
+				iframes[il].style.top = "-8px";
+				
+				var sidebarcell = document.getElementsByClassName("noSidebarCell");
+				if(sidebarcell.length > 0){
+					sidebarcell[0].style.padding = "0px";
+						if(window.location.href.indexOf("UnifiedSearchResults") != -1){
+							document.getElementById("bodyTable").style.padding = "10px !important";
+						} else{
+							document.getElementById("bodyTable").style.backgroundColor = "white";							
+						}
+				}
+			}			
+		}
+		
+		if(window.location.href.indexOf("common/search/client/ui") != -1){
+			//it is the chatter search page
+			document.getElementById("sidebarCell").style.display = "none";
+			
+			//this is the search url that we can tweak
+			//https://cirrus-1396b467503.prerelna1.pre.force.com/customers/_ui/common/search/client/ui/UnifiedSearchResults?str=%23tred
+		}
+	}
+	
+	setTimeout("initialize()",100);
+	var childElement;
+	function checkClicked(num){
+		childElement = document.getElementById("chk"+num); 
+		childElement.style.textDecoration = "line-through";		
+		setTimeout("childElement.parentElement.parentElement.style.opacity = '0'",5000);		
+		setTimeout("childElement.parentElement.parentElement.style.display = 'none'",7000);
+		//alert("clicked on " + num);
+		
+	}
+</script>

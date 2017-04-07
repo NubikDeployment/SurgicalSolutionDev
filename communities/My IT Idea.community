@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>The IT organization focuses providing technology solutions for the business. This includes allocating and maintaining personal computer systems, system integrations, corporate servers, and system accounts for the company.</description>
+    <showInPortal>false</showInPortal>
+</Community>

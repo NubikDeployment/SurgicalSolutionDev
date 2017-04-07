@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Accepted --></label>
+        <name>Accepted__c</name>
+    </fields><fields>
+        <label>在谷歌地图开放地址</label>
+        <name>Address_Mapped__c</name>
+    </fields><fields>
+        <label>审批状态</label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>草案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>拒绝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>提交</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>号码商务家庭成员</label>
+        <name>Business_Family_Members_Data__c</name>
+    </fields><fields>
+        <label>竞争</label>
+        <name>Competition__c</name>
+    </fields><fields>
+        <label>转换的月份</label>
+        <name>Converted_Month__c</name>
+    </fields><fields>
+        <label>创建的月份</label>
+        <name>Create_Month__c</name>
+    </fields><fields>
+        <label>创建日期，没有具体时间</label>
+        <name>Created_Date_without_Time__c</name>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- Data.com Lead --></label>
+        <name>Data_com_Lead__c</name>
+    </fields><fields>
+        <label>转换的日期</label>
+        <name>Date_Converted__c</name>
+    </fields><fields>
+        <label>最后活动日期</label>
+        <name>Date_of_Last_Activity__c</name>
+    </fields><fields>
+        <label><!-- Days Remaining --></label>
+        <name>Days_Remaining__c</name>
+    </fields><fields>
+        <label>最近的活动在...天前</label>
+        <name>Days_Since_Last_Activity__c</name>
+    </fields><fields>
+        <label>单子批准日期</label>
+        <name>Deal_Approved_Date__c</name>
+    </fields><fields>
+        <label>决策时间范围</label>
+        <name>Decision_Timeframe__c</name>
+        <picklistValues>
+            <masterLabel>1-3 Months</masterLabel>
+            <translation>1-3个月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-6 Months</masterLabel>
+            <translation>3-6个月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-12 Months</masterLabel>
+            <translation>6-12个月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immediately</masterLabel>
+            <translation>立即</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Year</masterLabel>
+            <translation>明年</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>D&amp;B有冲突风险</label>
+        <name>Delinquency_Risk_Data__c</name>
+    </fields><fields>
+        <label>Disqual /存档原因</label>
+        <name>Disqual_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation>竞争者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of Vision</masterLabel>
+            <translation>缺乏远见</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never Reached</masterLabel>
+            <translation>从来没有达到过</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget</masterLabel>
+            <translation>没有预算</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision</masterLabel>
+            <translation>没有决策</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Power</masterLabel>
+            <translation>没有力量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Information</masterLabel>
+            <translation>错误信息</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Facebook的人物ID</label>
+        <name>Facebook_Persona_ID__c</name>
+    </fields><fields>
+        <label>拥有预算</label>
+        <name>Has_Budget__c</name>
+    </fields><fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>农业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation>服饰</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>银行业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>生物技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>化学制品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>施工</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>咨询</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation>教育</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>电子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>能源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation>工程</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>环境的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation>金融服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>食品与饮料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare &amp; Life Sciences</masterLabel>
+            <translation>医疗保健与生命科学</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>招待费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>保险</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>机械</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>制造业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>不以盈利为目的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>零售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>送货</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>电信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>运输</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation>公用事业</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>决策者</label>
+        <name>Know_Decision_Maker__c</name>
+    </fields><fields>
+        <label>上次修改时间（天）</label>
+        <name>Last_Modified_days__c</name>
+    </fields><fields>
+        <label>纬度</label>
+        <name>Latitude__c</name>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>冷拨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>社区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation><!-- Data.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>呼入电话</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>营销事件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>伙伴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>推荐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>社交媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>网站</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>销售线索年龄</label>
+        <name>Lead_Age__c</name>
+    </fields><fields>
+        <label>销售线索年龄（天）</label>
+        <name>Lead_Age_days__c</name>
+    </fields><fields>
+        <label>销售线索号码</label>
+        <name>Lead_Number__c</name>
+    </fields><fields>
+        <label>销售线索质量</label>
+        <name>Lead_Quality__c</name>
+    </fields><fields>
+        <label>销售线索排名</label>
+        <name>Lead_Rank__c</name>
+    </fields><fields>
+        <label><!-- Lead Score Value --></label>
+        <name>Lead_Score_Value__c</name>
+    </fields><fields>
+        <label><!-- Lead Score --></label>
+        <name>Lead_Score__c</name>
+    </fields><fields>
+        <label>总得分</label>
+        <name>Lead_Total__c</name>
+    </fields><fields>
+        <label>经度</label>
+        <name>Longitude__c</name>
+    </fields><fields>
+        <label><!-- MSA --></label>
+        <name>MSA_Data__c</name>
+    </fields><fields>
+        <label>NAICS代码</label>
+        <name>NAICS_Code_Data__c</name>
+    </fields><fields>
+        <label>NAICS描述</label>
+        <name>NAICS_Description_Data__c</name>
+    </fields><fields>
+        <label>优先级</label>
+        <name>Priority__c</name>
+    </fields><fields>
+        <label>感兴趣的产品</label>
+        <name>Product_Interest__c</name>
+        <picklistValues>
+            <masterLabel>Compliance</masterLabel>
+            <translation>合规</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>咨询</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products</masterLabel>
+            <translation>产品展示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation>服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation>支持</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Project Amount --></label>
+        <name>Project_Amount__c</name>
+    </fields><fields>
+        <label>项目预算金额</label>
+        <name>Project_Budget_Amount__c</name>
+    </fields><fields>
+        <label>已立项</label>
+        <name>Project_Defined__c</name>
+    </fields><fields>
+        <help>此记录相关的关键字</help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation>凉</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation>热</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation>暖</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Priority --></label>
+        <name>RatingColor__c</name>
+    </fields><fields>
+        <label>地区</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation>中央</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation>东</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation>西</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>报名截止</label>
+        <name>Registration_Expiration__c</name>
+    </fields><fields>
+        <label>报告创建月</label>
+        <name>Report_Create_Month__c</name>
+    </fields><fields>
+        <label>报告的转换日期</label>
+        <name>Reported_Convert_Date__c</name>
+    </fields><fields>
+        <label>报告的转换</label>
+        <name>Reported_Converted__c</name>
+    </fields><fields>
+        <label>报告创建日期</label>
+        <name>Reported_Create_Month_del__c</name>
+    </fields><fields>
+        <label>轮循ID</label>
+        <name>RoundRobin__c</name>
+    </fields><fields>
+        <label>SIC代码</label>
+        <name>SIC_Code_Data__c</name>
+    </fields><fields>
+        <label>SIC说明</label>
+        <name>SIC_Description_Data__c</name>
+    </fields><fields>
+        <label>决策者分数</label>
+        <name>Score1__c</name>
+    </fields><fields>
+        <label>决策时限分数</label>
+        <name>Score2__c</name>
+    </fields><fields>
+        <label>已立项分数</label>
+        <name>Score3__c</name>
+    </fields><fields>
+        <label>预算分数</label>
+        <name>Score4__c</name>
+    </fields><fields>
+        <label>SlickSidebar标签名称</label>
+        <name>SlickSidebar_Tab_Name__c</name>
+    </fields><fields>
+        <label>资源</label>
+        <name>Source__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation>存档</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>草案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>打开</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>待定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified - Convert</masterLabel>
+            <translation>合格 - 转换</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>拒绝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>提交</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation>加工</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>股票代码</label>
+        <name>Ticker_Symbol__c</name>
+    </fields><fields>
+        <label>Twitter的任务ID</label>
+        <name>Twitter_Persona_ID__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label><!-- Fast Forms Auto-Assign --></label>
+        <name>VisualAntidote__Fast_Forms_Auto_Assign__c</name>
+    </fields><fields>
+        <label><!-- Fast Forms Autoresponse --></label>
+        <name>VisualAntidote__Fast_Forms_Autoresponse__c</name>
+    </fields><fields>
+        <label>从Data.com来源</label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields><fields>
+        <label>新增的Data.com</label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields><fields>
+        <help>从Data.com清理作业自动化领域的更新中排除这一纪录</help>
+        <label>Data.com不会自动更新</label>
+        <name>jsImpacts__Data_com_do_not_auto_update__c</name>
+    </fields><fields>
+        <label>Data.com管理</label>
+        <name>jsImpacts__Data_com_managed__c</name>
+    </fields><fields>
+        <label>增加从Data.com DEPRECATED</label>
+        <name>jsImpacts__Imported_from_Jigsaw__c</name>
+    </fields><fields>
+        <label><!-- Needs Score Synced --></label>
+        <name>pi__Needs_Score_Synced__c</name>
+    </fields><fields>
+        <label><!-- Pardot Last Scored At --></label>
+        <name>pi__Pardot_Last_Scored_At__c</name>
+    </fields><fields>
+        <label><!-- Pardot Campaign --></label>
+        <name>pi__campaign__c</name>
+    </fields><fields>
+        <label><!-- Pardot Comments --></label>
+        <name>pi__comments__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Date --></label>
+        <name>pi__conversion_date__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Object Name --></label>
+        <name>pi__conversion_object_name__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Object Type --></label>
+        <name>pi__conversion_object_type__c</name>
+    </fields><fields>
+        <label><!-- Pardot Created Date --></label>
+        <name>pi__created_date__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Activity --></label>
+        <name>pi__first_activity__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer Query --></label>
+        <name>pi__first_search_term__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer Type --></label>
+        <name>pi__first_search_type__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer --></label>
+        <name>pi__first_touch_url__c</name>
+    </fields><fields>
+        <label><!-- Pardot Grade --></label>
+        <name>pi__grade__c</name>
+    </fields><fields>
+        <label><!-- Pardot Last Activity --></label>
+        <name>pi__last_activity__c</name>
+    </fields><fields>
+        <label><!-- Pardot Notes --></label>
+        <name>pi__notes__c</name>
+    </fields><fields>
+        <label><!-- Pardot Hard Bounced --></label>
+        <name>pi__pardot_hard_bounced__c</name>
+    </fields><fields>
+        <label><!-- Pardot Score --></label>
+        <name>pi__score__c</name>
+    </fields><fields>
+        <label><!-- Pardot URL --></label>
+        <name>pi__url__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Campaign --></label>
+        <name>pi__utm_campaign__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Content --></label>
+        <name>pi__utm_content__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Medium --></label>
+        <name>pi__utm_medium__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Source --></label>
+        <name>pi__utm_source__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Term --></label>
+        <name>pi__utm_term__c</name>
+    </fields><layouts>
+        <layout>Data.com Lead</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com --></label>
+            <section>Data.com</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Premium --></label>
+            <section>Data.com Premium</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Registration --></label>
+            <section>Deal Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Lead</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Registration --></label>
+            <section>Deal Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Pardot Lead</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Registration --></label>
+            <section>Deal Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Information --></label>
+            <section>Pardot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Nurturing Campaigns --></label>
+            <section>Pardot Nurturing Campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Lead</layout>
+        <sections>
+            <label><!-- Deal Registration --></label>
+            <section>Deal Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Products &amp; Timeframe --></label>
+            <section>Products &amp; Timeframe</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Lead</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Registration --></label>
+            <section>Deal Registration</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation --></label>
+            <section>Segmentation</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Data.com --></label>
+        <name>Data_com</name>
+    </recordTypes><recordTypes>
+        <label>交易登记</label>
+        <name>DealRegistration</name>
+    </recordTypes><recordTypes>
+        <label>销售线索</label>
+        <name>Lead</name>
+    </recordTypes><recordTypes>
+        <label><!-- Pardot Lead --></label>
+        <name>Pardot_Lead</name>
+    </recordTypes><validationRules>
+        <errorMessage>这个纪录已从Data.com自动清理更新任务中排除。</errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules><webLinks>
+        <label>谷歌地图</label>
+        <name>GoogleMaps</name>
+    </webLinks><webLinks>
+        <label>谷歌新闻</label>
+        <name>GoogleNews</name>
+    </webLinks><webLinks>
+        <label>谷歌搜索</label>
+        <name>GoogleSearch</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_out_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_out_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label>发送Gmail邮件</label>
+        <name>SendGmail</name>
+    </webLinks><webLinks>
+        <label>财务状况</label>
+        <name>financialprofile</name>
+    </webLinks><webLinks>
+        <label>地图</label>
+        <name>map</name>
+    </webLinks><webLinks>
+        <label>新闻</label>
+        <name>news</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks><webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks><workflowTasks>
+        <description>新的销售线索已在Salesforce中被分配给您。请在24小时内跟进，否则将会自动通知您的上级领导。\ r \ñ\ r \ n感谢\ r \ n销售营运</description>
+        <name>NewLeadAssignedtoyouFollowupwithin24Hours</name>
+        <subject>新的销售线索分配给您。请在在24小时内跟进</subject>
+    </workflowTasks></CustomObjectTranslation>

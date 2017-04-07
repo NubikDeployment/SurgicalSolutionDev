@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PostTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <default>true</default>
+    <fields>Name</fields>
+    <fields>Amount</fields>
+    <fields>CloseDate</fields>
+    <fields>Competitor__c</fields>
+    <label>Opportunity Approval</label>
+</PostTemplate>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Urlaubsanträge deaktivieren</label>
+        <name>Disable_time_off_requests__c</name>
+    </fields><fields>
+        <label>Mitarbeiternummer</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label>&amp;nbsp;Notiz</label>
+        <name>Note2__c</name>
+    </fields><fields>
+        <label>Notiz</label>
+        <name>Note__c</name>
+    </fields><fields>
+        <label>Urlaubskontigent (Tage)</label>
+        <name>PTO_Balance_Days__c</name>
+    </fields><fields>
+        <label>Summe verfügbare Urlaubstage (Stunden)</label>
+        <name>PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>Abrechnungssystem</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel><!-- Time-Off Balances --></relationshipLabel>
+    </fields><fields>
+        <label>Gesendete Urlaubsanträge (Stunden)</label>
+        <name>Pending_PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>Zugeteilte Urlaubstage</label>
+        <name>Total_PTO_Accrued__c</name>
+    </fields><fields>
+        <label>Verfügbare Urlaubstage</label>
+        <name>Total_PTO_Available__c</name>
+    </fields><fields>
+        <label>Summe zugeteilter Urlaubstage</label>
+        <name>Total_PTO_Hours_Accrued_2__c</name>
+    </fields><fields>
+        <label>Verbrauchte Urlaubstage</label>
+        <name>Total_Pending_PTO_Requests__c</name>
+    </fields><fields>
+        <label>Summe Verfügbar</label>
+        <name>Total_Time_Off_Available_Hours__c</name>
+    </fields><fields>
+        <label>Benutzer</label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Time-Off Balances --></relationshipLabel>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Urlaubskontingent</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Urlaubskontingente</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Urlaubskontingent</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Urlaubskontingente</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Urlaubskontingents</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Urlaubskontingente</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Urlaubskontingent</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Urlaubskontingenten</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Mitarbeiternummer</nameFieldLabel><layouts>
+        <layout>Time-Off Balances (Admin)</layout>
+        <sections>
+            <label>Administratoren - für manuelle Korrekturen</label>
+            <section>Admin Only -- For Manual Adjustments</section>
+        </sections>
+        <sections>
+            <label>Notizen</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Urlaubstage Statusinformationen</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Time-Off Balances Layout</layout>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>My Time-Off Calendar</section>
+        </sections>
+        <sections>
+            <label>Notizen</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Urlaubstage Statusinformationen</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- Pending PTO Balance cannot be blank --></errorMessage>
+        <name>pending_balance_cannot_be_null</name>
+    </validationRules><webLinks>
+        <label><!-- View_Accrual_Schedule --></label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks></CustomObjectTranslation>

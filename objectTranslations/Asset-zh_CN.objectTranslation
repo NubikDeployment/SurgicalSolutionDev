@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>资产组合</label>
+        <name>Asset_Combo__c</name>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label>客户电子邮件</label>
+        <name>Email__c</name>
+    </fields><fields>
+        <label>指示符</label>
+        <name>Entitelemt_Indicator__c</name>
+    </fields><fields>
+        <label>授权状态</label>
+        <name>Entitlement_Status__c</name>
+        <picklistValues>
+            <masterLabel>30 Day Warning</masterLabel>
+            <translation>30日警告</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>活性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation>过期</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>图像</label>
+        <name>Image__c</name>
+    </fields><fields>
+        <name>ProductFamily</name>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation>产品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>服务</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Additional Discount for this Asset, if expressed as an amount --></help>
+        <label><!-- Additional Disc. (Amt) --></label>
+        <name>SBQQ__AdditionalDiscountAmount__c</name>
+    </fields><fields>
+        <help><!-- Indicates whether this line item represents a package; meaning, it includes other line items in this quote. --></help>
+        <label><!-- Package --></label>
+        <name>SBQQ__Bundle__c</name>
+    </fields><fields>
+        <help><!-- For items with calculated quantities this field holds the original quantity entered by the user. --></help>
+        <label><!-- Original Quantity --></label>
+        <name>SBQQ__BundledQuantity__c</name>
+    </fields><fields>
+        <help><!-- Indicates the product on this line item is bundled (included) by another product in this quote. Bundled lines items have a zero price and do not allow price or quantity to be edited. --></help>
+        <label><!-- Bundled --></label>
+        <name>SBQQ__Bundled__c</name>
+    </fields><fields>
+        <label><!-- Combine Key --></label>
+        <name>SBQQ__CombineKey__c</name>
+    </fields><fields>
+        <help><!-- Fixes additional discount for this component to the parent package discount. --></help>
+        <label><!-- Component Discounted By Package --></label>
+        <name>SBQQ__ComponentDiscountedByPackage__c</name>
+    </fields><fields>
+        <label><!-- Credit Product Id --></label>
+        <name>SBQQ__CreditProductId__c</name>
+    </fields><fields>
+        <help><!-- Subscription that currently covers this asset. Automatically populated if one and only one subscription covers this asset. Renewals will overwrite with new subscription. --></help>
+        <label><!-- Current Subscription --></label>
+        <name>SBQQ__CurrentSubscription__c</name>
+        <relationshipLabel><!-- Covered Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Name of the Price Dimension that originated this Asset --></help>
+        <label><!-- Price Dimension --></label>
+        <name>SBQQ__Dimension__c</name>
+    </fields><fields>
+        <help><!-- Discount schedule type. Copied from Type field in associated discount schedule. --></help>
+        <label><!-- Discount Schedule Type --></label>
+        <name>SBQQ__DiscountScheduleType__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation><!-- Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation><!-- Slab --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Specify discounts in terms of % or Amt to be discounted off the product&apos;s price using quantity purchased or term. Set quantity/term ranges in tiers of different discount %. Discount is applied to List Price &amp; resulting total is stored in the Regular Price --></help>
+        <label><!-- Discount Schedule --></label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Additional Discount for this Asset, if expressed as a percentage --></help>
+        <label><!-- Additional Disc. (%) --></label>
+        <name>SBQQ__Discount__c</name>
+    </fields><fields>
+        <help><!-- Discount to be taken on top of the Partner Discount. --></help>
+        <label><!-- Distributor Discount --></label>
+        <name>SBQQ__DistributorDiscount__c</name>
+    </fields><fields>
+        <help><!-- Identifies feature and dynamic option for this line. --></help>
+        <label><!-- Dynamic Option ID --></label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields><fields>
+        <help><!-- Determines whether Service Cloud was enabled when this Asset was created. --></help>
+        <label><!-- From Service Cloud --></label>
+        <name>SBQQ__FromServiceCloud__c</name>
+    </fields><fields>
+        <label><!-- Latest Quote Line --></label>
+        <name>SBQQ__LatestQuoteLine__c</name>
+        <relationshipLabel><!-- Assets (Latest Quote Line) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- List price for this Asset product. --></help>
+        <label><!-- List Price --></label>
+        <name>SBQQ__ListPrice__c</name>
+    </fields><fields>
+        <help><!-- Markup for this Asset, if expressed as an amount --></help>
+        <label><!-- Markup (Amt) --></label>
+        <name>SBQQ__MarkupAmount__c</name>
+    </fields><fields>
+        <help><!-- Markup for this Asset, if expressed as a percentage --></help>
+        <label><!-- Markup (%) --></label>
+        <name>SBQQ__MarkupRate__c</name>
+    </fields><fields>
+        <help><!-- Number indicating this line&apos;s position within its group or quote. --></help>
+        <label><!-- Number --></label>
+        <name>SBQQ__Number__c</name>
+    </fields><fields>
+        <help><!-- Discount extended on this product because it&apos;s part of a package. --></help>
+        <label><!-- Option Discount (Amt) --></label>
+        <name>SBQQ__OptionDiscountAmount__c</name>
+    </fields><fields>
+        <help><!-- If this line is for an optional SKU, this field captures any discount given to the package and extended to the option. --></help>
+        <label><!-- Option Discount (%) --></label>
+        <name>SBQQ__OptionDiscount__c</name>
+    </fields><fields>
+        <help><!-- Indicates nest level of this option (only applies to lines that are generated from options). --></help>
+        <label><!-- Option Level --></label>
+        <name>SBQQ__OptionLevel__c</name>
+    </fields><fields>
+        <help><!-- Indicates the Option Type, which is copied from related Product Option. Determines how quantity is calculated. --></help>
+        <label><!-- Option Type --></label>
+        <name>SBQQ__OptionType__c</name>
+        <picklistValues>
+            <masterLabel>Accessory</masterLabel>
+            <translation><!-- Accessory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Component</masterLabel>
+            <translation><!-- Component --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Related Product</masterLabel>
+            <translation><!-- Related Product --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Order Product --></label>
+        <name>SBQQ__OrderProduct__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Original unit cost of the Asset at the time of purchase before Cost Schedules were applied. --></help>
+        <label><!-- Original Unit Cost --></label>
+        <name>SBQQ__OriginalUnitCost__c</name>
+    </fields><fields>
+        <help><!-- Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price. --></help>
+        <label><!-- Partner Discount --></label>
+        <name>SBQQ__PartnerDiscount__c</name>
+    </fields><fields>
+        <help><!-- Indicates how the price for this line item is calculated. &quot;List&quot; = subtracting discount from list price. &quot;Cost&quot; = adding markup to cost. --></help>
+        <label><!-- Pricing Method --></label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation><!-- Block --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation><!-- Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation><!-- Percent Of Total --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Product option that generated this line (if any). --></help>
+        <label><!-- Product Option --></label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Regular Price for this Asset. --></help>
+        <label><!-- Regular Price --></label>
+        <name>SBQQ__RegularPrice__c</name>
+    </fields><fields>
+        <label><!-- Renewal Uplift (%) --></label>
+        <name>SBQQ__RenewalUpliftRate__c</name>
+    </fields><fields>
+        <help><!-- The parent Asset. If populated, this Asset is a child in a bundle. --></help>
+        <label><!-- Required By Asset --></label>
+        <name>SBQQ__RequiredByAsset__c</name>
+        <relationshipLabel><!-- Assets (Required By Asset) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The Id of the parent record that requires this record. --></help>
+        <label><!-- Required By Id --></label>
+        <name>SBQQ__RequiredById__c</name>
+    </fields><fields>
+        <help><!-- Parent Product of this Asset. --></help>
+        <label><!-- Parent Product --></label>
+        <name>SBQQ__RequiredByProduct__c</name>
+        <relationshipLabel><!-- Child Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The parent Subscription. If populated, this Asset is a child in a bundle. --></help>
+        <label><!-- Required By Subscription --></label>
+        <name>SBQQ__RequiredBySubscription__c</name>
+        <relationshipLabel><!-- Assets (Required By Subscription) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Revised Asset --></label>
+        <name>SBQQ__RevisedAsset__c</name>
+        <relationshipLabel><!-- Revised Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Ultimate bundle parent of this Asset --></help>
+        <label><!-- Root Asset (CPQ) --></label>
+        <name>SBQQ__RootAsset__c</name>
+        <relationshipLabel><!-- Assets (RootAsset) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- For multi-segmented Products, Index representing this Quote Line&apos;s position in the segment table. --></help>
+        <label><!-- Segment Index --></label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields><fields>
+        <label><!-- Segment Key --></label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields><fields>
+        <help><!-- For multi-segmented Products, this is the Column header label (e.g. &quot;Year 1&quot;) associated with this line. --></help>
+        <label><!-- Segment Label --></label>
+        <name>SBQQ__SegmentLabel__c</name>
+    </fields><fields>
+        <label><!-- Subscription End Date --></label>
+        <name>SBQQ__SubscriptionEndDate__c</name>
+    </fields><fields>
+        <label><!-- Subscription Quote Line --></label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel><!-- Assets (Quote Line) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Subscription Start Date --></label>
+        <name>SBQQ__SubscriptionStartDate__c</name>
+    </fields><fields>
+        <label><!-- Subscribed Product --></label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel><!-- Assets --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Schedule for discounts based on subscription term. Setting this to &quot;Group&quot; applies the discount rate for the group term, while setting it to &quot;Quote&quot; applies the discount rate for the entire quote term, regardless of the different terms in your groups. --></help>
+        <label><!-- Term Discount Schedule --></label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel><!-- Assets (Term Discouned) --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Unit Cost for this Asset. --></help>
+        <label><!-- Unit Cost --></label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields><fields>
+        <label><!-- Virtual Asset --></label>
+        <name>SBQQ__VirtualAsset__c</name>
+        <relationshipLabel><!-- Assets (Virtual Asset) --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Scheduled Servicing --></label>
+        <name>Scheduled_Servicing__c</name>
+    </fields><fields>
+        <label><!-- Service Frequency (Weeks) --></label>
+        <name>Service_Frequency_Weeks__c</name>
+        <picklistValues>
+            <masterLabel>12 Months</masterLabel>
+            <translation><!-- 12 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18 Months</masterLabel>
+            <translation><!-- 18 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 Years</masterLabel>
+            <translation><!-- 2 Years --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Months</masterLabel>
+            <translation><!-- 6 Months --></translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation>已安装</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obsolete</masterLabel>
+            <translation>过时</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purchased</masterLabel>
+            <translation>购买</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation>注册</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation>发货</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>推荐产品</label>
+        <name>Suggested_Products__c</name>
+        <picklistValues>
+            <masterLabel>Product 1</masterLabel>
+            <translation>产品1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 2</masterLabel>
+            <translation>产品2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product 3</masterLabel>
+            <translation>产品3</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Services</masterLabel>
+            <translation>技术服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Services</masterLabel>
+            <translation>培训服务</translation>
+        </picklistValues>
+    </fields><recordTypes>
+        <label><!-- Consumer Asset --></label>
+        <name>Consumer_Asset</name>
+    </recordTypes><recordTypes>
+        <label><!-- Enterprise Asset --></label>
+        <name>Enterprise_Asset</name>
+    </recordTypes><workflowTasks>
+        <description>请与客户跟进以确保我们得到的新续约业务。</description>
+        <name>RenewalNotice</name>
+        <subject>续约通知</subject>
+    </workflowTasks></CustomObjectTranslation>

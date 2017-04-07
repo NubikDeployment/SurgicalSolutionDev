@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- businessPartnerId --></label>
+        <name>businessPartnerId__c</name>
+        <relationshipLabel><!-- SalesOrder --></relationshipLabel>
+    </fields><fields>
+        <label><!-- currency --></label>
+        <name>currency__c</name>
+    </fields><fields>
+        <label><!-- customerName --></label>
+        <name>customerName__c</name>
+    </fields><fields>
+        <label><!-- netSum --></label>
+        <name>netSum__c</name>
+    </fields><fields>
+        <label><!-- note --></label>
+        <name>note__c</name>
+    </fields><fields>
+        <label><!-- salesOrderId --></label>
+        <name>salesOrderId__c</name>
+    </fields><fields>
+        <label><!-- status --></label>
+        <name>status__c</name>
+    </fields><fields>
+        <label><!-- tax --></label>
+        <name>tax__c</name>
+    </fields><fields>
+        <label><!-- totalSum --></label>
+        <name>totalSum__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>SalesOrder</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>SalesOrder</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

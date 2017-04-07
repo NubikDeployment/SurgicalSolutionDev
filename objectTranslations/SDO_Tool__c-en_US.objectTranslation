@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Only active tools will be displayed on the SDO Tools Homepage. --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label><!-- Advanced Information --></label>
+        <name>Advanced_Information__c</name>
+    </fields><fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Advanced Tools</masterLabel>
+            <translation><!-- Advanced Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday Tools</masterLabel>
+            <translation><!-- Everyday Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Tools</masterLabel>
+            <translation><!-- New Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old Tools</masterLabel>
+            <translation><!-- Old Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portals / Communities / Chatter Answers Branding</masterLabel>
+            <translation><!-- Portals / Communities / Chatter Answers Branding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sites</masterLabel>
+            <translation><!-- Sites --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help><!-- Check this box if you want this tool to show up in the Favorite Tools section of the homepage. --></help>
+        <label><!-- Favorite --></label>
+        <name>Favorite__c</name>
+    </fields><fields>
+        <label><!-- Height --></label>
+        <name>Height__c</name>
+    </fields><fields>
+        <label><!-- Instructions --></label>
+        <name>Instructions__c</name>
+    </fields><fields>
+        <label><!-- Open by default --></label>
+        <name>Open__c</name>
+    </fields><fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields><fields>
+        <label><!-- Pop new window --></label>
+        <name>Pop_new_window__c</name>
+    </fields><fields>
+        <label><!-- Product Cloud --></label>
+        <name>Product_Cloud__c</name>
+        <picklistValues>
+            <masterLabel>Analytics Cloud</masterLabel>
+            <translation><!-- Analytics Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Cloud</masterLabel>
+            <translation><!-- Community Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Cloud</masterLabel>
+            <translation><!-- Marketing Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation><!-- Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Cloud</masterLabel>
+            <translation><!-- Sales Cloud --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Cloud</masterLabel>
+            <translation><!-- Service Cloud --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- URL of the page to pop in. --></help>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields><fields>
+        <label><!-- Width --></label>
+        <name>Width__c</name>
+    </fields><fields>
+        <help><!-- The font-awesome icon name of the tool, used for rendering the tools icon.  Typically &apos;fa-&apos; something. 
+http://www.keenthemes.com/preview/metronic/theme/templates/admin2/ui_icons.html --></help>
+        <label><!-- fa icon name --></label>
+        <name>fa_icon_name__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>SDO Tool</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>SDO Tools</value>
+    </caseValues><startsWith>Consonant</startsWith><webLinks>
+        <label><!-- Test_Dimensions --></label>
+        <name>Test_Dimensions</name>
+    </webLinks></CustomObjectTranslation>

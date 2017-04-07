@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Work.com: This sample report displays goals created by date and answers questions such as:
+-how many goals were created and on what date?</description>
+    <format>Summary</format>
+    <name>Goals Created by Date</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Goals_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

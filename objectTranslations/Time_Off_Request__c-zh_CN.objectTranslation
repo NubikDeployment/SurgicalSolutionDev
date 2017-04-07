@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>检查这个，如果你校正时间之前提交的请求关闭，你将不会再采样。</help>
+        <label>反向以前处理的请求</label>
+        <name>Balance_Correction__c</name>
+    </fields><fields>
+        <label>评论</label>
+        <name>Comments_text__c</name>
+    </fields><fields>
+        <label>批准日期</label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label>提交日期</label>
+        <name>Date_Submitted__c</name>
+    </fields><fields>
+        <label>等待批准天数</label>
+        <name>Days_Awaiting_Approval__c</name>
+    </fields><fields>
+        <label>员工说明</label>
+        <name>Employee_Description__c</name>
+    </fields><fields>
+        <label>员工姓名</label>
+        <name>Employee_Name__c</name>
+    </fields><fields>
+        <label>员工编号</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <help>请求的时间过的最后一天。</help>
+        <label>结束日期</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <help>选中此复选框</help>
+        <label>我接受条款</label>
+        <name>I_accept_terms__c</name>
+    </fields><fields>
+        <label>负余额条款</label>
+        <name>Negative_Balance_Terms__c</name>
+    </fields><fields>
+        <label>天数（绝对）</label>
+        <name>Number_of_Days_Absolute__c</name>
+    </fields><fields>
+        <help>的开始日期这一要求与结束日期之间的工作日数。不包括周末和公司假期。这天，将被从你的放假时间余额中扣除的数目。</help>
+        <label>天数</label>
+        <name>Number_of_Days__c</name>
+    </fields><fields>
+        <label>工资系统</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>休假请求</relationshipLabel>
+    </fields><fields>
+        <label>待批准</label>
+        <name>Pending_Approval__c</name>
+    </fields><fields>
+        <help>策略异常标志指示的要求不符合一个或多个公司的政策。 （例如。</help>
+        <label>策略例外</label>
+        <name>Policy_Exception__c</name>
+    </fields><fields>
+        <label>请求</label>
+        <name>Requestor__c</name>
+        <relationshipLabel>休假请求</relationshipLabel>
+    </fields><fields>
+        <help>请求的时间过的第一天。</help>
+        <label>开始日期</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label>状态</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>取消</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation>未提交</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>待批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation>加工</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>拒绝</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Re-Approval</masterLabel>
+            <translation>需要重新审批</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>这一要求的状态。如果显示锁图标</help>
+        <label>＆NBSP;状态</label>
+        <name>Status_image__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Time-Off Request --></value>
+    </caseValues><nameFieldLabel><!-- Request ID --></nameFieldLabel><layouts>
+        <layout>US-Admin Layout</layout>
+        <sections>
+            <label>评论</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>隐藏字段</label>
+            <section>Hidden Fields</section>
+        </sections>
+        <sections>
+            <label>负余额条款</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>请求细节</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>索取信息</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>放假时间日历</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Clone</layout>
+        <sections>
+            <label>评论</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>负余额条款</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>请求细节</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>索取信息</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>放假时间日历</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Cancel</layout>
+        <sections>
+            <label>评论</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>负余额条款</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>请求细节</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>索取信息</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>放假时间日历</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Submit-Cancel</layout>
+        <sections>
+            <label>评论</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>负余额条款</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>请求细节</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>索取信息</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>放假时间日历</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Delete-Clone-Submit</layout>
+        <sections>
+            <label>评论</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>负余额条款</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>请求细节</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>索取信息</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>放假时间日历</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>TEST-批准</label>
+        <name>TESTApproved</name>
+    </recordTypes><recordTypes>
+        <label>TEST-取消</label>
+        <name>TESTCanceled</name>
+    </recordTypes><recordTypes>
+        <label>TEST-未提交</label>
+        <name>TESTNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label>TEST-待批准</label>
+        <name>TESTPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label>TEST-加工</label>
+        <name>TESTProcessed</name>
+    </recordTypes><recordTypes>
+        <label>TEST-拒绝</label>
+        <name>TESTRejected</name>
+    </recordTypes><recordTypes>
+        <label>TEST-需要重新审批</label>
+        <name>TESTRequiresReApproval</name>
+    </recordTypes><recordTypes>
+        <label>美批准</label>
+        <name>USApproved</name>
+    </recordTypes><recordTypes>
+        <label>美国取消</label>
+        <name>USCanceled</name>
+    </recordTypes><recordTypes>
+        <label>美国未提交</label>
+        <name>USNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label>美国待批准</label>
+        <name>USPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label>美国处理</label>
+        <name>USProcessed</name>
+    </recordTypes><recordTypes>
+        <label>美拒绝</label>
+        <name>USRejected</name>
+    </recordTypes><recordTypes>
+        <label>美国需要重新审批</label>
+        <name>USRequiresReApproval</name>
+    </recordTypes><validationRules>
+        <errorMessage>结束日期不能早于开始日期。</errorMessage>
+        <name>End_Date_Cannot_Come_Before_Start_Date</name>
+    </validationRules><validationRules>
+        <errorMessage>结束日期是必填字段。</errorMessage>
+        <name>End_Date_Required</name>
+    </validationRules><validationRules>
+        <errorMessage>“请阅读负平衡条款，并检查”，“我接受条件”，“复选框”</errorMessage>
+        <name>I_accept_terms_checkbox_is_required</name>
+    </validationRules><validationRules>
+        <errorMessage>开始日期是必需的</errorMessage>
+        <name>Start_Date_Required</name>
+    </validationRules><webLinks>
+        <label>取消请求</label>
+        <name>Cancel_Request</name>
+    </webLinks><webLinks>
+        <label>提交审批</label>
+        <name>Submit_for_Approval</name>
+    </webLinks><webLinks>
+        <label>查看累积计划</label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks><webLinks>
+        <label>查看员工的考勤，休假请求</label>
+        <name>View_Employee_Time_Off_Requests</name>
+    </webLinks></CustomObjectTranslation>

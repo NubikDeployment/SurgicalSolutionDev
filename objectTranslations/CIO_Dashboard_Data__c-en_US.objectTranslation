@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Adoption --></label>
+        <name>CIO_Adoption__c</name>
+    </fields><fields>
+        <label><!-- Completed? --></label>
+        <name>CIO_Completed__c</name>
+    </fields><fields>
+        <label><!-- Developer Skill Name --></label>
+        <name>CIO_Developer_Skill_Name__c</name>
+    </fields><fields>
+        <label><!-- IT Timesheet Name --></label>
+        <name>CIO_IT_Timesheet_Name__c</name>
+    </fields><fields>
+        <label><!-- Role --></label>
+        <name>CIO_Role__c</name>
+        <picklistValues>
+            <masterLabel>Field Service</masterLabel>
+            <translation><!-- Field Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Sprint --></label>
+        <name>CIO_Sprint__c</name>
+        <picklistValues>
+            <masterLabel>Sprint 1</masterLabel>
+            <translation><!-- Sprint 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 2</masterLabel>
+            <translation><!-- Sprint 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 3</masterLabel>
+            <translation><!-- Sprint 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 4</masterLabel>
+            <translation><!-- Sprint 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sprint 5</masterLabel>
+            <translation><!-- Sprint 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>CIO_Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Backlog</masterLabel>
+            <translation><!-- Backlog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Total Staff --></label>
+        <name>CIO_Total_Staff__c</name>
+    </fields><fields>
+        <label><!-- Trailhead Badge --></label>
+        <name>CIO_Trailhead_Badge__c</name>
+        <picklistValues>
+            <masterLabel>Apex Basics</masterLabel>
+            <translation><!-- Apex Basics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apex Triggers</masterLabel>
+            <translation><!-- Apex Triggers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>App Customization</masterLabel>
+            <translation><!-- App Customization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Lifecycle Management</masterLabel>
+            <translation><!-- Application Lifecycle Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Management</masterLabel>
+            <translation><!-- Change Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Management</masterLabel>
+            <translation><!-- Data Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Modelling</masterLabel>
+            <translation><!-- Data Modelling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Security</masterLabel>
+            <translation><!-- Data Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Monitoring</masterLabel>
+            <translation><!-- Event Monitoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTML5 &amp; Hybrid</masterLabel>
+            <translation><!-- HTML5 &amp; Hybrid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning App Builder</masterLabel>
+            <translation><!-- Lightning App Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Components</masterLabel>
+            <translation><!-- Lightning Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Connect</masterLabel>
+            <translation><!-- Lightning Connect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Design System</masterLabel>
+            <translation><!-- Lightning Design System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native Android</masterLabel>
+            <translation><!-- Native Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native iOS</masterLabel>
+            <translation><!-- Native iOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process Automation</masterLabel>
+            <translation><!-- Process Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UI Customization</masterLabel>
+            <translation><!-- UI Customization --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- User Story Name --></label>
+        <name>CIO_User_Story_Name__c</name>
+    </fields><fields>
+        <label><!-- Work Type --></label>
+        <name>CIO_work_type__c</name>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keeping the Lights On</masterLabel>
+            <translation><!-- Keeping the Lights On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projects</masterLabel>
+            <translation><!-- Projects --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>CIO Dashboard Data</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>CIO Dashboard Data</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

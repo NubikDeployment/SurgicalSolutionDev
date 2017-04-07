@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkPerformanceCycle</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Analyze the Questions associated to Performance Summary Cycles</description>
+    <join>
+        <join>
+            <outerJoin>false</outerJoin>
+            <relationship>FeedbackQuestions</relationship>
+        </join>
+        <outerJoin>false</outerJoin>
+        <relationship>FeedbackQuestionSets</relationship>
+    </join>
+    <label>Performance Cycles with Questions</label>
+    <sections>
+        <masterLabel>Performance Cycles</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Performance Question Sets (performance, self, peer, and skip level details)</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Feedback Questions</masterLabel>
+    </sections>
+</ReportType>

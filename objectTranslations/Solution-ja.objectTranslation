@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>記事タイトル</label>
+        <name>Article_Title__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Solution Name --></label>
+        <name>EDY_ORGCUSTOM__Old_SolutionName__c</name>
+    </fields><fields>
+        <label><!-- Old Solution Note --></label>
+        <name>EDY_ORGCUSTOM__Old_SolutionNote__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>適用地域</label>
+        <name>Global__c</name>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation>アメリカ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia-Pac</masterLabel>
+            <translation>アジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation>ヨーロッパ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation>全世界</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- This information is not visible to the customers in Portal\ --></help>
+        <label>社内メモ</label>
+        <name>Internal_Notes__c</name>
+    </fields><fields>
+        <label>キーワード</label>
+        <name>Keywords__c</name>
+    </fields><fields>
+        <label><!-- Org Cust Case ID --></label>
+        <name>Org_Cust_Case_ID__c</name>
+    </fields><fields>
+        <label>優先顧客</label>
+        <name>Primary_Audience__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>顧客</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Personnel</masterLabel>
+            <translation>人事</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Technician</masterLabel>
+            <translation>保守エンジニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Sales Engineer</masterLabel>
+            <translation>プリセールスエンジニア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Engineer</masterLabel>
+            <translation>サポートエンジニア</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>ソリューション有効期限</label>
+        <name>Solution_Expiration_Date__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation>重複</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>レビュー済み</translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>CP - Solution Layout</layout>
+        <sections>
+            <label>テスト</label>
+            <section>Test</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

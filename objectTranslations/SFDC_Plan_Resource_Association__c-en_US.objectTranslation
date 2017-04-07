@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Channel Plan --></label>
+        <name>Channel_Account_Plan__c</name>
+        <relationshipLabel><!-- Channel Team --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Resource --></label>
+        <name>Resource__c</name>
+        <relationshipLabel><!-- Team --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation><!-- Buyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Manager</masterLabel>
+            <translation><!-- Channel Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Sales Rep</masterLabel>
+            <translation><!-- Channel Sales Rep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restocking</masterLabel>
+            <translation><!-- Restocking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipments</masterLabel>
+            <translation><!-- Shipments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer</masterLabel>
+            <translation><!-- Trainer --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Channel Team</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Channel Team</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

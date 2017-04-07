@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Anschreiben zur Übermittlung eines Angebots</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>DE SALES: Quote Template</name>
+    <style>freeForm</style>
+    <subject>Ihr Angebot #{!Quote.QuoteNumber} von {!User.CompanyName}</subject>
+    <textOnly>Hallo {!Contact.Salutation} {!Contact.LastName},
+
+
+im Anhang finden Sie wie vereinbart das besprochene Angebot.
+Bitte prüfen Sie und sende es unterschrieben an uns zurück sofern Sie keine Einwände haben.
+
+Achtung: Das Angebot ist gültig bis zum {!Quote.ExpirationDate}
+
+Gesamtpreis: {!Quote.TotalPrice}
+
+
+Mit freundlichen Grüßen,
+{!User.FirstName} {!User.LastName}
+{!User.CompanyName}
+{!User.Email}
+{!User.Phone}</textOnly>
+    <type>html</type>
+</EmailTemplate>

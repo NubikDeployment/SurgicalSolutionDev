@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="fire the event when the user start searching">
+    <aura:attribute name="isSearchMode" type="Boolean"/>
+</aura:event>

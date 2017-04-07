@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Number of Participants (subjects) in the Performance Summary Cycle that have submitted</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Submitted Requests</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <format>Matrix</format>
+    <name>Summary Cycle Details - submitted</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Performance_Summary_Cycles_with_Requests__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

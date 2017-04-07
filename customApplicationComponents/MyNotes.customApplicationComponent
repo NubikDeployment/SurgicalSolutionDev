@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplicationComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buttonIconUrl>https://na1.salesforce.com/resource/1339596346000/CustomConsoleNotesIcon</buttonIconUrl>
+    <buttonStyle>padding:2px;</buttonStyle>
+    <buttonWidth>40</buttonWidth>
+    <height>500</height>
+    <isHeightFixed>false</isHeightFixed>
+    <isHidden>false</isHidden>
+    <isWidthFixed>false</isWidthFixed>
+    <visualforcePage>My_Notes</visualforcePage>
+    <width>300</width>
+</CustomApplicationComponent>

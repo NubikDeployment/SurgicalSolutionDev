@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <description>Number of Performance Summary Requests</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Requests</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <format>Matrix</format>
+    <name>Performance Summary Status Update - Key</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Performance_Summary_Cycles_with_Requests__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

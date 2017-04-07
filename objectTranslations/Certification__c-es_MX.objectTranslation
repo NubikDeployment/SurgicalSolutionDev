@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Contacto</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Certificaciones</relationshipLabel>
+    </fields><fields>
+        <label>Fecha</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <help><!-- Indicates that the certification is assigned to the community user that is currently logged in. Used to populate a list view. --></help>
+        <label><!-- Is Current User --></label>
+        <name>Is_Current_User__c</name>
+    </fields><fields>
+        <label>Calificación</label>
+        <name>Score__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation>Registrado</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Certificación</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Certificaciones</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Nombre</nameFieldLabel></CustomObjectTranslation>

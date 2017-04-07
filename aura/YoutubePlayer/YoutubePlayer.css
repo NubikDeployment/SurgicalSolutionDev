@@ -1,0 +1,52 @@
+.THIS.full_screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.THIS .video_holder{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.THIS.full_screen .video_holder{
+    position: relative;
+    z-index: -999;
+}
+
+.THIS .gray_light {
+    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.5);
+}
+
+.THIS .gray_strong {
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.THIS .sepia_light {
+    filter: sepia(0.5);
+    -webkit-filter: sepia(0.5);
+}
+
+.THIS .sepia_strong {
+    filter: sepia(1);
+    -webkit-filter: sepia(1);
+}
+
+.THIS .blur_light {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.THIS .blur_strong {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+.THIS .invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}

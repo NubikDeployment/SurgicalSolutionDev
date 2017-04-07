@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto-response email which is sent after a new case is received.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Auto-Response Email</name>
+    <style>none</style>
+    <subject>Thank you for contacting {!Organization.Name} Customer Service!</subject>
+    <textOnly>Dear {!Contact.Name},
+Thank you for contacting us!  We have received your question and a Customer Service agent has been assigned to your case.  We will make every effort to resolve this issue as quickly as possible.
+
+For your reference, here are your case details:
+
+- Case #: {!Case.CaseNumber}
+
+- Subject: {!Case.Subject}
+
+- Description: {!Case.Description}
+
+In the meantime, you can search for your issue in our knowledge base at http://service.{!Organization.Name}.com. We hope this is helpful and again, thank you for contacting us!
+
+Sincerely,
+{!User.FirstName}
+{!Organization.Name} Customer Service</textOnly>
+    <type>custom</type>
+</EmailTemplate>

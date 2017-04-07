@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Time_Off_Request__c.Employee_Number__c</field>
+    </columns>
+    <columns>
+        <field>Requested_Day__c.Requested_Day__c</field>
+    </columns>
+    <columns>
+        <field>Requested_Day__c.Hours__c</field>
+    </columns>
+    <columns>
+        <field>Time_Off_Request__c.Payroll_System__c</field>
+    </columns>
+    <description>Requests for a specific pay cycle to extract to payroll</description>
+    <filter>
+        <criteriaItems>
+            <column>Requested_Day__c.Pay_Cycle__c</column>
+            <operator>equals</operator>
+            <value>2007-09-15</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Payroll File Extract</name>
+    <reportType>CustomEntityCustomEntity$Time_Off_Request__c$Requested_Day__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Time_Off_Request__c.Employee_Number__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Time_Off_Request__c.Date_Approved__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

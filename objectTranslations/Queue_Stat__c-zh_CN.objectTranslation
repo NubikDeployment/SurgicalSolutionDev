@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>放弃率</label>
+        <name>Abandon_Rate__c</name>
+    </fields><fields>
+        <label>放弃呼叫</label>
+        <name>Abandoned_Calls__c</name>
+    </fields><fields>
+        <label>平均排队时间</label>
+        <name>Avg_Queue_Time__c</name>
+    </fields><fields>
+        <label>调用每个代理</label>
+        <name>Calls_Per_Agent__c</name>
+    </fields><fields>
+        <label>呼叫排队</label>
+        <name>Calls_Queued__c</name>
+    </fields><fields>
+        <label>日期</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label>处理时间</label>
+        <name>Handle_Time__c</name>
+    </fields><fields>
+        <label>呼入电话</label>
+        <name>Inbound_Calls__c</name>
+    </fields><fields>
+        <label>最长排队时间</label>
+        <name>Longest_Queue_Time__c</name>
+    </fields><fields>
+        <label>呼出电话</label>
+        <name>Outbound_Calls__c</name>
+    </fields><fields>
+        <label>队列名称</label>
+        <name>Queue_Name__c</name>
+    </fields><fields>
+        <label>速度应答</label>
+        <name>Speed_to_Answer__c</name>
+    </fields><fields>
+        <label>利用</label>
+        <name>Utilization__c</name>
+    </fields><fields>
+        <label><!-- db_days --></label>
+        <name>dbdays__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Queue Stat --></value>
+    </caseValues><nameFieldLabel><!-- Queue Stat Name --></nameFieldLabel></CustomObjectTranslation>

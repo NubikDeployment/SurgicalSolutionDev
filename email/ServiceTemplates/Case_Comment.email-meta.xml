@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent to customer when new comments are added to a case.  Change this in Setup &gt; Support Settings and Setup &gt; Self-Service Portal &gt; Settings &gt; Self-Service Setup.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Case Comment</name>
+    <style>freeForm</style>
+    <subject>New Comment on: Case # {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Contact.Name},
+
+There is a new case comment available for Case # {!Case.CaseNumber}.
+
+Case Information
+Date/Time Opened: {!Case.CreatedDate}
+Case #: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+Description: {!Case.Description}
+
+We will respond as soon as possible. If you have additional comments or updates to this case, please reply to this email.
+Thank you,
+Customer Service
+{!Organization.Name}
+
+Case Reference ID: {!Case.Thread_Id}</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<span data-sheets-value="[null,2,&quot;Dear {!Asset.Contact},\u00a0\nWe would like to remind you that your {!Asset.Name} will expire on {!Asset.UsageEndDate}.\u00a0\n\nYou can renew it yourself online by visiting the {!Organization.Name} website.  \n\nThank you! \n{!Organization.Name}\n&quot;]" data-sheets-userformat="[null,null,961,[null,0],null,null,null,null,null,0,0,1,0]"><font face="Arial, sans-serif">Dear {!Asset.Contact},&nbsp;<br>We would like to remind you that your {!Asset.Name} will expire on {!Asset.UsageEndDate}.&nbsp;<br><br>You can contact us to renew it, or you can do it yourself online by visiting the {!Organization.Name} Community.  <br><br>Thank you! <br>{!Organization.Name}</font><br></span>]]></td>
+</tr>
+</table>

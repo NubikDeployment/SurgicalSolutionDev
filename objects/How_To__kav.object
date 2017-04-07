@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>Additional_Information__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Information</label>
+        <length>32000</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Additional_Resources__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Resources</label>
+        <length>32000</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Chat_Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Chat Answer</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>External_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>External ID</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Internal_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>32000</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Procedure__c</fullName>
+        <externalId>false</externalId>
+        <label>Procedure</label>
+        <length>32000</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Topic__c</fullName>
+        <externalId>false</externalId>
+        <label>Topic</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields><articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>InDevelopment</deploymentStatus><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><label>How To</label><pluralLabel>How To</pluralLabel></CustomObject>

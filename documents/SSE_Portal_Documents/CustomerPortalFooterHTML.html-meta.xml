@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Footer for customer portal; also contains CSS styles for customizing tabs and content width</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>Customer Portal Footer HTML</name>
+    <public>true</public>
+</Document>

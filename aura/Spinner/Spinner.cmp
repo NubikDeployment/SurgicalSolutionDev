@@ -1,0 +1,11 @@
+<aura:component >
+	<aura:attribute name="show" type="Boolean" default="false" />
+    <aura:attribute name="style" type="String" />
+	<aura:handler name="change" value="{!v.show}" action="{!c.changeHandler}"/>
+
+    <div aura:id ="spinner" style='{!v.style}'>
+      <div class="slds-spinner--large">
+          <img src="/resource/accHierarchy__SLDS100/assets/images/spinners/slds_spinner_brand.gif" alt="Loading..." />
+	  </div>
+    </div>
+</aura:component>

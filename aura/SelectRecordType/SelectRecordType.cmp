@@ -1,0 +1,49 @@
+<aura:component implements="force:appHostable" controller="accHierarchy.AccountHierarchyController">
+    
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler event="accHierarchy:newAccountEvent" action="{!c.selectRecordType}"/>
+    <aura:attribute name="recordtypes" type="Object[]" default="[]"/>
+    <aura:attribute name="selectedRecordType" type="String" default="null" access="private" />
+    
+	<div aura:id="selectRecordTypeModal" class="slds-modal" aria-hidden="false" role="dialog">
+    	<div class="slds-modal__container">
+      		<div class="slds-modal__header">
+                <button class="slds-button slds-button--icon-inverse slds-modal__close" onclick="{!c.cancel}">
+                  <accHierarchy:Svg class="slds-button__icon slds-button__icon--large" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/action-sprite/svg/symbols.svg#close"/>  
+                  <span class="slds-assistive-text">Close</span>
+                </button>
+        		<h2 class="slds-text-heading--medium">New Account</h2>
+      		</div>
+      		<div class="slds-modal__content slds-p-around--medium">
+                <div>
+                	<fieldset class="slds-form-element">
+                    	<legend class="form-element__legend slds-form-element__label recordtype-title">Select a record type</legend>
+                    	<div class="slds-form-element__control">
+                            <aura:iteration items="{!v.recordtypes}" var="item" indexVar='i'>
+								<label class="slds-radio recordtype-radio">
+                                    <aura:if isTrue="{!i==0}">
+                                    	<input id="{!item.Id}" type="radio" name="rtypes" onchange="{!c.setRecordType}" checked="checked"/>
+                                        <span class="slds-radio--faux"></span>
+                                        <span class="slds-form-element__label recordtype-name">{!item.Name}</span>
+                                        <span class="slds-form-element__label recordtype-details">{!item.Description}</span>
+                                    </aura:if>
+                                    <aura:if isTrue="{!i!=0}">
+                                    	<input id="{!item.Id}" type="radio" name="rtypes" onchange="{!c.setRecordType}"/>
+                                    	<span class="slds-radio--faux"></span>
+                                   	 	<span class="slds-form-element__label">{!item.Name}</span>
+                                   	 	<span class="slds-form-element__label recordtype-details">{!item.Description}</span>
+                                    </aura:if>
+                      			</label>                            
+                            </aura:iteration>
+                    	</div>
+                  </fieldset>
+                </div>
+      		</div>
+          	<div class="slds-modal__footer">
+            	<button class="slds-button slds-button--neutral" onclick="{!c.cancel}">Cancel</button>
+            	<button class="slds-button slds-button--neutral slds-button--brand" onclick="{!c.next}">Next</button>
+          	</div>
+    	</div>
+  	</div>
+  	<div aura:id="recordTypeBackdrop" class="slds-backdrop" onclick="{!c.cancel}"></div>
+</aura:component>

@@ -1,0 +1,5 @@
+The opportunity {!Opportunity.Name} for the account {!Opportunity.Account} (of which you are the owner) is now closed won.  Congratulations!
+
+{!Organization.Name} users, view the opportunity at {!Opportunity.Link}
+
+{!Organization.Name} partners, view the opportunity at https://apps.salesforce.com/prm/detail/{!Opportunity.Id}

@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="the event is fired when hovering the expand button in the gridview">
+	<aura:attribute name="hoverMode" type="Integer"/>
+    <aura:attribute name="hoverText" type="String"/>
+</aura:event>

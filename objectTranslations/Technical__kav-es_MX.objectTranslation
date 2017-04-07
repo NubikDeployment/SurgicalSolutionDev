@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Información adicional</label>
+        <name>Additional_Information__c</name>
+    </fields><fields>
+        <label>Enlaces adicionales</label>
+        <name>Additional_Links__c</name>
+    </fields><fields>
+        <label>Respuesta Chat</label>
+        <name>Chat_Answer__c</name>
+    </fields><fields>
+        <label>ID externo</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Comentarios internos</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>Detalles técnicos</label>
+        <name>Technical_Detail__c</name>
+    </fields><fields>
+        <label>Resumen técnico</label>
+        <name>Technical_Overview__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Técnica</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Técnica</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel><!-- Technical Name --></nameFieldLabel><layouts>
+        <layout>Technical2 Layout</layout>
+        <sections>
+            <label>Enlaces adicionales</label>
+            <section>Additional Links</section>
+        </sections>
+        <sections>
+            <label>Respuesta Chat</label>
+            <section>Chat Answer</section>
+        </sections>
+        <sections>
+            <label>Comentarios internos</label>
+            <section>Internal Comments</section>
+        </sections>
+        <sections>
+            <label>Detalle técnico</label>
+            <section>Technical Detail</section>
+        </sections>
+        <sections>
+            <label>Descripción técnica</label>
+            <section>Technical Overview</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

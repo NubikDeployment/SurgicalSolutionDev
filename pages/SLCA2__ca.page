@@ -1,0 +1,139 @@
+<apex:page sidebar="false"  
+    showHeader="true" 
+    standardStylesheets="false" 
+    showChat="false" 
+    docType="html-5.0"
+    controller="SLCA2.CalendarAnything_pageController" 
+>   
+
+
+    <div style="position:absolute;top:0px;left:0px;right:0px;bottom:0px;overflow:hidden;min-height:500px;">
+        <div id="calendar" class="CA_ajax_loading"></div>        
+    </div>    
+        
+        
+<script>
+(function() {
+    if (typeof(console) == 'undefined') {
+        console = {log : function(){}, time : function() {}, timeEnd : function(){}};
+    } else {
+        if (typeof(console.log) == 'undefined') {
+            console.log = function(){}
+        }
+        if (typeof(console.time) == 'undefined') {
+            console.time = function(){}
+        }
+        if (typeof(console.timeEnd) == 'undefined') {
+            console.timeEnd = function(){}
+        }
+    }
+    var fStartCA = function(oJQ){        
+        oJQ("#calendar").calendarAnything({
+            urls : {
+                "calendars" : "apex/CA_Calendars.php",
+                "events"    : "apex/CA_AjaxResponces",
+                "tooltip"   : "apex/EventHover",
+                "save"      : 'apex/CA_EventHandler.php'
+            },
+            "serverUrl" : {
+                "default"   : "/apex/CA_AjaxResponces",
+                "event"     : "/apex/CA_EventHandler",
+                "auth"     : "https://login.salesforce.com/"
+            },
+            format : {!sFormatedLocale},
+            staticUrl : "{!URLFOR($Resource.ca3)}".split('\?')[0],
+            session : "{!sSessionId}",
+            /*userId : '005U0000000RRHlIAO',*/
+            /*calendarId : 'a0BU0000001mKd3',*/
+            /*view : "month",*/
+            userSettings : {!userSettings},
+            debug : true,
+            SA         : {!bUserAdmin},
+            orgId      : "{!nOrgId}",
+            locale     : "{!sLocale}",
+            identity   : "{!sIdentity}",
+            lazy       : true,
+            readonly   : false,
+            uname      : '{!JSENCODE($User.FirstName)} {!JSENCODE($User.LastName)}',
+            controller : (CalendarAnything_pageController !== undefined ? CalendarAnything_pageController : null)
+//            _emulateSmall : false
+//            cacheTime : 100
+            
+            
+        });
+        
+        oJQ('head').append('<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0" />');
+        
+        
+        oJQ(window).on('resize.CA', function(){
+            var nH = (oJQ(window).height() 
+                    - oJQ('#calendar').offset().top 
+                    - (oJQ('.bPageFooter').size() > 0 ? oJQ('.bPageFooter')[0].offsetHeight : 0)
+//                    - (jQuery('#bodyTable')[0].offsetHeight) 
+                    );
+            oJQ('#calendar').parent().css({
+                "min-height" : nH + 'px'
+            });
+            oJQ('#bodyTable').css('height', nH + 'px'); 
+            
+        });
+        
+        oJQ(window).trigger('resize.CA');
+    };
+    var aPaths = [];
+    function initJQScript(sUrl, fFunc) {
+        if (aPaths[sUrl] != undefined) {
+            return fFunc();
+        }
+        aPaths[sUrl] = true;
+        var oScript = document.createElement('script'),
+            oHead = document.getElementsByTagName('head')[0],
+            bDone = false;
+        oScript.src = sUrl;
+        oScript.onload = oScript.onreadystatechange = function() {
+            if (!bDone && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+                bDone = true;
+                fFunc();
+                oScript.onload = oScript.onreadystatechange = null;
+                oHead.removeChild(oScript);
+            };
+        };
+        oHead.appendChild(oScript);
+
+    };
+    if (typeof(jQuery) == 'undefined') {
+        initJQScript('{!URLFOR($Resource.ca3, 'plugin/jquery-1.8.0.min.js')}', function() {
+            var oJQ = jQuery.noConflict();
+            if (typeof jQuery=='undefined') {
+                alert('Could not find jQuery library');
+            } else {
+                initJQScript('{!URLFOR($Resource.ca3, 'jq-calendar-anything.js')}', function() {
+                    fStartCA(oJQ);
+                });
+            }
+        });
+    } else { 
+        jQuery(document).ready(function(){
+            initJQScript('{!URLFOR($Resource.ca3, 'jq-calendar-anything.js')}', function() {
+                fStartCA(jQuery);
+            });
+    //        fStartCA(jQuery);
+        });
+    };
+
+})();
+    
+    
+
+                
+</script>
+<style>
+.noSidebarCell{
+   padding:0px !important;
+   
+}
+body .bodyDiv #bodyTable {
+   padding-bottom:0 !important;
+}
+</style>
+</apex:page>

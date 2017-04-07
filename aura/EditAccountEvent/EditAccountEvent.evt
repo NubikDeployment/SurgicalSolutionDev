@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="is fired when editing an account">
+	<aura:attribute name="editingAccountId" type="String"/>
+</aura:event>

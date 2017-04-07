@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Contenido</label>
+        <name>Content__c</name>
+    </fields><fields>
+        <label>Ultima modificación</label>
+        <name>DisplayDate__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>URL externo</label>
+        <name>External_URL__c</name>
+    </fields><fields>
+        <label><!-- ImageAttachmentId --></label>
+        <name>ImageAttachmentId__c</name>
+    </fields><fields>
+        <help>Para mejores resultados se recomienda el tamaño de la imagen 160 X 80 px</help>
+        <label>Imagen</label>
+        <name>Image__c</name>
+    </fields><fields>
+        <label>Canal de noticias</label>
+        <name>News_Channel__c</name>
+        <picklistValues>
+            <masterLabel>Brand</masterLabel>
+            <translation>Marca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News</masterLabel>
+            <translation>Noticias</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Origen</label>
+        <name>Source__c</name>
+    </fields><fields>
+        <help>Copiar la primera línea del contenido</help>
+        <label>Señuelo</label>
+        <name>Teaser__c</name>
+    </fields><fields>
+        <label>Titulo</label>
+        <name>Title__c</name>
+    </fields><fields>
+        <label><!-- URL --></label>
+        <name>URL__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Noticias recientes</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Noticias recientes</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel># artículo</nameFieldLabel></CustomObjectTranslation>

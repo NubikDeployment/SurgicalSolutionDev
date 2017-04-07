@@ -1,0 +1,128 @@
+
+<html>
+
+	<head>
+
+		<meta name="viewport" content = "width = device-width, initial-scale = 1, user-scalable = no" /> 
+
+		<meta name="format-detection" content="telephone=no">
+
+		<style type="text/css">
+
+			@import url("/apex/SSEPortalCSSMain");
+
+			@import url("/apex/SSEPortalCSSMobile");
+
+			@import url("/apex/SSEPortalCSSEdit");
+
+		</style>
+		
+		<script type="text/javascript">
+			var loadOrder = 0;
+			function loadjsfile(filename){
+  				var fileref=document.createElement('script');
+  				fileref.setAttribute("type","text/javascript");
+  				fileref.setAttribute("src", filename);
+  				fileref.setAttribute("onload", filename);
+  				fileref.onload= nextFile;
+  				document.getElementsByTagName("head")[0].appendChild(fileref);	
+			}
+			function nextFile(){
+				loadOrder++;
+				switch(loadOrder){
+					case 1: loadjsfile("/resource/SSEPortalResources/scripts/jquery.js", "js");break;
+					case 2: loadjsfile("/resource/SSEPortalResources/scripts/jquery.slide.js", "js");break;
+					case 3:	loadjsfile("/resource/SSEPortalResources/scripts/header.js", "js");break;
+				}
+			}
+			if(window.location.href.indexOf("#workspace") == -1)
+				nextFile();
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id="portalwrapper">
+
+			<div id="portalheader">
+
+				<div id="portalheaderpadding"></div>
+
+				<div id="portalheadertop">
+
+					<div class="portalheadercenter">
+
+						<div id="navsection">
+
+							Navigation
+
+							<div id="userarrow">
+
+							</div>
+
+							<div id="userborder">
+
+							</div>
+
+						</div>
+
+						<div id="usersection">
+
+							<div id="userarrow">
+
+							</div>
+
+						</div>
+
+						<iframe id="portalheaderiframe" src="/apex/SSEPortalUserInfo"></iframe>
+
+						<div id="usermenu">
+
+							<div class="userlink" id="link1">Profile</div>
+
+							<div class="userlink" id="link2">Facebook</div>
+
+							<div class="userlink" id="link3">Twitter</div>
+
+							<div class="userlink" id="link4">Google+</div>
+
+							<div class="userlink" id="link5">Logout</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div id="portalheadermid">
+
+					<div class="portalheadercenter" id="SSEPortalLogo">
+
+					</div>
+
+				</div>
+
+				<div id="portalheaderbot">
+
+					<div class="slides_container">
+
+						<div id="SSEPortalSlide1">
+
+						</div>
+
+						<div id="SSEPortalSlide2">					
+
+						</div>
+
+						<div id="SSEPortalSlide3">					
+
+						</div>	
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="portalbody">

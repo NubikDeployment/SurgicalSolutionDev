@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Fecha de finalización actual</label>
+        <name>Actual_Completion_Date__c</name>
+    </fields><fields>
+        <label>Entregables</label>
+        <name>Deliverables__c</name>
+    </fields><fields>
+        <label>Fecha de finalización estimada</label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields><fields>
+        <label>Idea en acción</label>
+        <name>Idea_in_Action__c</name>
+        <relationshipLabel>Hitos de la idea</relationshipLabel>
+    </fields><fields>
+        <label>Comentarios internos</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>Descripción del hito</label>
+        <name>Milestone_Description__c</name>
+    </fields><fields>
+        <label>Estado del hito</label>
+        <name>Milestone_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En progreso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>No iniciada</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Hito idea</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Hitos idea</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre del hito</nameFieldLabel><layouts>
+        <layout>Milestone Layout</layout>
+        <sections>
+            <label>Detalle del hito</label>
+            <section>Milestone Detail</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

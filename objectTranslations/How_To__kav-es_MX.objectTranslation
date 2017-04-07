@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Información adicional</label>
+        <name>Additional_Information__c</name>
+    </fields><fields>
+        <label>Recursos adicionales</label>
+        <name>Additional_Resources__c</name>
+    </fields><fields>
+        <label>Respuesta Chat</label>
+        <name>Chat_Answer__c</name>
+    </fields><fields>
+        <label>ID externo</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Comentarios internos</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>Procedimiento</label>
+        <name>Procedure__c</name>
+    </fields><fields>
+        <label>Tema</label>
+        <name>Topic__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Guía práctica</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Guía práctica</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel><!-- How To Name --></nameFieldLabel><layouts>
+        <layout>How To Layout</layout>
+        <sections>
+            <label>Comentarios internos</label>
+            <section>Internal Comments</section>
+        </sections>
+        <sections>
+            <label>Procedimiento</label>
+            <section>Procedure</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <processMetadataValues>
+            <name>apexSelection</name>
+            <value>
+                <stringValue>Schedule Messages</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Send reminder</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <actionName>LiveText__ScheduleMessageAction</actionName>
+        <actionType>apex</actionType>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Message</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>Message</name>
+            <value>
+                <elementReference>formula_2_myRule_1_A1_Message</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>ID</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Object Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Reference</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ObjectId</name>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Reference Id</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>maxOccurs</name>
+                <value>
+                    <numberValue>0.0</numberValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>objectType</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>String</stringValue>
+                </value>
+            </processMetadataValues>
+            <name>ReferenceId</name>
+            <value>
+                <stringValue>Appointment Reminder</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <assignments>
+        <name>myVariable_waitStartTimeAssignment</name>
+        <label>myVariable_waitStartTimeAssignment</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>myVariable_waitStartTimeVariable</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>myDecision</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <processMetadataValues>
+                    <name>inputDataType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>leftHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>operatorDataType</name>
+                    <value>
+                        <stringValue>String</stringValue>
+                    </value>
+                </processMetadataValues>
+                <processMetadataValues>
+                    <name>rightHandSideType</name>
+                    <value>
+                        <stringValue>Picklist</stringValue>
+                    </value>
+                </processMetadataValues>
+                <leftValueReference>myVariable_current.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Scheduled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>Send reminder</label>
+        </rules>
+    </decisions>
+    <description>Sends an appointment reminder to a contact whenever a new appointment is created</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>&quot;Hi &quot;
+&amp; [Appointment__c].Contact__c.FirstName
+&amp; &quot;, your appointment has been scheduled for &quot;
+
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( [Appointment__c].Appointment_Time__c - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE([Appointment__c].Appointment_Time__c - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE([Appointment__c].Appointment_Time__c - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT([Appointment__c].Appointment_Time__c - 0.291666667), 10), 2)
+&amp; &quot;. If you need to reschedule text us back. Or text &apos;CANCEL&apos; to cancel. Thanks!&quot;</stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_2_myRule_1_A1_Message</name>
+        <dataType>String</dataType>
+        <expression>&quot;Hi &quot;
+&amp; {!myVariable_current.Contact__c.FirstName}
+&amp; &quot;, your appointment has been scheduled for &quot;
+
+&amp;
+
+IF(
+  OR(
+    VALUE( MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 12, 2 ) ) = 0,
+    VALUE( MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 12, 2 ) ) = 12
+  ),
+  &quot;12&quot;,
+  TEXT( VALUE( MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 12, 2 ) )
+   -
+   IF(
+     VALUE( MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 12, 2 ) ) &lt; 12,
+     0,
+     12
+   )
+  )
+)
+&amp; &quot;:&quot; &amp;
+MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 15, 2 )
+&amp; &quot; &quot; &amp;
+IF(
+  VALUE( MID( TEXT( {!myVariable_current.Appointment_Time__c} - 0.291666667 ), 12, 2 ) ) &lt; 12,
+  &quot;AM&quot;,
+  &quot;PM&quot;
+)
+
+&amp; &quot; PDT &quot;
+
+&amp; CASE(
+  MOD(DATEVALUE({!myVariable_current.Appointment_Time__c} - 0.291666667) - DATE( 1900, 1, 7 ), 7 ),
+  0, &quot;Sunday&quot;,
+  1, &quot;Monday&quot;,
+  2, &quot;Tuesday&quot;,
+  3, &quot;Wednesday&quot;,
+  4, &quot;Thursday&quot;,
+  5, &quot;Friday&quot;,
+  &quot;Saturday&quot;) &amp; &quot;, &quot;
+&amp; CASE(
+  MONTH(DATEVALUE({!myVariable_current.Appointment_Time__c} - 0.291666667)),
+  1, &quot;January&quot;,
+  2, &quot;February&quot;,
+  3, &quot;March&quot;,
+  4, &quot;April&quot;,
+  5, &quot;May&quot;,
+  6, &quot;June&quot;,
+  7, &quot;July&quot;,
+  8, &quot;August&quot;,
+  9, &quot;September&quot;,
+  10, &quot;October&quot;,
+  11, &quot;November&quot;,
+  &quot;December&quot;) &amp; &quot; &quot;
+&amp; RIGHT(LEFT(TEXT({!myVariable_current.Appointment_Time__c} - 0.291666667), 10), 2)
+&amp; &quot;. If you need to reschedule text us back. Or text &apos;CANCEL&apos; to cancel. Thanks!&quot;</expression>
+    </formulas>
+    <interviewLabel>Send_Appointment_Reminder-1_Appointment__c</interviewLabel>
+    <label>Send Appointment Reminder</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>Appointment__c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Appointment__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Appointment__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_waitStartTimeVariable</name>
+        <dataType>DateTime</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDateTime</elementReference>
+        </value>
+    </variables>
+</Flow>

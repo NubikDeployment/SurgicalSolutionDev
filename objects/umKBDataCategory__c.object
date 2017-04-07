@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>dataCategoryGroup__c</fullName>
+        <description>Data category group.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data category group.</inlineHelpText>
+        <label>Data Category Group</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>dataCategory__c</fullName>
+        <description>Top Level Data category.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Top Level Data category.</inlineHelpText>
+        <label>Top Level Data Category</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>publicName__c</fullName>
+        <externalId>false</externalId>
+        <label>Public Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_id__c</fullName>
+        <description>Id of the parent (umSite custom setting).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the parent (umSite custom setting).</inlineHelpText>
+        <label>umSite Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>List</customSettingsType><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><label>umKBDataCategory</label><visibility>Public</visibility></CustomObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>apiName__c</fullName>
+        <description>Knowledge Article Type.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Knowledge Article Type.</inlineHelpText>
+        <label>Knowledge Article Type</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>layout__c</fullName>
+        <description>Knowledge Article Layout (comma separated ordered field names to be displayed in mobile application).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Knowledge Article Layout (comma separated ordered field names to be displayed in mobile application).</inlineHelpText>
+        <label>Layout</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_id__c</fullName>
+        <description>Id of the parent (umSite custom setting).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the parent (umSite custom setting).</inlineHelpText>
+        <label>umSite Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>List</customSettingsType><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><label>umKALayout</label><visibility>Public</visibility></CustomObject>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automated response for Web2Lead</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>FR MKT: Web2Lead Response</name>
+    <style>freeForm</style>
+    <subject>Nous vous remercions de votre demande à {!Organization.Name}</subject>
+    <textOnly>Salut,
+
+Merci d&apos;avoir contacté {!Organization.Name}, nous sommes impatients de travailler avec vous.
+
+Je tiens à me présenter comme votre Chargé d&apos;Affaire. Si vous avez des questions, n&apos;hésitez pas à m&apos;appeler au {!User.Phone} ou m&apos;écrire à {!User.Email}.
+
+Vous pouvez également communiquer avec {!Organization.Name} sur les numéros suivants:
+
+Principal: 810-545-1000
+Ventes: 810-545-1222
+Service à la clientèle et de soutien: 810-545-1333
+Fax: 810-545-1001
+
+Cordialement,
+{!User.Name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

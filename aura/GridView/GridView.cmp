@@ -1,0 +1,186 @@
+<aura:component controller="accHierarchy.AccountHierarchyController">
+
+    <!-- Register Events -->
+    <aura:registerEvent name="numberOfItems" type="accHierarchy:AccountHierarchyItemsEvent"/>
+
+    <!-- Events -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:handler name="change" value="{!v.rows}" action="{!c.setHeaderBar}" />
+    <aura:handler name="change" value="{!v.allRows}" action="{!c.setRows}" />
+    <aura:handler name="change" value="{!v.allOrderRows}" action="{!c.setOrderRows}" />
+    <aura:handler event="accHierarchy:SearchkeyUpEvent" action="{!c.search}"/>
+    <aura:handler event="accHierarchy:EditAccountEvent" action="{!c.handleEditAccount}"/>
+    <aura:handler event="accHierarchy:OnSearchModeEvent" action="{!c.handleSearchMode}"/>
+    <!-- Public Atributes -->
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="accountQueryFields" type="String" default=""/>
+	<aura:attribute name="gridColumns" type="String" default=""/>
+    <!-- Private Atributes -->
+    <aura:attribute name="rows" type="Object[]" access="private"/>
+    <aura:attribute name="orderedRows" type="Object[]" access="private"/>
+    <aura:attribute name="allOrderRows" type="Object[]" access="private"/>
+    <aura:attribute name="allRows" type='Object[]' access='private' />
+    <aura:attribute name="allHierarchy" type='Object[]' access='private' />
+    <aura:attribute name="loadingMore" type='Boolean' access='private' />
+    <aura:attribute name="isDoneRendering" type="Boolean" access='private' default="false"/>
+    <aura:attribute name="isDoneRowsRendering" type="Boolean" access='private' default="false"/>
+   	<aura:attribute name="isFirstSearchDone" type="Boolean" access='private' default="false"/>
+    <aura:attribute name='limitToShow' type='Integer' access='private'  default='25' />
+    <aura:attribute name="columns" type="Object[]" access="private"/>
+    <aura:attribute name="translate" type="Object" access="private"/>
+    <aura:attribute name="active" type="Object" access="private"/>
+    <aura:attribute name="highlightAccount" type="String" access="private"/>
+    <aura:attribute name="highlightPreviousAccount" type="String" access="private"/>
+    <aura:attribute name="maxHeight" type="Integer" access="private"/>
+    <aura:attribute name="level" type="Integer" access="private" default='1'/>
+    <aura:attribute name="isCollapseAll" type="Boolean" access="private" default='true'/>
+    <aura:attribute name="orderedViewIsVisible" type="Boolean" access="private" default='false' />
+    <aura:attribute name="treeViewIsVisible" type="Boolean" access="private" default='true' />
+  	<aura:attribute name="sortOrderColumnIndex" type="Integer" access="private" default="0"/>
+    <aura:attribute name="sortOrder" type="Integer" access="private" default="1"/>
+    <aura:attribute name="spinner" type="Boolean" default="false" />
+    <aura:attribute name="editingAccountId" type="String"/>
+    <aura:attribute name="hasError" type="Boolean" default="false" />
+    <aura:attribute name="errorMessage" type="String" default="" />
+    <aura:attribute name="HierarchyResolvedMessage" type="String" default="Recent changes made to your hierarchy are still processing. Please try again in a few minutes" />
+
+    <!--permissions: object actions-->
+    <aura:attribute name="canCreateAccount" type="Boolean" default="false" />
+    <aura:attribute name="canEditAccount" type="Boolean" default="false" />
+
+
+    <!-- HTML -->
+   	<accHierarchy:Spinner show="{!v.spinner}" style="position:fixed;top:30%;left: 50%;"></accHierarchy:Spinner>
+    <div onscroll="{!c.scrollEvents}" aura:id="gridContainer" id="gridContainer" class="slds-scrollable--y"  style="{!'height:' + v.maxHeight + 'px;'}">
+        <!-- Tree View -->
+
+        <table aura:id="accountsTable" class="slds-table">
+            <thead aura:id="treeViewTHead" style="{!'background:white;transform: translate3d(0,'+v.translate+ 'px,0);'}">
+                <tr aura:id="treeViewTr" class="slds-text-heading--label">
+                	<aura:iteration items="{!v.columns}" var="col" indexVar='i'>
+                        <th aura:id="treeView-header" id="{!col.value}" data-index="{!i}" data-order="none" class="slds-is-sortable col-header" scope="col" onclick="{!c.sortByColumn}">
+                            <aura:if isTrue="{!i==0}">
+                                <span class="button-expand" onmouseenter="{!c.showToolTip}" onmouseleave="{!c.hideToolTip}">
+                                	<i class="{! v.orderedViewIsVisible ? 'fa fa-rotate-right' : (v.isCollapseAll ? 'fa fa-chevron-right' : 'fa fa-chevron-down') }"  onclick='{!c.expandCollapse}'></i>
+                            	</span>
+                            </aura:if>
+                            <span data-index="{!i}" class="slds-truncate">{!col.name}</span>
+                        </th>
+                    </aura:iteration>
+                    	<th class="slds-row-action col-header last-col" scope="col">
+                    	<!-- actions column -->
+                    	</th>
+                </tr>
+            </thead>
+            <!-- tree view -->
+            <aura:renderIf isTrue="{!v.treeViewIsVisible}">
+                <tbody aura:id="treeView" class="slds-table--bordered" style="border-top:none;">
+                   <!-- To Fix visual bug with transform and border -->
+                   <tr style="{!'background:#d8dde6; height: 1px; max-height: 1px; padding: 0px; transform: translate3d(0,'+v.translate+ 'px, 0)'}">
+                        <aura:iteration items="{!v.columns}" var="cell" indexVar="index">
+                            <td style="background: #d8dde6; height: 1px; padding: 0px;"></td>
+                       </aura:iteration>
+                       		 <td style="background: #d8dde6;height: 1px; padding: 0px;"></td>
+                	</tr>
+                    <!-- end -->
+                    <aura:iteration items="{!v.rows}" var="row" indexVar='i'>
+                        <tr id="{!row.id}" class="{!v.highlightAccount == row.id || row.inSearch ? 'slds-hint-parent slds-is-selected border slds-no-row-hover':'slds-hint-parent border'}" style="{! i==0 ? 'background:white; margin-top: 1px; transform: translate3d(0,'+v.translate + 'px,0);': ''}" onclick="{!c.selectRow}" data-row="{!row.id}">
+                           <aura:iteration items="{!row.cells}" var="cell" indexVar="index">
+                                    <td data-label="{!cell.name}" style="{! index==0 ? 'padding-left:calc(27px *' + row.level +');' : ''}">
+                                        <aura:if isTrue="{!index==0}">
+                                        	<span>
+                                        		<aura:if isTrue="{!row.childrenIds.length > 0}">
+                                       				<span>
+                                           				<aura:if isTrue="{!!row.displayingChildren}">
+                                                			<i class="fa fa-chevron-right slds-m-right--medium" data-level ='{!row.level}' data-id ='{!row.id}' value='{!row}' onclick='{!c.displayChildren}'></i>
+                                            			<aura:set attribute="else">
+                                                			<i class="fa fa-chevron-down slds-m-right--medium" data-level ='{!row.level}' data-id ='{!row.id}' value='{!row}' onclick='{!c.hideChildren}'></i>
+                                            			</aura:set>
+                                            			</aura:if>
+                                           			</span>
+                                        		<aura:set attribute="else">
+                                            		<i class="fa fa-chevron slds-m-right--medium" style='margin-right:25px'></i>
+                                        		</aura:set>
+                                        		</aura:if>
+                                        	</span>
+                                            <!--TODO: fix the type parameter, use api name -->
+                                        	<accHierarchy:GridCell value="{!cell}"  id='{!row.id}' canReadAccount="{!cell.canRead}" type="AccountName" inSearch="{!row.inSearch}" accessControl="{!row.accessControl}"></accHierarchy:GridCell>
+                                        <aura:set attribute="else">
+                                       		<accHierarchy:GridCell value="{!cell}" id="{!row.id}"  canReadAccount="{!cell.canRead}" inSearch="{!row.inSearch}" accessControl="{!row.accessControl}"></accHierarchy:GridCell>
+                                        </aura:set>
+                                        </aura:if>
+                                    </td>
+                            </aura:iteration>
+                            <td data-label="account actions" class="column-action" style="transform:translate3d(0,0,-10);">
+                            	<accHierarchy:GridCellActions account="{!row}" indexId="{!i}"></accHierarchy:GridCellActions>
+                            </td>
+                        </tr>
+                    </aura:iteration>
+                </tbody>
+              <aura:set attribute="else">
+                    <tbody aura:id="orderedView" id="orderedView" class="slds-table--bordered" >
+                        <!-- To Fix visual bug with transform and border -->
+                        <tr style="{!'background:#d8dde6; height: 1px; max-height: 1px; padding: 0px; transform: translate3d(0,'+v.translate+ 'px, 0); border-bottom:1px;'}">
+                             <aura:iteration items="{!v.columns}" var="cell" indexVar="index">
+                                 <td style="background: #d8dde6; height: 1px; padding: 0px;"></td>
+                            </aura:iteration>
+                                  <td style="background: #d8dde6;height: 1px; padding: 0px;"></td>
+                         </tr>
+                         <!-- end -->
+                        <aura:iteration items="{!v.orderedRows}" var="row" indexVar='i'>
+                            <tr class="{!row.id == v.highlightAccount ? 'slds-hint-parent slds-is-selected':'slds-hint-parent '}" onclick="{!c.selectRow}" data-row="{!row.id}">
+                                <aura:iteration items="{!row.cells}" var="cell" indexVar="index">
+                                    <td data-label="{!cell.name}">
+                                        <accHierarchy:GridCell value="{!cell}" id="{!row.id}"  canReadAccount="{!cell.canRead}" accessControl="{!row.accessControl}"></accHierarchy:GridCell>
+                                    </td>
+                                </aura:iteration>
+                                <td data-label="account actions">
+                                    <accHierarchy:GridCellActions account="{!row}"  indexId="{!i}"></accHierarchy:GridCellActions>
+                                </td>
+                            </tr>
+                        </aura:iteration>
+                     </tbody>
+                </aura:set>
+            </aura:renderIf>
+        </table>
+    </div>
+    <div>
+    	<div aura:id="errorModal" aria-hidden="false" role="dialog" class="{! v.hasError ? 'slds-modal slds-modal--prompt slds-fade-in-open' : 'slds-modal slds-modal--prompt slds-fade-in-close'}">
+      		<div class="slds-modal__container slds-modal--prompt">
+        		<div class="slds-modal__header slds-theme--error slds-theme--alert-texture">
+          			<button class="slds-button slds-button--icon-inverse slds-modal__close">
+                        <accHierarchy:Svg class="slds-button__icon slds-button__icon--large" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/utility-sprite/svg/symbols.svg#close" />
+            			<span class="slds-assistive-text">Close</span>
+          			</button>
+          			<h2 class="slds-text-heading--medium">Error</h2>
+        		</div>
+        		<div class="slds-modal__content slds-p-around--medium">
+          			<div>
+            			<p>{!v.errorMessage}</p>
+          			</div>
+        		</div>
+        		<div class="slds-modal__footer slds-theme--default">
+          			<button aura:id="closeErrorBtn" class="slds-button slds-button--neutral" onclick="{!c.hideError}">Ok</button>
+        		</div>
+      		</div>
+    	</div>
+    	<div aura:id="errorModalBackdrop" class="{!v.hasError ? 'slds-backdrop slds-backdrop--open' : 'slds-backdrop slds-backdrop--close'}"></div>
+        <div aura:id="hierarchyResolvedMsg" class="slds-notify_container slds-hidden">
+        	<div class="slds-notify slds-notify--alert slds-theme--info" role="info">
+            	<button class="slds-button slds-button--icon-inverse slds-notify__close">
+                    <!--<accHierarchy:Svg class="slds-button__icon" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/utility-sprite/svg/symbols.svg#close" />-->
+              		<span class="slds-assistive-text">Close</span>
+            	</button>
+            	<span class="slds-assistive-text">Error</span>
+            	<h2>
+              		{!v.HierarchyResolvedMessage}
+                </h2>
+          </div>
+        </div>
+  	</div>
+    <aura:if isTrue="{!v.loadingMore}">
+        <div aura:id="gridLoading" class="grid-loading" style="">
+           Loading more...
+        </div>
+    </aura:if>
+</aura:component>

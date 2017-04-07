@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used by the Opportunity Approval Process.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Opportunity Discount Approved</name>
+    <style>freeForm</style>
+    <subject>Opportunity Discount Approved!</subject>
+    <textOnly>Congratulations! The discount of {!Opportunity.Discount__c} on the following opportunity has been approved:
+
+Opportunity: {!Opportunity.Name}
+Account: {!Account.Name}
+Amount: {!Opportunity.Amount}
+Estimated Close Date: {!Opportunity.CloseDate}
+Sales Stage: {!Opportunity.StageName}
+Sales Rep: {!Opportunity.OwnerFullName}
+
+To go to the opportunity, please click here: {!Opportunity.Link}.</textOnly>
+    <type>html</type>
+</EmailTemplate>

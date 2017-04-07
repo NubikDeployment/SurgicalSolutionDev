@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Do not include in Pay Cycle --></label>
+        <name>Do_not_include_in_Pay_Cycle__c</name>
+    </fields><fields>
+        <label><!-- Employee Number --></label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label><!-- Hours --></label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label><!-- Month of Request --></label>
+        <name>Month_of_Request__c</name>
+    </fields><fields>
+        <label><!-- Pay Cycle --></label>
+        <name>Pay_Cycle__c</name>
+        <relationshipLabel><!-- Requested Days --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Requested Day --></label>
+        <name>Requested_Day__c</name>
+    </fields><fields>
+        <label><!-- Time-Off Request --></label>
+        <name>Time_Off_Request__c</name>
+        <relationshipLabel><!-- Requested Days --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Requested Day</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Requested Days</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

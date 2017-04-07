@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>/apex/SlickCTI_Phone</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;350&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;175&quot;}</customSettings>
+    <displayName>SlickCTI Demo Adapter</displayName>
+    <displayNameLabel>Display Name</displayNameLabel>
+    <internalNameLabel>InternalName</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>/apex/SlickCTI_Phone</value>
+        </items>
+        <items>
+            <label>Use CTI API</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>350</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>175</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>Primary Call Button</label>
+            <name>popRecordUrl</name>
+            <value>/0033000000PuxU3</value>
+        </items>
+        <items>
+            <label>Button 1</label>
+            <name>Button1PopUrl</name>
+            <value>/0012800000CyWHf</value>
+        </items>
+        <items>
+            <label>Button 2</label>
+            <name>Button2PopUrl</name>
+            <value>/00Q28000004a1ws</value>
+        </items>
+        <items>
+            <label>Button 3</label>
+            <name>Button3PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 4</label>
+            <name>Button4PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 5</label>
+            <name>Button5PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 6</label>
+            <name>Button6PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 7</label>
+            <name>Button7PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 8</label>
+            <name>Button8PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <items>
+            <label>Button 9</label>
+            <name>Button9PopUrl</name>
+            <value xsi:nil="true"/>
+        </items>
+        <label>Button Assignments</label>
+        <name>demoSettings</name>
+    </sections>
+</CallCenter>

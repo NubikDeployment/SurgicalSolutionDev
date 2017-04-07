@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Placeholder while we figure out how to get Global Search to show nicely in Communities</description>
+    <internalUseOnly>false</internalUseOnly>
+    <name>SSECommunitiesHeaderCustomernoSearch</name>
+    <public>true</public>
+</Document>

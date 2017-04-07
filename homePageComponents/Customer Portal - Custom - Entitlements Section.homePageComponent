@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;IFRAME id=01N41000000O2A6 title=BalanceCaseloadButton name=01N41000000O2A6 marginWidth=0 marginHeight=0 src=&quot;/servlet/servlet.Integration?lid=01N41000000O2A6&amp;amp;ic=1&amp;amp;autoMapValues=1&quot; frameBorder=no width=&quot;100%&quot; scrolling=no height=200&gt;&lt;/IFRAME&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

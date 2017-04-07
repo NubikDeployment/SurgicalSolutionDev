@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>取引先ID</label>
+        <name>AccountID__c</name>
+    </fields><fields>
+        <label>取引先名2</label>
+        <name>AccountName2__c</name>
+    </fields><fields>
+        <label>取引先名</label>
+        <name>AccountName__c</name>
+    </fields><fields>
+        <help><!-- Account Id of the current user (if any) --></help>
+        <label><!-- Account Id --></label>
+        <name>Account_Id_Formula__c</name>
+    </fields><fields>
+        <label><!-- Branding Template --></label>
+        <name>Branding_Template__c</name>
+    </fields><fields>
+        <label>コンシューマ</label>
+        <name>Consumer_User__c</name>
+    </fields><fields>
+        <label>取引先責任者ID</label>
+        <name>ContactId__c</name>
+    </fields><fields>
+        <label>カウント</label>
+        <name>Count__c</name>
+    </fields><fields>
+        <label>DB（ツール用）</label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old First Name --></label>
+        <name>EDY_ORGCUSTOM__Old_First_Name__c</name>
+    </fields><fields>
+        <label><!-- Old Last Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Last_Name__c</name>
+    </fields><fields>
+        <label>社員番号</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Key User --></label>
+        <name>Key_User__c</name>
+    </fields><fields>
+        <label>ユーザにリンク</label>
+        <name>Link_to_User__c</name>
+    </fields><fields>
+        <label>上司（PTO）</label>
+        <name>Manager_PTO__c</name>
+        <relationshipLabel><!-- Users (Manager (PTO)) --></relationshipLabel>
+    </fields><fields>
+        <help>[商品ルックアップ] ページのデフォルトのタブをカスタマイズします。</help>
+        <label><!-- Default Product Lookup Tab --></label>
+        <name>SBQQ__DefaultProductLookupTab__c</name>
+        <picklistValues>
+            <masterLabel>Guided Selling</masterLabel>
+            <translation>ガイド付き販売</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Filters</masterLabel>
+            <translation>検索条件</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>ユーザが見積ドキュメントの出力形式を変更できるようにする場合は、オンにします。</help>
+        <label><!-- Allow Output Format Change --></label>
+        <name>SBQQ__OutputFormatChangeAllowed__c</name>
+    </fields><fields>
+        <help>見積を追加するときに他の商品よりも前に Chatter でフォローした商品を表示する場合は、[フォロー済み] を選択します。</help>
+        <label><!-- Product Sort Preference --></label>
+        <name>SBQQ__ProductSortPreference__c</name>
+        <picklistValues>
+            <masterLabel>Followed</masterLabel>
+            <translation>フォロー済み</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>商品を見積に追加するたびに検索条件と結果をクリアする場合は、オンにします。オフにすると、前の選択内容が保持されます。</help>
+        <label><!-- Reset Product Lookup --></label>
+        <name>SBQQ__ResetProductLookup__c</name>
+    </fields><fields>
+        <label><!-- Theme --></label>
+        <name>SBQQ__Theme__c</name>
+    </fields><fields>
+        <label>チェックイン地図に表示</label>
+        <name>Show_on_Checkin_Map__c</name>
+    </fields><fields>
+        <label><!-- TrialforceDate --></label>
+        <name>TrialforceDate__c</name>
+    </fields><fields>
+        <help><!-- This field contains the current Work.com Points that have been accumulated for this User. --></help>
+        <label>Work.comポイント</label>
+        <name>Work_com_Points__c</name>
+    </fields><fields>
+        <label><!-- Can View Not Assigned Prospects --></label>
+        <name>pi__Can_View_Not_Assigned_Prospects__c</name>
+    </fields><fields>
+        <label><!-- Pardot Api Key --></label>
+        <name>pi__Pardot_Api_Key__c</name>
+    </fields><fields>
+        <label><!-- Pardot Api Version --></label>
+        <name>pi__Pardot_Api_Version__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Id --></label>
+        <name>pi__Pardot_User_Id__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Key --></label>
+        <name>pi__Pardot_User_Key__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Role --></label>
+        <name>pi__Pardot_User_Role__c</name>
+    </fields><fields>
+        <label>営業管理</label>
+        <name>sales_management__c</name>
+        <relationshipLabel><!-- Users (Sales Management) --></relationshipLabel>
+    </fields><layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts><webLinks>
+        <label><!-- Select_Theme --></label>
+        <name>SBQQ__Select_Theme</name>
+    </webLinks></CustomObjectTranslation>

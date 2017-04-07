@@ -1,0 +1,9 @@
+.THIS .slds-button.initial,.THIS .initial {
+    position: initial !important;
+}
+
+.THIS a.editlink[disabled] {
+   text-decoration:none;
+   color: rgb(216, 221, 230);
+   cursor:default;
+}

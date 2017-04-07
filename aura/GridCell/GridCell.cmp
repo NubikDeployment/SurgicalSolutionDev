@@ -1,0 +1,142 @@
+<aura:component controller="accHierarchy.AccountHierarchyController" >
+    <aura:attribute name='value' type='String' />
+	<aura:attribute name='id' type='String' />
+    <aura:attribute name='type' type='String' />
+    <aura:attribute name="cases" type="Object[]" default="[]" />
+    <aura:attribute name="opportunities" type="Object[]" default="[]" />
+    <aura:attribute name="account" type="Object"/>
+    <aura:attribute name="hovering" type="Boolean" default="false" access="private" />
+    <aura:attribute name="timeout" type="Integer" access="private" />
+    <aura:attribute name="inSearch" type="Boolean" default="false"/>
+    <aura:attribute name="timers" type="Object[]" default="[]" />
+
+    <!--permissions: object actions -->
+    <aura:attribute name="canReadCaseObject" type="Boolean" default="false"/>
+    <aura:attribute name="canReadOpportunityObject" type="Boolean" default="false"/>
+
+    <!-- permissions: field level security (remove this if possible) -->
+    <aura:attribute name="canReadAccount" type="Boolean" default="false"/>
+    <!--permissions: sharing model + object actions -->
+    <aura:attribute name="accessControl" type="Object"/>
+
+    <aura:if isTrue="{!v.value.name == 'Account Name' || v.type== 'Preview' || v.type=='AccountName'}">
+        	<aura:if isTrue="{!v.accessControl.canReadAccount}">
+                <a style="{!v.inSearch ? 'font-weight:bold;' : ''}" class="slds-truncate" href="{!'/one/one.app#/sObject/' + v.id + '/view'}" onmouseover="{!c.showRelatedRecords}" onmouseleave="{!c.hideRelatedRecords}">
+                    <aura:if isTrue="{!v.type == 'Preview'}">
+                        <span>{!v.value}</span>
+                    </aura:if>
+                    <aura:if isTrue="{!v.type != 'Preview'}">
+                        <span>{!v.value.value}</span>
+                    </aura:if>
+                </a>
+                <div style="{!v.type != 'Preview' ? 'display:inline-block;position:relative;' : 'display:inline-block; position:absolute;' }">
+
+                    <div style="{!v.type == 'Preview' ? 'top: -24px; left:21px;' :'' }" aura:id="accountName" class="accountName-hoverContainer hidden" onmouseover="{!c.onHoverPanel}" onmouseleave="{!c.onLeavePanel}">
+                        <accHierarchy:HoverAccount cases="{!v.cases}" opportunities="{!v.opportunities}" account="{!v.account}" canReadCaseObject="{!v.canReadCaseObject}" canReadOpportunityObject="{!v.canReadOpportunityObject}"></accHierarchy:HoverAccount>
+                    </div>
+                </div>
+            <aura:set attribute="else">
+           		<aura:if isTrue="{!v.type == 'Preview'}">
+                	<span>{!v.value}</span>
+                </aura:if>
+                <aura:if isTrue="{!v.type != 'Preview'}">
+                	<span>{!v.value.value}</span>
+                </aura:if>
+            </aura:set>
+            </aura:if>
+    <aura:set attribute="else">
+        <aura:if isTrue="{! v.value.type == 'REFERENCE' }">
+            <aura:if isTrue="{!v.value.canRead}">
+            	<a class="slds-truncate" href="{! v.value.link!='' ? v.value.link : '/one/one.app#/sObject/' + v.value.value + '/view'}" target="_blank">{!v.value.value} </a>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'URL' }">
+            <aura:if isTrue="{!v.value.canRead}">
+                <span class="slds-truncate">
+                    <ui:outputURL value="{!'http://' + v.value.value}" label="{!v.value.value}" target="_blank"></ui:outputURL>
+                </span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'PICKLIST' || v.value.type == 'INTEGER' || v.value.type == 'LOCATION' || v.value.type=='DOUBLE' || v.value.type=='STRING' || v.value.type=='TEXTAREA'}">
+            <aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate">{!v.value.value}</span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'CURRENCY'}">
+        	<aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate">
+                    <ui:outputCurrency value="{!v.value.value}"/>
+                </span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'PHONE'}">
+        	<aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate"><ui:outputPhone value="{!v.value.value}"></ui:outputPhone></span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'EMAIL'}">
+        	<aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate"><ui:outputEmail value="{!v.value.value}"></ui:outputEmail></span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'PERCENT'}">
+            <aura:if isTrue="{!v.value.canRead}">
+                <span class="slds-truncate"> {!v.value.value} {!v.value.value != null ? '%' : ''} </span>
+            <aura:set attribute="else">
+                <span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'BOOLEAN'}">
+            <aura:if isTrue="{!v.value.canRead}">
+                <span class="slds-truncate"> <ui:outputCheckbox value="{!v.value.value == 'true' ? true : false}"/></span>
+            <aura:set attribute="else">
+                <span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'DATETIME'}">
+            <aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate"> <ui:outputDateTime format="MM/dd/yyyy hh:mm a" value="{!v.value.value}"/> </span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'DATE'}">
+            <aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate"> <ui:outputDate format="MM/dd/yyyy" value="{!v.value.value}"/> </span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+        <aura:if isTrue="{!v.value.type == 'ID'}">
+            <aura:if isTrue="{!v.value.canRead}">
+            	<span class="slds-truncate">{!v.value.value}</span>
+            <aura:set attribute="else">
+            	<span></span>
+            </aura:set>
+            </aura:if>
+        </aura:if>
+    </aura:set>
+    </aura:if>
+</aura:component>

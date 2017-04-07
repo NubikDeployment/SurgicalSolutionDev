@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label>Fecha actividad</label>
+        <name>Activity_Date__c</name>
+    </fields><fields>
+        <label>Tipo de actividad</label>
+        <name>Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Advertising</masterLabel>
+            <translation>Publicidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation>Correo directo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Ninguno</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Tools</masterLabel>
+            <translation>Herramientas de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation>Seminario</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation>Feria</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Antiguedad (días)</label>
+        <name>Age_Days__c</name>
+    </fields><fields>
+        <label>Cantidad solicitada</label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label>Historial de aprobaciones</label>
+        <name>Approval_History__c</name>
+    </fields><fields>
+        <label>Importe aprobado</label>
+        <name>Approved_Amount__c</name>
+    </fields><fields>
+        <label>Importe reclamado</label>
+        <name>Claimed_Amount__c</name>
+    </fields><fields>
+        <label>Fecha de aprobación</label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label>Resultado deseado</label>
+        <name>Desired_Outcome__c</name>
+    </fields><fields>
+        <label>Fondo de desarrollo de mercado</label>
+        <name>Market_Development_Fund__c</name>
+        <relationshipLabel>Solicitudes de fondo</relationshipLabel>
+    </fields><fields>
+        <help><!-- True when current user&apos;s Account ID matches the account of the request. --></help>
+        <label><!-- My Company&apos;s Request --></label>
+        <name>My_Company_s_Request__c</name>
+    </fields><fields>
+        <label>Comentarios socio</label>
+        <name>Partner_Comments__c</name>
+    </fields><fields>
+        <label>Contribución socio</label>
+        <name>Partner_Contribution__c</name>
+    </fields><fields>
+        <label>% Aprobado</label>
+        <name>Percent_Approved__c</name>
+    </fields><fields>
+        <label>Detalles solicitud</label>
+        <name>Request_Details__c</name>
+    </fields><fields>
+        <label>Nombre solicitud</label>
+        <name>Request_Name__c</name>
+    </fields><fields>
+        <label><!-- s_Servlet Location --></label>
+        <name>S1__c</name>
+    </fields><fields>
+        <label><!-- s_Document Directory --></label>
+        <name>S2__c</name>
+    </fields><fields>
+        <label>Acción de aprobación</label>
+        <name>Status_Action__c</name>
+    </fields><fields>
+        <label>Estado de la aprobación</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation>Enviado</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Cuenta de socio</label>
+        <name>account__c</name>
+        <relationshipLabel>Solicitudes de fondo</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Solicitud de fondo</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Solicitudes de fondo</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Número de la solicitud</nameFieldLabel><layouts>
+        <layout>Fund Request Layout</layout>
+        <sections>
+            <label>Aprobación</label>
+            <section>Approval</section>
+        </sections>
+        <sections>
+            <label>Detalles del fondo</label>
+            <section>Fund Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

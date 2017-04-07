@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Count of all events --></help>
+        <label><!-- Count of Events --></label>
+        <name>Count_of_Events__c</name>
+    </fields><fields>
+        <label><!-- Count of Tasks --></label>
+        <name>Count_of_Tasks__c</name>
+    </fields><fields>
+        <label>DB Tage</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label>Externe ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Hoch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal</masterLabel>
+            <translation><!-- Normal --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Abgeschlossen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>In Arbeit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>Nicht angefangen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>Pausiert</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Typ der Aktivität</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Call</masterLabel>
+            <translation>Anruf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>E-Mail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting</masterLabel>
+            <translation><!-- Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Andere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prep</masterLabel>
+            <translation>Vorbereitung</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Pardot Source Id --></label>
+        <name>pi__pardot_source_id__c</name>
+    </fields></CustomObjectTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
+    <cacheControl>Private</cacheControl>
+    <contentType>application/x-zip-compressed</contentType>
+    <description>Resources for Relevant Content package, including:
+- Custom: images, css, and js (BSD)
+- Bootstrap v3.3.1 (css and js) (MIT)
+- jQuery v1.11.2 (js) (MIT)
+- Salesforce1 icons (CC BY-NC-ND 3.0)</description>
+</StaticResource>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label>文档链接</label>
+        <name>Document_Link__c</name>
+    </fields><fields>
+        <label>概要</label>
+        <name>Summary__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Digital Sales Aid --></value>
+    </caseValues><nameFieldLabel><!-- Digital Sales Aid Name --></nameFieldLabel></CustomObjectTranslation>

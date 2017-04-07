@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- AccountID --></label>
+        <name>AccountID__c</name>
+    </fields><fields>
+        <label><!-- AccountName2 --></label>
+        <name>AccountName2__c</name>
+    </fields><fields>
+        <label><!-- AccountName --></label>
+        <name>AccountName__c</name>
+    </fields><fields>
+        <help><!-- Account Id of the current user (if any) --></help>
+        <label><!-- Account Id --></label>
+        <name>Account_Id_Formula__c</name>
+    </fields><fields>
+        <label><!-- Branding Template --></label>
+        <name>Branding_Template__c</name>
+    </fields><fields>
+        <label><!-- Consumer User --></label>
+        <name>Consumer_User__c</name>
+    </fields><fields>
+        <label><!-- ContactId --></label>
+        <name>ContactId__c</name>
+    </fields><fields>
+        <label><!-- Count --></label>
+        <name>Count__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old First Name --></label>
+        <name>EDY_ORGCUSTOM__Old_First_Name__c</name>
+    </fields><fields>
+        <label><!-- Old Last Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Last_Name__c</name>
+    </fields><fields>
+        <label><!-- Employee Number --></label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Key User --></label>
+        <name>Key_User__c</name>
+    </fields><fields>
+        <label><!-- Link to User --></label>
+        <name>Link_to_User__c</name>
+    </fields><fields>
+        <label>Genehmiger Urlaub</label>
+        <name>Manager_PTO__c</name>
+        <relationshipLabel><!-- Users (Manager (PTO)) --></relationshipLabel>
+    </fields><fields>
+        <help>Passen Sie die Standardregisterkarte in der Seite "Produkt nachschlagen" an</help>
+        <label><!-- Default Product Lookup Tab --></label>
+        <name>SBQQ__DefaultProductLookupTab__c</name>
+        <picklistValues>
+            <masterLabel>Guided Selling</masterLabel>
+            <translation>Geführter Verkauf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Filters</masterLabel>
+            <translation>Suchfilter</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Aktivieren Sie diese Option, wenn Benutzer das Ausgabeformat von Angebotsdokumenten ändern dürfen sollen.</help>
+        <label><!-- Allow Output Format Change --></label>
+        <name>SBQQ__OutputFormatChangeAllowed__c</name>
+    </fields><fields>
+        <help>Wählen Sie "Gefolgt" aus, um Produkte, denen Sie in Chatter folgen, beim Hinzufügen zum Angebot vor anderen Produkten anzuzeigen.</help>
+        <label><!-- Product Sort Preference --></label>
+        <name>SBQQ__ProductSortPreference__c</name>
+        <picklistValues>
+            <masterLabel>Followed</masterLabel>
+            <translation>Gefolgt</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Aktivieren Sie diese Option, um jedes Mal alle Suchfilter und -ergebnisse zu entfernen, wenn Sie Produkte zu Ihren Angeboten hinzufügen. Andernfalls werden die vorherigen Auswahlen beibehalten.</help>
+        <label><!-- Reset Product Lookup --></label>
+        <name>SBQQ__ResetProductLookup__c</name>
+    </fields><fields>
+        <label><!-- Theme --></label>
+        <name>SBQQ__Theme__c</name>
+    </fields><fields>
+        <label><!-- Show on Checkin Map --></label>
+        <name>Show_on_Checkin_Map__c</name>
+    </fields><fields>
+        <label><!-- TrialforceDate --></label>
+        <name>TrialforceDate__c</name>
+    </fields><fields>
+        <help><!-- This field contains the current Work.com Points that have been accumulated for this User. --></help>
+        <label><!-- Work.com Points --></label>
+        <name>Work_com_Points__c</name>
+    </fields><fields>
+        <label><!-- Can View Not Assigned Prospects --></label>
+        <name>pi__Can_View_Not_Assigned_Prospects__c</name>
+    </fields><fields>
+        <label><!-- Pardot Api Key --></label>
+        <name>pi__Pardot_Api_Key__c</name>
+    </fields><fields>
+        <label><!-- Pardot Api Version --></label>
+        <name>pi__Pardot_Api_Version__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Id --></label>
+        <name>pi__Pardot_User_Id__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Key --></label>
+        <name>pi__Pardot_User_Key__c</name>
+    </fields><fields>
+        <label><!-- Pardot User Role --></label>
+        <name>pi__Pardot_User_Role__c</name>
+    </fields><fields>
+        <label><!-- Sales Management --></label>
+        <name>sales_management__c</name>
+        <relationshipLabel><!-- Users (Sales Management) --></relationshipLabel>
+    </fields><layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts><webLinks>
+        <label><!-- Select_Theme --></label>
+        <name>SBQQ__Select_Theme</name>
+    </webLinks></CustomObjectTranslation>

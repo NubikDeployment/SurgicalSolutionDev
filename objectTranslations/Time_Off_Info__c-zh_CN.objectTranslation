@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>禁止休假请求</label>
+        <name>Disable_time_off_requests__c</name>
+    </fields><fields>
+        <label>员工编号</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label>＆NBSP;注</label>
+        <name>Note2__c</name>
+    </fields><fields>
+        <label>注意</label>
+        <name>Note__c</name>
+    </fields><fields>
+        <label>PTO余额（天）</label>
+        <name>PTO_Balance_Days__c</name>
+    </fields><fields>
+        <label>总PTO可用（小时）</label>
+        <name>PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>工资系统</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>放假时间余额</relationshipLabel>
+    </fields><fields>
+        <label>待PTO请求（小时）</label>
+        <name>Pending_PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>PTO应计</label>
+        <name>Total_PTO_Accrued__c</name>
+    </fields><fields>
+        <label>PTO可用</label>
+        <name>Total_PTO_Available__c</name>
+    </fields><fields>
+        <label>总动力输出时间应计</label>
+        <name>Total_PTO_Hours_Accrued_2__c</name>
+    </fields><fields>
+        <label>PTO待定</label>
+        <name>Total_Pending_PTO_Requests__c</name>
+    </fields><fields>
+        <label>总时间 - 关有（小时）</label>
+        <name>Total_Time_Off_Available_Hours__c</name>
+    </fields><fields>
+        <label>用户</label>
+        <name>User__c</name>
+        <relationshipLabel>放假时间余额</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Time-Off Balances --></value>
+    </caseValues><nameFieldLabel><!-- Employee Number --></nameFieldLabel><layouts>
+        <layout>Time-Off Balances (Admin)</layout>
+        <sections>
+            <label>仅限于管理员 - 对于手动调整</label>
+            <section>Admin Only -- For Manual Adjustments</section>
+        </sections>
+        <sections>
+            <label>笔记</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>时间失去平衡信息</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Time-Off Balances Layout</layout>
+        <sections>
+            <label>我的时间关闭日历</label>
+            <section>My Time-Off Calendar</section>
+        </sections>
+        <sections>
+            <label>笔记</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>时间失去平衡信息</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>等待PTO余额不能为空</errorMessage>
+        <name>pending_balance_cannot_be_null</name>
+    </validationRules><webLinks>
+        <label>查看时间休假应计计划</label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks></CustomObjectTranslation>

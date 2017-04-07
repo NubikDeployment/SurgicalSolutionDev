@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Fecha de cierre</label>
+        <name>HR_Close_Date__c</name>
+    </fields><fields>
+        <help>El contacto de RH para esta solicitud de empleo</help>
+        <label>Contacto RH</label>
+        <name>HR_Contact__c</name>
+        <relationshipLabel>Solicitudes de empleo (Contacto RH)</relationshipLabel>
+    </fields><fields>
+        <label>Días abierto</label>
+        <name>HR_Days_Open__c</name>
+    </fields><fields>
+        <label>Descripción</label>
+        <name>HR_Description__c</name>
+    </fields><fields>
+        <label>Area funcional</label>
+        <name>HR_Functional_Area__c</name>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware Engineering</masterLabel>
+            <translation>Ingeniería Hardware</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation>Recursos humanos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Technology</masterLabel>
+            <translation>Tecnología de información</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation>Gestión de productos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Operations</masterLabel>
+            <translation>Operaciones de venta al por menor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Department</masterLabel>
+            <translation>Departamento de ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software Engineering</masterLabel>
+            <translation>Ingeniería de Software</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehousing</masterLabel>
+            <translation>Almacenamiento</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Fecha para contratar</label>
+        <name>HR_Hire_by_Date__c</name>
+    </fields><fields>
+        <help>El gerente contratante para esta solicitud de empleo</help>
+        <label>Gerente contratante</label>
+        <name>HR_Hiring_Manager__c</name>
+        <relationshipLabel>Solicitudes de empleo (Gerente contratante)</relationshipLabel>
+    </fields><fields>
+        <label>Ubicación</label>
+        <name>HR_Location__c</name>
+    </fields><fields>
+        <label>Definición principal del trabajo</label>
+        <name>HR_Master_Job_Definition__c</name>
+        <relationshipLabel><!-- Job Requisitions --></relationshipLabel>
+    </fields><fields>
+        <label>Pago máximo</label>
+        <name>HR_Max_Pay__c</name>
+    </fields><fields>
+        <label>Pago mínimo</label>
+        <name>HR_Min_Pay__c</name>
+    </fields><fields>
+        <label>Fecha de inicio reclutamiento</label>
+        <name>HR_Rec_Open__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>HR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Cerrado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Approval</masterLabel>
+            <translation>Necesita aprobación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Abierto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open - Approved</masterLabel>
+            <translation>Abierto - Aprobado</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Requiere viajar</label>
+        <name>HR_Travel_Required__c</name>
+    </fields><fields>
+        <label>Tipo</label>
+        <name>HR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation>Contratista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Time</masterLabel>
+            <translation>Tiempo completo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internship</masterLabel>
+            <translation>Estudiante en prácticas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part Time</masterLabel>
+            <translation>Tiempo parcial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote</masterLabel>
+            <translation>Remoto</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>ID de la posición</label>
+        <name>Position_ID__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Solicitud de empleo</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Solicitudes de empleo</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Titulo</nameFieldLabel><layouts>
+        <layout>Job Requisition Layout</layout>
+        <sections>
+            <label>Detalles adicionales</label>
+            <section>Additional Details</section>
+        </sections>
+        <sections>
+            <label>Compensación</label>
+            <section>Compensation</section>
+        </sections>
+    </layouts><quickActions>
+        <label>Actualizar estado</label>
+        <name>Update_Status</name>
+    </quickActions></CustomObjectTranslation>

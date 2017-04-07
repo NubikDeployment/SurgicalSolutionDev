@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Time_Off_Manager_Payroll</name>
+    <queueSobject>
+        <sobjectType>Time_Off_Info__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Time_Off_Request__c</sobjectType>
+    </queueSobject>
+</Queue>

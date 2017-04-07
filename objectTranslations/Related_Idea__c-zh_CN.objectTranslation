@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>评论</label>
+        <name>Comments__c</name>
+    </fields><fields>
+        <label>理念</label>
+        <name>Idea__c</name>
+        <relationshipLabel>相关的想法</relationshipLabel>
+    </fields><fields>
+        <label>发布者</label>
+        <name>Posted_By__c</name>
+    </fields><fields>
+        <label>发布</label>
+        <name>Posted__c</name>
+    </fields><fields>
+        <label>项目</label>
+        <name>Project__c</name>
+        <relationshipLabel>相关的想法</relationshipLabel>
+    </fields><fields>
+        <label>投票</label>
+        <name>Votes__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Related Idea --></value>
+    </caseValues><nameFieldLabel><!-- Related Idea --></nameFieldLabel><layouts>
+        <layout>Related Idea Layout</layout>
+        <sections>
+            <label>详细信息</label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label>理念</label>
+            <section>Idea</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID d'Ordre d'exécution parent</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>parent_workorder_id</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>ID d'Ordre d'exécution racine</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>root_workorder_id</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Ordre d'exécution Racine</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>workorder_rootworkorder</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <name>Priority</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation>Critique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>Haute</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>Basse</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>Moyenne</translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation>Assigné</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation>Clôturé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Complété</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>En Cours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nouveau</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>Programmé</translation>
+        </picklistValues>
+    </fields></CustomObjectTranslation>

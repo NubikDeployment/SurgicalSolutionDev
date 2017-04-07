@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><customSettingsType>Hierarchy</customSettingsType><enableFeeds>false</enableFeeds><label>SOS Create Case</label><visibility>Public</visibility></CustomObject>

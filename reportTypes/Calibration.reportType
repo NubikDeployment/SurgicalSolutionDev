@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>WorkPerformanceCycle</baseObject>
+    <category>calibration</category>
+    <deployed>true</deployed>
+    <description>Work.com: Calibration Report Type</description>
+    <join>
+        <join>
+            <join>
+                <outerJoin>true</outerJoin>
+                <relationship>Feedbacks</relationship>
+            </join>
+            <outerJoin>false</outerJoin>
+            <relationship>FeedbackRequests</relationship>
+        </join>
+        <outerJoin>false</outerJoin>
+        <relationship>FeedbackQuestionSets</relationship>
+    </join>
+    <label>Calibration</label>
+    <sections>
+        <masterLabel>Performance Cycles</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Feedback Question Sets</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Questions</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Feedback Requests</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Feedback</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Subjects</masterLabel>
+    </sections>
+    <sections>
+        <masterLabel>Managers</masterLabel>
+    </sections>
+</ReportType>

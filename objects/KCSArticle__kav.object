@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>Cause__c</fullName>
+        <description>Explains the root cause of the issue.</description>
+        <externalId>false</externalId>
+        <label>Cause</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Environment__c</fullName>
+        <description>Provides details on the environment where the customer is experiencing the issue.</description>
+        <externalId>false</externalId>
+        <label>Environment</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Issue__c</fullName>
+        <description>Describes the issue the customer is encountering.</description>
+        <externalId>false</externalId>
+        <label>Issue</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Resolution__c</fullName>
+        <description>Describes the steps taken to resolve this issue.</description>
+        <externalId>false</externalId>
+        <label>Resolution</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Tab</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Article template designed according to the best practices of Knowledge-Centered Support.</description><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><label>KCS Article</label><pluralLabel>KCSArticle</pluralLabel></CustomObject>

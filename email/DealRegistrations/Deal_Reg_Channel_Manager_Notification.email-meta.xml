@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to the Channel Manager that a deal registration has been submitted.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Deal Reg: Channel Manager Notification</name>
+    <style>freeForm</style>
+    <subject>New Deal Registration Submitted</subject>
+    <textOnly>A new deal registration lead has been submitted for review:
+
+Name: {!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Product Interest: {!Lead.Product_Interest__c}
+Submitted By: {!Lead.CreatedBy}
+Rating: {!Lead.Lead_Quality__c}
+
+Please review and approve or reject this registration as soon as possible.</textOnly>
+    <type>html</type>
+</EmailTemplate>

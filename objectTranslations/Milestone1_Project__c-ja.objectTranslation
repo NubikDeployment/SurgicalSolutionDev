@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>取引先</label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields><fields>
+        <label><!-- DB Duration --></label>
+        <name>DB_Days_Start__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help><!-- The date by which the project is scheduled to be completed by. --></help>
+        <label>期日</label>
+        <name>Deadline__c</name>
+    </fields><fields>
+        <help><!-- A general description of the project. --></help>
+        <label>詳細</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help><!-- Number of days between Kickoff and Deadline. --></help>
+        <label>期間</label>
+        <name>Duration__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <help><!-- Calculated. --></help>
+        <label>Googleガントチャート</label>
+        <name>GoogleGanntUrl__c</name>
+    </fields><fields>
+        <label><!-- Import ID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help><!-- What date should this project start? --></help>
+        <label>キックオフ日</label>
+        <name>Kickoff__c</name>
+    </fields><fields>
+        <help><!-- Calculated as the next incomplete task with a due date in this project. This includes sub-milestones. --></help>
+        <label>次のプロジェクトの期限日</label>
+        <name>Next_Project_Milestone_Due_Date__c</name>
+    </fields><fields>
+        <help><!-- The next incomplete milestone due date. This does not include sub-milestones. --></help>
+        <label>次のプロジェクトの上位マイルストーンの期限日</label>
+        <name>Next_Project_Top_Milestone_Due_Date__c</name>
+    </fields><fields>
+        <help><!-- Calculated sum of the number of incomplete milestones assigned to this project. This includes sub-milestones in the project. --></help>
+        <label>マイルストーンの未完了数</label>
+        <name>Number_of_Incomplete_Milestones__c</name>
+    </fields><fields>
+        <help><!-- The number of incomplete milestones that are in this project. This does not count sub-milestones. --></help>
+        <label>上位マイルストーンの未完了数</label>
+        <name>Number_of_Incomplete_Top_Milestones__c</name>
+    </fields><fields>
+        <label>ステータス指標</label>
+        <name>Project_Status_Indicator__c</name>
+    </fields><fields>
+        <label>プロジェクトステータス</label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>予定より前倒し</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation>大幅に遅れている</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation>予定通り</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>プロジェクトフェーズ</label>
+        <name>Project_stage__c</name>
+        <picklistValues>
+            <masterLabel>Acceptance</masterLabel>
+            <translation>受諾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation>設計中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>キャンセル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation>デザイン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>ドラフト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Train</masterLabel>
+            <translation>トレーニング</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>費用概要</label>
+        <name>Status_BudgetExpenseSummary__c</name>
+    </fields><fields>
+        <label>タスク時間分析</label>
+        <name>Status_BudgetMiletoneEstimate__c</name>
+    </fields><fields>
+        <label>タスク時間分析（チャート）</label>
+        <name>Status_Image_HoursSummary__c</name>
+    </fields><fields>
+        <label>進行中と完了済みタスク（チャート）</label>
+        <name>Status_Image_OpenVComplete__c</name>
+    </fields><fields>
+        <label>進行中と遅延タスク（チャート）</label>
+        <name>Status_Img_OpenLateBlocked__c</name>
+    </fields><fields>
+        <label>進行中と遅延タスク</label>
+        <name>Status_TasksOpenBlockedLate__c</name>
+    </fields><fields>
+        <label>進行中と完了済みタスク</label>
+        <name>Status_TasksOpenComplete__c</name>
+    </fields><fields>
+        <help><!-- The current status of the project. --></help>
+        <label>ステータス</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>アクティブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>完了</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>非アクティブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>保留</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation>計画中</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>テンプレート</label>
+        <name>Template__c</name>
+    </fields><fields>
+        <help><!-- How many tasks associated with this project are blocked? (Calculated) --></help>
+        <label>総ブロックタスク数</label>
+        <name>Total_Blocked_Task_Count__c</name>
+    </fields><fields>
+        <help><!-- How many complete tasks are there in this project?  (Calculated.) --></help>
+        <label>総完了済みタスク数</label>
+        <name>Total_Complete_Task_Count__c</name>
+    </fields><fields>
+        <help><!-- The total expense budget for this project. --></help>
+        <label>総予算金額</label>
+        <name>Total_Expense_Budget__c</name>
+    </fields><fields>
+        <help><!-- Calculated from the milestone expense budgets assigned to this project. --></help>
+        <label>マイルストーンからの総予算金額</label>
+        <name>Total_Expense_Budget_from_Milestones__c</name>
+    </fields><fields>
+        <help><!-- Calculated from expense estimates on all child milestones --></help>
+        <label>総想定消費金額</label>
+        <name>Total_Expense_Estimate__c</name>
+    </fields><fields>
+        <help><!-- Calculated from expense records related to tasks on all child milestones --></help>
+        <label>総消費金額</label>
+        <name>Total_Expense_Incurred__c</name>
+    </fields><fields>
+        <help><!-- The total hours budget for this project. --></help>
+        <label>総予定時間</label>
+        <name>Total_Hours_Budget__c</name>
+    </fields><fields>
+        <help><!-- Calculated from hours budgets for milestones in this project. --></help>
+        <label>マイルストーンからの総予定時間</label>
+        <name>Total_Hours_Budget_from_Milestones__c</name>
+    </fields><fields>
+        <help><!-- Calculated from hours estimates on all child milestones --></help>
+        <label>総想定時間</label>
+        <name>Total_Hours_Estimate__c</name>
+    </fields><fields>
+        <help><!-- Calculated from time records related to tasks on all child milestones --></help>
+        <label>総消費時間</label>
+        <name>Total_Hours_Incurred__c</name>
+    </fields><fields>
+        <help><!-- How many tasks associated with this project are late?  (Calculated) --></help>
+        <label>総遅延タスク数</label>
+        <name>Total_Late_Task_Count__c</name>
+    </fields><fields>
+        <help>このプロジェクトの進行中タスク数（遅延とブロックを含む）</help>
+        <label>総進行中タスク数</label>
+        <name>Total_Open_Task_Count__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>プロジェクト</value>
+    </caseValues><nameFieldLabel>プロジェクト名</nameFieldLabel><layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label>予算</label>
+            <section>Budgets</section>
+        </sections>
+        <sections>
+            <label>指標: 時間 &amp; 予算（自動計算）</label>
+            <section>Metrics: Hours &amp; Expenses (Calculated)</section>
+        </sections>
+        <sections>
+            <label>指標: マイルストーン情報（自動計算）</label>
+            <section>Metrics: Milestone Information (Calculated)</section>
+        </sections>
+        <sections>
+            <label>プロジェクトの詳細</label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label>プロジェクトのガントチャート</label>
+            <section>Project Milestones Gantt View</section>
+        </sections>
+        <sections>
+            <label>全体状況</label>
+            <section>Status at a Glance</section>
+        </sections>
+    </layouts><quickActions>
+        <label><!-- New Milestone --></label>
+        <name>New_Milestone</name>
+    </quickActions><validationRules>
+        <errorMessage>開始日は期限日より前である必要があります。</errorMessage>
+        <name>Kickoff_before_deadline</name>
+    </validationRules><validationRules>
+        <errorMessage>正数を入力して下さい。</errorMessage>
+        <name>Total_Expense_Budget_Negative_Numbers</name>
+    </validationRules><validationRules>
+        <errorMessage>正数を入力して下さい。</errorMessage>
+        <name>Total_Hours_Budget_Negative_Numbers</name>
+    </validationRules><webLinks>
+        <label><!-- Export_Template --></label>
+        <name>Export_Template</name>
+    </webLinks><webLinks>
+        <label><!-- Import_Template --></label>
+        <name>Import_Template</name>
+    </webLinks><webLinks>
+        <label><!-- Update --></label>
+        <name>Update</name>
+    </webLinks></CustomObjectTranslation>

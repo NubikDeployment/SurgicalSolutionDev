@@ -1,0 +1,3 @@
+<design:component label="Grid View">
+    <design:attribute name="recordId" default="{!v.recordId}" /> 
+</design:component>

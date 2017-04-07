@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><layouts>
+        <layout>Live Chat Transcript Layout</layout>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label>Transcripción del grupo de resolución</label>
+            <section>Resolver Group Tanscript</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

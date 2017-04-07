@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Body BG Color --></label>
+        <name>Body_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- Body Font Color --></label>
+        <name>Body_Font_Color__c</name>
+    </fields><fields>
+        <label><!-- action color --></label>
+        <name>action_color__c</name>
+    </fields><fields>
+        <label><!-- ahref color --></label>
+        <name>ahref_color__c</name>
+    </fields><fields>
+        <label><!-- div.article div.data Color --></label>
+        <name>div_article_div_data_Color__c</name>
+    </fields><fields>
+        <label><!-- div#body BG Color --></label>
+        <name>div_body_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- div#body Border Color --></label>
+        <name>div_body_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- div#feedbackDialog Border Color --></label>
+        <name>div_feedbackDialog_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- div.narrowSearch Border Color --></label>
+        <name>div_narrowSearch_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- div#right_column BG Color --></label>
+        <name>div_right_column_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- div#right_column Border Color --></label>
+        <name>div_right_column_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- div.selectedArticle Background Color --></label>
+        <name>div_selectedArticle_Background_Color__c</name>
+    </fields><fields>
+        <label><!-- div.selectedArticle Border Color --></label>
+        <name>div_selectedArticle_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- h2.section Border Color --></label>
+        <name>h2_section_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- h2.section Color --></label>
+        <name>h2_section_Color__c</name>
+    </fields><fields>
+        <label><!-- .knowledgeTOCRendererSection BG Color --></label>
+        <name>knowledgeTOCRendererSection_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- .knowledgeTOCRendererSection.selected BG --></label>
+        <name>knowledgeTOCRendererSection_selected_BG__c</name>
+    </fields><fields>
+        <label><!-- .knowledgeTOCRendererSection.selected FC --></label>
+        <name>knowledgeTOCRendererSection_selected_FC__c</name>
+    </fields><fields>
+        <label><!-- knowledgeTOCRendererSections BG Color --></label>
+        <name>knowledgeTOCRendererSections_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- knowledgeTOCRendererSections color --></label>
+        <name>knowledgeTOCRendererSections_color__c</name>
+    </fields><fields>
+        <label><!-- #searchAskInputContainer Border Color --></label>
+        <name>searchAskInputContainer_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- #searchAskInputContainer shadow Color --></label>
+        <name>searchAskInputContainer_shadow_Color__c</name>
+    </fields><fields>
+        <label><!-- sectionName BG Color --></label>
+        <name>sectionName_BG_Color__c</name>
+    </fields><fields>
+        <label><!-- .sectionName.selected BGColor --></label>
+        <name>sectionName_selected_BGColor__c</name>
+    </fields><fields>
+        <label><!-- .sectionName.selected td color --></label>
+        <name>sectionName_selected_td_color__c</name>
+    </fields><fields>
+        <label><!-- .sectionName td color --></label>
+        <name>sectionName_td_color__c</name>
+    </fields><fields>
+        <label><!-- select.language Border Color --></label>
+        <name>select_language_Border_Color__c</name>
+    </fields><fields>
+        <label><!-- textarea.default color --></label>
+        <name>textarea_default_color__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>PKB Design</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>PKB Designs</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

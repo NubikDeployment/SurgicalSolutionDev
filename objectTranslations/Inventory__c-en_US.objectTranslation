@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Disposable</masterLabel>
+            <translation><!-- Disposable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instrumentation</masterLabel>
+            <translation><!-- Instrumentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laparoscopes</masterLabel>
+            <translation><!-- Laparoscopes --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Preference Card --></label>
+        <name>Preference_Card__c</name>
+        <relationshipLabel><!-- Inventories --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields><fields>
+        <label><!-- Start --></label>
+        <name>Start__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Inventory</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Inventories</value>
+    </caseValues><startsWith>Vowel</startsWith></CustomObjectTranslation>

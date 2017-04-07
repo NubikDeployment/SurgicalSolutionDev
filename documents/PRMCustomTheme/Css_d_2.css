@@ -1,0 +1,962 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+    border-spacing: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+a {
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: normal;
+   font-size: 8pt;
+   color: #000000;
+   text-decoration: underline;
+}
+
+a:hover {
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: normal;
+   font-size: 8pt;
+   color: #6699CC;
+   text-decoration: underline;
+}
+
+h2 {
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: bold;
+   font-size: 12pt;
+}
+
+img {
+    border: 0px;
+}
+
+/***********************************************/
+/* LOGIN PAGE BEGIN                            */
+/***********************************************/
+.loginBody {
+    text-align:center;
+}
+
+.loginBody .errors {
+    text-align:left;
+    padding:10px;
+}
+
+.login {
+    width:250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.loginTable {
+    text-align:center;
+    padding:10px 0px 10px 0px;
+}
+
+.loginTable td {
+    text-align:left;
+}
+
+/***********************************************/
+/* RESET PASSWORD PAGE BEGIN                   */
+/***********************************************/
+
+.passwordResetBody {
+    text-align:center;
+}
+
+.passwordResetBody .errors {
+    text-align:left;
+    padding:10px;
+}
+
+.passwordReset {
+    width:370px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+}
+
+.passwordResetTable {
+    padding:0px;
+}
+
+.passwordResetTable td {
+    padding:0px;
+    text-align:left;
+}
+
+.passwordResetTable td.requiredInput, td.dataLabel {
+    white-space:nowrap;
+    padding:0px;
+    text-align:right;
+}
+
+/***********************************************/
+/* HEADER BEGIN                                */
+/***********************************************/
+
+.portalheader {
+	background: url(https://portal.salesforce.com/prm/img/bgd_header.gif) repeat-x top;
+    text-align:left;
+}
+.portalheader table {
+    width:100%;
+    margin: 0px;
+	padding: 0px;
+    border-spacing:0px;
+}
+.portalheader .logo{
+	padding: 5px 5px 5px 13px;
+}
+.portalheader .watermark{
+	background: url(https://portal.salesforce.com/prm/img/header_watermark.gif) no-repeat right top;
+    width:80%;
+    padding:0px;
+    margin:0px;
+}
+
+/***********************************************/
+/* TABS BEGIN                                  */
+/***********************************************/
+
+table#tabscontainer {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+    border-spacing:0px;
+    width:100%;
+}
+
+.tabsbar, .searchbar, .linksbar{
+    background:#FFF url(https://portal.salesforce.com/prm/img/bgd_tabs.gif) repeat-x bottom;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-spacing: 0px;
+}
+.tabshadow {
+  width:100%;
+  background:#FFF url(https://portal.salesforce.com/prm/img/bgd_tabshadow.gif) repeat-x;
+  height: 10px;
+  margin-bottom: 5px;
+  }
+#tabs {
+  float:left;
+  width:100%;
+  font-size:60%;
+  line-height:normal;
+  }
+#tabs ul {
+  margin:0px;
+  padding:0px 6px 0px;
+  list-style:none;
+  }
+#tabs li {
+  float:left;
+  background:url(https://portal.salesforce.com/prm/img/tab_left.gif) no-repeat left top;
+  margin:0px;
+  padding:0px 0px 0px 5px;
+  }
+#tabs a {
+  float:left;
+  display:block;
+  background:url(https://portal.salesforce.com/prm/img/tab_right.gif) no-repeat right top;
+  padding:2px 10px 3px 5px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#666666;
+  }
+/* Commented Backslash Hack
+   hides rule from IE5-Mac \*/
+#tabs a {float:none;}
+/* End IE5-Mac hack */
+#tabs a:hover {
+  color:#333;
+  }
+#tabs #current {
+  background-image:url(https://portal.salesforce.com/prm/img/tab_left_on.gif);
+  }
+#tabs #current a {
+  background-image:url(https://portal.salesforce.com/prm/img/tab_right_on.gif);
+  color:#FFF;
+  padding-bottom:4px;
+  }
+
+/***********************************************/
+/* MESSAGE BEGIN                               */
+/***********************************************/
+
+.message {
+	background: #6699CC;
+	padding:6px;
+    }
+.message td {
+	font-weight: bold;
+	color: #FFF;
+    }
+.message .tip {
+	font-size: 80%;
+    }
+.messageright {
+	text-align: right;
+    }
+
+/***********************************************/
+/* FOOTER BEGIN                                */
+/***********************************************/
+
+.portalfooter {
+    margin-top:10px;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    width:100%;
+	border-top: 2px solid #CCCCCC;
+}
+
+.portalfooter table {
+    width:100%;
+}
+
+.portalfooter td {
+    width:100%;
+    text-align:center;
+}
+
+.systemMessages {
+    text-align:left;
+}
+
+/***********************************************/
+/* SEARCH BEGIN                                */
+/***********************************************/
+
+.searchbox {
+    border: 0px;
+    padding: 0px 7px;
+	text-align: right;
+    margin: 0px;
+    }
+
+input.search {
+    width:100px;
+    margin:0px 0px 0px 1px;
+    font-size: 90%;
+    vertical-align: middle;
+    border: 1px #7F9DB9 inset;
+}
+
+table#searchbar {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+td.searchbar {
+    width: 1px;
+}
+
+.searchbar form{
+    display: inline;
+    padding:0px;
+    margin:0px;
+    border: 0px;
+    border-spacing:0px;
+}
+
+.button{
+    font-family: 'Verdana', 'Geneva', sans-serif;
+    background-image:  url(https://portal.salesforce.com/prm/img/bgButton.gif);
+    background-repeat: repeat-x;
+    background-position: left top;
+    border-right:1px solid #5C5D61;
+    border-bottom:1px solid #5C5D61;
+    border-top:none;
+    border-left:none;
+    font-size: 80%;
+    color:#FFFFFF;
+    padding:1px 3px 1px 3px;
+    cursor:pointer;
+    font-weight:bold;
+    display:inline;
+}
+
+table#linksbar {
+
+}
+
+td.linksbar {
+    width:1px;
+    text-align:right;
+}
+.logout {
+	padding: 0px 10px;
+	font: 91% Arial, Helvetica, sans-serif;
+	color: #666666;
+    white-space:nowrap;
+    }
+
+/***********************************************/
+/* HOME PAGE SIDEBAR BEGIN                     */
+/***********************************************/
+
+.sidebar {
+	background: #E8E8E8;
+
+}
+
+.sidebarheader{
+	background: #6699CC;
+	padding: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.sidebar .module{
+	padding: 10px;
+}
+.sidebar .module h3{
+	font: bold 9pt Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+#profile {
+	background: #D9D9D9;
+}
+#stats {
+	border-top: 2px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+#stats h3{
+	border-bottom: 1px solid #666;
+}
+
+#links {
+	border-top: 2px solid #FFFFFF;
+}
+#links h3{
+	border-bottom: 1px solid #666;
+}
+#links ul {
+	display: block;
+	list-style: none;
+	font-size: 11px;
+	margin-top: 5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#links li {
+    margin-left: 0;
+    padding-left: 0;
+	padding: 2px 0px;
+}
+
+#poweredby {
+	border-top: 2px solid #FFFFFF;
+	text-align: center;
+}
+
+/***********************************************/
+/* HOME PAGE MAIN CONTENT BEGIN                */
+/***********************************************/
+
+table#body  {
+    width: 100%;
+    margin: 0px;
+	padding: 0px;
+	border: 0px;
+    border-spacing: 0px;
+}
+
+td.bodyHome {
+    padding: 0px 20px 10px 10px;
+}
+
+
+/***********************************************/
+/* CONTENT BEGIN                               */
+/***********************************************/
+
+div#body {
+	padding: 10px 20px 10px 20px;
+}
+
+.contentheader{
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: bold;
+   font-size: 9pt;
+   color: #000;
+   background: url(https://portal.salesforce.com/prm/img/bgd_tableheader.gif) repeat-x top;
+   padding: 3px;
+   text-align:left;
+}
+
+.contentheader td{
+   padding: 3px;
+   border-top: 1px solid #CCC;
+   border-bottom: 1px solid #CCC;
+}
+
+.maincontent {
+	width: 100%;
+	background-color: #F3F3EC;
+	border-top: 7px solid #6699CC;
+	border-right: 1px solid #6699CC;
+	border-bottom: 1px solid #6699CC;
+	border-left: 0px solid #6699CC;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.maindatarow td {
+	padding: 3px 5px;
+	border-bottom: 1px solid #E3DEB8;
+}
+
+.lastdatarow td {
+	padding: 3px;
+}
+
+
+/**********************************************/
+/* Data Detail and Edit Pages                 */
+/**********************************************/
+
+.topButtonBar, .bottomButtonBar {
+    text-align:center;
+    padding: 5px 0px;
+	}
+
+.dataLabel{
+   width: 18%;
+   font-weight: bold;
+   color: #333;
+   text-align: right;
+   line-height: 16px;
+}
+
+.dataField {
+   font-weight: normal;
+   color: #000000;
+   text-align: left;
+   line-height: 16px;
+   margin-right: 5px;
+}
+
+a.dataField {
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: normal;
+   font-size: 9pt;
+   color: #000000;
+   text-decoration: underline;
+
+}
+
+a.dataField:hover {
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: normal;
+   font-size: 9pt;
+   color: #CC0000;
+   text-decoration: underline;
+}
+
+/**********************************************/
+/* Form Elements BEGIN                        */
+/**********************************************/
+
+
+textarea {
+   font-family: 'Arial', 'Helvetica';
+   font-size: 9pt;
+   border: 1px #7F9DB9 inset;
+}
+
+input {
+   font-family: 'Arial', 'Helvetica';
+   font-weight: normal;
+   font-size: 9pt;
+   color: #000000;
+   border: 1px #7F9DB9 inset;
+}
+
+select {
+    border: 1px #7F9DB9 inset;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+    padding:0px;
+}
+
+option {
+    padding: 0px 10px 0px 0px;
+}
+
+
+
+/* BGCOLOR for multi-select picklist selectors */
+.mspSelect {
+   font-family: 'Arial', 'Helvetica';
+   font-weight: bold;
+   font-size: 9pt;
+   color: #000000;
+   text-align: left;
+   line-height: 16px;
+   padding: 0px 2px 0px 2px;
+   background-color: #aaaaaa;
+}
+
+.mspl_hidden {
+   display: none;
+}
+
+
+
+/* Required field fonts & BGCOLOR */
+.requiredInput {
+   font-weight: bold;
+   color: #333;
+   text-align: right;
+   line-height: 16px;
+   padding: 0px 2px 0px 2px;
+   border-right: 4px solid #990000;
+}
+
+
+/**********************************************/
+/* LIST VIEWS INFO BEGIN                     */
+/**********************************************/
+
+.listinfo {
+ padding-top: 15px;
+}
+
+.count {
+    font-weight:bold;
+}
+
+.pages {
+    padding-left:50px;
+}
+
+
+/**********************************************/
+/* LIST VIEWS TABLE BEGIN                     */
+/**********************************************/
+
+caption.recordList{
+   font-family: 'Arial', 'Helvetica', 'sans-serif';
+   font-weight: bold;
+   font-size: 9pt;
+   color: #000;
+   background: url("https://portal.salesforce.com/prm/img/bgd_tableheader.gif") repeat-x top;
+   padding: 3px;
+   text-align:left;
+}
+
+table.recordList {
+    padding: 0px;
+    border-spacing: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+table.statsList {
+    border-spacing: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+
+/**********************************************/
+/* LIST VIEWS HEADER BEGIN                    */
+/**********************************************/
+
+
+
+.tableHeader {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 3px 3px 1px 3px;
+	background: #F3F3EC;
+	border-bottom: 2px solid #CCCCCC;
+}
+
+th.tableHeader {
+   font-weight: bold;
+   color: #000;
+   text-decoration: none;
+
+}
+
+a.tableHeader {
+   font-weight: bold;
+   color: #000;
+   text-decoration: none;
+
+}
+
+a.tableHeader:hover {
+   font-weight: bold;
+   color: #000000;
+   text-decoration: underline;
+   background-color: #000000;
+}
+
+th {
+    padding: 3px 3px 1px 3px;
+	text-align: left;
+	vertical-align: middle;
+    font-size: 9pt;
+	background-repeat:no-repeat;
+	list-style-type:none;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(204, 204, 204);
+}
+
+th.sortable {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   color: #000;
+   text-decoration: none;
+}
+
+th.sorted {
+    border-bottom-color: #6699CC;
+}
+th a, th a:visited {
+  color: black;
+}
+th a:hover {
+  color: black;
+}
+th.sorted a{
+    padding: 0px 0px 1px 0px;
+	background-position: right;
+	background-repeat:no-repeat;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 9pt;
+	color: #000;
+}
+th.sortable a {
+    padding: 0px 0px 1px 0px;
+    background-position: right;
+	background-repeat:no-repeat;
+	background-image: url(https://portal.salesforce.com/prm/img/arrow_off.gif);
+	display: block;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 9pt;
+	color: #000;
+}
+
+th.sorted a:visited, th.sortable a:visited {
+	background-position: right;
+	background-repeat:no-repeat;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+    font-weight: bold;
+    font-size: 9pt;
+	color: #000;
+}
+
+th.sorted a:hover, th.sortable a:hover {
+	background-position: right;
+	background-repeat:no-repeat;
+	display: block;
+	width: 100%;
+    font-weight: bold;
+	color: #6699CC;
+    border-bottom: 1px solid #6699CC;
+    padding: 0px;
+    font-size: 9pt;
+    text-decoration: none;
+}
+
+th.order1 a {
+	background-image: url(https://portal.salesforce.com/prm/img/arrow_asc.gif);
+    padding: 0px;
+}
+th.order2 a {
+	background-image: url(https://portal.salesforce.com/prm/img/arrow_desc.gif);
+    padding: 0px;
+}
+
+td.unread {
+    font-weight:bold;
+}
+
+.unread a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 9pt;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+.unread:hover a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 9pt;
+    color: #CC0000;
+    text-decoration: underline;
+    padding: 0px;
+}
+
+
+.odd {
+   color: #000000;
+   text-decoration: none;
+   background-color: #F3F3EC;
+   padding: 0px;
+}
+
+.odd td{
+	padding: 3px;
+	border-bottom: 1px solid #E3DEB8;
+}
+
+a.odd {
+   color: #000000;
+   text-decoration: underline;
+   padding: 1px 5px 1px 5px;
+}
+
+a.odd:hover {
+   color: #6699CC;
+   text-decoration: underline;
+   padding: 1px 5px 1px 5px;
+}
+
+.even{
+   color: #000000;
+   text-decoration: none;
+   background-color: #F3F3EC;
+   padding: 0px;
+}
+.even td{
+	padding: 3px;
+	border-bottom: 1px solid #E3DEB8;
+}
+a.even{
+   font-weight: normal;
+   color: #000000;
+   text-decoration: underline;
+   padding: 1px 5px 1px 5px;
+}
+
+a.even:hover{
+   font-weight: normal;
+   color: #6699CC;
+   text-decoration: underline;
+   padding: 1px 5px 1px 5px;
+}
+
+
+a.actionLink {
+   font-weight: normal;
+   color: #000000;
+   text-decoration: underline
+}
+
+a.actionLink:hover {
+   font-weight: normal;
+   color: #6699CC;
+   text-decoration: underline
+}
+
+.empty {
+    padding:5px;
+    margin:10px;
+}
+
+
+/**********************************************/
+/* RELATED LISTS BEGIN                        */
+/**********************************************/
+
+
+
+.relatedList {
+	width: 100%;
+	background-color: #F3F3EC;
+	border-top: 7px solid #6699CC;
+	border-right: 1px solid #6699CC;
+	border-bottom: 1px solid #6699CC;
+	border-left: 0px solid #6699CC;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.relatedListHeader td {
+   font-weight: bold;
+   color: #000;
+   background: url(https://portal.salesforce.com/prm/img/bgd_tableheader.gif) repeat-x top;
+   padding: 3px;
+}
+
+
+
+/**********************************************/
+/* ERROR MESSAGES BEGIN                        */
+/**********************************************/
+
+.errorMsg {
+   font-family: 'Arial', 'Helvetica';
+   font-weight: bold;
+   font-size: 8pt;
+   color: #990000;
+}
+
+.apierrors {
+    padding: 5px 0px 3px 0px;
+}
+
+.apierrors li {
+    margin-left: 5px;
+}
+
+
+/**********************************************/
+/* STANDARD HELP STYLES BEGIN                 */
+/**********************************************/
+
+/** Setting the width on the body frame to be 100%
+    This prevents horizontal scrolling in the event
+    that the body tag style includes a specified width
+    that is wider than the help popup (640) */
+body#partner_portal_overview {
+    width:100%;
+}
+
+div.body {
+   margin: 10px;
+   font-size: 12px;
+}
+
+div.nested1 {
+   margin:10px;
+   font-size: 12px;
+}
+
+legend {
+  color: #333;
+  font-size: 100%;
+  font-weight: bold;
+  margin: 0 2px;
+}
+
+.note {
+  font-size: 90%;
+  border: 1px solid #000000;
+  margin: 10px 0 10px 0;
+}
+
+.note .noteBody {
+  margin: 0 8px 8px 10px;
+}
+
+.noteBody p {
+  font-size: 100%;
+  margin-top: 6px;
+}
+
+li .note {
+  font-size: 100%;
+}
+
+li .note .noteBody {
+  font-size: 100%;
+}
+
+div.p, li .p {
+  font-size: 100%;
+  font-weight: normal;
+  padding-top: 1em;
+}
+
+/* HELP HEADING styles */
+div.body h1, .helpHead1 {
+   font-weight: bold;
+   font-size: 120%;
+   color: #FFF;
+   background-color: #6699CC;
+   padding: .7em 8px;
+   margin: 0;
+}
+
+div.body h2, .helpHead2 {
+   font-weight: bold;
+   font-size: 100%;
+   color: #000000;
+   line-height: 1.2em;
+   padding: 0 0 1px 0;
+   margin: 1.2em 0 .3em 0;
+   border-bottom: 1px solid #000000;
+}
+
+div.body h2 p, .helpHead2 p {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+div.body h3, .helpHead3, .dlterm {  /* .dlterm is for the GLOSSARY */
+   font-weight: bold;
+   font-size: 100%;
+   color: #000000;
+   margin: .7em 0 .7em 0;
+   padding: 0;
+}
+
+dt.dlterm {
+  margin: 8px 0 0 0;
+}
+
+/* HELP FIELD NAMES and code references */
+.codeph {
+   font-family: 'Courier New', 'Courier', 'monospace';
+   font-weight: normal;
+   font-size: 110%;
+   color: #000000;
+}
+
+/* HELP FOOTER classes */
+.helpPageFooter {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 0px 10px 0px;
+  border-top: 1px solid #E8E8E8;
+  font-size: 85%;
+  text-align: center;
+  line-height: 1.5em;
+  color: #878585;
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.helpPageFooter a {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px 0px 10px 0px;
+  border-top: 1px solid #E8E8E8;
+  font-size: 85%;
+  text-align: center;
+  line-height: 1.5em;
+  color: #878585;
+  width: 100%;
+  margin-top: 20px;
+}

@@ -1,0 +1,7 @@
+Dear {!Contact.FirstName},
+
+We are sorry to inform you that there has been a problem with the portal self-registration process. This is most likely an error on our side. Please contact us via phone or email, and help us resolve this issue.
+
+We are sorry for the inconvenience, and appreciate your patience,
+
+{!Organization.Name} Customer Support

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Titular de Noticias</label>
+        <name>News_Headline__c</name>
+    </fields><fields>
+        <label>Texto de las noticias</label>
+        <name>News_Text__c</name>
+    </fields><fields>
+        <label>Fecha de publicación</label>
+        <name>Publication_Date__c</name>
+    </fields><fields>
+        <label>Publicación</label>
+        <name>Publication__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>En revisión</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation>Publicado en el sitio Web</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Noticia</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Noticias</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Nombre de la noticia</nameFieldLabel></CustomObjectTranslation>

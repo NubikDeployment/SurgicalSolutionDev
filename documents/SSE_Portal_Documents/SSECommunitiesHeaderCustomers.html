@@ -1,0 +1,144 @@
+
+<html>
+
+	<head>
+	
+		<title>Customer Community</title>
+		
+		<meta name="viewport" content = "width = device-width, initial-scale = 1, user-scalable = yes" /> 
+
+		<meta name="format-detection" content="telephone=no">
+
+		<style type="text/css">
+
+			@import url("/customers/apex/SSEPortalCSSMain");
+
+			@import url("/customers/apex/SSEPortalCSSCommunities");
+
+			@import url("/customers/apex/SSEPortalCSSEdit");
+			/* SEARCH BAR CSS */
+			.searchTxtbox{
+				float:left !important;
+				width:200px !important;
+				height:17px !important;
+				margin:0em !important;
+				border-bottom-left-radius: 3px !important;
+				border-bottom-right-radius: 3px !important;
+				border:1px solid #c7ccce !important;
+				border-radius: 0px !important;
+				font-size: .8em !important;
+				padding: 2px !important;
+			}
+			#searchComp{
+				position: absolute;
+				top: 17px;
+				z-index: 99;
+				right: 20px;
+			}
+			#searchBtn{
+				font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+				padding: 5px 8px;
+				font: -webkit-small-control !important;
+				background: #3B3D3D;
+				border: none;
+				font-size:10px;
+				color: #fff;		
+				margin:0;	
+				height: 23px;
+			}
+			#searchBtn:hover{
+				background: #676773;
+			}
+			#pseudoSearchBtn{
+				/* change color here */
+				background-color: #39A9E6;
+				width: 30px;
+				height: 23px;
+				background-image: url('/customers/resource/DE_searchbtn');
+				background-repeat: no-repeat;
+				float: right;
+				cursor: pointer;
+				background-position: 50% 50%;
+				border-top-right-radius: 4px;
+				border-bottom-right-radius: 4px;
+				display: none;	
+			}
+			#pseudoSearchBtn:hover{
+				background-color: #73B6FF;
+			}
+			#searchContainer{
+				width: 993px;
+				margin: 0 auto;
+				position: relative;
+				top: 56px;
+			}
+
+			/*Code below hides Home Tab*/
+
+			.zen-firstItem {
+        		display: none !important;
+        	}  
+			/* END SEARCH BAR CSS */
+
+		</style>
+
+		<script src="/customers/resource/SSEPortalResources/scripts/jquery.js"></script>
+
+		<script src="/customers/resource/SSEPortalResources/scripts/jquery.slide.js"></script>
+
+		<script src="/customers/resource/SSEPortalResources/scripts/header.js"></script>
+		
+
+	</head>
+
+	<body>
+		<div id="portalheadertop">		
+		</div>
+		<!-- GLOBAL SEARCH    -->
+		<div id="searchContainer">
+			<div id="searchComp">
+				<form id="searchform" action="/customers/search/SmartSearch" method="get">
+					<input type="text" placeholder="Community Search..." name="str" class="searchTxtbox"/>
+					<div id="pseudoSearchBtn" onclick="document.getElementById('searchBtn').click();"></div>
+					<input type="submit" value="Search" id="searchBtn"/>
+				</form>
+			</div>
+		</div>
+		<!-- End Update of Global Search -->
+		<div id="portalwrapper">
+		
+			<div id="portalheader">
+					
+				<div id="portalheadermid">
+
+					<div class="portalheadercenter" id="SSEPortalLogo">
+
+					</div>
+
+				</div>
+
+				<div id="portalheaderbot">
+
+					<div class="slides_container">
+
+						<div id="SSEPortalSlide1">
+
+						</div>
+
+						<div id="SSEPortalSlide2">					
+
+						</div>
+
+						<div id="SSEPortalSlide3">					
+
+						</div>	
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="portalbody">
+			
+			

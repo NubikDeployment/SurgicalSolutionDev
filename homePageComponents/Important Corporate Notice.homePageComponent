@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;p&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr bgcolor=&quot;#cc0000&quot;&gt;
+&lt;td bgcolor=&quot;#cc0000&quot;&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;
+&lt;td style=&quot;FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: rgb(255,255,255); FONT-FAMILY: tahoma&quot; width=&quot;100%&quot; bgcolor=&quot;#cc0000&quot;&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;Service &amp;amp; Support&lt;/font&gt;&lt;/td&gt;
+&lt;td&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&lt;img height=&quot;18&quot; src=&quot;https://na1.salesforce.com/img/1x1_spacer_wht.gif&quot; width=&quot;1&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan=&quot;3&quot;&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&lt;img height=&quot;1&quot; src=&quot;https://na1.salesforce.com/img/1x1_spacer_wht.gif&quot; width=&quot;1&quot;&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td bgcolor=&quot;#eeeeee&quot; colspan=&quot;3&quot;&gt;
+&lt;p&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&lt;strong&gt;+&amp;nbsp;&amp;nbsp; &lt;/strong&gt;&lt;/font&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;strong&gt;Critical Cases Exceed set Key Performance Indicators&lt;/strong&gt;&lt;/font&gt;&lt;/font&gt;&lt;br&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;&lt;strong&gt;+&amp;nbsp;&amp;nbsp; &lt;font color=&quot;#ff0000&quot;&gt;$500&lt;/font&gt; Cash bonus for wildly referenceable and satisfied customers -----------------&lt;/strong&gt;&lt;/font&gt;&lt;font face=&quot;Arial,Sans-Serif&quot; size=&quot;2&quot;&gt;&lt;em&gt;(Based on&amp;nbsp;Agent&amp;nbsp;Survey results for the month)&lt;/em&gt;&lt;/font&gt;&lt;br&gt;&lt;strong&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt;+&amp;nbsp;&amp;nbsp; The deadline for Open Benefits Enrollment is TODAY! &lt;/font&gt;&lt;a href=&quot;http://intranet.mycompany.com/benefits.jsp&quot;&gt;&lt;font face=&quot;Arial,Sans-Serif&quot; color=&quot;#333333&quot;&gt;Enroll&lt;/font&gt;&lt;/a&gt;&lt;font face=&quot;Arial,Sans-Serif&quot;&gt; now!&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/p&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

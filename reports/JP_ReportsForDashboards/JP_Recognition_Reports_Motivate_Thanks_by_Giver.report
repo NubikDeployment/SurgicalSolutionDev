@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>WorkThanks$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>WorkThanks.Badges$Recipient</field>
+    </columns>
+    <columns>
+        <field>WorkThanks.Badges$Definition.Name</field>
+    </columns>
+    <columns>
+        <field>WorkThanks$Giver.Department</field>
+    </columns>
+    <columns>
+        <field>WorkThanks$Giver.Manager.Name</field>
+    </columns>
+    <columns>
+        <field>WorkThanks$Giver.Email</field>
+    </columns>
+    <description>Work.com: Thanks Posts - Giver Data</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>WorkThanks$Giver</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Thanks by Giver</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Thanks_and_Badges__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>WorkThanks$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

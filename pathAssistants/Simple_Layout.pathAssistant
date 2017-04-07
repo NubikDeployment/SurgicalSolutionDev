@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Simple Layout</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Issues_Logged__c</fieldNames>
+        <fieldNames>Preference_Card_Changes_Logged__c</fieldNames>
+        <info>Surgeons will provide feedback during the surgery. Be sure to quickly log any preference card changes as they come up. Don&amp;#39;t Wait till the end of the surgery&lt;br&gt;&lt;br&gt;Use the publisher actions to quickly log issues that may arise - CO2 tank not filled, scope lights not working, etc. </info>
+        <picklistValueName>Intra-Op</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Disposables_Safely_Removed__c</fieldNames>
+        <fieldNames>Equipment_Collected__c</fieldNames>
+        <fieldNames>Equipment_packaged_correctly__c</fieldNames>
+        <fieldNames>Equipment_brought_to_SPD__c</fieldNames>
+        <info>Make sure to get the Nurse to sign off on the surgery and collect additional feedback!&lt;br&gt;&lt;br&gt;If questions arise, chatter the Lead Tech or Regional Manager. </info>
+        <picklistValueName>Post-Op</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Pull_Inventory_per_Preference_Card__c</fieldNames>
+        <fieldNames>Setup_Room_Appropriately__c</fieldNames>
+        <fieldNames>Confirm_cable_are_securely_connected__c</fieldNames>
+        <fieldNames>Communicate_Readiness_to_Nurse__c</fieldNames>
+        <info>&lt;strong&gt;Remember - This is the step that drives our Success &amp;amp; Customer Satisfaction!&lt;/strong&gt;
+
+&lt;ul&gt;&lt;li&gt;Make sure to use the preference card&lt;/li&gt;&lt;li&gt;Make sure the right inventory pulled and is setup correctly
+	&lt;ul&gt;&lt;li&gt;e.g. Foot Pedal is on the right&lt;/li&gt;&lt;/ul&gt;
+	&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Pre-Op</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Simple</recordTypeName>
+</PathAssistant>

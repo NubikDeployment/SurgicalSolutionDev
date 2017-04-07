@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Channel budgets are a key application component and provide complete financial visibility into approved requests, approved claims, claim liability, available budget balances, and approval audit trails.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom78: Map</motif>
+</CustomTab>

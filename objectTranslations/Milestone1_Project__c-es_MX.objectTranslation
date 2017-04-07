@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Cuenta</label>
+        <name>Account__c</name>
+        <relationshipLabel>Proyectos</relationshipLabel>
+    </fields><fields>
+        <label>Inicio días DB</label>
+        <name>DB_Days_Start__c</name>
+    </fields><fields>
+        <label>Dias DB</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>La fecha en la que está previsto que el proyecto este completado</help>
+        <label>Fecha limite</label>
+        <name>Deadline__c</name>
+    </fields><fields>
+        <help>Una descripción general del proyecto</help>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>Número de días entre el lanzamiento y la fecha limite.</help>
+        <label>Duración</label>
+        <name>Duration__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <help>Calculado</help>
+        <label><!-- GoogleGanntUrl --></label>
+        <name>GoogleGanntUrl__c</name>
+    </fields><fields>
+        <label><!-- Import ID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help>En que fecha debe iniciar este proyecto?</help>
+        <label>Lanzamiento</label>
+        <name>Kickoff__c</name>
+    </fields><fields>
+        <help>Calculado como la siguiente tarea incompleta con una fecha de vencimiento en este proyecto. Esto incluye sub-hitos.</help>
+        <label>Próxima fecha de vcto hito del proyecto</label>
+        <name>Next_Project_Milestone_Due_Date__c</name>
+    </fields><fields>
+        <help>La próxima fecha de vencimiento del hito incompleto. Esto no incluye los sub-hitos.</help>
+        <label>Próxima fecha vcto hito top del proyecto</label>
+        <name>Next_Project_Top_Milestone_Due_Date__c</name>
+    </fields><fields>
+        <help>Calcula la suma del número de hitos incompletos asignados a este proyecto. Esto incluye sub-hitos en el proyecto.</help>
+        <label>Número de hitos incompletos</label>
+        <name>Number_of_Incomplete_Milestones__c</name>
+    </fields><fields>
+        <help>El número de hitos incompletos que hay en este proyecto. Esto no cuenta los sub-hitos</help>
+        <label>Número de hitos top incompletos</label>
+        <name>Number_of_Incomplete_Top_Milestones__c</name>
+    </fields><fields>
+        <label>Indicador del estado del proyecto</label>
+        <name>Project_Status_Indicator__c</name>
+    </fields><fields>
+        <label>Estado del proyecto</label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>Verde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation>Rojo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation>Amarillo</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Estapa del proyecto</label>
+        <name>Project_stage__c</name>
+        <picklistValues>
+            <masterLabel>Acceptance</masterLabel>
+            <translation>Aprobación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation>Implementar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation>Diseño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Borrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Train</masterLabel>
+            <translation>Entrenar</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Resumen de gastos</label>
+        <name>Status_BudgetExpenseSummary__c</name>
+    </fields><fields>
+        <label>Resumen de horas</label>
+        <name>Status_BudgetMiletoneEstimate__c</name>
+    </fields><fields>
+        <label>Resumen de horas (Gráfico)</label>
+        <name>Status_Image_HoursSummary__c</name>
+    </fields><fields>
+        <label>Tareas abiertas vs completadas (Gráfico)</label>
+        <name>Status_Image_OpenVComplete__c</name>
+    </fields><fields>
+        <label>Tareas bloqueadas &amp; abiertas,atrasadas G</label>
+        <name>Status_Img_OpenLateBlocked__c</name>
+    </fields><fields>
+        <label>Tareas bloqueadas &amp; abiertas, atrasadas</label>
+        <name>Status_TasksOpenBlockedLate__c</name>
+    </fields><fields>
+        <label>Tareas abiertas vs completadas</label>
+        <name>Status_TasksOpenComplete__c</name>
+    </fields><fields>
+        <help>El estado actual del proyecto</help>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Activo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Completado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactivo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation>En espera</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation>Planificación</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Plantilla</label>
+        <name>Template__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas asociadas con este proyecto están bloqueadas? (Calculado).</help>
+        <label>Conteo total de tareas bloqueadas</label>
+        <name>Total_Blocked_Task_Count__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas completadas hay en este proyecto?  (Calculado).</help>
+        <label>Conteo total de tareas completadas</label>
+        <name>Total_Complete_Task_Count__c</name>
+    </fields><fields>
+        <help>El presupuesto total de gastos para este proyecto</help>
+        <label>Total presupuesto de gastos</label>
+        <name>Total_Expense_Budget__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los presupuestos de gastos de hitos asignados a este proyecto.</help>
+        <label>Total presupuesto de gastos del hito</label>
+        <name>Total_Expense_Budget_from_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los estimados de gastos en todos los hitos hijos</help>
+        <label>Total estimado de gastos</label>
+        <name>Total_Expense_Estimate__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de gastos relacionados con las tareas de todos los hitos hijos</help>
+        <label>Total gastos incurridos</label>
+        <name>Total_Expense_Incurred__c</name>
+    </fields><fields>
+        <help>El presupuesto total de horas para este proyecto</help>
+        <label>Total presupuesto de horas</label>
+        <name>Total_Hours_Budget__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los presupuestos de las horas de hitos en este proyecto.</help>
+        <label>Total presupuesto de horas del hito</label>
+        <name>Total_Hours_Budget_from_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de las estimaciones de horas en todos los hitos hijos</help>
+        <label>Total horas estimadas</label>
+        <name>Total_Hours_Estimate__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tiempo relacionados con las tareas de todos los hitos hijos</help>
+        <label>Total horas incurridas</label>
+        <name>Total_Hours_Incurred__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas asociadas con este proyecto están atrasadas? (Calculado).</help>
+        <label>Conteo total de tareas atrasadas</label>
+        <name>Total_Late_Task_Count__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas abierta hay en este proyecto? (Calculado. Incluye tareas atrasadas y bloqueadas)</help>
+        <label>Conteo total de tareas abiertas</label>
+        <name>Total_Open_Task_Count__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Proyecto</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Proyectos</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre del proyecto</nameFieldLabel><layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label>Presupuesto</label>
+            <section>Budgets</section>
+        </sections>
+        <sections>
+            <label>Métricas: Horas y gastos (Calculados)</label>
+            <section>Metrics: Hours &amp; Expenses (Calculated)</section>
+        </sections>
+        <sections>
+            <label>Métricas: Información de hitos (Calculados)</label>
+            <section>Metrics: Milestone Information (Calculated)</section>
+        </sections>
+        <sections>
+            <label>Detalles del proyecto</label>
+            <section>Project Details</section>
+        </sections>
+        <sections>
+            <label>Vista Gantt hitos del proyecto</label>
+            <section>Project Milestones Gantt View</section>
+        </sections>
+        <sections>
+            <label>Resumen estado</label>
+            <section>Status at a Glance</section>
+        </sections>
+    </layouts><quickActions>
+        <label>Nuevo hito</label>
+        <name>New_Milestone</name>
+    </quickActions><validationRules>
+        <errorMessage>La fecha de inicio debe ser menor o igual que la fecha límite</errorMessage>
+        <name>Kickoff_before_deadline</name>
+    </validationRules><validationRules>
+        <errorMessage>Este valor debe ser un número positivo</errorMessage>
+        <name>Total_Expense_Budget_Negative_Numbers</name>
+    </validationRules><validationRules>
+        <errorMessage>Este valor debe ser un número positivo</errorMessage>
+        <name>Total_Hours_Budget_Negative_Numbers</name>
+    </validationRules><webLinks>
+        <label>Exportar plantilla</label>
+        <name>Export_Template</name>
+    </webLinks><webLinks>
+        <label>Importar plantilla</label>
+        <name>Import_Template</name>
+    </webLinks><webLinks>
+        <label>Actualizar</label>
+        <name>Update</name>
+    </webLinks></CustomObjectTranslation>

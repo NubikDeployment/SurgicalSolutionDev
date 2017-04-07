@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>Marque esta casilla si se está corrigiendo una solicitud presentada anteriormente por el tiempo de vacaciones que usted ya no va a tomar.</help>
+        <label>Revertir solicitud previamente procesada</label>
+        <name>Balance_Correction__c</name>
+    </fields><fields>
+        <label>Comentarios</label>
+        <name>Comments_text__c</name>
+    </fields><fields>
+        <label>Fecha aprobada</label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label>Fecha enviada</label>
+        <name>Date_Submitted__c</name>
+    </fields><fields>
+        <label>Días en espera de aprobación</label>
+        <name>Days_Awaiting_Approval__c</name>
+    </fields><fields>
+        <label>Descripción empleado</label>
+        <name>Employee_Description__c</name>
+    </fields><fields>
+        <label>Nombre empleado</label>
+        <name>Employee_Name__c</name>
+    </fields><fields>
+        <label>Número empleado</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <help>El último día del tiempo de vacaciones solicitado</help>
+        <label>Fecha de finalización</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <help>Al marcar esta casilla, usted reconoce que ha leído los términos de balance negativo y esta de acuerdo con las obligaciones que esto conlleva.</help>
+        <label>Acepto los términos</label>
+        <name>I_accept_terms__c</name>
+    </fields><fields>
+        <label>Términos balance negativo</label>
+        <name>Negative_Balance_Terms__c</name>
+    </fields><fields>
+        <label>Número de días (total)</label>
+        <name>Number_of_Days_Absolute__c</name>
+    </fields><fields>
+        <help>Número de días hábiles entre la fecha de inicio y fecha de finalización de esta solicitud. No incluye fines de semana o días de fiesta de la compañía. Este es el número de días que serán deducidos de su balance de vacaciones.</help>
+        <label>Número de días</label>
+        <name>Number_of_Days__c</name>
+    </fields><fields>
+        <label>Sistema de nómina</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>Solicitudes vacaciones</relationshipLabel>
+    </fields><fields>
+        <label>Pendiente de aprobación</label>
+        <name>Pending_Approval__c</name>
+    </fields><fields>
+        <help>La bandera de excepción de política indica que una solicitud no cumple con una o más políticas de la empresa. (por ejemplo, una solicitud presentada después de que el tiempo libre ya fue tomado)</help>
+        <label>Excepción de la política</label>
+        <name>Policy_Exception__c</name>
+    </fields><fields>
+        <label>Solicitante</label>
+        <name>Requestor__c</name>
+        <relationshipLabel>Solicitudes vacaciones</relationshipLabel>
+    </fields><fields>
+        <help>El primer día de vacaciones solicitado.</help>
+        <label>Fecha de inicio</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Aprobado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation>Cancelado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation>No enviado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation>Pendiente de aprobación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation>Procesado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Re-Approval</masterLabel>
+            <translation>Requiere re-aprobación</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Estado de esta solicitud. Si aparece el icono de bloqueo, significa que la solicitud no se puede editar en su estado actual.</help>
+        <label>&amp;nbsp;Estado</label>
+        <name>Status_image__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Solicitud vacaciones</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Solicitudes vacaciones</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>ID solicitud</nameFieldLabel><layouts>
+        <layout>US-Admin Layout</layout>
+        <sections>
+            <label>Comentarios</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Campos escondidos</label>
+            <section>Hidden Fields</section>
+        </sections>
+        <sections>
+            <label>Términos de balance negativo</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Detalles de la solicitud</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Información requerida</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Calendario de vacaciones</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Clone</layout>
+        <sections>
+            <label>Comentarios</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Términos de balance negativo</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Detalles de la solicitud</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Información requerida</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Calendario de vacaciones</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Cancel</layout>
+        <sections>
+            <label>Comentarios</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Términos de balance negativo</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Detalles de la solicitud</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Información requerida</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Calendario de vacaciones</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Submit-Cancel</layout>
+        <sections>
+            <label>Comentarios</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Términos de balance negativo</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Detalles de la solicitud</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Información requerida</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Calendario de vacaciones</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Delete-Clone-Submit</layout>
+        <sections>
+            <label>Comentarios</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Términos de balance negativo</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Detalles de la solicitud</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Información requerida</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Calendario de vacaciones</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- TEST-Approved --></label>
+        <name>TESTApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Canceled --></label>
+        <name>TESTCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Not Submitted --></label>
+        <name>TESTNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Pending Approval --></label>
+        <name>TESTPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Processed --></label>
+        <name>TESTProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Rejected --></label>
+        <name>TESTRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Requires Re-Approval --></label>
+        <name>TESTRequiresReApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Approved --></label>
+        <name>USApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Canceled --></label>
+        <name>USCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Not Submitted --></label>
+        <name>USNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Pending Approval --></label>
+        <name>USPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Processed --></label>
+        <name>USProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Rejected --></label>
+        <name>USRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Requires Re-Approval --></label>
+        <name>USRequiresReApproval</name>
+    </recordTypes><validationRules>
+        <errorMessage>La fecha de finalización no puede ser anterior a la fehca de inicio</errorMessage>
+        <name>End_Date_Cannot_Come_Before_Start_Date</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de finalización es requerida</errorMessage>
+        <name>End_Date_Required</name>
+    </validationRules><validationRules>
+        <errorMessage>Por favor lea los términos de balance negativo y marque la casilla "Acepto términos'"</errorMessage>
+        <name>I_accept_terms_checkbox_is_required</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de inicio es requerida</errorMessage>
+        <name>Start_Date_Required</name>
+    </validationRules><webLinks>
+        <label>Cancelar solicitud</label>
+        <name>Cancel_Request</name>
+    </webLinks><webLinks>
+        <label>Enviar para aprobación</label>
+        <name>Submit_for_Approval</name>
+    </webLinks><webLinks>
+        <label>Ver programación de acumulación</label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks><webLinks>
+        <label>Ver solicitudes de vacaciones de los empleados</label>
+        <name>View_Employee_Time_Off_Requests</name>
+    </webLinks></CustomObjectTranslation>

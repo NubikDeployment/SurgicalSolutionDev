@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Detalles actividad</label>
+        <name>Activity_Details__c</name>
+    </fields><fields>
+        <label>Número de orden</label>
+        <name>Ordering_Number__c</name>
+    </fields><fields>
+        <label>Etapa del entrenador de venta</label>
+        <name>Sales_Coach_Stage__c</name>
+        <relationshipLabel>Actividades entrenador de ventas</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Actividad entrenador de ventas</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Actividades entrenador de ventas</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Número de la actividad</nameFieldLabel></CustomObjectTranslation>

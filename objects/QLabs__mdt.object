@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>Identifier__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Identifier</label>
+        <length>36</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><label>QLabs</label><pluralLabel>QLabs</pluralLabel><visibility>Public</visibility></CustomObject>

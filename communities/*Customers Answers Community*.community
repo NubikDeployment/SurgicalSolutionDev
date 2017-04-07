@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <description>No Data, do not use</description>
+    <expertsGroup>SupportAgents</expertsGroup>
+    <showInPortal>false</showInPortal>
+</Community>

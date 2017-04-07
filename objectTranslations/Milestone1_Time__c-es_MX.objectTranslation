@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>La fecha en la que se incurrió el tiempo, Por defecto es el día actual en caso que el campo sea dejado en blanco</help>
+        <label>Fecha incurrida</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <help>Una descripción sobre el tiempo. Por ejemplo, Cuál fue el motivo por el que se incurrió en el tiempo</help>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>El número de horas cargadas.  Nota: Esto no puede ser más de 1 día (24 horas).</help>
+        <label>Horas</label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label><!-- ImportID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help>El usuario que incurrió en el tiempo cobrado. Por defecto es el usuario actual si el campo es dejado en blanco.</help>
+        <label>Incurrido por</label>
+        <name>Incurred_By__c</name>
+        <relationshipLabel>Tiempo</relationshipLabel>
+    </fields><fields>
+        <help>La tarea a la cual se esta cargando el tiempo</help>
+        <label>Tarea del proyecto</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>Tiempos</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Tiempos</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Tiempos</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre</nameFieldLabel><validationRules>
+        <errorMessage>Las horas entradas no pueden ser negativas</errorMessage>
+        <name>Hours_Not_Negative</name>
+    </validationRules><validationRules>
+        <errorMessage>Las horas no pueden exceder 24</errorMessage>
+        <name>Validation_Time_Hours_Less_Than_24_Hours</name>
+    </validationRules></CustomObjectTranslation>

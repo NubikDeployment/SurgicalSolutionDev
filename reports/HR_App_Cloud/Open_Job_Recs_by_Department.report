@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>HR_Job_Requisition__c.HR_Days_Open__c</field>
+    </columns>
+    <columns>
+        <field>HR_Job_Requisition__c.HR_Hire_by_Date__c</field>
+    </columns>
+    <columns>
+        <field>HR_Job_Requisition__c.HR_Travel_Required__c</field>
+    </columns>
+    <columns>
+        <field>HR_Job_Requisition__c.HR_Location__c</field>
+    </columns>
+    <columns>
+        <field>HR_Job_Requisition__c.HR_Type__c</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>HR_Job_Requisition__c.HR_Functional_Area__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Open Job Recs by Department</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$HR_Job_Requisition__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>HR_Job_Requisition__c.HR_Close_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

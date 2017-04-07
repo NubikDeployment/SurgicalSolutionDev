@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Populate this field with the Chat Button ID.  Go to &quot;Chat Buttons and Automated Invitations&quot; in Setup and click into the &quot;Napili Community Chat Button&quot;.  Copy the Chat Button Code ID out of your URL and paste into this field. --></help>
+        <label><!-- Chat Button ID --></label>
+        <name>Chat_Button_ID__c</name>
+    </fields><fields>
+        <help><!-- Go to &quot;Deployments&quot; in Setup and click into the &quot;Chat from Napili Template&quot;.  Copy the Deployment ID out of your URL and paste into this field. --></help>
+        <label><!-- Deployment ID --></label>
+        <name>Deployment_ID_1__c</name>
+    </fields><fields>
+        <help><!-- Go to the &quot;Company Information&quot; page in Setup and copy the &quot;Salesforce.com Organization ID&quot; and paste into this field. --></help>
+        <label><!-- Org ID --></label>
+        <name>Deployment_ID_2__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Live Agent Lightning Setup</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Live Agent Lightning Setup</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

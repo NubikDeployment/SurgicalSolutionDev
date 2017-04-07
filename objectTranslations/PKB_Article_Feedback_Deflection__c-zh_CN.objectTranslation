@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>文章编号</label>
+        <name>Article_ID__c</name>
+    </fields><fields>
+        <label>文章编号</label>
+        <name>Article_Number__c</name>
+    </fields><fields>
+        <label>文章标题</label>
+        <name>Article_Title__c</name>
+    </fields><fields>
+        <help>在其上记录已被创建的通道。</help>
+        <label>渠道</label>
+        <name>Channel__c</name>
+        <picklistValues>
+            <masterLabel>mobile</masterLabel>
+            <translation>移动</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>web</masterLabel>
+            <translation>卷筒纸</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>评论</label>
+        <name>Comments__c</name>
+    </fields><fields>
+        <label>联系</label>
+        <name>Contact__c</name>
+        <relationshipLabel>PKB第偏转</relationshipLabel>
+    </fields><fields>
+        <label>偏转</label>
+        <name>Deflection__c</name>
+    </fields><fields>
+        <label>反馈源</label>
+        <name>Feedback_Source__c</name>
+        <picklistValues>
+            <masterLabel>ContactUs</masterLabel>
+            <translation>联系我们</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RelatedArticle</masterLabel>
+            <translation><!-- RelatedArticle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search</masterLabel>
+            <translation>搜索</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>关键字搜索</help>
+        <label>搜索关键字</label>
+        <name>Keyword_Searched__c</name>
+    </fields><fields>
+        <label>问题1  - 文章评分</label>
+        <name>Question_1__c</name>
+    </fields><fields>
+        <label>问题2</label>
+        <name>Question_2__c</name>
+    </fields><fields>
+        <label>问题3</label>
+        <name>Question_3__c</name>
+    </fields><fields>
+        <label>问题4</label>
+        <name>Question_4__c</name>
+    </fields><fields>
+        <label>问题5</label>
+        <name>Question_5__c</name>
+    </fields><fields>
+        <label>会话ID</label>
+        <name>Session_ID__c</name>
+    </fields><fields>
+        <label>调查网址</label>
+        <name>Survey_URL__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- PKB Article Deflection --></value>
+    </caseValues><nameFieldLabel><!-- PKB Article Feedback &amp; Deflection Name --></nameFieldLabel><layouts>
+        <layout>PKB Article Deflection Layout</layout>
+        <sections>
+            <label>附加信息</label>
+            <section>Addition Information</section>
+        </sections>
+        <sections>
+            <label>文章反馈调查答案</label>
+            <section>Article Feedback Survey Answers</section>
+        </sections>
+        <sections>
+            <label>偏转信息</label>
+            <section>Deflection Information</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

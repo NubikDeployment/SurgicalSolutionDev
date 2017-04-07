@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Tasa de abandono</label>
+        <name>Abandon_Rate__c</name>
+    </fields><fields>
+        <label>Llamadas abandonadas</label>
+        <name>Abandoned_Calls__c</name>
+    </fields><fields>
+        <label>Tiempo promedio en cola</label>
+        <name>Avg_Queue_Time__c</name>
+    </fields><fields>
+        <label>LLamadas por agente</label>
+        <name>Calls_Per_Agent__c</name>
+    </fields><fields>
+        <label>Llamadas en cola</label>
+        <name>Calls_Queued__c</name>
+    </fields><fields>
+        <label>Fecha</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label>Tiempo operativo</label>
+        <name>Handle_Time__c</name>
+    </fields><fields>
+        <label>Llamadas entrantes</label>
+        <name>Inbound_Calls__c</name>
+    </fields><fields>
+        <label>Mayor tiempo en cola</label>
+        <name>Longest_Queue_Time__c</name>
+    </fields><fields>
+        <label>Llamadas salientes</label>
+        <name>Outbound_Calls__c</name>
+    </fields><fields>
+        <label>Nombre de la cola</label>
+        <name>Queue_Name__c</name>
+    </fields><fields>
+        <label>Velocidad de respuesta</label>
+        <name>Speed_to_Answer__c</name>
+    </fields><fields>
+        <label>Utilización</label>
+        <name>Utilization__c</name>
+    </fields><fields>
+        <label><!-- db_days --></label>
+        <name>dbdays__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Estadistica colas</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Estadisticas colas</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre</nameFieldLabel></CustomObjectTranslation>

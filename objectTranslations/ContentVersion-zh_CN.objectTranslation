@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>文件类型</label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Audio</masterLabel>
+            <translation>音频</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case study</masterLabel>
+            <translation>案例分析</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitive analysis</masterLabel>
+            <translation>竞争力分析</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firmware</masterLabel>
+            <translation>固件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Image</masterLabel>
+            <translation>图像</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation>法律</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product collateral</masterLabel>
+            <translation>产品担保</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product manual</masterLabel>
+            <translation>产品说明书</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public relations</masterLabel>
+            <translation>公共关系</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales presentation</masterLabel>
+            <translation>销售人员的介绍</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>训练</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation>视频</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White paper</masterLabel>
+            <translation>白皮书</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>外部认证</label>
+        <name>External_Approved__c</name>
+    </fields><fields>
+        <label>相关活动</label>
+        <name>Related_Campaign__c</name>
+        <relationshipLabel>内容</relationshipLabel>
+    </fields><fields>
+        <label>评审日期</label>
+        <name>Review_Date__c</name>
+    </fields><recordTypes>
+        <label>市场营销文档</label>
+        <name>MarketingDocument</name>
+    </recordTypes><recordTypes>
+        <label>销售资产</label>
+        <name>SalesAsset</name>
+    </recordTypes><recordTypes>
+        <label>支持文件</label>
+        <name>SupportDocument</name>
+    </recordTypes></CustomObjectTranslation>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>Classification</name>
+        <picklistValues>
+            <masterLabel>Customer Case</masterLabel>
+            <translation><!-- Customer Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiry</masterLabel>
+            <translation><!-- Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outreach</masterLabel>
+            <translation><!-- Outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Review</masterLabel>
+            <translation><!-- Product Review --></translation>
+        </picklistValues>
+    </fields><fields>
+        <name>EngagementLevel</name>
+        <picklistValues>
+            <masterLabel>Commented</masterLabel>
+            <translation><!-- Commented --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation><!-- Resolved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation><!-- Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>图标</label>
+        <name>Icon__c</name>
+    </fields><fields>
+        <name>ReviewedStatus</name>
+        <picklistValues>
+            <masterLabel>Ignore</masterLabel>
+            <translation>忽略</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields></CustomObjectTranslation>

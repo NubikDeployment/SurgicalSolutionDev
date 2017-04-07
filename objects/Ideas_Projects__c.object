@@ -1,0 +1,735 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>A_Note_from_the_Project_Team__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Update from the project team on the status of the project.</inlineHelpText>
+        <label>Ideas in Action Update</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields><fields>
+        <fullName>Business_Justification__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Why do this project? 
+What happens if we don’t do it? 
+Why do it now? 
+How critical will the impact of the project be?</inlineHelpText>
+        <label>Business Justification</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Communication_Plan__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How do you plan on communicating the status of this project to the community?</inlineHelpText>
+        <label>Communication Plan</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What department is responsible for this project?</inlineHelpText>
+        <label>Department</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Business Development &amp; Alliances</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Support</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Services (HR)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Facilities &amp; Real Estate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Global Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Information Technology (IT)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Internal Salesforce App</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Legal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Research &amp; Development</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Security</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>true</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Estimated_Completion_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Note that changes to the estimated completion date are are tracked in the field history tracking down below, along with the project status, owner, and estimated completion date.</inlineHelpText>
+        <label>Estimated Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Group__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What group is most directly responsible for this project?</inlineHelpText>
+        <label>Group</label>
+        <picklist>
+            <controllingField>Department__c</controllingField>
+            <picklistValues>
+                <fullName>Corporate Sales</fullName>
+                <default>false</default>
+                <controllingFieldValues>Sales</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Enterprise Sales</fullName>
+                <default>false</default>
+                <controllingFieldValues>Sales</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Recruiting</fullName>
+                <default>false</default>
+                <controllingFieldValues>Employee Services (HR)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Employee Services</fullName>
+                <default>false</default>
+                <controllingFieldValues>Employee Services (HR)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Apps</fullName>
+                <default>false</default>
+                <controllingFieldValues>Product Management</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Platform</fullName>
+                <default>false</default>
+                <controllingFieldValues>Product Management</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Interactive</fullName>
+                <default>false</default>
+                <controllingFieldValues>Marketing</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Demand Generation</fullName>
+                <default>false</default>
+                <controllingFieldValues>Marketing</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <controllingFieldValues>Marketing</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Applications</fullName>
+                <default>false</default>
+                <controllingFieldValues>Information Technology (IT)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Hardware</fullName>
+                <default>false</default>
+                <controllingFieldValues>Information Technology (IT)</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>San Francisco</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Toronto</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>London</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tokyo</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sydney</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <controllingFieldValues>Facilities &amp; Real Estate</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Premiere Support</fullName>
+                <default>false</default>
+                <controllingFieldValues>Customer Support</controllingFieldValues>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Implementation Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Standard Support</fullName>
+                <default>false</default>
+                <controllingFieldValues>Customer Support</controllingFieldValues>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Idea__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Idea</label>
+        <referenceTo>Idea</referenceTo>
+        <relationshipName>R00N4100000GiushEAB</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Level_of_Effort__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the level of effort to complete this project? Is it a quick win or a resource intensive project?</inlineHelpText>
+        <label>Level of Effort</label>
+        <picklist>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Note_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Note 4</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Note_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Note 5</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Notes_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Note 1</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Notes_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Note 2</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Notes_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Note 3</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Percent_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>Score_3__c  +  Score_4__c  +  S1__c  +  Score_2__c  +  Score_5__c</formula>
+        <inlineHelpText>Formula field based on the project checklist below.</inlineHelpText>
+        <label>Percent Complete (%)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Priority_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( CASE( Priority__c,  "Low", "/img/samples/flag_red.gif", "Medium", "/img/samples/flag_yellow.gif", "High", "/img/samples/flag_green.gif", "/s.gif"), "priority flag")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Project Priority ~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Priority__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How high of a priority is it for the organization and the group?</inlineHelpText>
+        <label>Project Priority</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>High</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Project_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>ROUND(NOW()-CreatedDate, 0)</formula>
+        <inlineHelpText>Calculates the number of days since this project was created.</inlineHelpText>
+        <label>Project Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Project_Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Provide a short description of the project to define the goals, what is in scope, and what is out of scope.</inlineHelpText>
+        <label>Project Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields><fields>
+        <fullName>Project_Milestones__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What are some of the key milestones for this project? 
+
+Milestones can also be cataloged and tracked in the related list below.</inlineHelpText>
+        <label>Milestones</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>6</visibleLines>
+    </fields><fields>
+        <fullName>Project_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Stage</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Evaluating</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Ready to Present Initial Plan for Approval</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>On-Hold</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tabeled</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Project_Status_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( CASE(  Project_Status__c , "Green", "/img/samples/light_green.gif", "Yellow", "/img/samples/light_yellow.gif", "Red", "/img/samples/light_red.gif", "/s.gif"), "status color")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Project Status ~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Project_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Green</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Yellow</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Red</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>S1__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( checkbox1__c , 20, 0)</formula>
+        <label>Score 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Score_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  checkbox2__c , 20, 0)</formula>
+        <label>Score 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Score_3__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  checkbox3__c  , 20, 0 )</formula>
+        <label>Score 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Score_4__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(   checkbox4__c  , 20, 0)</formula>
+        <label>Score 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Score_5__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(   checkbox5__c  , 20, 0)</formula>
+        <label>Score 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Success_Factors__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Briefly describe any issues that will need to be addressed prior to or during the project. Are there any risks, dependencies, or constraints to be aware of? 
+
+Project Issues can also be cataloged and  tracked in the related list below.</inlineHelpText>
+        <label>Success Factors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Type_of_Project__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Project</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Internal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customer Facing</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner Program</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>checkbox1__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>All the fields in the project object have been filled out and the project is ready to be presented.</inlineHelpText>
+        <label>Initial Plan</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>checkbox2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The project has been presented and resources have been approved.</inlineHelpText>
+        <label>Resourced</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>checkbox3__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>A detailed project plan has been written and everything is ready to begin work.</inlineHelpText>
+        <label>Plan Defined</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>checkbox4__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The project plan has been executed and work is complete.</inlineHelpText>
+        <label>Plan Executed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>checkbox5__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The status of the project has been communicated back to the community and the project team has debriefed.</inlineHelpText>
+        <label>Communicated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Projects are used to track ideas generated by the community, through to fruition. 
+
+Each project is assigned a project team and this app is used to define the project, track it's stage, open issues, and estimated completion date.</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>Read</externalSharingModel><label>Idea in Action</label><nameField>
+        <label>Idea in Action</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField><pluralLabel>Ideas in Action</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>Type_of_Project__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>A_Note_from_the_Project_Team__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Project_Stage__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Project_Stage__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Level_of_Effort__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>Read</sharingModel><listViews>
+        <fullName>ActiveProjectsSuggestedbyCustomers</fullName>
+        <columns>NAME</columns>
+        <columns>Project_Description__c</columns>
+        <columns>Project_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project_Stage__c</field>
+            <operation>equals</operation>
+            <value>Evaluating,Ready to Present Initial Plan for Approval,Scheduled,In Progress</value>
+        </filters>
+        <filters>
+            <field>Type_of_Project__c</field>
+            <operation>equals</operation>
+            <value>Customer Facing</value>
+        </filters>
+        <label>Active Projects Suggested by Customers</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews><listViews>
+        <fullName>AllProjects</fullName>
+        <columns>NAME</columns>
+        <columns>Project_Stage__c</columns>
+        <columns>Project_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Projects</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>ImplementedProjects</fullName>
+        <columns>NAME</columns>
+        <columns>Estimated_Completion_Date__c</columns>
+        <columns>A_Note_from_the_Project_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Project_Stage__c</field>
+            <operation>equals</operation>
+            <value>Completed</value>
+        </filters>
+        <filters>
+            <field>Type_of_Project__c</field>
+            <operation>equals</operation>
+            <value>Customer Facing</value>
+        </filters>
+        <label>Implemented Projects</label>
+        <language>en_US</language>
+    </listViews><webLinks>
+        <fullName>Ideas_Community</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Ideas Community</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>https://na5.salesforce.com/ideas/ideaList.apexp</url>
+    </webLinks><webLinks>
+        <fullName>Setup_Ideas_in_Action</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Setup: Ideas in Action</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>https://na5.salesforce.com/01I41000001qLhW</url>
+    </webLinks><webLinks>
+        <fullName>Setup_Page_Layout</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Setup: Page Layout</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>https://na5.salesforce.com/setup/layout/layoutdnd.jsp?type=01I41000001qLhW&amp;lid=00h41000003Qnfl&amp;e=1&amp;retURL=%2F01I41000001qLhW&amp;setupid=CustomObjects</url>
+    </webLinks></CustomObject>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>信用卡到期日</label>
+        <name>Credit_Card_Expiration_Date__c</name>
+    </fields><fields>
+        <label>信用卡名称</label>
+        <name>Credit_Card_Name__c</name>
+    </fields><fields>
+        <label>信用卡号</label>
+        <name>Credit_Card_Number__c</name>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label>指示符</label>
+        <name>Indicator__c</name>
+    </fields><fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields><fields>
+        <help><!-- Indicates if the order is contracted. --></help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields><fields>
+        <help><!-- The payment term for this order. --></help>
+        <label><!-- Payment Term --></label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields><fields>
+        <help><!-- The quote where the order is created from. --></help>
+        <label><!-- Quote --></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields><fields>
+        <label>邮寄方式</label>
+        <name>Shipping_Method__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation>联邦快递</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>跟踪它！</label>
+        <name>Track_It__c</name>
+    </fields><fields>
+        <help>样品追踪号码：\ r \ nFedEx：123456789012</help>
+        <label>跟踪ID</label>
+        <name>Tracking_ID__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><layouts>
+        <layout>Order Layout - Standard</layout>
+        <sections>
+            <label>客户信息</label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label>订购脚本</label>
+            <section>Order Script</section>
+        </sections>
+        <sections>
+            <label>相关</label>
+            <section>Related To</section>
+        </sections>
+        <sections>
+            <label>配送信息</label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Order Layout - eCommerce</layout>
+        <sections>
+            <label>客户信息</label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label>订购脚本</label>
+            <section>Order Script</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>订单 - 企业客户</label>
+        <name>Order_Business</name>
+    </recordTypes><recordTypes>
+        <label>订单 - 个人客户</label>
+        <name>Order_Consumer</name>
+    </recordTypes><webLinks>
+        <label>产品目录</label>
+        <name>Product_Catalog</name>
+    </webLinks><webLinks>
+        <label><!-- EditOrderProducts --></label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks></CustomObjectTranslation>

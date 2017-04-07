@@ -1,0 +1,8 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" controller="VisualAntidote.FastFormJsComponentController">
+     
+    <aura:attribute access="global" name="hostedFormCode" type="String" default=""/>
+	<aura:attribute access="global" name="jsScriptSrc" type="String" default=""/>
+    <div    id="jsFastFormsWrapper"></div>
+    <ltng:require scripts="https://code.jquery.com/jquery-1.12.4.min.js"  afterScriptsLoaded="{!c.doInit}" />
+     
+    </aura:component>

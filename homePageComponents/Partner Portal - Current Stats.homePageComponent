@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;IFRAME id=currentstats src=&quot;/servlet/servlet.Integration?lid=01N41000000ZIfg&amp;amp;enc=UTF-8&amp;amp;ic=1&quot; frameBorder=0 width=&quot;100%&quot; scrolling=no height=70&gt;&lt;/IFRAME&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

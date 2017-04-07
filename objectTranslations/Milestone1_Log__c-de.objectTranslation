@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>Details des Protokolleintrags. Tragen Sie im Freitextfeld beliebige Informationen ein.</help>
+        <label>Details</label>
+        <name>Detail__c</name>
+    </fields><fields>
+        <help>Der Projektkostenpunkt zu dem der Protokolleintrag gehört.</help>
+        <label>Projektkosten</label>
+        <name>Project_Expense__c</name>
+        <relationshipLabel>Projektprotokolle</relationshipLabel>
+    </fields><fields>
+        <help>Der Meilenstein zu dem der Protokolleintrag gehört.</help>
+        <label>Projektmeilenstein</label>
+        <name>Project_Milestone__c</name>
+        <relationshipLabel>Projektprotokolle</relationshipLabel>
+    </fields><fields>
+        <help>Die Projektaufgabe zu der der Protokolleintrag gehört.</help>
+        <label>Projektaufgabe</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>Projektprotokolle</relationshipLabel>
+    </fields><fields>
+        <help>Die Projektzeiten zu dem der Protokolleintrag gehört.</help>
+        <label>Projektzeiten</label>
+        <name>Project_Time__c</name>
+        <relationshipLabel>Projektprotokolle</relationshipLabel>
+    </fields><fields>
+        <help>Das Projekt zu dem der Protokolleintrag gehört.</help>
+        <label>Projekt</label>
+        <name>Project__c</name>
+        <relationshipLabel>Projektprotokolle</relationshipLabel>
+    </fields><fields>
+        <help>Das Thema des Protokolleintrags.</help>
+        <label>Thema</label>
+        <name>Subject__c</name>
+    </fields><fields>
+        <help>Typ des Protokolls. Dies kann verwendet werden, um unterschiedliche Einträge zu protokollieren.</help>
+        <label>Typ</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Decision</masterLabel>
+            <translation><!-- Decision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk</masterLabel>
+            <translation><!-- Risk --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Projektprotokoll</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Projektprotokolle</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Projektprotokoll</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Projektprotokolle</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Projektprotokolls</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Projektprotokolle</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Projektprotokoll</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Projektprotokollen</value>
+    </caseValues><gender>Neuter</gender><nameFieldLabel>Projektprotokoll</nameFieldLabel><layouts>
+        <layout>Project Log Layout</layout>
+        <sections>
+            <label>Verwandte Datensätze</label>
+            <section>Related Records</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

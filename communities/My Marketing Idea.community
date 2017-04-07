@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>My Marketing Idea is a forum where employees can suggest ideas, promote favorite projects, and interact with the Marketing team to preview what we are planning to deliver. In our Marketing Team&apos;s ongoing efforts to continually create a dialog with our customers, partners, and employees, and drive continuous innovation.</description>
+    <showInPortal>false</showInPortal>
+</Community>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The category of the logged event. --></help>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>DML</masterLabel>
+            <translation><!-- DML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search</masterLabel>
+            <translation><!-- Search --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- The data captured in the logged event. --></help>
+        <label><!-- Data --></label>
+        <name>Data__c</name>
+    </fields><fields>
+        <help><!-- Details of the exception thrown in the logged event. --></help>
+        <label><!-- Exception --></label>
+        <name>Exception__c</name>
+    </fields><fields>
+        <help><!-- Severity of the logged event. --></help>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info</masterLabel>
+            <translation><!-- Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warning</masterLabel>
+            <translation><!-- Warning --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- A unique ID for the particular type of error. Can be used to track how often the error occurs. --></help>
+        <label><!-- Stack Trace ID --></label>
+        <name>StackTraceId__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Log</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Logs</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Log Layout</layout>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

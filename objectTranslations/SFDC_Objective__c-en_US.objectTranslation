@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Channel Account Plan --></label>
+        <name>Channel_Account_Plan__c</name>
+        <relationshipLabel><!-- Objectives --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Days Left/ (Over) --></label>
+        <name>Days_Left_Over__c</name>
+    </fields><fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label><!-- % Goal Attained --></label>
+        <name>Goal_Attained__c</name>
+    </fields><fields>
+        <label><!-- Metric Goal --></label>
+        <name>Metric_Goal__c</name>
+    </fields><fields>
+        <label><!-- Metric Result --></label>
+        <name>Metric_Result__c</name>
+    </fields><fields>
+        <label><!-- Objective Type --></label>
+        <name>Objective_Type__c</name>
+        <picklistValues>
+            <masterLabel>Expand Market Coverage</masterLabel>
+            <translation><!-- Expand Market Coverage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generate New Opportunities</masterLabel>
+            <translation><!-- Generate New Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Customer Satisfaction</masterLabel>
+            <translation><!-- Improve Customer Satisfaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Service Levels</masterLabel>
+            <translation><!-- Improve Service Levels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Certifications</masterLabel>
+            <translation><!-- Increase Certifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Customer Base</masterLabel>
+            <translation><!-- Increase Customer Base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Leads</masterLabel>
+            <translation><!-- Increase Leads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Partner Revenue</masterLabel>
+            <translation><!-- Increase Partner Revenue --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation><!-- Urgent --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+    </fields><fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accomplished Objective</masterLabel>
+            <translation><!-- Accomplished Objective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeded Expectations</masterLabel>
+            <translation><!-- Exceeded Expectations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half-way</masterLabel>
+            <translation><!-- Half-way --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three Quarters</masterLabel>
+            <translation><!-- Three Quarters --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Success Measure --></label>
+        <name>Success_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Brand Recognition</masterLabel>
+            <translation><!-- Brand Recognition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Satisfaction</masterLabel>
+            <translation><!-- Customer Satisfaction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth</masterLabel>
+            <translation><!-- Growth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Knowledge</masterLabel>
+            <translation><!-- Product Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation><!-- Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trained Employees</masterLabel>
+            <translation><!-- Trained Employees --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Objective</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Objectives</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Objective Layout</layout>
+        <sections>
+            <label><!-- Objective Info --></label>
+            <section>Objective Info</section>
+        </sections>
+        <sections>
+            <label><!-- Objective Tracking --></label>
+            <section>Objective Tracking</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

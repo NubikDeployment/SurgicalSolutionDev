@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Number Sent</value>
+        </caseValues>
+        <name>num_sent_campaign</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <label><!-- Budget Variance --></label>
+        <name>Budget_Variance__c</name>
+    </fields><fields>
+        <help><!-- ROI is Net Gain. (Total Amount Won - Actual Cost) / Actual Cost --></help>
+        <label><!-- Campaign ROI --></label>
+        <name>Campaign_ROI__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <help><!-- Campaign Effectiveness is driven by the ROI.  5 Dollars signs is over 300%. --></help>
+        <label><!-- Campaign Effectiveness --></label>
+        <name>Effectiveness_Rating__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Primary Offer --></label>
+        <name>Primary_Offer__c</name>
+        <picklistValues>
+            <masterLabel>Case Study</masterLabel>
+            <translation><!-- Case Study --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Us Form</masterLabel>
+            <translation><!-- Contact Us Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo</masterLabel>
+            <translation><!-- Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Trial</masterLabel>
+            <translation><!-- Free Trial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitepaper</masterLabel>
+            <translation><!-- Whitepaper --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- ROI Chart --></label>
+        <name>ROI_Chart__c</name>
+    </fields><fields>
+        <label><!-- Revenue Towards Goal --></label>
+        <name>Revenue_Towards_Goal__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Marketing</masterLabel>
+            <translation><!-- Direct Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Channel</masterLabel>
+            <translation><!-- Multi-Channel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Marketing</masterLabel>
+            <translation><!-- Print Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Marketing</masterLabel>
+            <translation><!-- Web Marketing --></translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label><!-- Campaign Charts --></label>
+            <section>Campaign Charts</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Results --></label>
+            <section>Campaign Results</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Parent Campaign Layout</layout>
+        <sections>
+            <label><!-- Charts --></label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label><!-- Hierarchy Planning --></label>
+            <section>Hierarchy Planning</section>
+        </sections>
+        <sections>
+            <label><!-- Hierarchy Results --></label>
+            <section>Hierarchy Results</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Child Campaign --></label>
+        <name>ChildCampaign</name>
+    </recordTypes><recordTypes>
+        <label><!-- Parent Campaign --></label>
+        <name>ParentCampaign</name>
+    </recordTypes><webLinks>
+        <label><!-- Send_Text_To_Campaign_Members --></label>
+        <name>LiveText__Send_Text_To_Campaign_Members</name>
+    </webLinks><webLinks>
+        <label><!-- ThisyearsROI --></label>
+        <name>ThisyearsROI</name>
+    </webLinks><webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks></CustomObjectTranslation>

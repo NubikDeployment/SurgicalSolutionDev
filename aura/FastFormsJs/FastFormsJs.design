@@ -1,0 +1,4 @@
+<design:component label="Fast Forms">
+    <design:attribute name="hostedFormCode" label="Form Code" description="5-digit hosted form code" />
+     
+</design:component>

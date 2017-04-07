@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>附加信息</label>
+        <name>Additional_Information__c</name>
+    </fields><fields>
+        <label>其他链接</label>
+        <name>Additional_Links__c</name>
+    </fields><fields>
+        <label>聊天回答</label>
+        <name>Chat_Answer__c</name>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>内部注释</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>技术细节</label>
+        <name>Technical_Detail__c</name>
+    </fields><fields>
+        <label>技术概述</label>
+        <name>Technical_Overview__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Technical --></value>
+    </caseValues><nameFieldLabel><!-- Technical Name --></nameFieldLabel><layouts>
+        <layout>Technical2 Layout</layout>
+        <sections>
+            <label>其他链接</label>
+            <section>Additional Links</section>
+        </sections>
+        <sections>
+            <label>聊天回答</label>
+            <section>Chat Answer</section>
+        </sections>
+        <sections>
+            <label>内部注释</label>
+            <section>Internal Comments</section>
+        </sections>
+        <sections>
+            <label>技术细节</label>
+            <section>Technical Detail</section>
+        </sections>
+        <sections>
+            <label>技术概述</label>
+            <section>Technical Overview</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

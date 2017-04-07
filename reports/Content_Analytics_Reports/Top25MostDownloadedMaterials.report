@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chart>
+        <chartSummaries>
+            <column>DOWNLOAD_COUNT</column>
+        </chartSummaries>
+        <chartType>None</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+        <groupingColumn>VERSION_TITLE</groupingColumn>
+        <showAxisLabels>false</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>false</showTotal>
+        <showValues>false</showValues>
+    </chart>
+    <columns>
+        <field>VERSION_TITLE</field>
+    </columns>
+    <columns>
+        <field>WS_NAME</field>
+    </columns>
+    <columns>
+        <field>CONTENT_CREATOR</field>
+    </columns>
+    <columns>
+        <field>CONTENT_CREATED</field>
+    </columns>
+    <columns>
+        <field>VERSION_MODIFIER</field>
+    </columns>
+    <columns>
+        <field>VERSION_REVISED</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>DOWNLOAD_COUNT</field>
+    </columns>
+    <description>Summary of the top 25 most downloaded materials across all workspaces</description>
+    <format>Tabular</format>
+    <name>Top 25 Most Downloaded Materials</name>
+    <reportType>Content</reportType>
+    <rowLimit>25</rowLimit>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>DOWNLOAD_COUNT</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>WS_CREATED</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

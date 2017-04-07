@@ -1,0 +1,25 @@
+<aura:component controller="RSSFeedCtrl" implements="forceCommunity:availableForAllPageTypes,flexipage:availableForAllPageTypes">
+    <ltng:require scripts="/resource/jqueryMDLGT"
+                  afterScriptsLoaded="{!c.doInit}" />
+    
+	<ltng:require styles="/resource/SLDS0101MD/assets/styles/salesforce-lightning-design-system-ltng.css"/>
+    <aura:attribute name="theUrl" type="String"></aura:attribute>
+    <aura:attribute name="feedItems" type="DE_RSSObject"></aura:attribute>
+    <aura:attribute name="theHeader" type="String"></aura:attribute>
+    <div class="slds">
+        <div class="slds-text-heading--medium">{!v.theHeader}</div>
+        <ul class="slds-list--vertical slds-has-dividers">
+            <aura:iteration items="{!v.feedItems}" var="fi">
+                <li class="slds-list__item">
+                    <div class="slds-tile">
+                        <p class="slds-tile__title slds-truncate"><a href="{!fi.url}" target="_blank"><aura:unescapedHtml value="{!fi.title}" /></a></p>
+                        <div class="slds-tile__detail slds-text-body--small">
+                            <p class="slds-truncate" style="font-size:14px;">{!fi.pubDate}</p>
+                        </div>
+                    </div>
+                </li>
+            </aura:iteration>
+        </ul>
+    </div>
+	
+</aura:component>

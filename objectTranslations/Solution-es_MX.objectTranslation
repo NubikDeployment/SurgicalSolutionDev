@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Titulo del artículo</label>
+        <name>Article_Title__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Solution Name --></label>
+        <name>EDY_ORGCUSTOM__Old_SolutionName__c</name>
+    </fields><fields>
+        <label><!-- Old Solution Note --></label>
+        <name>EDY_ORGCUSTOM__Old_SolutionNote__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Región aplicable</label>
+        <name>Global__c</name>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation><!-- Americas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia-Pac</masterLabel>
+            <translation><!-- Asia-Pac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Esta información no está visible para los clientes en el portal</help>
+        <label>Notas internas</label>
+        <name>Internal_Notes__c</name>
+    </fields><fields>
+        <label>Palabras claves</label>
+        <name>Keywords__c</name>
+    </fields><fields>
+        <label><!-- Org Cust Case ID --></label>
+        <name>Org_Cust_Case_ID__c</name>
+    </fields><fields>
+        <label>Audiencia primaria</label>
+        <name>Primary_Audience__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>Cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Personnel</masterLabel>
+            <translation>Personal de entrega</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Technician</masterLabel>
+            <translation>Técnicos de mantenimiento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Sales Engineer</masterLabel>
+            <translation>Ingenieros de pre venta</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Engineer</masterLabel>
+            <translation>Ingenieros de soporte</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Fecha de vencimiento de la solución</label>
+        <name>Solution_Expiration_Date__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Borrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation>Duplicado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>Revisado</translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>CP - Solution Layout</layout>
+        <sections>
+            <label>Prueba</label>
+            <section>Test</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

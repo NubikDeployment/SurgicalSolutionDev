@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Consumer</label>
+            <name>Consumer</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Enterprise</label>
+            <name>Enterprise</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Getting Started</label>
+                <name>Getting_Started</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Planning and Marketing</label>
+                <name>Planning_and_Marketing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Training and Certification</label>
+                <name>Training_and_Certification</name>
+            </dataCategory>
+            <label>Partner</label>
+            <name>Partner</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>The audience articles in this category apply to.</description>
+    <label>Audience</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

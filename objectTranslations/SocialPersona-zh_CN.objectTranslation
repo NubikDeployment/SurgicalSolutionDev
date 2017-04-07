@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>图标</label>
+        <name>Icon__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><layouts>
+        <layout>Social Persona Layout</layout>
+        <sections>
+            <label>订婚查看</label>
+            <section>Engagement View</section>
+        </sections>
+        <sections>
+            <label>Facebook的</label>
+            <section>Facebook</section>
+        </sections>
+        <sections>
+            <label>推特</label>
+            <section>Twitter</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

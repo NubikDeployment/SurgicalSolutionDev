@@ -1,0 +1,7 @@
+The {!Organization.Name} channel development management team has reviewed your submitted deal registration for {!Opportunity.Account} and have approved the submission.
+
+To continue working your deal, please update your deal in the the portal at: https://apps.salesforce.com/prm/detail/{!Opportunity.Id}
+
+Good Luck and Good Selling!
+
+The {!Organization.Name} Channel Development Team

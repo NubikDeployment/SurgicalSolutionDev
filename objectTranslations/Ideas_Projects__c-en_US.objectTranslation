@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Update from the project team on the status of the project. --></help>
+        <label><!-- Ideas in Action Update --></label>
+        <name>A_Note_from_the_Project_Team__c</name>
+    </fields><fields>
+        <help><!-- Why do this project? 
+What happens if we don’t do it? 
+Why do it now? 
+How critical will the impact of the project be? --></help>
+        <label><!-- Business Justification --></label>
+        <name>Business_Justification__c</name>
+    </fields><fields>
+        <help><!-- How do you plan on communicating the status of this project to the community? --></help>
+        <label><!-- Communication Plan --></label>
+        <name>Communication_Plan__c</name>
+    </fields><fields>
+        <help><!-- What department is responsible for this project? --></help>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Business Development &amp; Alliances</masterLabel>
+            <translation><!-- Business Development &amp; Alliances --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Support</masterLabel>
+            <translation><!-- Customer Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Services (HR)</masterLabel>
+            <translation><!-- Employee Services (HR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facilities &amp; Real Estate</masterLabel>
+            <translation><!-- Facilities &amp; Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation</masterLabel>
+            <translation><!-- Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Services</masterLabel>
+            <translation><!-- Global Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Technology (IT)</masterLabel>
+            <translation><!-- Information Technology (IT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Salesforce App</masterLabel>
+            <translation><!-- Internal Salesforce App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation><!-- Product Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research &amp; Development</masterLabel>
+            <translation><!-- Research &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation><!-- Security --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Note that changes to the estimated completion date are are tracked in the field history tracking down below, along with the project status, owner, and estimated completion date. --></help>
+        <label><!-- Estimated Completion Date --></label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields><fields>
+        <help><!-- What group is most directly responsible for this project? --></help>
+        <label><!-- Group --></label>
+        <name>Group__c</name>
+        <picklistValues>
+            <masterLabel>Applications</masterLabel>
+            <translation><!-- Applications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apps</masterLabel>
+            <translation><!-- Apps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Sales</masterLabel>
+            <translation><!-- Corporate Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demand Generation</masterLabel>
+            <translation><!-- Demand Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Services</masterLabel>
+            <translation><!-- Employee Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Sales</masterLabel>
+            <translation><!-- Enterprise Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events</masterLabel>
+            <translation><!-- Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation><!-- Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Services</masterLabel>
+            <translation><!-- Implementation Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive</masterLabel>
+            <translation><!-- Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>London</masterLabel>
+            <translation><!-- London --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation><!-- Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiere Support</masterLabel>
+            <translation><!-- Premiere Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruiting</masterLabel>
+            <translation><!-- Recruiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Support</masterLabel>
+            <translation><!-- Standard Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney</masterLabel>
+            <translation><!-- Sydney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokyo</masterLabel>
+            <translation><!-- Tokyo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toronto</masterLabel>
+            <translation><!-- Toronto --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Idea --></label>
+        <name>Idea__c</name>
+        <relationshipLabel><!-- Ideas in Action --></relationshipLabel>
+    </fields><fields>
+        <help><!-- What is the level of effort to complete this project? Is it a quick win or a resource intensive project? --></help>
+        <label><!-- Level of Effort --></label>
+        <name>Level_of_Effort__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Note 4 --></label>
+        <name>Note_4__c</name>
+    </fields><fields>
+        <label><!-- Note 5 --></label>
+        <name>Note_5__c</name>
+    </fields><fields>
+        <label><!-- Note 1 --></label>
+        <name>Notes_1__c</name>
+    </fields><fields>
+        <label><!-- Note 2 --></label>
+        <name>Notes_2__c</name>
+    </fields><fields>
+        <label><!-- Note 3 --></label>
+        <name>Notes_3__c</name>
+    </fields><fields>
+        <help><!-- Formula field based on the project checklist below. --></help>
+        <label><!-- Percent Complete (%) --></label>
+        <name>Percent_Complete__c</name>
+    </fields><fields>
+        <label><!-- Project Priority ~ --></label>
+        <name>Priority_Flag__c</name>
+    </fields><fields>
+        <help><!-- How high of a priority is it for the organization and the group? --></help>
+        <label><!-- Project Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Calculates the number of days since this project was created. --></help>
+        <label><!-- Project Age --></label>
+        <name>Project_Age__c</name>
+    </fields><fields>
+        <help><!-- Provide a short description of the project to define the goals, what is in scope, and what is out of scope. --></help>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields><fields>
+        <help><!-- What are some of the key milestones for this project? 
+
+Milestones can also be cataloged and tracked in the related list below. --></help>
+        <label><!-- Milestones --></label>
+        <name>Project_Milestones__c</name>
+    </fields><fields>
+        <label><!-- Project Stage --></label>
+        <name>Project_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluating</masterLabel>
+            <translation><!-- Evaluating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Hold</masterLabel>
+            <translation><!-- On-Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Present Initial Plan for Approval</masterLabel>
+            <translation><!-- Ready to Present Initial Plan for Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabeled</masterLabel>
+            <translation><!-- Tabeled --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Project Status ~ --></label>
+        <name>Project_Status_Indicator__c</name>
+    </fields><fields>
+        <label><!-- Project Status --></label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Score 1 --></label>
+        <name>S1__c</name>
+    </fields><fields>
+        <label><!-- Score 2 --></label>
+        <name>Score_2__c</name>
+    </fields><fields>
+        <label><!-- Score 3 --></label>
+        <name>Score_3__c</name>
+    </fields><fields>
+        <label><!-- Score 4 --></label>
+        <name>Score_4__c</name>
+    </fields><fields>
+        <label><!-- Score 5 --></label>
+        <name>Score_5__c</name>
+    </fields><fields>
+        <help><!-- Briefly describe any issues that will need to be addressed prior to or during the project. Are there any risks, dependencies, or constraints to be aware of? 
+
+Project Issues can also be cataloged and  tracked in the related list below. --></help>
+        <label><!-- Success Factors --></label>
+        <name>Success_Factors__c</name>
+    </fields><fields>
+        <label><!-- Type of Project --></label>
+        <name>Type_of_Project__c</name>
+        <picklistValues>
+            <masterLabel>Customer Facing</masterLabel>
+            <translation><!-- Customer Facing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Program</masterLabel>
+            <translation><!-- Partner Program --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- All the fields in the project object have been filled out and the project is ready to be presented. --></help>
+        <label><!-- Initial Plan --></label>
+        <name>checkbox1__c</name>
+    </fields><fields>
+        <help><!-- The project has been presented and resources have been approved. --></help>
+        <label><!-- Resourced --></label>
+        <name>checkbox2__c</name>
+    </fields><fields>
+        <help><!-- A detailed project plan has been written and everything is ready to begin work. --></help>
+        <label><!-- Plan Defined --></label>
+        <name>checkbox3__c</name>
+    </fields><fields>
+        <help><!-- The project plan has been executed and work is complete. --></help>
+        <label><!-- Plan Executed --></label>
+        <name>checkbox4__c</name>
+    </fields><fields>
+        <help><!-- The status of the project has been communicated back to the community and the project team has debriefed. --></help>
+        <label><!-- Communicated --></label>
+        <name>checkbox5__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Idea in Action</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Ideas in Action</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Customer Portal Layout</layout>
+        <sections>
+            <label><!-- Customer Communication --></label>
+            <section>Customer Communication</section>
+        </sections>
+        <sections>
+            <label><!-- Project Update --></label>
+            <section>Project Update</section>
+        </sections>
+        <sections>
+            <label><!-- Web Links --></label>
+            <section>Web Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label><!-- Customer/Employee Communication --></label>
+            <section>Customer/Employee Communication</section>
+        </sections>
+        <sections>
+            <label><!-- Image Fields --></label>
+            <section>Image Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Project Checklist --></label>
+            <section>Project Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Project Summary --></label>
+            <section>Project Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Web Links --></label>
+            <section>Web Links</section>
+        </sections>
+    </layouts><webLinks>
+        <label><!-- Ideas_Community --></label>
+        <name>Ideas_Community</name>
+    </webLinks><webLinks>
+        <label><!-- Setup_Ideas_in_Action --></label>
+        <name>Setup_Ideas_in_Action</name>
+    </webLinks><webLinks>
+        <label><!-- Setup_Page_Layout --></label>
+        <name>Setup_Page_Layout</name>
+    </webLinks></CustomObjectTranslation>

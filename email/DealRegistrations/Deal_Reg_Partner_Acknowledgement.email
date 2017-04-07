@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<font face="arial"><span style="font-size: 12pt;">{!Lead.OwnerFullName}&nbsp;</span></font><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div><div><font face="arial">The {!Organization.Name} channel development team has received your deal registration for {!Lead.Company} submitted on {!Lead.LastModifiedDate}.</font></div><div><font face="arial"><br></font></div><div><font face="arial">A {!Organization.Name} representative will respond to you within 24 hours.</font></div><div><font face="arial"><br></font></div><div><font face="arial">Good Selling!&nbsp;</font></div><div><font face="arial"><br></font></div><div><font face="arial">{!Organization.Name} Channel Development Team</font></div></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><div><br></div><div><b>REGISTRATION DETAILS</b></div><div>Name:&nbsp;{!Lead.FirstName}&nbsp;{!Lead.LastName}</div><div>Company:&nbsp;{!Lead.Company}</div><div>Product Interest:&nbsp;{!Lead.Product_Interest__c}</div><div><br></div><div><br></div></div>]]></td>
+</tr>
+</table>

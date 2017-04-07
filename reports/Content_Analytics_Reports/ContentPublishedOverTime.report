@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>VERSION_TITLE</field>
+    </columns>
+    <columns>
+        <field>WS_NAME</field>
+    </columns>
+    <columns>
+        <field>CONTENT_CREATOR</field>
+    </columns>
+    <description>Trending reporting show content published by month</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Month</dateGranularity>
+        <field>CONTENT_CREATED</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Content Published Over Time</name>
+    <reportType>Content</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>WS_CREATED</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

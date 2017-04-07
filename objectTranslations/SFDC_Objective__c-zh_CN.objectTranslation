@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>渠道客户计划</label>
+        <name>Channel_Account_Plan__c</name>
+        <relationshipLabel>目标</relationshipLabel>
+    </fields><fields>
+        <label>剩余天数/（过）</label>
+        <name>Days_Left_Over__c</name>
+    </fields><fields>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label>结束日期</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>％目标实现</label>
+        <name>Goal_Attained__c</name>
+    </fields><fields>
+        <label>度量目标</label>
+        <name>Metric_Goal__c</name>
+    </fields><fields>
+        <label>测量的结果</label>
+        <name>Metric_Result__c</name>
+    </fields><fields>
+        <label>目标类型</label>
+        <name>Objective_Type__c</name>
+        <picklistValues>
+            <masterLabel>Expand Market Coverage</masterLabel>
+            <translation>扩大市场覆盖面</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Generate New Opportunities</masterLabel>
+            <translation>生成新机遇</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Customer Satisfaction</masterLabel>
+            <translation>提高客户满意度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improve Service Levels</masterLabel>
+            <translation>提高服务水平</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Certifications</masterLabel>
+            <translation>提高认证</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Customer Base</masterLabel>
+            <translation>增加客源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Leads</masterLabel>
+            <translation>增加导致</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Increase Partner Revenue</masterLabel>
+            <translation>提高合作伙伴的收入</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>优先</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Urgent</masterLabel>
+            <translation>紧急</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>阶段</label>
+        <name>Stage__c</name>
+    </fields><fields>
+        <label>开始日期</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label>状态</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accomplished Objective</masterLabel>
+            <translation>有成就的目标</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeded Expectations</masterLabel>
+            <translation>超出预期</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Half-way</masterLabel>
+            <translation>半</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>新</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three Quarters</masterLabel>
+            <translation>四分之三</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>成功测度</label>
+        <name>Success_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Brand Recognition</masterLabel>
+            <translation>品牌识别</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Satisfaction</masterLabel>
+            <translation>客户满意度</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth</masterLabel>
+            <translation>成长</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Knowledge</masterLabel>
+            <translation>产品知识</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation>收入</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trained Employees</masterLabel>
+            <translation>训练有素的员工</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Objective --></value>
+    </caseValues><nameFieldLabel><!-- Objective Name --></nameFieldLabel><layouts>
+        <layout>Objective Layout</layout>
+        <sections>
+            <label>目标信息</label>
+            <section>Objective Info</section>
+        </sections>
+        <sections>
+            <label>目标跟踪</label>
+            <section>Objective Tracking</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

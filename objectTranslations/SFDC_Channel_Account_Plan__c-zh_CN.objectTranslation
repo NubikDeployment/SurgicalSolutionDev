@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>活性</label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label>业务挑战</label>
+        <name>Business_Challenges__c</name>
+    </fields><fields>
+        <help><!-- Returns true when the current user&apos;s associated account is the same as for the channel plan. Used in Partner Central for list view visibility. --></help>
+        <label><!-- My Company&apos;s Channel Plan --></label>
+        <name>My_Company_s_Channel_Plan__c</name>
+    </fields><fields>
+        <label>所有者</label>
+        <name>Owner__c</name>
+        <relationshipLabel>渠道计划</relationshipLabel>
+    </fields><fields>
+        <label>伙伴</label>
+        <name>Partner_Account__c</name>
+        <relationshipLabel>渠道客户计划</relationshipLabel>
+    </fields><fields>
+        <label>状态</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Achieved</masterLabel>
+            <translation>实现</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Risk</masterLabel>
+            <translation>有一定风险</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>待定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation>规划</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>战略</label>
+        <name>Strategy__c</name>
+    </fields><fields>
+        <label>目标</label>
+        <name>Target__c</name>
+    </fields><fields>
+        <label>视力</label>
+        <name>Vision__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Channel Plan --></value>
+    </caseValues><nameFieldLabel><!-- Channel Plan Name --></nameFieldLabel><layouts>
+        <layout>Channel Plan Layout</layout>
+        <sections>
+            <label>愿景/价值</label>
+            <section>Vision/Value</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

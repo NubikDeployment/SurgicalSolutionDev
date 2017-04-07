@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Cumpleaños</label>
+        <name>HR_Birthdate__c</name>
+    </fields><fields>
+        <label>Centro de costo</label>
+        <name>HR_Cost_Center__c</name>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation>Desarrollo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources</masterLabel>
+            <translation>Recursos humanos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation>Operaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Marketing</masterLabel>
+            <translation>Marketing de productos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Relations</masterLabel>
+            <translation>Relaciones publicas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Engineering</masterLabel>
+            <translation>Ingeniería de ventas</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Departamento</label>
+        <name>HR_Department__c</name>
+        <picklistValues>
+            <masterLabel>Facilities</masterLabel>
+            <translation>Instalaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation>RH</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation>Operaciones</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;D</masterLabel>
+            <translation>I&amp;D</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation>Servicio</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Telefóno</label>
+        <name>HR_Desk_Phone__c</name>
+    </fields><fields>
+        <label>Correo electrónico</label>
+        <name>HR_Email__c</name>
+    </fields><fields>
+        <label>ID del empleado</label>
+        <name>HR_Employee_ID__c</name>
+    </fields><fields>
+        <label>Tipo de empleado</label>
+        <name>HR_Employee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Contractor</masterLabel>
+            <translation>Contratista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Empleado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part-time</masterLabel>
+            <translation>Tiempo parcial</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remote Employee</masterLabel>
+            <translation>Empleado remoto</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Gerente</label>
+        <name>HR_Manager__c</name>
+    </fields><fields>
+        <label>Celular</label>
+        <name>HR_Mobile_Phone__c</name>
+    </fields><fields>
+        <label>Mentor de inducción</label>
+        <name>HR_Onboarding_Mentor__c</name>
+    </fields><fields>
+        <label>Posición</label>
+        <name>HR_Position__c</name>
+        <relationshipLabel>Empleados contratados</relationshipLabel>
+    </fields><fields>
+        <label>Fecha de inicio</label>
+        <name>HR_Start_Date__c</name>
+    </fields><fields>
+        <label>Titulo</label>
+        <name>HR_Title__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Empleado</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Empleados</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre del empleado</nameFieldLabel><layouts>
+        <layout>Employee Layout</layout>
+        <sections>
+            <label>Información de contacto del empleado</label>
+            <section>Employee Contact Information</section>
+        </sections>
+        <sections>
+            <label>Información de la organización</label>
+            <section>Organization Information</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

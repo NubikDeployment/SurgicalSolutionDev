@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>DB Tage</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help><!-- The date the time was incurred. Defaults to today if left blank. --></help>
+        <label>Datum</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <help><!-- A description about the time. For example, why the time was incurred. --></help>
+        <label>Beschreibung</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help><!-- The number of hours charged. Note: This cannot be more than 1 day (24 hours). --></help>
+        <label>Stunden</label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label>Import-ID</label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help><!-- The user who incurred the time being charged. Defaults to current user if left blank. --></help>
+        <label>Geleistet von</label>
+        <name>Incurred_By__c</name>
+        <relationshipLabel><!-- Time --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The task that is having time charged to it. --></help>
+        <label>Projekt Task</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>Projektzeiten</relationshipLabel>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Projektzeit</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Projektzeiten</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Projektzeit</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Projektzeiten</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Projektzeit</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Projektzeiten</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Projektzeit</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Projektzeiten</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Projektzeit</nameFieldLabel><validationRules>
+        <errorMessage><!-- The hours entered cannot be negative. --></errorMessage>
+        <name>Hours_Not_Negative</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- The hours cannot exceed 24. --></errorMessage>
+        <name>Validation_Time_Hours_Less_Than_24_Hours</name>
+    </validationRules></CustomObjectTranslation>

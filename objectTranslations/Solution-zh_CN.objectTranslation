@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>文章标题</label>
+        <name>Article_Title__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label>旧的解决方案名称</label>
+        <name>EDY_ORGCUSTOM__Old_SolutionName__c</name>
+    </fields><fields>
+        <label>旧的解决方案的注释</label>
+        <name>EDY_ORGCUSTOM__Old_SolutionNote__c</name>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>适用地区</label>
+        <name>Global__c</name>
+        <picklistValues>
+            <masterLabel>Americas</masterLabel>
+            <translation>美洲</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asia-Pac</masterLabel>
+            <translation>亚太区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation>全球</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>这个信息是不可见的在门户\客户</help>
+        <label>内部注</label>
+        <name>Internal_Notes__c</name>
+    </fields><fields>
+        <label>关键词</label>
+        <name>Keywords__c</name>
+    </fields><fields>
+        <label>Org自定义案例ID</label>
+        <name>Org_Cust_Case_ID__c</name>
+    </fields><fields>
+        <label>主要读者</label>
+        <name>Primary_Audience__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation>顾客</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery Personnel</masterLabel>
+            <translation>配送人员</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance Technician</masterLabel>
+            <translation>维修技术员</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Sales Engineer</masterLabel>
+            <translation>售前工程师</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Engineer</masterLabel>
+            <translation>支持工程师</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>解决方案截止日期</label>
+        <name>Solution_Expiration_Date__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>草案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation>重复</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>来自</translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>CP - Solution Layout</layout>
+        <sections>
+            <label>测试</label>
+            <section>Test</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

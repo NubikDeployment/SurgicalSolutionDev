@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>牺牲的量。</help>
+        <label>量</label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>日期费用遭到了起诉。默认为今天如果留空。</help>
+        <label>招致日期</label>
+        <name>Date_Incurred__c</name>
+    </fields><fields>
+        <help>关于费用的描述。例如</help>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>谁收取费用的用户。默认为当前用户如果留空。</help>
+        <label>发生的</label>
+        <name>Incurred_By__c</name>
+        <relationshipLabel>开支</relationshipLabel>
+    </fields><fields>
+        <help>任务为代价对充电。</help>
+        <label>项目任务</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>开支</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Expense --></value>
+    </caseValues><nameFieldLabel><!-- Project Expense Name --></nameFieldLabel></CustomObjectTranslation>

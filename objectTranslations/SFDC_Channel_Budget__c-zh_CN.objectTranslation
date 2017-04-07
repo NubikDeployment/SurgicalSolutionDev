@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>活性</label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label>分配</label>
+        <name>Allocated__c</name>
+    </fields><fields>
+        <label>渠道合作伙伴</label>
+        <name>Channel_Partner__c</name>
+        <relationshipLabel>市场开发基金</relationshipLabel>
+    </fields><fields>
+        <label>结束日期</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>上次刷新日期</label>
+        <name>Last_Refresh_Date__c</name>
+    </fields><fields>
+        <label>刷新余额</label>
+        <name>Refresh__c</name>
+    </fields><fields>
+        <label>剩余</label>
+        <name>Remaining__c</name>
+    </fields><fields>
+        <label>要求</label>
+        <name>Requested__c</name>
+    </fields><fields>
+        <label>开始日期</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <help>助学金：月度/季度/年度金额\ r \ nFixed数量：获取资源或服务的固定数量\ r \ nDiscount：补贴的营销方案\ r \ nRebate：报销批准的支出</help>
+        <label>类型</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation>折扣</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Quantity</masterLabel>
+            <translation>定量</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate</masterLabel>
+            <translation>回扣</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stipend</masterLabel>
+            <translation>助学金</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- MDF --></value>
+    </caseValues><nameFieldLabel><!-- Name --></nameFieldLabel><layouts>
+        <layout>MDF Layout</layout>
+        <sections>
+            <label>财务细节</label>
+            <section>Financial Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

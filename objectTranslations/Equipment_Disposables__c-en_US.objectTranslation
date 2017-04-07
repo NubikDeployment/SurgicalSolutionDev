@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- End --></label>
+        <name>End__c</name>
+    </fields><fields>
+        <label><!-- Preference Card --></label>
+        <name>Preference_Card__c</name>
+        <relationshipLabel><!-- Equipment &amp; Disposables --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Equipment &amp; Disposables --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Start --></label>
+        <name>Start__c</name>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Disposable</masterLabel>
+            <translation><!-- Disposable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equipment</masterLabel>
+            <translation><!-- Equipment --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Equipment &amp; Disposables</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Equipment &amp; Disposables</value>
+    </caseValues><startsWith>Vowel</startsWith><layouts>
+        <layout>Equipment &amp; Disposables Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

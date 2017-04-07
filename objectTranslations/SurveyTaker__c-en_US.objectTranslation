@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Surveys Taken --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Survey Taken By Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Surveys Taken --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Survey --></label>
+        <name>Survey__c</name>
+        <relationshipLabel><!-- Surveys Taken --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Taken --></label>
+        <name>Taken__c</name>
+    </fields><fields>
+        <label><!-- Survey Taken By User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Surveys Taken --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Survey Taken</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Surveys Taken</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

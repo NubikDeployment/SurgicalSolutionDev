@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Response --></label>
+        <name>Response__c</name>
+    </fields><fields>
+        <label><!-- SurveyTaker --></label>
+        <name>SurveyTaker__c</name>
+        <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Survey Question --></label>
+        <name>Survey_Question__c</name>
+        <relationshipLabel><!-- Survey Question Responses --></relationshipLabel>
+    </fields><fields>
+        <label><!-- # of Time Question was Responded to --></label>
+        <name>of_Time_Question_was_Responded_to__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Survey Question Response</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Survey Question Responses</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

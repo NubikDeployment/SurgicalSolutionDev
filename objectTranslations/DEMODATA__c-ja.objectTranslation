@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label><!-- Business Family Members --></label>
+        <name>Business_Family_Members__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - 5</masterLabel>
+            <translation><!-- 1 - 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 - 50</masterLabel>
+            <translation><!-- 26 - 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - 25</masterLabel>
+            <translation><!-- 6 - 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt; 100</masterLabel>
+            <translation><!-- &gt; 100 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>DB__c</name>
+    </fields><fields>
+        <label><!-- Delinquency Risk --></label>
+        <name>Delinquency_Risk__c</name>
+        <picklistValues>
+            <masterLabel>High risk of delinquency</masterLabel>
+            <translation><!-- High risk of delinquency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low risk of delinquency</masterLabel>
+            <translation><!-- Low risk of delinquency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate risk of delinquency</masterLabel>
+            <translation><!-- Moderate risk of delinquency --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Employee Size Grouping --></label>
+        <name>Employee_Size_Grouping__c</name>
+        <picklistValues>
+            <masterLabel>1,000 to 10,000</masterLabel>
+            <translation><!-- 1,000 to 10,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 to 100</masterLabel>
+            <translation><!-- 10 to 100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10,000+</masterLabel>
+            <translation><!-- 10,000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 to 1,000</masterLabel>
+            <translation><!-- 100 to 1,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under 10</masterLabel>
+            <translation><!-- Under 10 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Marketing Segmentation Cluster --></label>
+        <name>Marketing_Segmentation_Cluster__c</name>
+        <picklistValues>
+            <masterLabel>Active Traders</masterLabel>
+            <translation><!-- Active Traders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bustling Manufacturers &amp; Business Services</masterLabel>
+            <translation><!-- Bustling Manufacturers &amp; Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Good Hands</masterLabel>
+            <translation><!-- In Good Hands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry, Inc.</masterLabel>
+            <translation><!-- Industry, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor-Intensive Giants</masterLabel>
+            <translation><!-- Labor-Intensive Giants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landmark Business Services</masterLabel>
+            <translation><!-- Landmark Business Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Powerhouse 6000</masterLabel>
+            <translation><!-- Powerhouse 6000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solid &amp; Sons</masterLabel>
+            <translation><!-- Solid &amp; Sons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Hectic Venture Company</masterLabel>
+            <translation><!-- The Hectic Venture Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Withering Branch Company</masterLabel>
+            <translation><!-- The Withering Branch Company --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Month --></label>
+        <name>Month__c</name>
+    </fields><fields>
+        <label><!-- NAICS Code --></label>
+        <name>NAICS_Code__c</name>
+    </fields><fields>
+        <label><!-- NAICS Description --></label>
+        <name>NAICS_Description__c</name>
+    </fields><fields>
+        <label><!-- Number of Logins --></label>
+        <name>Number_of_Logins__c</name>
+    </fields><fields>
+        <label><!-- Portal Login Date --></label>
+        <name>Portal_Login_Date__c</name>
+    </fields><fields>
+        <label><!-- Record Count --></label>
+        <name>Record_Count__c</name>
+    </fields><fields>
+        <label><!-- SIC Code --></label>
+        <name>SIC_Code__c</name>
+    </fields><fields>
+        <label><!-- SIC Description --></label>
+        <name>SIC_Description__c</name>
+    </fields><fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation><!-- Closed Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation><!-- Closed Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation><!-- Needs Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation/Review</masterLabel>
+            <translation><!-- Negotiation/Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Price Quote</masterLabel>
+            <translation><!-- Proposal/Price Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation><!-- Prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation><!-- Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value Proposition</masterLabel>
+            <translation><!-- Value Proposition --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Tickets --></label>
+        <name>Tickets__c</name>
+    </fields><fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- DEMODATA --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- DEMODATA --></value>
+    </caseValues><nameFieldLabel><!-- DEMODATA Number --></nameFieldLabel><recordTypes>
+        <label>カスタマーポータル</label>
+        <name>CustomerPortal</name>
+    </recordTypes></CustomObjectTranslation>

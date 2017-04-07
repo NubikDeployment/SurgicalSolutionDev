@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>文章的文章编号被链接到作为关键字或专题文章。不一样的文章或知识库文章版本记录ID。</help>
+        <label>文章编号</label>
+        <name>Article_Number__c</name>
+    </fields><fields>
+        <help>“精选”“之后，文章将不再出现在中日”“一节，一个空值意味着没有到期日，不符合申请记录”“是关键词条”，“检查”。</help>
+        <label>特色过期</label>
+        <name>Expiration__c</name>
+    </fields><fields>
+        <help>检查该字段，如果这篇文章被链接到一个关键字。当检查</help>
+        <label>是关键字文章？</label>
+        <name>Is_Keyword_Article__c</name>
+    </fields><fields>
+        <help>在此输入关键字或关键字，</help>
+        <label>关键词</label>
+        <name>Keyword__c</name>
+    </fields><fields>
+        <help>指定的顺序来显示与其他物品的功能或推荐节的一部分，当这篇文章将出现。较低的数字显示朝上方。</help>
+        <label>订购</label>
+        <name>Order__c</name>
+    </fields><fields>
+        <help>这必须匹配的遗址被配置为使用PKB包的API的名字之一。</help>
+        <label>PKB名称</label>
+        <name>PKB_Name__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- PKB Featured --></value>
+    </caseValues><nameFieldLabel><!-- PKB Featured Name --></nameFieldLabel><layouts>
+        <layout>PKB Featured Layout</layout>
+        <sections>
+            <label>在关键字搜索功能</label>
+            <section>Features on Keyword Search</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>编号应为9个数字（例如：00001000）。</errorMessage>
+        <name>Check_Article_Number_have_9_digits</name>
+    </validationRules></CustomObjectTranslation>

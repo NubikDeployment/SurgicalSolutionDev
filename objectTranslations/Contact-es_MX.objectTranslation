@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- ActiveLiveAgentUser --></label>
+        <name>ActiveLiveAgentUser__c</name>
+    </fields><fields>
+        <label>Indicador de actividad</label>
+        <name>Activity_Indicator__c</name>
+    </fields><fields>
+        <label>Indicador de actividad</label>
+        <name>Activity_Indicator_partner__c</name>
+    </fields><fields>
+        <label>Nivel de certificación</label>
+        <name>Certification_Level__c</name>
+        <picklistValues>
+            <masterLabel>Architect</masterLabel>
+            <translation>Arquitecto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation>Asociado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expert</masterLabel>
+            <translation>Experto</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional</masterLabel>
+            <translation>Profesional</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Ubicación</label>
+        <name>Contact_Location__c</name>
+    </fields><fields>
+        <label>Días desde la última actividad</label>
+        <name>Days_Since_Last_Activity__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Title --></label>
+        <name>EDY_ORGCUSTOM__Old_Title__c</name>
+    </fields><fields>
+        <help><!-- This is used to consistently import data to a version of the SDO and translate data into other languages. --></help>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- FB Id for Identity --></label>
+        <name>FB_Id_for_Identity__c</name>
+    </fields><fields>
+        <label>ID persona Facebook</label>
+        <name>Facebook_Persona_ID__c</name>
+    </fields><fields>
+        <label>Foto Facebook</label>
+        <name>Facebook_Picture__c</name>
+    </fields><fields>
+        <label>Foto perfil en Facebook</label>
+        <name>Facebook_Profile_Picture__c</name>
+    </fields><fields>
+        <label>Puntaje Klout</label>
+        <name>Klout_Score__c</name>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Llamada en frío</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>Comunidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation><!-- Data.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>LLamada entrante</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Evento de marketing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Socio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Referido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Medios sociales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>Sitio web</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Notas</label>
+        <name>Notes__c</name>
+    </fields><fields>
+        <label>Número de amigos</label>
+        <name>Number_of_Friends__c</name>
+    </fields><fields>
+        <label>Abrir dirección en Google Maps</label>
+        <name>Open_Address_in_Google_Maps__c</name>
+    </fields><fields>
+        <label>Usuario SSP</label>
+        <name>SSP_User__c</name>
+    </fields><fields>
+        <label>Dirección</label>
+        <name>SlickSidebar_AccountAddress__c</name>
+    </fields><fields>
+        <help><!-- for Activity Indicator field. &lt;5 = 1 Star, &lt;10 = 3 Stars, &gt;10 = 5 Stars --></help>
+        <label># total de actividades</label>
+        <name>Total_of_Activities__c</name>
+    </fields><fields>
+        <label><!-- Twitter Persona ID --></label>
+        <name>Twitter_Persona_ID__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields><fields>
+        <label><!-- Data.com Managed --></label>
+        <name>jsImpacts__Data_com_Managed__c</name>
+    </fields><fields>
+        <help><!-- Exclude this record from automated field updates from Data.com Clean jobs --></help>
+        <label><!-- Data.com Does Not Auto-Update --></label>
+        <name>jsImpacts__Data_com_does_not_auto_update__c</name>
+    </fields><fields>
+        <label>Adicionado desde Data.com</label>
+        <name>jsImpacts__Imported_from_Jigsaw__c</name>
+    </fields><fields>
+        <label><!-- Needs Score Synced --></label>
+        <name>pi__Needs_Score_Synced__c</name>
+    </fields><fields>
+        <label><!-- Pardot Last Scored At --></label>
+        <name>pi__Pardot_Last_Scored_At__c</name>
+    </fields><fields>
+        <label><!-- Pardot Campaign --></label>
+        <name>pi__campaign__c</name>
+    </fields><fields>
+        <label><!-- Pardot Comments --></label>
+        <name>pi__comments__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Date --></label>
+        <name>pi__conversion_date__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Object Name --></label>
+        <name>pi__conversion_object_name__c</name>
+    </fields><fields>
+        <label><!-- Pardot Conversion Object Type --></label>
+        <name>pi__conversion_object_type__c</name>
+    </fields><fields>
+        <label><!-- Pardot Created Date --></label>
+        <name>pi__created_date__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Activity --></label>
+        <name>pi__first_activity__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer Query --></label>
+        <name>pi__first_search_term__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer Type --></label>
+        <name>pi__first_search_type__c</name>
+    </fields><fields>
+        <label><!-- Pardot First Referrer --></label>
+        <name>pi__first_touch_url__c</name>
+    </fields><fields>
+        <label><!-- Pardot Grade --></label>
+        <name>pi__grade__c</name>
+    </fields><fields>
+        <label><!-- Pardot Last Activity --></label>
+        <name>pi__last_activity__c</name>
+    </fields><fields>
+        <label><!-- Pardot Notes --></label>
+        <name>pi__notes__c</name>
+    </fields><fields>
+        <label><!-- Pardot Hard Bounced --></label>
+        <name>pi__pardot_hard_bounced__c</name>
+    </fields><fields>
+        <label><!-- Pardot Score --></label>
+        <name>pi__score__c</name>
+    </fields><fields>
+        <label><!-- Pardot URL --></label>
+        <name>pi__url__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Campaign --></label>
+        <name>pi__utm_campaign__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Content --></label>
+        <name>pi__utm_content__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Medium --></label>
+        <name>pi__utm_medium__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Source --></label>
+        <name>pi__utm_source__c</name>
+    </fields><fields>
+        <label><!-- Google Analytics Term --></label>
+        <name>pi__utm_term__c</name>
+    </fields><layouts>
+        <layout>Contact Service</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Contact Service Legacy</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Feed Based Contact Service</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Contact</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Pardot Contact</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Activities --></label>
+            <section>Pardot Activities</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Information --></label>
+            <section>Pardot Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pardot Nurturing Campaigns --></label>
+            <section>Pardot Nurturing Campaigns</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Contact</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Oportunidades de socios abiertas</label>
+            <section>Open Partner Opportunities</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Contact</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Contact Legacy</layout>
+        <sections>
+            <label>Dirección</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Asignaciones</label>
+            <section>Entitlements</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Enlaces útiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><quickActions>
+        <label>Consulta general</label>
+        <name>GeneralInquiry</name>
+    </quickActions><quickActions>
+        <label>Problema técnico</label>
+        <name>Technical_Issue</name>
+    </quickActions><recordTypes>
+        <label>Cliente</label>
+        <name>Customer</name>
+    </recordTypes><recordTypes>
+        <label><!-- Pardot Contact --></label>
+        <name>Pardot_Contact</name>
+    </recordTypes><recordTypes>
+        <label>Socio</label>
+        <name>Partner</name>
+    </recordTypes><validationRules>
+        <errorMessage>Este registro ha sido excluido de actualizaciones de campo automátizadas de Data.com Clean Jobs</errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules><webLinks>
+        <label>Investigar el problema</label>
+        <name>Diagnose_Issue</name>
+    </webLinks><webLinks>
+        <label>NDA DocuSign</label>
+        <name>DocuSign_NDA</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_out_for_Text_Messaging_List --></label>
+        <name>LiveText__Opt_out_for_Text_Messaging_List</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS2 --></label>
+        <name>LiveText__Send_Bulk_SMS2</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_Out_for_Text_Messaging_detail --></label>
+        <name>Opt_Out_for_Text_Messaging_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messaging_detail --></label>
+        <name>Opt_in_for_Text_Messaging_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Text_Message --></label>
+        <name>Send_Text_Message</name>
+    </webLinks><webLinks>
+        <label>Solucionar problemas de audio</label>
+        <name>Troubleshoot_Laptop</name>
+    </webLinks><webLinks>
+        <label>mapa</label>
+        <name>map</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Email --></label>
+        <name>pi__Send_Pardot_Email</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks><webLinks>
+        <label><!-- Send_to_Prospect_Insight --></label>
+        <name>pi__Send_to_Prospect_Insight</name>
+    </webLinks></CustomObjectTranslation>

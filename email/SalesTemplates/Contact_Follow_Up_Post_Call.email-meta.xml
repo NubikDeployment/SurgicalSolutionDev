@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Example email a salesperson can send after speaking with a contact on the phone.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>*Contact Follow-Up</name>
+    <style>none</style>
+    <subject>Nice speaking with you!</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+Thank you for the discussion today!  It was a pleasure speaking with you.
+
+As I understand it, your business is facing challenges that are impacting your bottom line.  You&apos;d like to reduce costs and losses due to inefficiencies.  As we discussed, {!Organization.Name} helps businesses like yours be successful by focusing on these critical areas.  As a result, many of our customers see a return on their investment within months, not years.
+
+As soon as I receive your go-ahead, we can begin putting together a quote.  I look forward to working with you and your company!
+
+Best Regards,
+{!User.Name}
+{!Organization.Name}
+{!User.Phone}</textOnly>
+    <type>custom</type>
+</EmailTemplate>

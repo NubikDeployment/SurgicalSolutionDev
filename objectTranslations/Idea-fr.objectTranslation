@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- This formula field tracks the number of days since the idea was submitted. --></help>
+        <label>Age de l'idée (en jours)</label>
+        <name>Age__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Idea in Action --></label>
+        <name>Idea_in_Action__c</name>
+        <relationshipLabel><!-- Ideas --></relationshipLabel>
+    </fields><fields>
+        <label>Statut</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Coming Soon</masterLabel>
+            <translation>Bientôt Disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation>Disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>It's Been Reviewed, But Not Feasible At This Time</masterLabel>
+            <translation>A été revue, mais pas possible pour le moment</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Reviewed</masterLabel>
+            <translation>Pas encore revue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Consideration</masterLabel>
+            <translation>Considérée</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Soumise Par</label>
+        <name>Submitted_By__c</name>
+    </fields><fields>
+        <label>Mise à Jour</label>
+        <name>Update__c</name>
+    </fields><recordTypes>
+        <label><!-- Announcements: Idea Record Type --></label>
+        <name>AnnouncementsIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- CRM Rollout: Idea Record Type --></label>
+        <name>CRMRolloutIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- *Company-wide Ideas*: Idea Record Type --></label>
+        <name>CompanywideIdeasIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- Green Office Initiative - Reduce, Reuse, Recycle: Idea Record Type --></label>
+        <name>GreenOfficeInitiativeReduceReuseRecycleIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My Foundation Idea: Idea Record Type --></label>
+        <name>MyFoundationIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My IT Idea: Idea Record Type --></label>
+        <name>MyITIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My Marketing Idea: Idea Record Type --></label>
+        <name>MyMarketingIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- Customer Community Ideas*: Idea Record Type --></label>
+        <name>MyPortalIdeasIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My Product Idea: Idea Record Type --></label>
+        <name>MyProductIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My Sales Idea: Idea Record Type --></label>
+        <name>MySalesIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- My Services Idea: Idea Record Type --></label>
+        <name>MyServicesIdeaIdeaRecordType</name>
+    </recordTypes><recordTypes>
+        <label><!-- Answers: Idea Record Type --></label>
+        <name>Record_type_for_community_09a300000004uGeAAI_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- *Customers Answers Community*: Idea Record Type --></label>
+        <name>Record_type_for_community_09a3000000050d1AAA_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Social Support Answers: Idea Record Type --></label>
+        <name>Record_type_for_community_09a30000000L9iTAAS_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Video Conferencing: Idea Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApuAAG_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Wireless Solutions: Idea Record Type --></label>
+        <name>Record_type_for_community_09a30000000LApzAAG_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Routers and Switches: Idea Record Type --></label>
+        <name>Record_type_for_community_09a30000000LAq4AAG_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- customer community ideas: Idea Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtOAAW_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- partner communities ideas: Idea Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LBtTAAW_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- MSS: Idea Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBUAA4_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- MSS 2: Idea Record Type --></label>
+        <name>Record_type_for_community_09aa0000000LFBZAA4_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- AudioPro Ideas: Idea Record Type --></label>
+        <name>Record_type_for_community_09ao000000028rRAAQ_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Audiophiles Ideas: Idea Record Type --></label>
+        <name>Record_type_for_community_09ao000000028rWAAQ_entity_Idea</name>
+    </recordTypes><recordTypes>
+        <label><!-- Partner Central Ideas: Idea Record Type --></label>
+        <name>Record_type_for_community_09ao0000000altbAAA_entity_Idea</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Please revise your post with appropriate language. --></errorMessage>
+        <name>Obscene_entries</name>
+    </validationRules></CustomObjectTranslation>

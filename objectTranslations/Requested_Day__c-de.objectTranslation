@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>In Abrechnungsperiode ignorieren</label>
+        <name>Do_not_include_in_Pay_Cycle__c</name>
+    </fields><fields>
+        <label>Mitarbeiternummer</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label>Stunden</label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label>Monat der Antragsstellung</label>
+        <name>Month_of_Request__c</name>
+    </fields><fields>
+        <label>Abrechnungsperiode</label>
+        <name>Pay_Cycle__c</name>
+        <relationshipLabel><!-- Requested Days --></relationshipLabel>
+    </fields><fields>
+        <label>Angefragter Tag</label>
+        <name>Requested_Day__c</name>
+    </fields><fields>
+        <label>Urlaubsantrag</label>
+        <name>Time_Off_Request__c</name>
+        <relationshipLabel><!-- Requested Days --></relationshipLabel>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Urlaubstag</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Urlaubstage</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Urlaubstag</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Urlaubstage</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Urlaubstag</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Urlaubstage</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Urlaubstags</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Urlaubstagen</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Antrags-ID</nameFieldLabel></CustomObjectTranslation>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <content>asb_listingPopularityActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <content>asb_listingPopularityActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <content>asb_listingPopularityActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <content>asb_listingPopularityActions</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>ActivityDate__c</fullName>
+        <description>The date on which the activities for this listing occurred.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date on which the activities for this listing occurred.</inlineHelpText>
+        <label>Activity Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>InstallCount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>The number of installs on this listing on this date. Used to calculate 30-day popularity for the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of installs on this listing on this date. Used to calculate 30-day popularity for the listing.</inlineHelpText>
+        <label>Install Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>PageViews__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>The number of page views for the listing on this date. Used to calculate 30-day popularity for the listing.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The number of page views for the listing on this date. Used to calculate 30-day popularity for the listing.</inlineHelpText>
+        <label>Page Views</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>asb_Listing__c</fullName>
+        <description>The listing with which the popularity is associated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The listing with which the popularity is associated.</inlineHelpText>
+        <label>Listing</label>
+        <referenceTo>asb_Listing__c</referenceTo>
+        <relationshipLabel>Listing Popularity</relationshipLabel>
+        <relationshipName>UserActivitySnapshots</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Daily popularity of each listing in the store.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Listing Popularity</label><nameField>
+        <displayFormat>LP-{0}</displayFormat>
+        <label>ListingPopularity Number</label>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Listing Popularity</pluralLabel><searchLayouts /><sharingModel>ControlledByParent</sharingModel></CustomObject>

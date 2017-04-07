@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>AccountSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Appel spontané</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>Communauté</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>Liste Achetée</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>Appel Entrant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Salon Professionel</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Apporteur d'affaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Recommandation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Médias sociaux</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>Site Web</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Emplacement Compte</label>
+        <name>Account_Location__c</name>
+    </fields><fields>
+        <label>Priorité</label>
+        <name>Account_Priority__c</name>
+    </fields><fields>
+        <label><!-- Account Source Custom --></label>
+        <name>Account_Source_Custom__c</name>
+        <picklistValues>
+            <masterLabel>Added from Data.com</masterLabel>
+            <translation><!-- Added from Data.com --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Statut</label>
+        <name>Account_Status__c</name>
+    </fields><fields>
+        <label>Revenu Annuel</label>
+        <name>Annual_Income__c</name>
+    </fields><fields>
+        <label>Date d'Application</label>
+        <name>Application_Date__c</name>
+    </fields><fields>
+        <label>Nombre de Membres dans la Famille</label>
+        <name>Business_Family_Members_Data__c</name>
+    </fields><fields>
+        <label>Relation Vendeur</label>
+        <name>Buying_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation>Directe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indirect</masterLabel>
+            <translation>Indirecte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside</masterLabel>
+            <translation>Externe</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Opptés Clôturées Perdues</label>
+        <name>Closed_Lost_Opptys__c</name>
+    </fields><fields>
+        <label>Opptés Clôturées Gagnées</label>
+        <name>Closed_Won_Opptys__c</name>
+    </fields><fields>
+        <help><!-- This is automatically calculated from closed opportunities. --></help>
+        <label>Ventes Total</label>
+        <name>Closed_Won_Value__c</name>
+    </fields><fields>
+        <label>Certifications Concurrents</label>
+        <name>Competitive_Certifications__c</name>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUN</masterLabel>
+            <translation><!-- SUN --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Contrat Signé</label>
+        <name>Contract_Signed__c</name>
+    </fields><fields>
+        <label>Objectif de Revenu Cette Année</label>
+        <name>Current_Year_Revenue_Goal__c</name>
+    </fields><fields>
+        <label>Objectif Cette Année</label>
+        <name>Current_Year_Target__c</name>
+    </fields><fields>
+        <label>No Compte Client</label>
+        <name>Customer_Account__c</name>
+    </fields><fields>
+        <help><!-- What does this customer think of us? --></help>
+        <label>Index Satisfaction Client</label>
+        <name>Customer_Satisfaction_Index__c</name>
+        <picklistValues>
+            <masterLabel>A - Extremely Satisfied - Customer Evangelist</masterLabel>
+            <translation>A - Très Satisfait - Sponsor</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Satisfied</masterLabel>
+            <translation>B - Satisfait</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Neutral</masterLabel>
+            <translation>C - Neutre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Dissatisfied - At risk of losing business</masterLabel>
+            <translation>D - Insatisfait - Risque de perte d'affaires</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Unsatisfactory - Losing Business</masterLabel>
+            <translation>F - Très Insatisfait - Perte d'affaires</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Valeur Client</label>
+        <name>Customer_Value__c</name>
+    </fields><fields>
+        <label>Dernière Activité (jours)</label>
+        <name>Days_Since_Activity__c</name>
+    </fields><fields>
+        <label><!-- Delinquency Risk --></label>
+        <name>Delinquency_Risk_Data__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>Nom Global Entreprise</label>
+        <name>Global_Business_Name_Data__c</name>
+    </fields><fields>
+        <label><!-- Global Ultimate D-U-N-S Number --></label>
+        <name>Global_Ultimate_D_U_N_S_Number__c</name>
+    </fields><fields>
+        <label>% Atteinte Objectif</label>
+        <name>Goal_Attainment__c</name>
+    </fields><fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation>Habillement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>Banque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>Biotechnologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>Chimie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>Communication</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>Electronique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>Energie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>Divertissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>Environnement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation>Services Financiers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>Agroalimentaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>Gouvernement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare &amp; Life Sciences</masterLabel>
+            <translation>Santé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>Hôtellerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>Machinerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>Industrie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>Média</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>Association (Non-Lucratif)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>Divertissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>Vente au détail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>Expédition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>Technologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>Télécommunications</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>Transport</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Revenu Généré L'Année Dernière</label>
+        <name>Last_Year_Revenue_Generated__c</name>
+    </fields><fields>
+        <label><!-- Latitude --></label>
+        <name>Latitude__c</name>
+    </fields><fields>
+        <label>Taux de Conversion Piste</label>
+        <name>Lead_Conversion_Rate__c</name>
+    </fields><fields>
+        <label>Taux de Clôture Piste vers opportunité</label>
+        <name>Lead_To_Opportunity_Close_Rate__c</name>
+    </fields><fields>
+        <label>Passif</label>
+        <name>Liabilities__c</name>
+    </fields><fields>
+        <label><!-- Longitude --></label>
+        <name>Longitude__c</name>
+    </fields><fields>
+        <label>Plan du Compte</label>
+        <name>Map_the_Account__c</name>
+    </fields><fields>
+        <label>Valeur Nette</label>
+        <name>Net_Worth__c</name>
+    </fields><fields>
+        <label>Opportunités Perdues</label>
+        <name>Number_Closed_Lost_Opportunities__c</name>
+    </fields><fields>
+        <label>Opportunités Clôturés</label>
+        <name>Number_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>Opportunités Gagnées</label>
+        <name>Number_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>Pistes Actives</label>
+        <name>Number_Leads_Active__c</name>
+    </fields><fields>
+        <label>Pistes Converties</label>
+        <name>Number_Leads_Converted__c</name>
+    </fields><fields>
+        <label>Total Pistes</label>
+        <name>Number_Leads_Total__c</name>
+    </fields><fields>
+        <label>Opportunités Ouvertes</label>
+        <name>Number_Open_Opportunities__c</name>
+    </fields><fields>
+        <label>Nombre d'Employés - Localisation</label>
+        <name>Number_of_Employees_Location_Data__c</name>
+    </fields><fields>
+        <label>Valeur Oppté Ouverte</label>
+        <name>Open_Oppty_Value__c</name>
+    </fields><fields>
+        <label>Opptés Ouvertes</label>
+        <name>Open_Opptys__c</name>
+    </fields><fields>
+        <label>Opportunités Ouvertes vs. Clôturées</label>
+        <name>Open_vs_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>Opptés Ouvertes vs Clôturées Gagnées</label>
+        <name>Open_vs_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>Taux de Succès Opportunité</label>
+        <name>Opportunity_Win_Rate__c</name>
+    </fields><fields>
+        <label>Autres Revenus</label>
+        <name>Other_Income__c</name>
+    </fields><fields>
+        <label>Revenu Facture en Souffrance</label>
+        <name>Overdue_Invoice_Revenue__c</name>
+    </fields><fields>
+        <label>Factures en Souffrance</label>
+        <name>Overdue_Invoices__c</name>
+    </fields><fields>
+        <name>Ownership</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation>Privé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation><!-- Public --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>Filiale</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Certification du Partenaire</label>
+        <name>Partner_Certification__c</name>
+        <picklistValues>
+            <masterLabel>Certified Partner</masterLabel>
+            <translation>Partenaire Certifié</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elite Partner</masterLabel>
+            <translation>Partenaire Elite</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Couverture Géographique du Partenaire</label>
+        <name>Partner_Geographic_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation><!-- APAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LACA</masterLabel>
+            <translation><!-- LACA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation>Amérique du Nord</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Niveau Programme Partenaire</label>
+        <name>Partner_Program_Level__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>Or</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>Platine</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>Argent</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Type de Partenaire</label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alliance Partner</masterLabel>
+            <translation>Partenaire Alliance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation>Distributrur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Partenaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation>Revendeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service &amp; Support Specialist</masterLabel>
+            <translation>Spécialiste Service et Support</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>Fournisseur de Service</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Integrator</masterLabel>
+            <translation>Intégrateur Système</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Statut du Partenariat</label>
+        <name>Partnership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>Actif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>Inactif</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>En Attente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation>Suspendu</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Pourcentage Gagné</label>
+        <name>Percent_Won__c</name>
+    </fields><fields>
+        <label>Biens Personnels</label>
+        <name>Personal_Assets__c</name>
+    </fields><fields>
+        <label>Programmes</label>
+        <name>Programs__c</name>
+        <picklistValues>
+            <masterLabel>Consulting Program</masterLabel>
+            <translation>Programme de Conseil</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor Program</masterLabel>
+            <translation>Programme de Distribution</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation>Programme de Référencement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller Program</masterLabel>
+            <translation>Programme de Revente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Program</masterLabel>
+            <translation>Programme de Services</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worldwide Reseller Agreement</masterLabel>
+            <translation>Accord de Revente Mondial</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation>Froid</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation>Chaud</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation>Tiède</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Indicateur Valeur</label>
+        <name>Rating_Indicator__c</name>
+    </fields><fields>
+        <label>Région</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation><!-- Central --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation>Est</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation>Ouest</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Option qui permet de combiner les quantités de plusieurs ressources d'un même produit sur une seule ligne lors de la génération du devis de renouvellement.</help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields><fields>
+        <help>Activez pour combiner les ressources et les abonnements de plusieurs contrats à durée identique. Par défaut, chaque contrat à durée identique génère un groupe séparé dans un devis de renouvellement.</help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields><fields>
+        <help>Détermine des contrats à durée identique.</help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation>Complément</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renouvellement</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Détermine comment les contrats de service et d'abonnement de ce client sont définis avec des durées identiques.</help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Toujours</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Jamais</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation>Demander</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Opportunité par défaut de ce compte utilisée dans un module e-Commerce pour obtenir le prix catalogue du client et associer aux devis « panier d'achat ».</help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields><fields>
+        <help>Sélectionnez si les prix contractés doivent être hérités du compte parent.</help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields><fields>
+        <help>Sélectionnez cette case pour préserver la hiérarchie des offres groupées dans les devis de renouvellement et les amendements.</help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields><fields>
+        <help>Saisissez la date limite de maintien des prix.</help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields><fields>
+        <help>Sélectionnez Basé sur les ressources pour générer les renouvellements en fonction des ressources d'un compte ou Basé sur le contrat pour générer les renouvellements en fonction du contrat créé à partir d'un devis.</help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation>Basé sur les ressources</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation>Basé sur le contrat</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Utilisez « Identique » pour conserver le dernier prix payé, « Catalogue » pour utiliser le prix catalogue actuel ou « Augmentation » pour utiliser le dernier prix payé avec une augmentation.</help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Catalogue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation>Identique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation>Augmentation</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Scorecard Last Updated --></label>
+        <name>Scorecard_Last_Updated__c</name>
+    </fields><fields>
+        <label><!-- Show Partner Users --></label>
+        <name>Show_Partner_Users__c</name>
+    </fields><fields>
+        <label><!-- Show on Checkin Map --></label>
+        <name>Show_on_Checkin_Map__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>Grand Compte</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Market</masterLabel>
+            <translation>Taille intermédiaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business</masterLabel>
+            <translation>PME/PMI</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label>Valeur Opportunités Gagnées</label>
+        <name>Value_Closed_Won_Opportunties__c</name>
+    </fields><fields>
+        <label>Valeur Opportunités Ouvertes</label>
+        <name>Value_Open_Opportunties__c</name>
+    </fields><fields>
+        <label>Valeur</label>
+        <name>Value__c</name>
+    </fields><fields>
+        <label>Couverture Verticale</label>
+        <name>Vertical_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>Banque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>Biotechnologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>Chimie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>Communication</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation><!-- Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>Electronique</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>Energie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>Divertissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>Environnement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>Agroalimentaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>Gouvernement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation>Santé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>Hôtellerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>Assurance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>Machinerie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>Industrie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>Média</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>Association (Non-Lucratif)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Autre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>Divertissement</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>Vente au détail</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>Expédition</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>Technologie</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>Télécommunications</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>Transport</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Ratio Gain/Perte</label>
+        <name>Win_Loss_Ratio__c</name>
+    </fields><fields>
+        <label>Revenu Généré YTD</label>
+        <name>YTD_Revenue_Generated__c</name>
+    </fields><fields>
+        <label><!-- Hierarchy Parents --></label>
+        <name>accHierarchy__Hierarchy_Parents__c</name>
+    </fields><fields>
+        <label><!-- On Previous Hierarchy Level --></label>
+        <name>accHierarchy__On_Previous_Hierarchy_Level__c</name>
+    </fields><fields>
+        <label><!-- Top Parent Id --></label>
+        <name>accHierarchy__TopParentId__c</name>
+    </fields><fields>
+        <label><!-- Has Child With Changes --></label>
+        <name>accHierarchy__hasChildWithChanges__c</name>
+    </fields><fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields><fields>
+        <label>Depuis Data.com</label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields><fields>
+        <label><!-- Data.com Managed --></label>
+        <name>jsImpacts__Data_com_Managed__c</name>
+    </fields><fields>
+        <label><!-- Data.com Matched --></label>
+        <name>jsImpacts__Data_com_Matched__c</name>
+    </fields><fields>
+        <help><!-- Exclude this record from automated field updates from Data.com Clean jobs --></help>
+        <label><!-- Data.com Does Not Auto-Update --></label>
+        <name>jsImpacts__Data_com_does_not_auto_update__c</name>
+    </fields><fields>
+        <label>% de Commerciaux Formés</label>
+        <name>of_Reps_Trained__c</name>
+    </fields><layouts>
+        <layout>Account Service</layout>
+        <sections>
+            <label>Hiérarchie du Compte</label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com --></label>
+            <section>Data.com</section>
+        </sections>
+        <sections>
+            <label>Integration ERP</label>
+            <section>ERP Integration</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Advanced Account</layout>
+        <sections>
+            <label>Analytics</label>
+            <section>Account Analytics</section>
+        </sections>
+        <sections>
+            <label>Hiérarchie du Compte</label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label>Intégration</label>
+            <section>Integration</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- Wave Analytics --></label>
+            <section>Wave Analytics</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Data.com Account</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Description --></label>
+            <section>Data.com Description</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Information --></label>
+            <section>Data.com Information</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Premium --></label>
+            <section>Data.com Premium</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Account</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Account</layout>
+        <sections>
+            <label>Suivi du Compte</label>
+            <section>Account Tracking</section>
+        </sections>
+        <sections>
+            <label>Informations Marché</label>
+            <section>Market Information</section>
+        </sections>
+        <sections>
+            <label>Opportunités Ouvertes - Partenaire</label>
+            <section>Open Partner Opportunities</section>
+        </sections>
+        <sections>
+            <label>Informations Partenariat</label>
+            <section>Partnership Information</section>
+        </sections>
+        <sections>
+            <label>Tableau de Bord</label>
+            <section>Scorecard</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Finances du Client</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout - Lightning</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Finances du Client</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Service Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>Finances du Client</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Account</layout>
+        <sections>
+            <label>Adresse</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>Liens Utiles</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>Avancé</label>
+        <name>Advanced</name>
+    </recordTypes><recordTypes>
+        <label><!-- Data.com --></label>
+        <name>Data_com</name>
+    </recordTypes><recordTypes>
+        <label>Partenaire</label>
+        <name>Partner</name>
+    </recordTypes><recordTypes>
+        <label><!-- Simple --></label>
+        <name>Simple</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- A valid three-letter country code is required. --></errorMessage>
+        <name>CountryValidation</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- This record has been excluded from automated field updates from Data.com Clean jobs. --></errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules><webLinks>
+        <label><!-- Account_Master_Integration --></label>
+        <name>Account_Master_Integration</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_out_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_out_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_Out_for_Text_Messages_detail --></label>
+        <name>Opt_Out_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_detail --></label>
+        <name>Opt_in_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Reset --></label>
+        <name>Reset</name>
+    </webLinks><webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Text_Message --></label>
+        <name>Send_Text_Message</name>
+    </webLinks><webLinks>
+        <label><!-- Support --></label>
+        <name>Support</name>
+    </webLinks><webLinks>
+        <label><!-- Update_Scorecard --></label>
+        <name>Update_Scorecard</name>
+    </webLinks><webLinks>
+        <label><!-- Whitespace_Report --></label>
+        <name>Whitespace_Report</name>
+    </webLinks><webLinks>
+        <label><!-- Button_View_Hierarchy --></label>
+        <name>accHierarchy__Button_View_Hierarchy</name>
+    </webLinks><webLinks>
+        <label><!-- financialprofile --></label>
+        <name>financialprofile</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks></CustomObjectTranslation>

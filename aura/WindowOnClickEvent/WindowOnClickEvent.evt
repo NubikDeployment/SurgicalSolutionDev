@@ -1,0 +1,3 @@
+<aura:event type="APPLICATION" description="this event is fired when clicking on parent container of the page">
+	<aura:attribute name="evnt" type="Object"/>
+</aura:event>

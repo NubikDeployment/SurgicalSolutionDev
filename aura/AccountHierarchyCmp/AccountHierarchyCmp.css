@@ -1,0 +1,58 @@
+.THIS {
+}
+
+.THIS .search-container .hide.clear {
+    display: none;
+}
+
+.THIS .search-button__hidden {
+    z-index:-1;
+}
+
+.THIS .slds-button.slds-button--icon.slds-button--icon-border-filled.search-button{
+    background-color:inherit;
+    float:right;
+}
+.THIS .slds-button.slds-button--icon.slds-button--icon-border-filled.search-button:hover{
+    background-color:white;
+    opacity:0.5;
+    color:inherit;
+}
+.THIS .search-container .slds-button.slds-button--icon.clear {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    color: rgb(84, 105, 141);
+    background-color: transparent;
+}
+.THIS .searchInput-container{
+	opacity: 1;
+    -webkit-transition: width .4s ease .2s,opacity .4s ease .2s,left .4s ease .2s;
+    -moz-transition: width .4s ease .2s,opacity .4s ease .2s,left .4s ease .2s;
+    transition: width .4s ease .2s,opacity .4s ease .2s,left .4s ease .2s;
+    width: 100%;
+    position: absolute;
+    left: 0;
+	top: 0 ;    
+}
+
+.THIS .searchInput-container.hide{
+    left: 100%;
+    opacity: 0;
+    -webkit-transition: width .4s ease .5s,opacity .4s ease .5s,left .4s ease .5s;
+    -moz-transition: width .4s ease .5s,opacity .4s ease .5s,left .4s ease .5s;
+    transition: width .4s ease .5s,opacity .4s ease .5s,left .4s ease .5s;
+    width: 0;
+}
+
+.THIS .searchInput-container .searchInput{
+    line-height:36px;
+}
+.THIS .slds-breadcrumb .slds-list__item:before {
+ color: #0070d2;   
+}
+.THIS .slds-popover.slds-popover--tooltip.gridview--tooltip{
+   position:absolute;
+   left:2px;
+   top:77px; 
+}

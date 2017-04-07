@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Channel Funds are a common practice for companies selling, marketing, and servicing their products and services through channel partners.  The volume of marketing fund requests and claims is very high. Typically, companies do not have visibility to the utilization of their partner marketing dollars in order to gauge how funds are being used and which funds are driving the highest ROI.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom16: Bank</motif>
+</CustomTab>

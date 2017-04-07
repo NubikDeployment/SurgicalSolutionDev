@@ -1,0 +1,32 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1"><span class="s1">Please review the following opportunity. A discount of {!Opportunity.Discount__c}% has been requested, which exceeds the standard discount level.&nbsp;</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">Opportunity: {!Opportunity.Name}&nbsp;</span></p><p class="p1"><span class="s1">Account: {!Account.Name}&nbsp;</span></p><p class="p1"><span class="s1">Amount: {!Opportunity.Amount}&nbsp;</span></p><p class="p1"><span class="s1">Estimated Close Date: {!Opportunity.CloseDate}&nbsp;</span></p><p class="p1"><span class="s1">Sales Stage: {!Opportunity.StageName}&nbsp;</span></p><p class="p1"><span class="s1">Sales Rep: {!Opportunity.OwnerFullName}&nbsp;&nbsp;</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">To approve or reject this, please reply to this email with one of the following words in the first line: APPROVE, APPROVED, YES, NO, REJECT, or REJECTED. You may also add comments on the second line of the email.&nbsp;</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">To go to the opportunity, please click here: {!Opportunity.Link}.&nbsp;</span></p><p class="p2"><span class="s1"></span><br></p><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class="p1"><span class="s1">Thank you!</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></td>
+</tr>
+</table>

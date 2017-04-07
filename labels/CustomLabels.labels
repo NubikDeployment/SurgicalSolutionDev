@@ -1,0 +1,3085 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"><labels>
+        <fullName>GApiKey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GApiKey</shortDescription>
+        <value>ABQIAAAARms8MGvnV-BbiTjwR8z1eBST0mNpJvtWvmgvEdrgGXs5szHHahQdD86Zd50nyAzG0QAkxwmgieQrLQ</value>
+    </labels><labels>
+        <fullName>KnowledgeBase_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KnowledgeBase URL</shortDescription>
+        <value>http://sdo.force.com/YourCompany</value>
+    </labels><labels>
+        <fullName>LABS_SF_AddQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Question</shortDescription>
+        <value>Add Question</value>
+    </labels><labels>
+        <fullName>LABS_SF_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Anonymous</shortDescription>
+        <value>Anonymous</value>
+    </labels><labels>
+        <fullName>LABS_SF_Answer_as</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Answer as</shortDescription>
+        <value>Answer as</value>
+    </labels><labels>
+        <fullName>LABS_SF_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels><labels>
+        <fullName>LABS_SF_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels><labels>
+        <fullName>LABS_SF_Chatter_Link</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter Link</shortDescription>
+        <value>Chatter Link</value>
+    </labels><labels>
+        <fullName>LABS_SF_Community</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community</shortDescription>
+        <value>Community</value>
+    </labels><labels>
+        <fullName>LABS_SF_ContactWithCase</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contact with Case</shortDescription>
+        <value>Contact with Case:</value>
+    </labels><labels>
+        <fullName>LABS_SF_CurrentSurveys</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current Surveys</shortDescription>
+        <value>Current Surveys</value>
+    </labels><labels>
+        <fullName>LABS_SF_Delete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels><labels>
+        <fullName>LABS_SF_Delete_Confirm</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure you want to delete this survey?</shortDescription>
+        <value>Are you sure you want to delete this survey?</value>
+    </labels><labels>
+        <fullName>LABS_SF_Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels><labels>
+        <fullName>LABS_SF_Email_Link_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link, Anonymous</shortDescription>
+        <value>Email Link, Anonymous</value>
+    </labels><labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Case_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact &amp; Case Merge</shortDescription>
+        <value>Email Link w/ Contact &amp; Case Merge</value>
+    </labels><labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact Merge</shortDescription>
+        <value>Email Link w/ Contact Merge</value>
+    </labels><labels>
+        <fullName>LABS_SF_EnterSurveyName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Enter Survey Name</shortDescription>
+        <value>Enter Survey Name</value>
+    </labels><labels>
+        <fullName>LABS_SF_External_Please_Create_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For external facing surveys, please create a site first.  You may still create i</shortDescription>
+        <value>For external facing surveys, please create a site first.  You may still create internal surveys without creating a site.</value>
+    </labels><labels>
+        <fullName>LABS_SF_For_community_assistance_with_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For community assistance with Survey Force</shortDescription>
+        <value>For community assistance with Survey Force</value>
+    </labels><labels>
+        <fullName>LABS_SF_Getting_Help</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Help</shortDescription>
+        <value>Getting Help</value>
+    </labels><labels>
+        <fullName>LABS_SF_HeaderAndThankYou</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header and Thank You</shortDescription>
+        <value>Header, Thank You &amp; CSS</value>
+    </labels><labels>
+        <fullName>LABS_SF_Installation_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Installation Guide</shortDescription>
+        <value>Installation Guide</value>
+    </labels><labels>
+        <fullName>LABS_SF_Internal</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Internal</shortDescription>
+        <value>Internal</value>
+    </labels><labels>
+        <fullName>LABS_SF_JustContact</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Just Contact</shortDescription>
+        <value>Just Contact</value>
+    </labels><labels>
+        <fullName>LABS_SF_Learn_More</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Learn More</shortDescription>
+        <value>Learn More</value>
+    </labels><labels>
+        <fullName>LABS_SF_MakeANewSurvey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make A New Survey</shortDescription>
+        <value>Make A New Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_MakeNewSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make New Survey</shortDescription>
+        <value>Make New Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_Make_a_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make a Sample Survey</shortDescription>
+        <value>Make a Sample Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_Next_Steps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Steps</shortDescription>
+        <value>Next Steps</value>
+    </labels><labels>
+        <fullName>LABS_SF_PleaseEnterTheList</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the list</shortDescription>
+        <value>Please enter the list of answers/responses in the field below. Each value should be separated by a new line.</value>
+    </labels><labels>
+        <fullName>LABS_SF_Question</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Question</shortDescription>
+        <value>Question</value>
+    </labels><labels>
+        <fullName>LABS_SF_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required</shortDescription>
+        <value>required</value>
+    </labels><labels>
+        <fullName>LABS_SF_RequiredQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required Question</shortDescription>
+        <value>Required Question</value>
+    </labels><labels>
+        <fullName>LABS_SF_Resources</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels><labels>
+        <fullName>LABS_SF_Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Results</shortDescription>
+        <value>Results</value>
+    </labels><labels>
+        <fullName>LABS_SF_SELECTSITE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SELECT SITE</shortDescription>
+        <value>--SELECT SITE--</value>
+    </labels><labels>
+        <fullName>LABS_SF_SELECTTYPE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>--SELECT--</shortDescription>
+        <value>--SELECT--</value>
+    </labels><labels>
+        <fullName>LABS_SF_Salesforce_Answers</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Answers</shortDescription>
+        <value>Salesforce Answers</value>
+    </labels><labels>
+        <fullName>LABS_SF_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels><labels>
+        <fullName>LABS_SF_SaveOrder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Order</shortDescription>
+        <value>Save Order</value>
+    </labels><labels>
+        <fullName>LABS_SF_SelectQuestionType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Question Type</shortDescription>
+        <value>Select Question Type</value>
+    </labels><labels>
+        <fullName>LABS_SF_SelectSitetodisplaySurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Site to display Survey</shortDescription>
+        <value>Select Site to display Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_Share</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share</shortDescription>
+        <value>Share</value>
+    </labels><labels>
+        <fullName>LABS_SF_Share_My_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share My Survey</shortDescription>
+        <value>Share My Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_Sharing_Options</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sharing Options</shortDescription>
+        <value>Sharing Options</value>
+    </labels><labels>
+        <fullName>LABS_SF_SubmitSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit Survey</shortDescription>
+        <value>Submit Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_SurveyForceIsOpenSource</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SurveyForceIsOpenSource</shortDescription>
+        <value>Survey Force is Open Source software.  We welcome your issue reports, ideas, documentation, code tweaks and all other participation.</value>
+    </labels><labels>
+        <fullName>LABS_SF_SurveyURLLink</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey URL Link</shortDescription>
+        <value>Survey URL Link</value>
+    </labels><labels>
+        <fullName>LABS_SF_Survey_Force_is_unsupported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force is unsupported</shortDescription>
+        <value>Survey Force is unsupported.</value>
+    </labels><labels>
+        <fullName>LABS_SF_Survey_Force_on_Github</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force on Github</shortDescription>
+        <value>Survey Force on Github</value>
+    </labels><labels>
+        <fullName>LABS_SF_Survey_Name_Is_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Name Is Required</shortDescription>
+        <value>Survey Name is Required</value>
+    </labels><labels>
+        <fullName>LABS_SF_Survey_Site_Is_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Site Is Required</shortDescription>
+        <value>Survey Site Is Required</value>
+    </labels><labels>
+        <fullName>LABS_SF_Survey_Submitted_Thank_you</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your survey has been submitted. Thank you for taking our survey.</shortDescription>
+        <value>Your survey has been submitted. Thank you for taking our survey.</value>
+    </labels><labels>
+        <fullName>LABS_SF_To_submit_ideas_or_issues</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To submit ideas or issues</shortDescription>
+        <value>To submit ideas or issues</value>
+    </labels><labels>
+        <fullName>LABS_SF_User_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Guide</shortDescription>
+        <value>User Guide</value>
+    </labels><labels>
+        <fullName>LABS_SF_View_Results_In_New_Window</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Results In New Window</shortDescription>
+        <value>View Results In New Window</value>
+    </labels><labels>
+        <fullName>LABS_SF_View_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Sample Survey</shortDescription>
+        <value>View Sample Survey</value>
+    </labels><labels>
+        <fullName>LABS_SF_Welcome_to_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome to Survey Force</shortDescription>
+        <value>Welcome to Survey Force</value>
+    </labels><labels>
+        <fullName>LABS_SF_X1_Create_a_sample_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>1. Create a sample survey by clicking the button below.</shortDescription>
+        <value>1. Create a sample survey by clicking the button below.</value>
+    </labels><labels>
+        <fullName>LABS_SF_X2_External_Setup_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>2. Set up a site if you would like to have external-facing surveys.</shortDescription>
+        <value>2. Set up a site if you would like to have external-facing surveys.</value>
+    </labels><labels>
+        <fullName>LABS_SF_X3_Start_creating_your_first_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>3. Start creating your first survey.</shortDescription>
+        <value>3. Start creating your first survey.</value>
+    </labels><labels>
+        <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have already taken this survey!</shortDescription>
+        <value>You have already taken this survey!</value>
+    </labels><labels>
+        <fullName>LABS_SF_Your_next_few_steps_are_easy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your next few steps are easy.</shortDescription>
+        <value>Your next few steps are easy.</value>
+    </labels><labels>
+        <fullName>LABS_SF_please_visit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>please visit</shortDescription>
+        <value>please visit</value>
+    </labels><labels>
+        <fullName>PKB2M_aTypeConfig</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Article Type configuration</shortDescription>
+        <value>Article Type configuration</value>
+    </labels><labels>
+        <fullName>PKB2M_about_you</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please fill out these fields:</shortDescription>
+        <value>Please fill out these fields:</value>
+    </labels><labels>
+        <fullName>PKB2M_alreadyExist</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Knowledge Article type selected already exist.</shortDescription>
+        <value>Knowledge Article type selected already exist.</value>
+    </labels><labels>
+        <fullName>PKB2M_availableKas</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Available KAs</shortDescription>
+        <value>Available KAs</value>
+    </labels><labels>
+        <fullName>PKB2M_clickToAddMoreItems</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Click "Add Knowledge Article" to add items.</shortDescription>
+        <value>Click "Add Knowledge Article" to add items.</value>
+    </labels><labels>
+        <fullName>PKB2M_config_add_kav</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Add Knowledge Article</shortDescription>
+        <value>Add Knowledge Article</value>
+    </labels><labels>
+        <fullName>PKB2M_config_critical_error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Critical error</shortDescription>
+        <value>Critical error found in custom settings.</value>
+    </labels><labels>
+        <fullName>PKB2M_config_cti_pause</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: cti pause</shortDescription>
+        <value>Pause</value>
+    </labels><labels>
+        <fullName>PKB2M_config_cti_wait</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: cti wait</shortDescription>
+        <value>Wait</value>
+    </labels><labels>
+        <fullName>PKB2M_config_current_kav</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Current Knowledge Article</shortDescription>
+        <value>Current Knowledge Articles</value>
+    </labels><labels>
+        <fullName>PKB2M_config_data_categories</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: Data Categories</shortDescription>
+        <value>Data Categories</value>
+    </labels><labels>
+        <fullName>PKB2M_config_general_setup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: general setup</shortDescription>
+        <value>General Setup</value>
+    </labels><labels>
+        <fullName>PKB2M_config_live_agent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M : live agent</shortDescription>
+        <value>Live Agent</value>
+    </labels><labels>
+        <fullName>PKB2M_config_phone_call</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2M: phone calls</shortDescription>
+        <value>Phone calls</value>
+    </labels><labels>
+        <fullName>PKB2M_fileUploadProgress</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Uploading the selected file</shortDescription>
+        <value>Uploading the selected file.</value>
+    </labels><labels>
+        <fullName>PKB2M_i_am</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>I am</shortDescription>
+        <value>I am</value>
+    </labels><labels>
+        <fullName>PKB2M_out_of_business_hours</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2 outside business hours</shortDescription>
+        <value>Unfortunately you are outside business hours but your request has been submitted.</value>
+    </labels><labels>
+        <fullName>PKB2M_selectAtLeastOneField</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You must select at least one field.</shortDescription>
+        <value>You must select at least one field.</value>
+    </labels><labels>
+        <fullName>PKB2M_selectedFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected fields</shortDescription>
+        <value>Selected fields</value>
+    </labels><labels>
+        <fullName>PKB2M_selectedKaFields</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Selected KA fields</shortDescription>
+        <value>Selected KA fields</value>
+    </labels><labels>
+        <fullName>PKB2M_toManyValues</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have selected to many values, please remove some of them.</shortDescription>
+        <value>You have selected to many values, please remove some of them.</value>
+    </labels><labels>
+        <fullName>PKB2M_uSure</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure?</shortDescription>
+        <value>Are you sure?</value>
+    </labels><labels>
+        <fullName>PKB2_All_Fields_Required</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: All Fields Required</shortDescription>
+        <value>All fields are required.</value>
+    </labels><labels>
+        <fullName>PKB2_Answers_Might_Help</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Answers Might Help</shortDescription>
+        <value>These answers might help immediately</value>
+    </labels><labels>
+        <fullName>PKB2_Ask_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Ask Button</shortDescription>
+        <value>Ask</value>
+    </labels><labels>
+        <fullName>PKB2_Back_To_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Back To Results</shortDescription>
+        <value>Back to search results</value>
+    </labels><labels>
+        <fullName>PKB2_Back_To_Search_Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Back To Search Page</shortDescription>
+        <value>Back to search page</value>
+    </labels><labels>
+        <fullName>PKB2_CallNow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Now</shortDescription>
+        <value>Call Now</value>
+    </labels><labels>
+        <fullName>PKB2_Call_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call</shortDescription>
+        <value>Call</value>
+    </labels><labels>
+        <fullName>PKB2_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels><labels>
+        <fullName>PKB2_Case_Error_Admin_Notification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Case Error Admin Notification</shortDescription>
+        <value>The Public Knowledge Base 2 (PKB2) package that is installed in your org has encountered an issue. A Case record recently submitted by a customer was unable to be saved to the org's database. This can happen when a validation rule or some other constraint is introduced on the Case object.
+
+The creation of Case records is a core part of the PKB2 functionality, so this may be an indication of an ongoing problem.
+
+For troubleshooting purposes, below is the debug information from the Apex code that encountered the error.</value>
+    </labels><labels>
+        <fullName>PKB2_Case_Submit_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Case Submit Error</shortDescription>
+        <value>There was a problem submitting your request. Please try again later.</value>
+    </labels><labels>
+        <fullName>PKB2_Category_Group_Label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Category Group Label 1</shortDescription>
+        <value>Consumer</value>
+    </labels><labels>
+        <fullName>PKB2_Category_Group_Label_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Category Group Label 2</shortDescription>
+        <value>Enterprise</value>
+    </labels><labels>
+        <fullName>PKB2_Category_Group_Label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 3</shortDescription>
+        <value>&lt;Group 3 Label&gt;</value>
+    </labels><labels>
+        <fullName>PKB2_Category_MGroup_Label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Category Group Label 1</shortDescription>
+        <value>Enterprise</value>
+    </labels><labels>
+        <fullName>PKB2_Category_MGroup_Label_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Category Group Label 2</shortDescription>
+        <value>Consumer</value>
+    </labels><labels>
+        <fullName>PKB2_Category_MGroup_Label_3</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Category Group Label 3</shortDescription>
+        <value>&lt;Group 3 Label&gt;</value>
+    </labels><labels>
+        <fullName>PKB2_ChatNow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chat Now</shortDescription>
+        <value>Chat Now</value>
+    </labels><labels>
+        <fullName>PKB2_ChatOff</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Offline</shortDescription>
+        <value>Offline</value>
+    </labels><labels>
+        <fullName>PKB2_Chat_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chat</shortDescription>
+        <value>Chat</value>
+    </labels><labels>
+        <fullName>PKB2_Chat_Online</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pkb2 : Chat online</shortDescription>
+        <value>Chat Online</value>
+    </labels><labels>
+        <fullName>PKB2_Close</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2 Close</shortDescription>
+        <value>Close</value>
+    </labels><labels>
+        <fullName>PKB2_Close_Window</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2 Close Window</shortDescription>
+        <value>close window</value>
+    </labels><labels>
+        <fullName>PKB2_Complete_Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Complete Request</shortDescription>
+        <value>To complete your request, please fill out these fields.</value>
+    </labels><labels>
+        <fullName>PKB2_Contact_Us</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us</shortDescription>
+        <value>Contact Us</value>
+    </labels><labels>
+        <fullName>PKB2_Contact_Us_Link_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us Link Prompt</shortDescription>
+        <value>Can't find what you need?</value>
+    </labels><labels>
+        <fullName>PKB2_Contact_Us_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Contact Us Prompt</shortDescription>
+        <value>Type your message here.</value>
+    </labels><labels>
+        <fullName>PKB2_Create_Settings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Create Settings</shortDescription>
+        <value>Create New PKB Settings</value>
+    </labels><labels>
+        <fullName>PKB2_Done</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Done</shortDescription>
+        <value>Done</value>
+    </labels><labels>
+        <fullName>PKB2_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email</shortDescription>
+        <value>Email</value>
+    </labels><labels>
+        <fullName>PKB2_Email_Article</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email Article</shortDescription>
+        <value>Email a link to this article</value>
+    </labels><labels>
+        <fullName>PKB2_Email_Invalid</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Email Invalid</shortDescription>
+        <value>The email address you entered is invalid.</value>
+    </labels><labels>
+        <fullName>PKB2_Error_Admin_Notification_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Error Admin Notification Email</shortDescription>
+        <value>The Public Knowledge Base 2 (PKB2) package that is installed in your org has encountered an issue. The package was set to create an Account and Contact when a customer submits a question, but one of those transactions recently failed. This can happen when a validation rule or some other constraint is introduced on those objects.
+
+For troubleshooting purposes, below is the debug information from the Apex code that encountered the error.
+
+Also, the package has changed the setting to prevent the creation of Contacts and Accounts. When the issue is resolved, the setting can be changed back.</value>
+    </labels><labels>
+        <fullName>PKB2_Featured_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Featured Articles</shortDescription>
+        <value>Featured Articles</value>
+    </labels><labels>
+        <fullName>PKB2_Feedback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback</shortDescription>
+        <value>Feedback</value>
+    </labels><labels>
+        <fullName>PKB2_Feedback_Appreciated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback Appreciated</shortDescription>
+        <value>Feedback</value>
+    </labels><labels>
+        <fullName>PKB2_Feedback_Characters_Remaining</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Feedback Characters Remaining</shortDescription>
+        <value>Characters Remaining</value>
+    </labels><labels>
+        <fullName>PKB2_Filter_Options</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Filter Options</shortDescription>
+        <value>Filter Options</value>
+    </labels><labels>
+        <fullName>PKB2_Filters</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Filters</shortDescription>
+        <value>Filters</value>
+    </labels><labels>
+        <fullName>PKB2_First_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: First Name</shortDescription>
+        <value>First Name</value>
+    </labels><labels>
+        <fullName>PKB2_Get_Back_Soon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: We will get back at you soon</shortDescription>
+        <value>We will get back at you soon.</value>
+    </labels><labels>
+        <fullName>PKB2_HelpUs_HelpYou</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Help us, help you.</shortDescription>
+        <value>Help us, help you.</value>
+    </labels><labels>
+        <fullName>PKB2_Languages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Languages</shortDescription>
+        <value>Languages</value>
+    </labels><labels>
+        <fullName>PKB2_Last_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels><labels>
+        <fullName>PKB2_More_Useful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: More Useful</shortDescription>
+        <value>Please tell us how we can make this article more useful.</value>
+    </labels><labels>
+        <fullName>PKB2_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2:  Name</shortDescription>
+        <value>Name</value>
+    </labels><labels>
+        <fullName>PKB2_Narrow_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Narrow Search</shortDescription>
+        <value>Narrow Search</value>
+    </labels><labels>
+        <fullName>PKB2_Next_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Next Link</shortDescription>
+        <value>Next</value>
+    </labels><labels>
+        <fullName>PKB2_No</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No</shortDescription>
+        <value>No</value>
+    </labels><labels>
+        <fullName>PKB2_No_Filter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Filter</shortDescription>
+        <value>No Filter</value>
+    </labels><labels>
+        <fullName>PKB2_No_Found_Answer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Found Answer</shortDescription>
+        <value>No, I found the answer</value>
+    </labels><labels>
+        <fullName>PKB2_No_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Results</shortDescription>
+        <value>No luck, your search returned no results.</value>
+    </labels><labels>
+        <fullName>PKB2_No_Settings_Yet</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: No Settings Yet</shortDescription>
+        <value>It appears that no PKB custom settings have been created yet.</value>
+    </labels><labels>
+        <fullName>PKB2_None</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: None</shortDescription>
+        <value>None</value>
+    </labels><labels>
+        <fullName>PKB2_Popular_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Popular Articles</shortDescription>
+        <value>Popular Articles</value>
+    </labels><labels>
+        <fullName>PKB2_Previous_Link</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Previous Link</shortDescription>
+        <value>Previous</value>
+    </labels><labels>
+        <fullName>PKB2_Printable_View</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Printable View</shortDescription>
+        <value>Printable View (New Window)</value>
+    </labels><labels>
+        <fullName>PKB2_Recommended</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Recommended</shortDescription>
+        <value>Recommended</value>
+    </labels><labels>
+        <fullName>PKB2_Related_Articles</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Related Articles</shortDescription>
+        <value>Related Articles</value>
+    </labels><labels>
+        <fullName>PKB2_Request_Submitted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Request Submitted</shortDescription>
+        <value>Your request has been submitted.</value>
+    </labels><labels>
+        <fullName>PKB2_Request_Type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Request Type</shortDescription>
+        <value>Request Type</value>
+    </labels><labels>
+        <fullName>PKB2_Reset_Search</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Reset Search</shortDescription>
+        <value>Reset Search</value>
+    </labels><labels>
+        <fullName>PKB2_Search_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Button</shortDescription>
+        <value>Search</value>
+    </labels><labels>
+        <fullName>PKB2_Search_Invalid_Characters</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Invalid Characters</shortDescription>
+        <value>Your search contains invalid characters.</value>
+    </labels><labels>
+        <fullName>PKB2_Search_Prompt</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Prompt</shortDescription>
+        <value>What would you like to know?</value>
+    </labels><labels>
+        <fullName>PKB2_Search_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Search Results</shortDescription>
+        <value>Search Results</value>
+    </labels><labels>
+        <fullName>PKB2_Select_Settings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Select Settings</shortDescription>
+        <value>Select Settings to Edit</value>
+    </labels><labels>
+        <fullName>PKB2_Send_Button</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Send Button</shortDescription>
+        <value>Send</value>
+    </labels><labels>
+        <fullName>PKB2_Still_Have_Question</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Still Have Question</shortDescription>
+        <value>Still have a question?</value>
+    </labels><labels>
+        <fullName>PKB2_Submit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Submit</shortDescription>
+        <value>Submit</value>
+    </labels><labels>
+        <fullName>PKB2_Subscribe_Article_Feed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Subscribe Article Feed</shortDescription>
+        <value>Subscribe to the RSS feed for this article</value>
+    </labels><labels>
+        <fullName>PKB2_Subscribe_Feed_Results</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Subscribe Feed Results</shortDescription>
+        <value>Subscribe to a feed of the results of your search</value>
+    </labels><labels>
+        <fullName>PKB2_Thanks_For_Feedback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Thanks For Feedback</shortDescription>
+        <value>Thanks for your feedback!</value>
+    </labels><labels>
+        <fullName>PKB2_Topic</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2:Contact Us  Topic</shortDescription>
+        <value>Request Type</value>
+    </labels><labels>
+        <fullName>PKB2_Tweet_This</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Tweet This</shortDescription>
+        <value>Tweet this!</value>
+    </labels><labels>
+        <fullName>PKB2_Value_Must_Match_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Value Must Match Name</shortDescription>
+        <value>The value of Name must match exactly the API name of the Site you are configuring the settings for.</value>
+    </labels><labels>
+        <fullName>PKB2_Was_Helpful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Was Helpful</shortDescription>
+        <value>Was this article helpful?</value>
+    </labels><labels>
+        <fullName>PKB2_Within_Category</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Within Category</shortDescription>
+        <value>Within the category or categories</value>
+    </labels><labels>
+        <fullName>PKB2_Yes</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Yes</shortDescription>
+        <value>Yes</value>
+    </labels><labels>
+        <fullName>PKB2_Yes_Submit_Question</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: Yes Submit Question</shortDescription>
+        <value>Yes, submit my question</value>
+    </labels><labels>
+        <fullName>PKB2_You_Searched_For</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: You Searched For</shortDescription>
+        <value>You searched for</value>
+    </labels><labels>
+        <fullName>PKB2_find_Helpful_and_you</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2: find Helpful and you</shortDescription>
+        <value>There are NNN people that found this helpful. Do you?</value>
+    </labels><labels>
+        <fullName>PKB2_help_please</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us Help Please</shortDescription>
+        <value>Help Please</value>
+    </labels><labels>
+        <fullName>PKB2_help_please_call</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Call Us</shortDescription>
+        <value>Call Us</value>
+    </labels><labels>
+        <fullName>PKB2_help_please_liveAgent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chat</shortDescription>
+        <value>Chat</value>
+    </labels><labels>
+        <fullName>PKB2_how_can_we_help</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us placeholder</shortDescription>
+        <value>Please let us know how we can help you</value>
+    </labels><labels>
+        <fullName>PKB2_js_cannot_read_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS cannot read File</shortDescription>
+        <value>Could not read file</value>
+    </labels><labels>
+        <fullName>PKB2_js_error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error</shortDescription>
+        <value>Error</value>
+    </labels><labels>
+        <fullName>PKB2_js_error_access_denied</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error access denied</shortDescription>
+        <value>Access is denied!</value>
+    </labels><labels>
+        <fullName>PKB2_js_error_position_unavailable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error position unavailable</shortDescription>
+        <value>Position is unavailable!</value>
+    </labels><labels>
+        <fullName>PKB2_js_error_question_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error question empty</shortDescription>
+        <value>Question string can not be empty</value>
+    </labels><labels>
+        <fullName>PKB2_js_error_question_length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS error question length</shortDescription>
+        <value>Question string must be at most NNN characters long</value>
+    </labels><labels>
+        <fullName>PKB2_js_geolocation_not_supported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS geolocation not supported</shortDescription>
+        <value>Geolocation is not supported by this browser.</value>
+    </labels><labels>
+        <fullName>PKB2_js_issues_uploading_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS issues uploading  File</shortDescription>
+        <value>There had been some issues uploading the file, please try again later.</value>
+    </labels><labels>
+        <fullName>PKB2_js_only_n_files_supported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS only NNN  files</shortDescription>
+        <value>Only NNN will be uploaded</value>
+    </labels><labels>
+        <fullName>PKB2_js_search_string_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS search string empty</shortDescription>
+        <value>Search string can not be empty</value>
+    </labels><labels>
+        <fullName>PKB2_js_search_string_length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS search string length</shortDescription>
+        <value>Search string must be at least NNN characters long</value>
+    </labels><labels>
+        <fullName>PKB2_js_select_file</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS select File</shortDescription>
+        <value>Please select a file!</value>
+    </labels><labels>
+        <fullName>PKB2_js_topic_empty</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: JS topic empty</shortDescription>
+        <value>Topic cannot be empty</value>
+    </labels><labels>
+        <fullName>PKB2_month_april</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month April</shortDescription>
+        <value>Apr</value>
+    </labels><labels>
+        <fullName>PKB2_month_august</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month August</shortDescription>
+        <value>Aug</value>
+    </labels><labels>
+        <fullName>PKB2_month_december</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month December</shortDescription>
+        <value>Dec</value>
+    </labels><labels>
+        <fullName>PKB2_month_february</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month February</shortDescription>
+        <value>Feb</value>
+    </labels><labels>
+        <fullName>PKB2_month_january</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month January</shortDescription>
+        <value>Jan</value>
+    </labels><labels>
+        <fullName>PKB2_month_july</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month July</shortDescription>
+        <value>Jul</value>
+    </labels><labels>
+        <fullName>PKB2_month_june</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month June</shortDescription>
+        <value>Jun</value>
+    </labels><labels>
+        <fullName>PKB2_month_march</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month March</shortDescription>
+        <value>Mar</value>
+    </labels><labels>
+        <fullName>PKB2_month_may</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month May</shortDescription>
+        <value>May</value>
+    </labels><labels>
+        <fullName>PKB2_month_november</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month November</shortDescription>
+        <value>Nov</value>
+    </labels><labels>
+        <fullName>PKB2_month_october</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month October</shortDescription>
+        <value>Oct</value>
+    </labels><labels>
+        <fullName>PKB2_month_september</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Month September</shortDescription>
+        <value>Sep</value>
+    </labels><labels>
+        <fullName>PKB2_no_availanble_liveAgent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2 : no live agents available</shortDescription>
+        <value>There are no agents available, we will get back at you soon.&lt;br/&gt;click here to close</value>
+    </labels><labels>
+        <fullName>PKB2_search_to_long</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2_search_to_long</shortDescription>
+        <value>Search string is too long.</value>
+    </labels><labels>
+        <fullName>PKB2_send_mail</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Contact Us Send Email</shortDescription>
+        <value>Send Email</value>
+    </labels><labels>
+        <fullName>PKB2_sugFour</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugFour</shortDescription>
+        <value>Try fewer keywords</value>
+    </labels><labels>
+        <fullName>PKB2_sugOne</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugOne</shortDescription>
+        <value>Make sure that your filter are set correctly</value>
+    </labels><labels>
+        <fullName>PKB2_sugThree</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugThree</shortDescription>
+        <value>Try more general keywords</value>
+    </labels><labels>
+        <fullName>PKB2_sugTwo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_sugTwo</shortDescription>
+        <value>Try different Keywords</value>
+    </labels><labels>
+        <fullName>PKB2_suggestions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PKB2_suggestions</shortDescription>
+        <value>Suggestions:</value>
+    </labels><labels>
+        <fullName>PKB2_tellitlikeitis</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tell it like it is.</shortDescription>
+        <value>Tell it like it is.</value>
+    </labels><labels>
+        <fullName>PKB2_today</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Today</shortDescription>
+        <value>today</value>
+    </labels><labels>
+        <fullName>PKB2_yesterday</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>PKB2: Yesterday</shortDescription>
+        <value>yesterday</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey</shortDescription>
+        <value>Customer Survey</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_FeedbackThanks</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_FeedbackThanks</shortDescription>
+        <value>Thank you for your feedback!</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Q1</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Q1</shortDescription>
+        <value>To what extent do you agree or disagree with the following statement:&lt;br /&gt; The company made it easy for me to handle my issue.</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Q2</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Q2</shortDescription>
+        <value>2. How would you rate your overall satisfaction with your customer service experience?</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Q3</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Q3</shortDescription>
+        <value>3. How likely is it that you would recommend this company to a friend or colleague?</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Q4</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Q4</shortDescription>
+        <value>4. Was your issue completely resolved?</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_SubTitle</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_SubTitle</shortDescription>
+        <value>Your comments will help us drive important improvements in our products and services.</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Thanks</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Thanks</shortDescription>
+        <value>Thanks</value>
+    </labels><labels>
+        <fullName>SDO_CustomerSurvey_Title</fullName>
+        <categories>Customer Survey</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO_CustomerSurvey_Title</shortDescription>
+        <value>for taking the time to fill out this quick survey.</value>
+    </labels><labels>
+        <fullName>SDO_Version</fullName>
+        <categories>SDO Version</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SDO Version</shortDescription>
+        <value>v.192.1 October 5, 2014
+-Communities Templates
+-Consumer Community
+-Winter15 updates
+
+v.190.2 August 11, 2014
+
+Report Enhancements Pilot
+-Look for the "Open Charts Demo" Report Folder</value>
+    </labels><labels>
+        <fullName>Sites_Google_Key</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sites Google Key</shortDescription>
+        <value>ABQIAAAATXEfj6IW3n-kI7DZ8grWWxTz6A_yJqEW_Qa41mmHPbAum_llvRQFN1LB7bW8Hbaw2DYPc19tNdLT7g</value>
+    </labels><labels>
+        <fullName>SlickCTI_AvailableForCalls</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_AvailableForCalls</shortDescription>
+        <value>Available for Calls</value>
+    </labels><labels>
+        <fullName>SlickCTI_CallConnect</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_CallConnect</shortDescription>
+        <value>Call connect</value>
+    </labels><labels>
+        <fullName>SlickCTI_CallWrapup</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_CallWrapup</shortDescription>
+        <value>Call Wrap-up</value>
+    </labels><labels>
+        <fullName>SlickCTI_EmptyNotes</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_EmptyNotes</shortDescription>
+        <value>Notes...</value>
+    </labels><labels>
+        <fullName>SlickCTI_InboundCall</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_InboundCall</shortDescription>
+        <value>Inbound call on</value>
+    </labels><labels>
+        <fullName>SlickCTI_Internal</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_Internal</shortDescription>
+        <value>Internal call on</value>
+    </labels><labels>
+        <fullName>SlickCTI_LeftVoicemail</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_LeftVoicemail</shortDescription>
+        <value>Left voicemail</value>
+    </labels><labels>
+        <fullName>SlickCTI_NoAnswer</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_NoAnswer</shortDescription>
+        <value>No answer</value>
+    </labels><labels>
+        <fullName>SlickCTI_NotAvailable</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_NotAvailable</shortDescription>
+        <value>Not Available</value>
+    </labels><labels>
+        <fullName>SlickCTI_OutboundCall</fullName>
+        <categories>slickcti</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SlickCTI_OutboundCall</shortDescription>
+        <value>Outbound call on</value>
+    </labels><labels>
+        <fullName>SpaceID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SpaceID</shortDescription>
+        <value>5480cf0eaaa3890ab13e5669cd1282192434f-7e48</value>
+    </labels><labels>
+        <fullName>Twitter_Widget_Id</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Twitter Widget Id</shortDescription>
+        <value>606770178664333312</value>
+    </labels><labels>
+        <fullName>asb_AddLink</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Link</shortDescription>
+        <value>Add Link</value>
+    </labels><labels>
+        <fullName>asb_AddLinkMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Enter the link URL for your resource and a title for the link.</shortDescription>
+        <value>Enter the link URL for your resource and a title for the link.</value>
+    </labels><labels>
+        <fullName>asb_Admin_Set_Up_Store</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Set up store</shortDescription>
+        <value>Welcome to your AppExchange Store Builder. Let's &lt;a href="/apex/asb_gettingStarted"&gt;get started&lt;/a&gt;!</value>
+    </labels><labels>
+        <fullName>asb_Advanced</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Advanced</shortDescription>
+        <value>Advanced</value>
+    </labels><labels>
+        <fullName>asb_AllApps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All Apps</shortDescription>
+        <value>All Apps</value>
+    </labels><labels>
+        <fullName>asb_AllCategories</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All Categories</shortDescription>
+        <value>All Categories</value>
+    </labels><labels>
+        <fullName>asb_AllLanguages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All Languages</shortDescription>
+        <value>All Languages</value>
+    </labels><labels>
+        <fullName>asb_All_Time</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All Time</shortDescription>
+        <value>All Time</value>
+    </labels><labels>
+        <fullName>asb_Android</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Android</shortDescription>
+        <value>Android</value>
+    </labels><labels>
+        <fullName>asb_App_Categories</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App Categories</shortDescription>
+        <value>App Categories</value>
+    </labels><labels>
+        <fullName>asb_App_Information</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App Information</shortDescription>
+        <value>App Information</value>
+    </labels><labels>
+        <fullName>asb_App_Listings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App Listings</shortDescription>
+        <value>App Listings</value>
+    </labels><labels>
+        <fullName>asb_App_Logo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App Logo</shortDescription>
+        <value>App Logo</value>
+    </labels><labels>
+        <fullName>asb_App_Type_Android</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Android App</shortDescription>
+        <value>Android App</value>
+    </labels><labels>
+        <fullName>asb_App_Type_Web</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Web App</shortDescription>
+        <value>Web App</value>
+    </labels><labels>
+        <fullName>asb_App_Type_iOS</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>iOS App</shortDescription>
+        <value>iOS App</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Delete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Delete_Listing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Listing</shortDescription>
+        <value>Delete Listing</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Get_Started</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Get Started</shortDescription>
+        <value>Get Started</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Hide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hide</shortDescription>
+        <value>Hide</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_InstallNow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Install Now</shortDescription>
+        <value>Install Now</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_ListYourApps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List Your Apps</shortDescription>
+        <value>Create App Listings</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_More</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>More</shortDescription>
+        <value>More</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_OK</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OK</shortDescription>
+        <value>OK</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Publish</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Publish</shortDescription>
+        <value>Publish</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_PublishListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Publish Listing</shortDescription>
+        <value>Publish Listing</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_RemoveApp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remove App</shortDescription>
+        <value>Remove App</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_SaveNext</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save &amp; Next</shortDescription>
+        <value>Save &amp; Next</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Save_Changes</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Changes</shortDescription>
+        <value>Save Changes</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_SearchApps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Apps</shortDescription>
+        <value>Search Apps</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_SetStorePreferences</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Set Your Store Preferences</shortDescription>
+        <value>Set Store Preferences</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_Take_Offline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Take Offline</shortDescription>
+        <value>Take Offline</value>
+    </labels><labels>
+        <fullName>asb_BUTTON_ViewListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Listing</shortDescription>
+        <value>View Listing</value>
+    </labels><labels>
+        <fullName>asb_Banners</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Banners</shortDescription>
+        <value>Banners</value>
+    </labels><labels>
+        <fullName>asb_BasicInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Basic Info</shortDescription>
+        <value>Basic Info</value>
+    </labels><labels>
+        <fullName>asb_ChangeTheInstallURLOfYourApp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Change the install URL of your app</shortDescription>
+        <value>Change the install URL of your app.</value>
+    </labels><labels>
+        <fullName>asb_ChangeTheNameOfYourApp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Change the name of your app</shortDescription>
+        <value>Change the name of your app.</value>
+    </labels><labels>
+        <fullName>asb_ChangesSaved</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Changes Saved</shortDescription>
+        <value>Your changes have been saved.</value>
+    </labels><labels>
+        <fullName>asb_CharactersLeft</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>characters left</shortDescription>
+        <value>characters left</value>
+    </labels><labels>
+        <fullName>asb_CharactersTooMany</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>characters too many</shortDescription>
+        <value>characters too many</value>
+    </labels><labels>
+        <fullName>asb_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels><labels>
+        <fullName>asb_ChatterFeed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter Feed</shortDescription>
+        <value>Chatter Feed</value>
+    </labels><labels>
+        <fullName>asb_CompanyID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Company ID</shortDescription>
+        <value>Company ID</value>
+    </labels><labels>
+        <fullName>asb_CurrentFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Current File</shortDescription>
+        <value>Current File</value>
+    </labels><labels>
+        <fullName>asb_Dashboard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dashboard</shortDescription>
+        <value>Dashboard</value>
+    </labels><labels>
+        <fullName>asb_Day_30</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Day 30</shortDescription>
+        <value>30 Day</value>
+    </labels><labels>
+        <fullName>asb_DeleteBanner</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Banner</shortDescription>
+        <value>Delete Banner</value>
+    </labels><labels>
+        <fullName>asb_DeleteBannerInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Banner Info</shortDescription>
+        <value>Are you sure you want to delete this banner?</value>
+    </labels><labels>
+        <fullName>asb_DeleteResource</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Resource</shortDescription>
+        <value>Delete Resource</value>
+    </labels><labels>
+        <fullName>asb_DeleteResourceInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Resource Info</shortDescription>
+        <value>Are you sure you want to delete this resource?</value>
+    </labels><labels>
+        <fullName>asb_DeleteScreenshot</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Screenshot</shortDescription>
+        <value>Delete Screenshot</value>
+    </labels><labels>
+        <fullName>asb_DeleteScreenshotMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete screenshot message</shortDescription>
+        <value>Are you sure you want to delete this screenshot?</value>
+    </labels><labels>
+        <fullName>asb_DeleteVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Video</shortDescription>
+        <value>Delete Video</value>
+    </labels><labels>
+        <fullName>asb_DeleteVideoInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Video Info</shortDescription>
+        <value>Are you sure you want to delete this Video?</value>
+    </labels><labels>
+        <fullName>asb_Delete_Listing_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete Listing Confirmation Text</shortDescription>
+        <value>Are you sure you would like to delete this listing?</value>
+    </labels><labels>
+        <fullName>asb_Detailed_Dashboard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Detailed Dashboard</shortDescription>
+        <value>Detailed Dashboard</value>
+    </labels><labels>
+        <fullName>asb_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Details</shortDescription>
+        <value>Details</value>
+    </labels><labels>
+        <fullName>asb_DisplayChatterOptionLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Display Chatter feed on app listings</shortDescription>
+        <value>Display Chatter feed on app listings</value>
+    </labels><labels>
+        <fullName>asb_ERROR_AppTypesRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>App Types Required</shortDescription>
+        <value>Please select at least one app type.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_CannotBeLonger</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error cannot be longer</shortDescription>
+        <value>The {0} cannot be longer than {1} characters</value>
+    </labels><labels>
+        <fullName>asb_ERROR_CategoryRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please select at least one category.</shortDescription>
+        <value>Please select at least one category.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_DescriptionRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Description can not be empty</shortDescription>
+        <value>The description can not be empty.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EmptyAppName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The app name cannot be empty.</shortDescription>
+        <value>Please enter a name for your app.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EmptyInstallUrl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The install url cannot be empty.</shortDescription>
+        <value>Please enter an install URL for your app. The URL should start with http:// or https://</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EmptyStoreName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The store name cannot be empty.</shortDescription>
+        <value>Please enter a name for your store.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EmptyTitle</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The title cannot be empty.</shortDescription>
+        <value>The title cannot be empty.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EnterCompanyID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the Company ID.</shortDescription>
+        <value>Please enter the Company ID.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_EnterVideoID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the video ID.</shortDescription>
+        <value>Please enter the video ID.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_FieldTooLong</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Field too long error</shortDescription>
+        <value>The {0} that you entered is too long. You can enter a maximum of {1} characters.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_FileTooLarge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The file you uploaded is too large.</shortDescription>
+        <value>The file you uploaded is too large. Please upload a file that is up to {0} {1} in size.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_FileType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>file type error - only only file type allowed</shortDescription>
+        <value>Please upload a file of type {0}.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_IncludeUrlProtocol</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please start the link with http:// or https://.</shortDescription>
+        <value>Please start the link with http:// or https://.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_IntermittentProblem</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Intermittent Problem</shortDescription>
+        <value>We've encountered an intermittent problem. Please try again. If this problem continues, please contact your Salesforce system administrator for more assistance.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_Invalid_App_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid App Id</shortDescription>
+        <value>Invalid App Id</value>
+    </labels><labels>
+        <fullName>asb_ERROR_Invalid_ID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>is not a valid ID</shortDescription>
+        <value>Invalid Listing Id</value>
+    </labels><labels>
+        <fullName>asb_ERROR_Invalid_Listing_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Invalid listing id</shortDescription>
+        <value>Invalid Listing Id</value>
+    </labels><labels>
+        <fullName>asb_ERROR_KeywordLength</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search keyword has to be more than one character.</shortDescription>
+        <value>Search keyword has to be more than one character.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_LangRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please select at least one language this app supports.</shortDescription>
+        <value>Please select at least one language this app supports.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_ListingPopularityAction</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You cannot clone, edit or create listing popularity.</shortDescription>
+        <value>You cannot clone, edit or create listing popularity.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_No_Parameters</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Parameters</shortDescription>
+        <value>No Parameters</value>
+    </labels><labels>
+        <fullName>asb_ERROR_ResourceLinkRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The link cannot be empty.</shortDescription>
+        <value>The link cannot be empty.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_ResourceTitleRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The resource title cannot be empty.</shortDescription>
+        <value>The resource title cannot be empty.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_SelectLanguage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>A language must be selected</shortDescription>
+        <value>A language must be selected.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_SelectVideoType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please select the type of video.</shortDescription>
+        <value>Please select the type of video.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_TaglineRequired</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tagline can not be empty</shortDescription>
+        <value>The tagline can not be empty.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_UploadLimit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload limit</shortDescription>
+        <value>You can upload up to {0} {1}</value>
+    </labels><labels>
+        <fullName>asb_ERROR_UploadLimitPleaseDelete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload limit</shortDescription>
+        <value>You can upload up to {0} {1}. Please delete one before adding another.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_selectFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please upload a file.</shortDescription>
+        <value>Please select a file to upload.</value>
+    </labels><labels>
+        <fullName>asb_ERROR_uploadFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please upload a file.</shortDescription>
+        <value>Please upload a file that is up to {0} {1} in size.</value>
+    </labels><labels>
+        <fullName>asb_EditBanner</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Banner</shortDescription>
+        <value>Edit Banner</value>
+    </labels><labels>
+        <fullName>asb_EditBannerInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Banner Info</shortDescription>
+        <value>Upload a new file (1200 x 200 pixel PNG or JPG that is up to 1 MB in size) or edit the link.</value>
+    </labels><labels>
+        <fullName>asb_EditInSetup</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit in Setup</shortDescription>
+        <value>Edit in Setup</value>
+    </labels><labels>
+        <fullName>asb_EditListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Listing</shortDescription>
+        <value>Edit Listing</value>
+    </labels><labels>
+        <fullName>asb_EditScreenshot</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Screenshot</shortDescription>
+        <value>Edit Screenshot</value>
+    </labels><labels>
+        <fullName>asb_EditScreenshotInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Screenshot Info</shortDescription>
+        <value>Upload a new file (PNG or JPG that is up to 5 MB in size) or edit the caption for your screenshot.</value>
+    </labels><labels>
+        <fullName>asb_EditVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit Video</shortDescription>
+        <value>Edit Video</value>
+    </labels><labels>
+        <fullName>asb_EditVideoFormDetailsMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit the type, ID or caption for your video.</shortDescription>
+        <value>Edit the type, video ID or caption for your video.</value>
+    </labels><labels>
+        <fullName>asb_EditVideoFormDetailsMessageB</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit the type, ID or caption for your video.</shortDescription>
+        <value>Edit the type, company ID, video ID or caption for your video.</value>
+    </labels><labels>
+        <fullName>asb_EmbedBrainsharkVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Embed Brainshark video</shortDescription>
+        <value>Embed Brainshark video</value>
+    </labels><labels>
+        <fullName>asb_EmbedVimeoVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Embed Vimeo video</shortDescription>
+        <value>Embed Vimeo video</value>
+    </labels><labels>
+        <fullName>asb_EmbedYouTubeVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Embed YouTube video</shortDescription>
+        <value>Embed YouTube video</value>
+    </labels><labels>
+        <fullName>asb_Error_CannotDeleteDefaultListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You cannot delete default listing</shortDescription>
+        <value>You cannot delete default listing.</value>
+    </labels><labels>
+        <fullName>asb_Error_HiddenListingDefault</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You cannot make a hidden listing the default</shortDescription>
+        <value>You cannot make a hidden listing the default because this app is already published.</value>
+    </labels><labels>
+        <fullName>asb_Error_HideDefaultListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You cannot hide the default listing for an app</shortDescription>
+        <value>You cannot hide the default listing for an app. First make another listing the default, then you will be able to hide this listing.</value>
+    </labels><labels>
+        <fullName>asb_File</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>File</shortDescription>
+        <value>File</value>
+    </labels><labels>
+        <fullName>asb_FindMoreApps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Find more apps to list on</shortDescription>
+        <value>Find more apps to list on</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Intro</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Intro Message</shortDescription>
+        <value>With AppExchange Store Builder, you can build a completely customized app store to distribute any app on any device to partners, customers, or employees across multiple orgs. Let's get started!</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Text</shortDescription>
+        <value>Create your personalized store by giving it a name and uploading a logo image, then set your store preferences:</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Text_b</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Text - li1</shortDescription>
+        <value>Define categories to organize your apps</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Text_c</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Text - li2</shortDescription>
+        <value>Specify the types of apps you'll list</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Text_d</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Text - li3</shortDescription>
+        <value>Select whether or not to use Chatter in your store</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Text_e</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Text - last paragraph</shortDescription>
+        <value>Don't worry - you can edit these settings at any time.</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step1_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 1 Title</shortDescription>
+        <value>1. Set up your store</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step2_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 2 Text</shortDescription>
+        <value>Listings define how apps appear in your store. Each listing can include a tagline and description about the app, images and videos, and links to documentation. You can also create listings in different languages for the same app.</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step2_Text_b</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 2 Text - 2nd paragraph</shortDescription>
+        <value>Your listings should provide enough information so that users can easily understand what the app is and how they'll benefit from using it.</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step2_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 2 Title</shortDescription>
+        <value>2. Create listings for apps</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step3_Text</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 3 Text</shortDescription>
+        <value>After your store is ready and your listings are in place, it's time to launch your store.  It's simple to change the status from Offline to Online, but don't stop there! Make sure your store gets the attention and traffic it deserves by promoting it to your users.</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step3_Text_b</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 3 Text - Second paragraph</shortDescription>
+        <value>After launch, &lt;a href="{0}"&gt;use the Dashboard&lt;/a&gt; to monitor activity and measure your success.</value>
+    </labels><labels>
+        <fullName>asb_GettingStarted_Step3_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started Step 3 Title</shortDescription>
+        <value>3. Open your store</value>
+    </labels><labels>
+        <fullName>asb_Getting_Started</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Started</shortDescription>
+        <value>Getting Started</value>
+    </labels><labels>
+        <fullName>asb_Hidden</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hidden</shortDescription>
+        <value>Hidden</value>
+    </labels><labels>
+        <fullName>asb_HideConfirmMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure you would like to hide this listing?</shortDescription>
+        <value>Are you sure you would like to hide this listing?</value>
+    </labels><labels>
+        <fullName>asb_HideListing</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hide Listing</shortDescription>
+        <value>Hide Listing</value>
+    </labels><labels>
+        <fullName>asb_IOS</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>iOS</shortDescription>
+        <value>iOS</value>
+    </labels><labels>
+        <fullName>asb_LeavePageMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure you want to leave this page?</shortDescription>
+        <value>Are you sure you want to leave this page?</value>
+    </labels><labels>
+        <fullName>asb_LinkToVideo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Link to Video</shortDescription>
+        <value>Link to Video</value>
+    </labels><labels>
+        <fullName>asb_ListInAnotherLanguage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List in Another Language</shortDescription>
+        <value>List in Another Language</value>
+    </labels><labels>
+        <fullName>asb_ListNewApp</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List a New App</shortDescription>
+        <value>List a New App</value>
+    </labels><labels>
+        <fullName>asb_ListingBanner</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing Banner</shortDescription>
+        <value>Listing Banner</value>
+    </labels><labels>
+        <fullName>asb_ListingDetailWarning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing Detail Warning</shortDescription>
+        <value>This listing is hidden and cannot be found by searching or browsing until it is published.</value>
+    </labels><labels>
+        <fullName>asb_ListingLanguages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing Languages</shortDescription>
+        <value>Listing Languages</value>
+    </labels><labels>
+        <fullName>asb_ListingNotFinished</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing not finished yet</shortDescription>
+        <value>You have not finished your listing yet. Fill in the required fields and click Save if you want to finish your listing.</value>
+    </labels><labels>
+        <fullName>asb_Listing_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing Details</shortDescription>
+        <value>Listing Details</value>
+    </labels><labels>
+        <fullName>asb_Listing_Lang</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Listing Language</shortDescription>
+        <value>This listing is written in {0}</value>
+    </labels><labels>
+        <fullName>asb_Loading</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message displayed when data is loading.</shortDescription>
+        <value>Loading...</value>
+    </labels><labels>
+        <fullName>asb_MakeDefault</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make Default</shortDescription>
+        <value>Make Default</value>
+    </labels><labels>
+        <fullName>asb_Media</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Media</shortDescription>
+        <value>Media</value>
+    </labels><labels>
+        <fullName>asb_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message</shortDescription>
+        <value>message</value>
+    </labels><labels>
+        <fullName>asb_Message_Text_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels><labels>
+        <fullName>asb_Message_Text_Info</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Info</shortDescription>
+        <value>Info</value>
+    </labels><labels>
+        <fullName>asb_Message_Text_Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels><labels>
+        <fullName>asb_Message_Text_Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning</shortDescription>
+        <value>Warning</value>
+    </labels><labels>
+        <fullName>asb_Month</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Month</shortDescription>
+        <value>Month</value>
+    </labels><labels>
+        <fullName>asb_Most_Popular_Apps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Most Popular Apps</shortDescription>
+        <value>Most Popular Apps</value>
+    </labels><labels>
+        <fullName>asb_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels><labels>
+        <fullName>asb_NewFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>New File</shortDescription>
+        <value>New File</value>
+    </labels><labels>
+        <fullName>asb_NoSearchResults</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No results found.</shortDescription>
+        <value>No results found.</value>
+    </labels><labels>
+        <fullName>asb_No_Access_To_Administer_Store</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You do not have access to administer the store.</shortDescription>
+        <value>You do not have access to administer the store. Please contact your Salesforce system administrator for assistance.</value>
+    </labels><labels>
+        <fullName>asb_No_Access_To_Store</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You do not have access to the store.</shortDescription>
+        <value>You do not have access to the store. Please contact your Salesforce system administrator for assistance.</value>
+    </labels><labels>
+        <fullName>asb_None</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>None</shortDescription>
+        <value>None</value>
+    </labels><labels>
+        <fullName>asb_NoneSelected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label to indicate no items from a list (e.g., categories for an app).</shortDescription>
+        <value>None selected</value>
+    </labels><labels>
+        <fullName>asb_OpenLinkNewWindow</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Open link in a new window</shortDescription>
+        <value>Open link in a new window</value>
+    </labels><labels>
+        <fullName>asb_OptionalParens</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>(optional)</shortDescription>
+        <value>(optional)</value>
+    </labels><labels>
+        <fullName>asb_OrForOptions</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>or (used between two buttons)</shortDescription>
+        <value>or</value>
+    </labels><labels>
+        <fullName>asb_Page_View</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Page View</shortDescription>
+        <value>Page View</value>
+    </labels><labels>
+        <fullName>asb_Page_Views</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Page Views</shortDescription>
+        <value>Page Views</value>
+    </labels><labels>
+        <fullName>asb_PleaseGoTo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please go to</shortDescription>
+        <value>Please go to your {0} device to install this app.</value>
+    </labels><labels>
+        <fullName>asb_PopularityMetricThirtyDays</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>30 Days</shortDescription>
+        <value>30 Days</value>
+    </labels><labels>
+        <fullName>asb_Private_AppExchange</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AppExchange Store Builder</shortDescription>
+        <value>AppExchange Store Builder</value>
+    </labels><labels>
+        <fullName>asb_Publish</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>publish</shortDescription>
+        <value>publish</value>
+    </labels><labels>
+        <fullName>asb_PublishConfirmMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Are you sure you would like to publish this listing?</shortDescription>
+        <value>Are you sure you would like to publish this listing?</value>
+    </labels><labels>
+        <fullName>asb_Published</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Published</shortDescription>
+        <value>Published</value>
+    </labels><labels>
+        <fullName>asb_Published_Apps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Published Apps</shortDescription>
+        <value>Published Apps</value>
+    </labels><labels>
+        <fullName>asb_RearrangeBannersMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Rearrange banners message.</shortDescription>
+        <value>Hold &amp; drag the banners to rearrange the order.</value>
+    </labels><labels>
+        <fullName>asb_RearrangeResourcesMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Rearrange listing resources message.</shortDescription>
+        <value>Hold &amp; drag items to rearrange the order.</value>
+    </labels><labels>
+        <fullName>asb_RemoveAppConfirmMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message displayed to confirm removing from store action.</shortDescription>
+        <value>Are you sure you would like to remove this app from the store? All the associated listings will no longer be visible but the underlying data is not deleted.</value>
+    </labels><labels>
+        <fullName>asb_RemoveAppFromStore</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remove App from Store</shortDescription>
+        <value>Remove App from Store</value>
+    </labels><labels>
+        <fullName>asb_RequestInstall</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Install</shortDescription>
+        <value>Install</value>
+    </labels><labels>
+        <fullName>asb_RequestsInstalls</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Installs</shortDescription>
+        <value>Installs</value>
+    </labels><labels>
+        <fullName>asb_RequiredFieldsAreMarked</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required fields are marked with</shortDescription>
+        <value>Required fields are marked with</value>
+    </labels><labels>
+        <fullName>asb_RequiredFieldsForOnline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>When all the required fields have a value you can take the store online.</shortDescription>
+        <value>When all the required fields have a value you can take the store online.</value>
+    </labels><labels>
+        <fullName>asb_Resources</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels><labels>
+        <fullName>asb_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels><labels>
+        <fullName>asb_ScreenshotsAndVideos</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Screenshots &amp; Videos</shortDescription>
+        <value>Screenshots &amp; Videos</value>
+    </labels><labels>
+        <fullName>asb_SelectAppCategories</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select the categories this app belongs in</shortDescription>
+        <value>Select the categories this app belongs in</value>
+    </labels><labels>
+        <fullName>asb_SelectAppLanguages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select the languages this app supports</shortDescription>
+        <value>Select the languages this app supports</value>
+    </labels><labels>
+        <fullName>asb_SelectOne</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SelectOne</shortDescription>
+        <value>-- Select One --</value>
+    </labels><labels>
+        <fullName>asb_SelectStoreAppTypes</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select the app types your store will support.</shortDescription>
+        <value>Select the app types your store will support.</value>
+    </labels><labels>
+        <fullName>asb_Select_Listing_Language</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select a listing language</shortDescription>
+        <value>Select a Listing Language</value>
+    </labels><labels>
+        <fullName>asb_Select_The_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select the type for this app</shortDescription>
+        <value>Select the type for this app.</value>
+    </labels><labels>
+        <fullName>asb_Similar_Apps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Similar Apps</shortDescription>
+        <value>Similar Apps</value>
+    </labels><labels>
+        <fullName>asb_SortA_Z</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>A-Z</shortDescription>
+        <value>A-Z</value>
+    </labels><labels>
+        <fullName>asb_SortPopular</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Popular</shortDescription>
+        <value>Popular</value>
+    </labels><labels>
+        <fullName>asb_SortRecent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Recent</shortDescription>
+        <value>Recent</value>
+    </labels><labels>
+        <fullName>asb_SortRelevance</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Relevance</shortDescription>
+        <value>Relevance</value>
+    </labels><labels>
+        <fullName>asb_Standard_User_Site_Unavailable</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The store is currently offline.</shortDescription>
+        <value>The store is currently offline. Please try again later or contact your Salesforce system administrator for assistance.</value>
+    </labels><labels>
+        <fullName>asb_StoreBanners</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Store Banners</shortDescription>
+        <value>Store Banners</value>
+    </labels><labels>
+        <fullName>asb_StoreIsOffline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The store is offline.</shortDescription>
+        <value>The store is offline.</value>
+    </labels><labels>
+        <fullName>asb_StoreIsOnline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The store is online.</shortDescription>
+        <value>The store is online.</value>
+    </labels><labels>
+        <fullName>asb_StoreLogo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Store Logo</shortDescription>
+        <value>Store Logo</value>
+    </labels><labels>
+        <fullName>asb_StoreName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Store Name</shortDescription>
+        <value>Store Name</value>
+    </labels><labels>
+        <fullName>asb_Store_Preferences</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Store Preferences</shortDescription>
+        <value>Store Preferences</value>
+    </labels><labels>
+        <fullName>asb_TakeStoreOffline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Take Store Offline</shortDescription>
+        <value>Take Store Offline</value>
+    </labels><labels>
+        <fullName>asb_TakeStoreOnline</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Take Store Online</shortDescription>
+        <value>Take Store Online</value>
+    </labels><labels>
+        <fullName>asb_TheAppExchange</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AppExchange</shortDescription>
+        <value>AppExchange</value>
+    </labels><labels>
+        <fullName>asb_Title</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Title</shortDescription>
+        <value>Title</value>
+    </labels><labels>
+        <fullName>asb_Total</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Total</shortDescription>
+        <value>Total</value>
+    </labels><labels>
+        <fullName>asb_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels><labels>
+        <fullName>asb_UnsavedChanges</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Changes</shortDescription>
+        <value>Unsaved Changes</value>
+    </labels><labels>
+        <fullName>asb_UnsavedChangesMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have made some changes which you might want to save.</shortDescription>
+        <value>You have made some changes which you might want to save.</value>
+    </labels><labels>
+        <fullName>asb_UnsavedChangesPublish</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Changes for Publish Listing</shortDescription>
+        <value>There are unsaved changes on the page. Would you like to save these first or would you like to {0} the listing without these changes?</value>
+    </labels><labels>
+        <fullName>asb_Unsaved_Message_Listings</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Unsaved Message Listings</shortDescription>
+        <value>There are unsaved changes on the page. Would you like to save these first or would you like to view the listing without these changes?</value>
+    </labels><labels>
+        <fullName>asb_UploadBanner</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Banner</shortDescription>
+        <value>Upload Banner</value>
+    </labels><labels>
+        <fullName>asb_UploadBannerInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Banner Info</shortDescription>
+        <value>Upload a 1200 x 200 pixel PNG or JPG file that is up to 1 MB in size.</value>
+    </labels><labels>
+        <fullName>asb_UploadBannersMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload banners message.</shortDescription>
+        <value>Upload up to five PNG or JPG files for your store banners. They will cycle through in a carousel.</value>
+    </labels><labels>
+        <fullName>asb_UploadFile</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload File</shortDescription>
+        <value>Upload File</value>
+    </labels><labels>
+        <fullName>asb_UploadInfo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload a PNG or JPG file for your app logo</shortDescription>
+        <value>Upload a PNG or JPG file for your app logo. The ideal dimensions of this image are 200 (width) by 125 (height) pixels.</value>
+    </labels><labels>
+        <fullName>asb_UploadResourceFileMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload a file that is up to 5 MB in size and enter a title for your resource.</shortDescription>
+        <value>Upload a file that is up to 5 MB in size and enter a title for your resource.</value>
+    </labels><labels>
+        <fullName>asb_UploadScreenshot</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Screenshot</shortDescription>
+        <value>Upload Screenshot</value>
+    </labels><labels>
+        <fullName>asb_UploadScreenshotMsg</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload screenshot message</shortDescription>
+        <value>Upload a PNG or JPG file that is up to 5 MB in size and enter a caption for your screenshot.</value>
+    </labels><labels>
+        <fullName>asb_UploadStoreBanners</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload Store Banners</shortDescription>
+        <value>Upload Store Banners</value>
+    </labels><labels>
+        <fullName>asb_UploadStoreLogo</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Upload store logo message.</shortDescription>
+        <value>Upload a PNG, JPG or GIF file for your store logo. The ideal height of this image is 50 pixels tall.</value>
+    </labels><labels>
+        <fullName>asb_VideoFormDetailsMessage</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Video form details message</shortDescription>
+        <value>Enter the type, video ID and caption for your video.</value>
+    </labels><labels>
+        <fullName>asb_VideoFormDetailsMessageB</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Video form details message</shortDescription>
+        <value>Enter the type, company ID, video ID and caption for your video.</value>
+    </labels><labels>
+        <fullName>asb_VideoID</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Video ID</shortDescription>
+        <value>Video ID</value>
+    </labels><labels>
+        <fullName>asb_ViewAnalytics</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Analytics</shortDescription>
+        <value>View Analytics</value>
+    </labels><labels>
+        <fullName>asb_ViewAppDetails</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View App Details</shortDescription>
+        <value>View App Details</value>
+    </labels><labels>
+        <fullName>asb_ViewStore</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Store</shortDescription>
+        <value>View Store</value>
+    </labels><labels>
+        <fullName>asb_View_All</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View All</shortDescription>
+        <value>View All</value>
+    </labels><labels>
+        <fullName>asb_View_Detailed_Dashboard</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Detailed Dashboard</shortDescription>
+        <value>View Detailed Dashboard</value>
+    </labels><labels>
+        <fullName>asb_Week</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Week</shortDescription>
+        <value>Week</value>
+    </labels><labels>
+        <fullName>asb_Welcome_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome to the AppExchange Store Builder</shortDescription>
+        <value>Welcome to the AppExchange Store Builder</value>
+    </labels><labels>
+        <fullName>asb_WrongDevice</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wrong Device</shortDescription>
+        <value>Wrong Device</value>
+    </labels><labels>
+        <fullName>asb_Year</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Year</shortDescription>
+        <value>Year</value>
+    </labels><labels>
+        <fullName>asb_default</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>default</shortDescription>
+        <value>default</value>
+    </labels><labels>
+        <fullName>asb_thousandsDelimiter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thousands Delimiter</shortDescription>
+        <value>,</value>
+    </labels><labels>
+        <fullName>cam_articles</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Articles</shortDescription>
+        <value>Popular Articles</value>
+    </labels><labels>
+        <fullName>cam_loadMore</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Load more</shortDescription>
+        <value>Load more</value>
+    </labels><labels>
+        <fullName>cam_questions</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Q&amp;A</shortDescription>
+        <value>Trending Questions</value>
+    </labels><labels>
+        <fullName>cam_seeAllLink</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>See All</shortDescription>
+        <value>View All</value>
+    </labels><labels>
+        <fullName>cam_seeMore</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>See more</shortDescription>
+        <value>View all</value>
+    </labels><labels>
+        <fullName>cam_selectZone</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select a XXXXX</shortDescription>
+        <value>Select YYY XXXXX</value>
+    </labels><labels>
+        <fullName>cam_signInLink</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sign In today</shortDescription>
+        <value>Sign in</value>
+    </labels><labels>
+        <fullName>cam_signUpLink</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sign up today</shortDescription>
+        <value>Sign up</value>
+    </labels><labels>
+        <fullName>pkb2_lang_bs</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Bosnian</shortDescription>
+        <value>босански</value>
+    </labels><labels>
+        <fullName>pkb2_lang_cy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welsh</shortDescription>
+        <value>Cymraeg</value>
+    </labels><labels>
+        <fullName>pkb2_lang_da</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Danish</shortDescription>
+        <value>Dansk</value>
+    </labels><labels>
+        <fullName>pkb2_lang_de</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>German</shortDescription>
+        <value>Deutsch</value>
+    </labels><labels>
+        <fullName>pkb2_lang_en_US</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>English</shortDescription>
+        <value>English</value>
+    </labels><labels>
+        <fullName>pkb2_lang_es</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Español</shortDescription>
+        <value>Español</value>
+    </labels><labels>
+        <fullName>pkb2_lang_et</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Estonian</shortDescription>
+        <value>Eesti Keel</value>
+    </labels><labels>
+        <fullName>pkb2_lang_eu</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Basque</shortDescription>
+        <value>Euskara</value>
+    </labels><labels>
+        <fullName>pkb2_lang_fi</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Finnish</shortDescription>
+        <value>Suomalainen</value>
+    </labels><labels>
+        <fullName>pkb2_lang_fr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Francais</shortDescription>
+        <value>Francais</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ga</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Irish (Gaelic)</shortDescription>
+        <value>Gaeilge</value>
+    </labels><labels>
+        <fullName>pkb2_lang_hi</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hindi</shortDescription>
+        <value>हिन्दी</value>
+    </labels><labels>
+        <fullName>pkb2_lang_hr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Croatian</shortDescription>
+        <value>Hrvatski</value>
+    </labels><labels>
+        <fullName>pkb2_lang_hy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Armenian</shortDescription>
+        <value>Հայերէն</value>
+    </labels><labels>
+        <fullName>pkb2_lang_is</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Icelandic</shortDescription>
+        <value>Íslenska</value>
+    </labels><labels>
+        <fullName>pkb2_lang_it</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Italian</shortDescription>
+        <value>Italiano</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ja</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Japanese</shortDescription>
+        <value>日本の</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ka</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Georgian</shortDescription>
+        <value>ქართული</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ko</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Korean</shortDescription>
+        <value>한국의</value>
+    </labels><labels>
+        <fullName>pkb2_lang_lb</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Luxembourgish</shortDescription>
+        <value>Lëtzebuergesch</value>
+    </labels><labels>
+        <fullName>pkb2_lang_lt</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Lithuanian</shortDescription>
+        <value>Lietuvių Kalba</value>
+    </labels><labels>
+        <fullName>pkb2_lang_lv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Latvian</shortDescription>
+        <value>Latviešu Valoda</value>
+    </labels><labels>
+        <fullName>pkb2_lang_mk</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Macedonian</shortDescription>
+        <value>македонски</value>
+    </labels><labels>
+        <fullName>pkb2_lang_mt</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Maltese</shortDescription>
+        <value>Malti</value>
+    </labels><labels>
+        <fullName>pkb2_lang_nl_NL</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dutch</shortDescription>
+        <value>Nederlands</value>
+    </labels><labels>
+        <fullName>pkb2_lang_pt_BR</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Portuguese (Brazilian)</shortDescription>
+        <value>Português</value>
+    </labels><labels>
+        <fullName>pkb2_lang_pt_PT</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Portuguese</shortDescription>
+        <value>Português</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ro_MD</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Moldovan</shortDescription>
+        <value>лимба молдовеняскэ</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ru</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Russian</shortDescription>
+        <value>русский</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sh</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Serbian latin</shortDescription>
+        <value>Srpski</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sk</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Slovak</shortDescription>
+        <value>Slovenčina</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Slovenian</shortDescription>
+        <value>Slovenščina</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sq</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Albanian</shortDescription>
+        <value>Shqiptar</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sr</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Serbian Cyrillic</shortDescription>
+        <value>српски</value>
+    </labels><labels>
+        <fullName>pkb2_lang_sv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Swedish</shortDescription>
+        <value>Svenska</value>
+    </labels><labels>
+        <fullName>pkb2_lang_th</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thai</shortDescription>
+        <value>ภาษาไทย</value>
+    </labels><labels>
+        <fullName>pkb2_lang_tl</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tagalog</shortDescription>
+        <value>Tagalog</value>
+    </labels><labels>
+        <fullName>pkb2_lang_ur</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Urdu</shortDescription>
+        <value>اردو</value>
+    </labels><labels>
+        <fullName>pkb2_lang_zh_CN</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chinese (Simplified)</shortDescription>
+        <value>中国的</value>
+    </labels><labels>
+        <fullName>pkb2_lang_zh_TW</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chinese (Traditional)</shortDescription>
+        <value>中國的</value>
+    </labels></CustomLabels>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Ideas_Projects__c.Percent_Complete__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Related_Idea__c.Votes__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FK_$Ideas_Projects__c.Project_Stage__c</column>
+            <operator>equals</operator>
+            <value>Evaluating,Ready to Present Initial Plan for Approval,Scheduled,In Progress</value>
+        </criteriaItems>
+        <language>ja</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Related_Idea__c.Idea__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Ideas in Action</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Related_Idea__c@Related_Idea__c.Project__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Related_Idea__c.Posted__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

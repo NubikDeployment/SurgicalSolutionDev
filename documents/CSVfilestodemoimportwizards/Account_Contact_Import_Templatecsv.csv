@@ -1,0 +1,17 @@
+Record Owner,Account Name,Account Site,Parent Account,Parent Account Site,Account Type,Billing Street 1,Billing Street 2,Billing Street 3,Billing City,Billing State,Billing Postal Code,Billing Country,First Name,Last Name,Title,E-mail Address,Business Phone,Business Phone Ext.
+Auser,Fresno National Bank,Fresno,,,Customer,1200 Main Street,,,Fresno,CA,99222,USA,John,Dryer,Manager,jd@msn.com,510-223-3992,2349
+Auser,Fresno National Bank,Fresno,,,Customer,1200 Main Street,,,Fresno,CA,99222,USA,Mary,Stevens,VP,mary@msn.com,510-223-3992,3340
+Auser,Fresno National Bank,Fresno,,,Customer,1200 Main Street,,,Fresno,CA,99222,USA,Matt,Meyers,President,pres@msn.com,510-223-3992,7652
+Auser,Fresno National Bank - Oakland Branch,Oakland,Fresno National Bank,Fresno,Customer,25 Central Ave,,,Oakland,CA,90012,USA,Paul,Smith,Vice President,thepres@msn.com,415-664-2333,4456
+Auser,Fresno National Bank - San Jose Branch,San Jose,Fresno National Bank,Fresno,Customer,900 Propert Ave,,,San Jose,CA,90033,USA,John,Pope,Vice President,pope@msn.com,408-664-2333,2200
+Tdemo,Altos Consulting,Los Altos,,,Prospect,300 Kellen St,,,Los Altos Hills,CA,99921,USA,Pat,McIntire,Manager,pm@msn.com,340-233-3320,
+Tdemo,Fresno National Bank - Seattle Branch,Seattle,Fresno National Bank,Fresno,Prospect,800 5th Street,,,Seattle,WA,99732,USA,Laura,Fisher,Manager,fish@msn.com,415-552-2331,
+
+
+
+
+
+
+
+
+, 

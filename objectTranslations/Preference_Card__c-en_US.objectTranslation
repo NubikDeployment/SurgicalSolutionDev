@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Arms --></label>
+        <name>Arms__c</name>
+        <picklistValues>
+            <masterLabel>Arms Option #1</masterLabel>
+            <translation><!-- Arms Option #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arms Option #2</masterLabel>
+            <translation><!-- Arms Option #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arms Option #3</masterLabel>
+            <translation><!-- Arms Option #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arms Option #4</masterLabel>
+            <translation><!-- Arms Option #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arms Option #5</masterLabel>
+            <translation><!-- Arms Option #5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Legs --></label>
+        <name>Legs__c</name>
+        <picklistValues>
+            <masterLabel>Legs Option #1</masterLabel>
+            <translation><!-- Legs Option #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legs Option #2</masterLabel>
+            <translation><!-- Legs Option #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legs Option #3</masterLabel>
+            <translation><!-- Legs Option #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legs Option #4</masterLabel>
+            <translation><!-- Legs Option #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legs Option #5</masterLabel>
+            <translation><!-- Legs Option #5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Normal --></label>
+        <name>Normal__c</name>
+        <picklistValues>
+            <masterLabel>Normal Option #1</masterLabel>
+            <translation><!-- Normal Option #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal Option #2</masterLabel>
+            <translation><!-- Normal Option #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal Option #3</masterLabel>
+            <translation><!-- Normal Option #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal Option #4</masterLabel>
+            <translation><!-- Normal Option #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Normal Option #5</masterLabel>
+            <translation><!-- Normal Option #5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Patient Position --></label>
+        <name>Patient_Position__c</name>
+        <picklistValues>
+            <masterLabel>Position #1</masterLabel>
+            <translation><!-- Position #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Position #2</masterLabel>
+            <translation><!-- Position #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Position #3</masterLabel>
+            <translation><!-- Position #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Position #4</masterLabel>
+            <translation><!-- Position #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Position #5</masterLabel>
+            <translation><!-- Position #5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Procedure --></label>
+        <name>Procedure__c</name>
+        <relationshipLabel><!-- Preference Cards --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Room Setup --></label>
+        <name>Room_Setup__c</name>
+    </fields><fields>
+        <label><!-- See Preference Card --></label>
+        <name>See_Preference_Card__c</name>
+    </fields><fields>
+        <label><!-- Stirrups --></label>
+        <name>Stirrups__c</name>
+        <picklistValues>
+            <masterLabel>Stirrops Option #1</masterLabel>
+            <translation><!-- Stirrops Option #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stirrops Option #2</masterLabel>
+            <translation><!-- Stirrops Option #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stirrops Option #3</masterLabel>
+            <translation><!-- Stirrops Option #3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stirrops Option #4</masterLabel>
+            <translation><!-- Stirrops Option #4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stirrops Option #5</masterLabel>
+            <translation><!-- Stirrops Option #5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Surgeon --></label>
+        <name>Surgeon__c</name>
+    </fields><fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Preference Card</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Preference Cards</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Preference Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Room Setup --></label>
+            <section>Room Setup</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>详细说明</label>
+        <name>Detailed_Description__c</name>
+    </fields><fields>
+        <label>内部注释</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>发行年龄</label>
+        <name>Issue_Age__c</name>
+    </fields><fields>
+        <label>问题状态</label>
+        <name>Issue_Status__c</name>
+        <picklistValues>
+            <masterLabel>Escalated</masterLabel>
+            <translation>升级</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>新</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preventable</masterLabel>
+            <translation>可预防</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Resolved</masterLabel>
+            <translation>已解决</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresolved</masterLabel>
+            <translation>未解决</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working</masterLabel>
+            <translation>加工</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>项目</label>
+        <name>Project__c</name>
+        <relationshipLabel>理念问题</relationshipLabel>
+    </fields><fields>
+        <label>解决策略</label>
+        <name>Resolution_Strategy__c</name>
+    </fields><fields>
+        <label>解析度</label>
+        <name>Resolution__c</name>
+    </fields><fields>
+        <label>团队成员负责</label>
+        <name>Team_Member_Responsible__c</name>
+        <relationshipLabel>理念问题</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Idea Issue --></value>
+    </caseValues><nameFieldLabel><!-- Project Issue Number --></nameFieldLabel><layouts>
+        <layout>Project Issue Layout</layout>
+        <sections>
+            <label>问题详细信息</label>
+            <section>Issue Detail</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

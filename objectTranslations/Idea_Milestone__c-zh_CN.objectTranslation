@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>实际完成日期</label>
+        <name>Actual_Completion_Date__c</name>
+    </fields><fields>
+        <label>可交付</label>
+        <name>Deliverables__c</name>
+    </fields><fields>
+        <label>预计落成日期</label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields><fields>
+        <label>理念在行动</label>
+        <name>Idea_in_Action__c</name>
+        <relationshipLabel>理念里程碑</relationshipLabel>
+    </fields><fields>
+        <label>内部注释</label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>里程碑描述</label>
+        <name>Milestone_Description__c</name>
+    </fields><fields>
+        <label>里程碑状态</label>
+        <name>Milestone_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>已完成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation>未开始</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Idea Milestone --></value>
+    </caseValues><nameFieldLabel><!-- Milestone Name --></nameFieldLabel><layouts>
+        <layout>Milestone Layout</layout>
+        <sections>
+            <label>里程碑详细</label>
+            <section>Milestone Detail</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

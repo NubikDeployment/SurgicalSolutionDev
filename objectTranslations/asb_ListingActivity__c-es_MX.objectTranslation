@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The type of asset that was viewed on the listing. --></help>
+        <label>Tipo de activo</label>
+        <name>AssetType__c</name>
+    </fields><fields>
+        <help><!-- Indicates if the same type of activity was taken by the same user on the same listing within the last 180 days. --></help>
+        <label>Duplicado</label>
+        <name>Duplicate__c</name>
+    </fields><fields>
+        <help><!-- The listing asset that was accessed if applicable. --></help>
+        <label>Listado de activos</label>
+        <name>ListingAsset__c</name>
+        <relationshipLabel><!-- Listing Activities --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The listing on which the activity occurred. --></help>
+        <label>Listado</label>
+        <name>asb_Listing__c</name>
+        <relationshipLabel><!-- Listing Activities --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Listing Activity --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- Listing Activity --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- Listing Activity Number --></nameFieldLabel><layouts>
+        <layout>Install Listing Activity Layout</layout>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- AssetView --></label>
+        <name>AssetView</name>
+    </recordTypes><recordTypes>
+        <label><!-- Install --></label>
+        <name>Install</name>
+    </recordTypes><recordTypes>
+        <label><!-- PageView --></label>
+        <name>PageView</name>
+    </recordTypes></CustomObjectTranslation>

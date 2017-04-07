@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>AppExchange Store Builder storefront experience.</description>
+    <icon>Tab_Icons/storeTabIcon_png.png</icon>
+    <label>Store</label>
+    <mobileReady>true</mobileReady>
+    <motif>Custom80: Motorcycle</motif>
+    <page>asb_home</page>
+</CustomTab>

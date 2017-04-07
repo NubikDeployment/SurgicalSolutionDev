@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Time-Off request rejected.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Time_Off_Manager_Approvals</letterhead>
+    <name>Time-Off Request Rejected</name>
+    <style>freeForm</style>
+    <subject>Rejected: Time-Off Request starting {!Time_Off_Request__c.Start_Date__c} for {!Time_Off_Request__c.Number_of_Days__c} days</subject>
+    <textOnly>Time-Off Request {!Time_Off_Request__c.Name}
+
+Your Time-Off Request {!Time_Off_Request__c.Name} has been rejected. 
+
+Here are the details:
+
+Employee Number: {!Time_Off_Request__c.Employee_Number__c
+Employee Name: {!Time_Off_Request__c.Employee_Name__c}
+
+Start Date: {!Time_Off_Request__c.Start_Date__c}
+End Date: {!Time_Off_Request__c.End_Date__c}
+# of PTO Days: Start Date: {!Time_Off_Request__c.Number_of_Days__c}
+
+Please refer to the comments in your Time-Off Request for details on the rejection reason.  If you wish, you can revise the request and re-submit it for approval.
+
+Sincerely yours,
+{!User.Name}</textOnly>
+    <type>html</type>
+</EmailTemplate>

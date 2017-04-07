@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>使用Product_Image_URL__c引用存储在文档选项卡的图像。缩略图用于产品相关列表</help>
+        <label>图像</label>
+        <name>Image__c</name>
+    </fields><fields>
+        <help><!-- ID of the opportunity product that came from this product&apos;s bundle. --></help>
+        <label><!-- Parent ID --></label>
+        <name>SBQQ__ParentID__c</name>
+    </fields><fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields></CustomObjectTranslation>

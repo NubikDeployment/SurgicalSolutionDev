@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>量</label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label>商务家庭成员</label>
+        <name>Business_Family_Members__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 - 5</masterLabel>
+            <translation>5月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26 - 50</masterLabel>
+            <translation>26  -  50</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - 25</masterLabel>
+            <translation>625－六月</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt; 100</masterLabel>
+            <translation><!-- &gt; 100 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>DB__c</name>
+    </fields><fields>
+        <label>犯罪风险</label>
+        <name>Delinquency_Risk__c</name>
+        <picklistValues>
+            <masterLabel>High risk of delinquency</masterLabel>
+            <translation>冲突的风险高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low risk of delinquency</masterLabel>
+            <translation>冲突的风险高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moderate risk of delinquency</masterLabel>
+            <translation>调节冲突风险</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>员工规模分组</label>
+        <name>Employee_Size_Grouping__c</name>
+        <picklistValues>
+            <masterLabel>1,000 to 10,000</masterLabel>
+            <translation><!-- 1,000 to 10,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 to 100</masterLabel>
+            <translation>10至100</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10,000+</masterLabel>
+            <translation><!-- 10,000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100 to 1,000</masterLabel>
+            <translation><!-- 100 to 1,000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under 10</masterLabel>
+            <translation>在10</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>市场细分集群</label>
+        <name>Marketing_Segmentation_Cluster__c</name>
+        <picklistValues>
+            <masterLabel>Active Traders</masterLabel>
+            <translation>活跃​​的交易者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bustling Manufacturers &amp; Business Services</masterLabel>
+            <translation>熙熙攘攘的制造商及商业服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Good Hands</masterLabel>
+            <translation>在良好的手中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry, Inc.</masterLabel>
+            <translation><!-- Industry, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor-Intensive Giants</masterLabel>
+            <translation>劳动密集型的巨人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landmark Business Services</masterLabel>
+            <translation>地标商业服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Powerhouse 6000</masterLabel>
+            <translation>厂房6000</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solid &amp; Sons</masterLabel>
+            <translation>固父子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Hectic Venture Company</masterLabel>
+            <translation>忙碌的创业公司</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Withering Branch Company</masterLabel>
+            <translation>萎凋分公司</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>月</label>
+        <name>Month__c</name>
+    </fields><fields>
+        <label>NAICS代码</label>
+        <name>NAICS_Code__c</name>
+    </fields><fields>
+        <label>NAICS描述</label>
+        <name>NAICS_Description__c</name>
+    </fields><fields>
+        <label>登录数</label>
+        <name>Number_of_Logins__c</name>
+    </fields><fields>
+        <label>门户登录日期</label>
+        <name>Portal_Login_Date__c</name>
+    </fields><fields>
+        <label>记录计数</label>
+        <name>Record_Count__c</name>
+    </fields><fields>
+        <label>SIC代码</label>
+        <name>SIC_Code__c</name>
+    </fields><fields>
+        <label>SIC说明</label>
+        <name>SIC_Description__c</name>
+    </fields><fields>
+        <label>阶段</label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation>封闭式失落</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Won</masterLabel>
+            <translation>封闭式元</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Analysis</masterLabel>
+            <translation>需求分析</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation/Review</masterLabel>
+            <translation>谈判/评论</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal/Price Quote</masterLabel>
+            <translation>建议/价格行情</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting</masterLabel>
+            <translation>勘探</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualification</masterLabel>
+            <translation>资格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value Proposition</masterLabel>
+            <translation>价值主张</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>门票</label>
+        <name>Tickets__c</name>
+    </fields><fields>
+        <label>用户</label>
+        <name>User__c</name>
+        <relationshipLabel><!-- DEMODATA --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- DEMODATA --></value>
+    </caseValues><nameFieldLabel><!-- DEMODATA Number --></nameFieldLabel><recordTypes>
+        <label>客户门户</label>
+        <name>CustomerPortal</name>
+    </recordTypes></CustomObjectTranslation>

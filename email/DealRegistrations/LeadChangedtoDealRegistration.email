@@ -1,0 +1,5 @@
+The lead for {!Lead.Company} has been changed to a deal registration. 
+
+Please edit the lead to complete information required for a deal registration, then submit the deal registration for approval. 
+
+Lead reference: https://apps.salesforce.com/prm/detail/{!Lead.Id}

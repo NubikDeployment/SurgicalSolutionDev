@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Approved_Claim__c</fullName>
+        <description>The approved amount of the claim</description>
+        <externalId>false</externalId>
+        <label>Approved Claim</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Approved_Request__c</fullName>
+        <description>The approved requested amount.</description>
+        <externalId>false</externalId>
+        <label>Approved Request</label>
+        <precision>14</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Approver_Email__c</fullName>
+        <description>The email address of the approver</description>
+        <externalId>false</externalId>
+        <label>Approver Email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Approver__c</fullName>
+        <description>The user name that recorded the checkbook entry.</description>
+        <externalId>false</externalId>
+        <label>Approver</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Channel_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget</label>
+        <referenceTo>SFDC_Channel_Budget__c</referenceTo>
+        <relationshipLabel>Approval Audit Trail</relationshipLabel>
+        <relationshipName>R00N4100000GiurSEAR</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>Date__c</fullName>
+        <description>Transaction date and time the record was created.</description>
+        <externalId>false</externalId>
+        <label>Entry Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields><fields>
+        <fullName>Requestor__c</fullName>
+        <description>The name of the partner, where applicable, that originatated the transaction.</description>
+        <externalId>false</externalId>
+        <label>Requestor</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Source_Record_ID__c</fullName>
+        <description>The ID of the record from which this budget entry was created, as a result of a submit, approve, reject etc. action.</description>
+        <externalId>false</externalId>
+        <label>Source Record ID</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Source_Record_Name_Nav__c</fullName>
+        <description>This is used as a naviagation means to the source record. The formula uses the source record id and name, both of which are persisted as the time of the budget entry being saved, to navigate back to the source record if it still exists.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Source_Record_ID__c , Source_Record_Name__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Source Record</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Source_Record_Name__c</fullName>
+        <description>The source name of the request or claim. This is saved when the budget entry is created.</description>
+        <externalId>false</externalId>
+        <label>Source Record Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Stores key information on an approved or rejected budget transaction. The budget entry corresponds to a source request or claim.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Budget Entry</label><nameField>
+        <displayFormat>CBE-{00000000}</displayFormat>
+        <label>Entry Number</label>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Budget Entries</pluralLabel><searchLayouts>
+        <lookupDialogsAdditionalFields>Source_Record_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Approved_Request__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Approved_Claim__c</lookupDialogsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel></CustomObject>

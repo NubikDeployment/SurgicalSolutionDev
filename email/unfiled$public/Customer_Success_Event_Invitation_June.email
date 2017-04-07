@@ -1,0 +1,30 @@
+<span style="line-height: 20.8px; font-family: arial;"><span style="font-size: 9pt;">{!Opportunity.Contact_Name__c}<br />
+<br />
+I am writing to personally invite you to join me for our next annual Customer Success event on Thursday, June 30th. &nbsp;Please join senior executives from companies like yours for an afternoon of panel discussions and best practices from our most successful customers. &nbsp;<br />
+&nbsp;<br />
+We think you will find this event very meaningful and enjoyable. &nbsp;In addition, we will be having a special networking reception and concert featuring some of the world&#39;s leading musical talent.<br />
+&nbsp;<br />
+Here is an agenda to give you an idea of the kind and quality of content that will be presented. &nbsp;Please let me know as soon as possible if you can join us for this exciting event! &nbsp;<br />
+&nbsp;<br />
+Customer Success Day Agenda<br />
+&nbsp;<br />
+12 noon - 2 pm: Exclusive Pre-Forum Lunch<br />
+Location: The City Club<br />
+Kick off the day with a lunch reception, where executives, customers, analysts and members of the press will gather to hear the latest news from {!Organization.Name}.<br />
+&nbsp;<br />
+2 pm - 5:30 pm: Executive Forum<br />
+Location: Meridian Hotel Ballroom<br />
+Network with other {!Organization.Name} customers, share best practices, and get a sneak peek our roadmap at this exclusive forum.<br />
+&nbsp;<br />
+5:30 pm - 9:30 pm: Cocktails and Concert<br />
+Location: Altitude Bar, Concert Hall<br />
+Enjoy cocktails and appetizers and pick up your tickets for the evening&#39;s entertainment. &nbsp;You are welcome to bring a guest to the reception and the concert!<br />
+<br />
+We would love to have you join us for part or all of this incredible celebration. &nbsp;Please contact me if you have any questions. I look forward to seeing you there!<br />
+<br />
+Regards,<br />
+<br />
+<span style="font-family: geneva, arial, sans-serif;">Best Regards,<br />
+{!User.Name}<br />
+{!User.Email}</span></span></span><br style="line-height: 20.8px;" />
+<span style="line-height: 20.8px;">{!User.Phone}</span>

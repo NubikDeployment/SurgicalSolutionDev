@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Automatische Antwort für Web2Lead</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>DE MKT: Web2Lead Response</name>
+    <style>freeForm</style>
+    <subject>{!Organization.Name} begüßt {!Lead.Name}</subject>
+    <textOnly>Hallo {!Contact.Salutation} {!Contact.LastName},
+
+Wir von {!Organization.Name} freuen uns sehr über Ihr Interesse an unserem Angebot.
+
+Ihre Informationen wurden automatisch an unseren Vertrieb weitergeleitet. Der zuständige Mitarbeiter wird sich in Kürze bei Ihnen melden.
+
+Bei Fragen wenden Sie sich bitte an eine der folgenden Nummern:
+
+Zentrale: 810-545-1000
+Vertrieb: 810-545-1222
+Kundenservice: 810-545-1333
+
+Wir freuen uns auf eine erfolgreiche Geschäftsbeziehung!
+
+Schöne Grüße aus {!User.City},
+Ihr {!Organization.Name}-Team</textOnly>
+    <type>html</type>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>联系</label>
+        <name>Contact__c</name>
+        <relationshipLabel>认证</relationshipLabel>
+    </fields><fields>
+        <label>日期</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <help><!-- Indicates that the certification is assigned to the community user that is currently logged in. Used to populate a list view. --></help>
+        <label><!-- Is Current User --></label>
+        <name>Is_Current_User__c</name>
+    </fields><fields>
+        <label>得分了</label>
+        <name>Score__c</name>
+    </fields><fields>
+        <label>状态</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>已完成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation>注册</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Certification --></value>
+    </caseValues><nameFieldLabel><!-- Name --></nameFieldLabel></CustomObjectTranslation>

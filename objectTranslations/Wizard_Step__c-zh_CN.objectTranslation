@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <label>页面内容名称</label>
+        <name>Page_Content_Name__c</name>
+    </fields><fields>
+        <label>步骤顺序</label>
+        <name>Step_Order__c</name>
+    </fields><fields>
+        <label>巫师</label>
+        <name>Widard__c</name>
+        <relationshipLabel>SDO向导步骤</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- SDO Wizard Step --></value>
+    </caseValues><nameFieldLabel><!-- Wizard Step Name --></nameFieldLabel></CustomObjectTranslation>

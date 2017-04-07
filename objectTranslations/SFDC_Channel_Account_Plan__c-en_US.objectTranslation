@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label><!-- Business Challenges --></label>
+        <name>Business_Challenges__c</name>
+    </fields><fields>
+        <help><!-- Returns true when the current user&apos;s associated account is the same as for the channel plan. Used in Partner Central for list view visibility. --></help>
+        <label><!-- My Company&apos;s Channel Plan --></label>
+        <name>My_Company_s_Channel_Plan__c</name>
+    </fields><fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <relationshipLabel><!-- Channel Plans --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Partner --></label>
+        <name>Partner_Account__c</name>
+        <relationshipLabel><!-- Channel Account Plans --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Achieved</masterLabel>
+            <translation><!-- Achieved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>At Risk</masterLabel>
+            <translation><!-- At Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Strategy --></label>
+        <name>Strategy__c</name>
+    </fields><fields>
+        <label><!-- Target --></label>
+        <name>Target__c</name>
+    </fields><fields>
+        <label><!-- Vision --></label>
+        <name>Vision__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Channel Plan</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Channel Plans</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Channel Plan Layout</layout>
+        <sections>
+            <label><!-- Vision/Value --></label>
+            <section>Vision/Value</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

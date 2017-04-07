@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Antwort</label>
+        <name>Answer__c</name>
+    </fields><fields>
+        <label><!-- Chat Answer --></label>
+        <name>Chat_Answer__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Internal Comments --></label>
+        <name>Internal_Comments__c</name>
+    </fields><fields>
+        <label>Farge</label>
+        <name>Question__c</name>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Question --></value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Question --></value>
+    </caseValues><gender><!-- Neuter --></gender><nameFieldLabel><!-- Question Name --></nameFieldLabel><layouts>
+        <layout>Internal Article Layout</layout>
+        <sections>
+            <label><!-- Internal Only --></label>
+            <section>Internal Only</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- CSAT --></label>
+        <name>CSAT__c</name>
+    </fields><fields>
+        <label>外壳</label>
+        <name>Case__c</name>
+        <relationshipLabel>客户调查</relationshipLabel>
+    </fields><fields>
+        <label>联系</label>
+        <name>Contact__c</name>
+        <relationshipLabel>客户调查</relationshipLabel>
+    </fields><fields>
+        <label>功夫</label>
+        <name>Effort__c</name>
+    </fields><fields>
+        <label><!-- NPS --></label>
+        <name>NPS__c</name>
+    </fields><fields>
+        <help>在何种程度上，你同意还是不同意下面的语句：\ r \ñ\ r \ n公司做很容易让我来处理我的问题。</help>
+        <label>轻松体验？</label>
+        <name>Question_1__c</name>
+        <picklistValues>
+            <masterLabel>1 - Strongly Disagree</masterLabel>
+            <translation>1  - 强烈反对</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Disagree</masterLabel>
+            <translation>2  - 不同意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Somewhat Disagree</masterLabel>
+            <translation>3  - 有点不同意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Neither Agree Nor Disagree</masterLabel>
+            <translation>4  - 既不同意也不反对</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Somewhat Agree</masterLabel>
+            <translation>5  - 比较同意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Agree</masterLabel>
+            <translation>6  - 同意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Strongly Agree</masterLabel>
+            <translation>7  - 非常同意</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>您如何评价你和你的客户服务体验的总体满意度？</help>
+        <label>CSAT分数</label>
+        <name>Question_2__c</name>
+        <picklistValues>
+            <masterLabel>1 - Very Dissatisfied</masterLabel>
+            <translation>1  - 非常不满意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Not Satisfied</masterLabel>
+            <translation>2  - 不满足</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Neutral</masterLabel>
+            <translation>3  - 中性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Satisfied</masterLabel>
+            <translation>4  - 满意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Very Satisfied</masterLabel>
+            <translation>5  - 非常满意</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>可能性有多大，你会推荐这家公司给朋友或同事？</help>
+        <label>NPS分数</label>
+        <name>Question_3__c</name>
+        <picklistValues>
+            <masterLabel>0 - Not at all likely</masterLabel>
+            <translation>0  - 根本没有可能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Extremely Likely</masterLabel>
+            <translation>10  - 极有可能</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>五</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help>是你的问题彻底解决？</help>
+        <label>问题解决了吗？</label>
+        <name>Question_4__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>没有</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>是</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Customer Survey --></value>
+    </caseValues><nameFieldLabel><!-- Customer Survey Name --></nameFieldLabel></CustomObjectTranslation>

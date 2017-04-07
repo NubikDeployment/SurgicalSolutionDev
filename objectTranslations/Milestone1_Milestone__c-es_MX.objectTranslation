@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>Calculado a partir de los registros de gastos relacionados con las tareas en los hitos hijo</help>
+        <label>Gasto actuales de sub-hitos</label>
+        <name>Actual_Expense_From_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de gastos relacionados con las tareas de este hito</help>
+        <label>Gastos actuales de tareas</label>
+        <name>Actual_Expense_From_Tasks__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tiempo relacionados a las tareas en los hitos hijos</help>
+        <label>Horas actuales de sub-hitos</label>
+        <name>Actual_Hours_From_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tiempo relacionados a las tareas en este hito</help>
+        <label>Horas actuales de tareas</label>
+        <name>Actual_Hours_From_Tasks__c</name>
+    </fields><fields>
+        <help>Un alias le ayuda a asociar una tarea a un hito utilizando la entrada de línea del componente de página de inicio.</help>
+        <label>Alias del hito</label>
+        <name>Alias__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas están bloqueadas en las sub-hitos?</help>
+        <label>Tareas bloqueadas (en sub-hitos)</label>
+        <name>Blocked_Tasks_in_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas están marcadas como bloqueadas?</help>
+        <label>Tareas bloqueadas (en tareas)</label>
+        <name>Blocked_Tasks_in_Tasks__c</name>
+    </fields><fields>
+        <help>Número de tareas completadas relacionas a sub-hitos</help>
+        <label>Tareas completadas (en sub-hitos)</label>
+        <name>Complete_Tasks_in_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Número de tareas completadas relacionadas a este hito</help>
+        <label>Tareas completadas (en tareas)</label>
+        <name>Complete_Tasks_in_Tasks__c</name>
+    </fields><fields>
+        <help>Significa que este hito ha sido completado</help>
+        <label>Completado</label>
+        <name>Complete__c</name>
+    </fields><fields>
+        <label>Inicio dias DB</label>
+        <name>DB_Days_Start__c</name>
+    </fields><fields>
+        <label>Dias DB</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>La fecha en que la fecha limite necesita estar terminada</help>
+        <label>Fecha limite</label>
+        <name>Deadline__c</name>
+    </fields><fields>
+        <label>Dependencia</label>
+        <name>Dependencies__c</name>
+        <relationshipLabel>Hitos (Dependencias)</relationshipLabel>
+    </fields><fields>
+        <help>Una descripción general del hito</help>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>Días entre el lanzamiento y la fecha limite</help>
+        <label>Duración</label>
+        <name>Duration__c</name>
+    </fields><fields>
+        <help>Calculado a partir de las tareas sobre los hitos hijos</help>
+        <label>Gastos estimados de sub-hitos</label>
+        <name>Estimated_Expense_From_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de las tareas en este hito</help>
+        <label>Gastos estimados de tareas</label>
+        <name>Estimated_Expense_From_Tasks__c</name>
+    </fields><fields>
+        <help>Calculado a partir de las tareas sobre los hitos hijos</help>
+        <label>Horas estimadas de sub-hitos</label>
+        <name>Estimated_Hours_From_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Calculado a partir de las tareas en este hito</help>
+        <label>Horas estimadas de tareas</label>
+        <name>Estimated_Hours_From_Tasks__c</name>
+    </fields><fields>
+        <help>El presupuesto de gastos para el hito</help>
+        <label>Presupuesto de gastos del hito</label>
+        <name>Expense_Budget__c</name>
+    </fields><fields>
+        <help>El presupuesto de gastos de todos los sub hitos de este hito</help>
+        <label>Presupuesto de gastos de sub-hitos</label>
+        <name>Expense_Budget_from_Sub_Milestones__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <help>El presupuesto de horas para el hito</help>
+        <label>Presupuesto de horas del hito</label>
+        <name>Hours_Budget__c</name>
+    </fields><fields>
+        <help>El total de horas presupuestadas para todos los sub hitos para este hito</help>
+        <label>Presupuesto de horas de sub-hitos</label>
+        <name>Hours_Budget_from_Sub_Milestones__c</name>
+    </fields><fields>
+        <help><!-- An Import ID used during the XML export/import process only. --></help>
+        <label><!-- Import ID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help>Cuándo debería ser el lanzamiento de este hito?</help>
+        <label>Lanzamiento</label>
+        <name>Kickoff__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas y atrasadas relacionadas a hitos hijos</help>
+        <label>Tareas atrasadas (en sub-hitos)</label>
+        <name>Late_Tasks_in_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas están atrasadas?</help>
+        <label>Tareas atrasadas (en tareas)2</label>
+        <name>Late_Tasks_in_Tasks_2__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas y atrasadas relacionadas a este hito</help>
+        <label>Tareas atrasadas (en tareas)</label>
+        <name>Late_Tasks_in_Tasks__c</name>
+    </fields><fields>
+        <label><!-- NameClean --></label>
+        <name>NameClean__c</name>
+    </fields><fields>
+        <label><!-- Okay to Reparent --></label>
+        <name>Okay_to_Reparent__c</name>
+    </fields><fields>
+        <label>Tareas bloqueadas &amp; abiertas, atrasadas</label>
+        <name>Open_Late_Blocked_Tasks__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas relacionadas a hitos hijos</help>
+        <label>Tareas abiertas (en sub-hitos)</label>
+        <name>Open_Tasks_in_Sub_Milestones__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas relacionadas a este hito.</help>
+        <label>Tareas abiertas (en tareas)</label>
+        <name>Open_Tasks_in_Tasks__c</name>
+    </fields><fields>
+        <label>Tareas abiertas vs completadas</label>
+        <name>Open_vs_Complete_Tasks__c</name>
+    </fields><fields>
+        <help>El hito padre para este hito si aplica.</help>
+        <label>Hito padre</label>
+        <name>Parent_Milestone__c</name>
+        <relationshipLabel>Hitos</relationshipLabel>
+    </fields><fields>
+        <label>Porcentaje completado</label>
+        <name>Percent__c</name>
+    </fields><fields>
+        <help>¿Cuántos días después del lanzamiento del proyecto se hace el lanzamiento del hito?</help>
+        <label>Compensar el lanzamiento del proyecto</label>
+        <name>Project_Kickoff_Offset__c</name>
+    </fields><fields>
+        <help>Se asigna el proyecto de este hito. Si esto es un sub-hito este campo está vacío.</help>
+        <label>Proyecto</label>
+        <name>Project__c</name>
+        <relationshipLabel>Hitos</relationshipLabel>
+    </fields><fields>
+        <help>Calculado a partir de los registros de gastos en las tareas de este hito y todos los hitos hijo</help>
+        <label>Total gastos actuales</label>
+        <name>Total_Actual_Expense__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tiempo en las tareas de este hito y todos los hitos hijo</help>
+        <label>Total horas actuales</label>
+        <name>Total_Actual_Hours__c</name>
+    </fields><fields>
+        <help>¿Cuántas tareas están marcadas como bloqueadas?</help>
+        <label>Total tareas bloqueadas</label>
+        <name>Total_Blocked_Tasks__c</name>
+    </fields><fields>
+        <label>Total tareas completadas</label>
+        <name>Total_Complete_Tasks__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tareas para este hito y todos los hitos hijo</help>
+        <label>Total de gastos estimados</label>
+        <name>Total_Estimated_Expense__c</name>
+    </fields><fields>
+        <help>Calculado a partir de los registros de tareas para este hito y todos los hitos hijo</help>
+        <label>Total de horas estimadas</label>
+        <name>Total_Estimated_Hours__c</name>
+    </fields><fields>
+        <help>Calculado como el total de gastos estimados - el total de gastos actuales</help>
+        <label>Total balance de gastos</label>
+        <name>Total_Expense_Balance__c</name>
+    </fields><fields>
+        <help>Calculado como presupuesto de gastos más presupuesto de gastos de sub hitos</help>
+        <label>Total presupuesto de gastos</label>
+        <name>Total_Expense_Budget__c</name>
+    </fields><fields>
+        <help>Calculado como el total de horas estimadas - el total de horas actuales</help>
+        <label>Total balance de horas</label>
+        <name>Total_Hours_Balance__c</name>
+    </fields><fields>
+        <help>Calculado como presupuesto de horas más presupuesto de horas de sub hitos</help>
+        <label>Total presupuesto de horas</label>
+        <name>Total_Hours_Budget__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas y atrasadas relacionadas a este hito y sus hitos hijos</help>
+        <label>Total tareas atrasadas</label>
+        <name>Total_Late_Tasks__c</name>
+    </fields><fields>
+        <help>Número de tareas incompletas relacionas a este hito y sus hitos hijos</help>
+        <label>Total tareas abiertas</label>
+        <name>Total_Open_Tasks__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Hito</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Hitos</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre hito del proyecto</nameFieldLabel><layouts>
+        <layout>Project Milestone Layout</layout>
+        <sections>
+            <label>Presupuesto</label>
+            <section>Budget</section>
+        </sections>
+        <sections>
+            <label>Información de gastos (Calculado)</label>
+            <section>Expense Information (Calculated)</section>
+        </sections>
+        <sections>
+            <label>Información de horas (Calculado)</label>
+            <section>Hours Information (Calculated)</section>
+        </sections>
+        <sections>
+            <label>Vista de Gantt de las tareas del proyecto</label>
+            <section>Project Tasks Gantt View</section>
+        </sections>
+        <sections>
+            <label>Resumen estado</label>
+            <section>Status Summary</section>
+        </sections>
+        <sections>
+            <label>Resumen métricas (Calculado)</label>
+            <section>Summary Metrics (Calculated)</section>
+        </sections>
+        <sections>
+            <label>Información tareas (Calculado)</label>
+            <section>Task Information (Calculated)</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>El alias del hito no puede contener espacios</errorMessage>
+        <name>Alias_must_not_contain_spaces</name>
+    </validationRules><validationRules>
+        <errorMessage>No puede Agregar hitos a hitos padres con el estado completado.</errorMessage>
+        <name>CanNotAddSubmilestoneToParentCompleted</name>
+    </validationRules><validationRules>
+        <errorMessage>No se puede marcar un hito como completado si tiene tareas abiertas.</errorMessage>
+        <name>CannotBeCompleteWithOpenTasks</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha límite debe ser menor o igual a la fecha límite del proyecto.</errorMessage>
+        <name>Deadline_within_project_boundaries</name>
+    </validationRules><validationRules>
+        <errorMessage>La fecha de inicio debe ser menor o igual que la fecha límite</errorMessage>
+        <name>Kickoff_before_deadline</name>
+    </validationRules><validationRules>
+        <errorMessage>El lanzamiento del hito debe ser mayor o igual que el inicio del proyecto y la fecha límite del hito debe ser menor o igual que la fecha límite del proyecto</errorMessage>
+        <name>Milestone_between_Project_duration</name>
+    </validationRules><validationRules>
+        <errorMessage>Por favor seleccione un proyecto padre, un hito padre o ambos.</errorMessage>
+        <name>Milestone_must_have_parent_record</name>
+    </validationRules><webLinks>
+        <label>Mover al nuevo proyecto</label>
+        <name>Change_Project</name>
+    </webLinks><webLinks>
+        <label>Mover al nuevo proyecto</label>
+        <name>Move_to_New_Project</name>
+    </webLinks></CustomObjectTranslation>

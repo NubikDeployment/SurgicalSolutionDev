@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>Is_SDO__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Is this org an SDO?  This custom setting defaults to "True" for all SDOs.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Is this org an SDO?  This custom setting defaults to "True" for all SDOs.</inlineHelpText>
+        <label>Is SDO?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><customSettingsType>Hierarchy</customSettingsType><description>This identifies this org as an SDO.</description><enableFeeds>false</enableFeeds><label>SDO</label><visibility>Protected</visibility></CustomObject>

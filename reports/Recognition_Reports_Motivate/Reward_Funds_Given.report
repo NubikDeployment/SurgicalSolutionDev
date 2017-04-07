@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Work.com: Used Value per Reward Fund</description>
+    <format>Summary</format>
+    <name>Reward Funds Given</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Reward_Funds__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

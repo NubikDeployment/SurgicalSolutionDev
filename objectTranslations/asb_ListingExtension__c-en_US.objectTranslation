@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The app to which the listing search text belongs. --></help>
+        <label><!-- App --></label>
+        <name>asb_App__c</name>
+    </fields><fields>
+        <help><!-- The listing to which the search text belongs. --></help>
+        <label><!-- Listing --></label>
+        <name>asb_Listing__c</name>
+        <relationshipLabel><!-- ListingExtensions --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The long text that is being searched. --></help>
+        <label><!-- Search Text --></label>
+        <name>searchText__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Listing Extension</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Listing Extensions</value>
+    </caseValues><startsWith>Consonant</startsWith><recordTypes>
+        <label><!-- Description --></label>
+        <name>Description</name>
+    </recordTypes><recordTypes>
+        <label><!-- Requirements --></label>
+        <name>Requirements</name>
+    </recordTypes></CustomObjectTranslation>

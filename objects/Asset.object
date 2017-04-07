@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Asset_Combo__c</fullName>
+        <externalId>false</externalId>
+        <formula>Name&amp;"  -  DOP:  "&amp;TEXT(InstallDate)&amp;"  Ser #:  "&amp;SerialNumber</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Asset Combo</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>DB_Days__c</fullName>
+        <defaultValue>300</defaultValue>
+        <description>This is used for the "Perfect Data" SE tool</description>
+        <externalId>false</externalId>
+        <label>DB Days</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Entitelemt_Indicator__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( "/servlet/servlet.FileDownload?file=" &amp;CASE( Entitlement_Status__c, 
+"Expired", "01541000001Qwud", 
+"Active", "01541000001Qwub", 
+"30 Day Warning", "01541000001Qwuc",
+"01541000001Qwub"),"Active Contract?",22,22)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Indicator</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Entitlement_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Warranty Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>30 Day Warning</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This is used to consistently import data to a version of the SDO and translate data into other languages.</description>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><fields>
+        <fullName>Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(  Product2.purl__c   , "No Image", 50, 85)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Image</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>InstallDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>IsCompetitorProduct</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Price</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Product2Id</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>ProductCode</fullName>
+    </fields><fields>
+        <fullName>ProductDescription</fullName>
+    </fields><fields>
+        <fullName>ProductFamily</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Product</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Service</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>PurchaseDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Quantity</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>RootAssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Scheduled_Servicing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates whether the asset should have recurring scheduled servicing take place</description>
+        <externalId>false</externalId>
+        <label>Scheduled Servicing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>SerialNumber</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><fields>
+        <fullName>Service_Frequency_Weeks__c</fullName>
+        <description>If an asset is flagged for servicing, how often should it be serviced</description>
+        <externalId>false</externalId>
+        <label>Service Frequency (Weeks)</label>
+        <picklist>
+            <picklistValues>
+                <fullName>6 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>12 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>18 Months</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Status</fullName>
+        <picklist>
+            <picklistValues>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Suggested_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Suggested Products</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Product 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Product 3</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Training Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>UsageEndDate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><enableFeeds>true</enableFeeds><recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><listViews>
+        <fullName>AllAssets</fullName>
+        <columns>ASSET.NAME</columns>
+        <columns>ASSET.SERIAL_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ASSET.PURCHASE_DATE</columns>
+        <columns>ASSET.USAGE_END_DATE</columns>
+        <columns>Entitelemt_Indicator__c</columns>
+        <columns>Entitlement_Status__c</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Assets</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>All_Consumer_Assets</fullName>
+        <columns>ASSET.NAME</columns>
+        <columns>ASSET.SERIAL_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ASSET.PURCHASE_DATE</columns>
+        <columns>ASSET.USAGE_END_DATE</columns>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Entitelemt_Indicator__c</columns>
+        <columns>Entitlement_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSET.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Asset.Consumer_Asset</value>
+        </filters>
+        <label>All Consumer Assets</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>All_Enterprise_Assets</fullName>
+        <columns>ASSET.NAME</columns>
+        <columns>ASSET.SERIAL_NUMBER</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ASSET.PURCHASE_DATE</columns>
+        <columns>ASSET.USAGE_END_DATE</columns>
+        <columns>ASSET.PARENT</columns>
+        <columns>Entitelemt_Indicator__c</columns>
+        <columns>Entitlement_Status__c</columns>
+        <columns>Scheduled_Servicing__c</columns>
+        <columns>Service_Frequency_Weeks__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ASSET.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Asset.Enterprise_Asset</value>
+        </filters>
+        <label>All Enterprise Assets</label>
+        <language>en_US</language>
+    </listViews><recordTypes>
+        <fullName>Consumer_Asset</fullName>
+        <active>true</active>
+        <description>Consumer assets generally sold in B2C scenarios</description>
+        <label>Consumer Asset</label>
+        <picklistValues>
+            <picklist>Entitlement_Status__c</picklist>
+            <values>
+                <fullName>30 Day Warning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Frequency_Weeks__c</picklist>
+            <values>
+                <fullName>12 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Suggested_Products__c</picklist>
+            <values>
+                <fullName>Product 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes><recordTypes>
+        <fullName>Enterprise_Asset</fullName>
+        <active>true</active>
+        <description>Enterprises Assets generally sold in B2B model</description>
+        <label>Enterprise Asset</label>
+        <picklistValues>
+            <picklist>Entitlement_Status__c</picklist>
+            <values>
+                <fullName>30 Day Warning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Service_Frequency_Weeks__c</picklist>
+            <values>
+                <fullName>12 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 Months</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Installed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Obsolete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Registered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Suggested_Products__c</picklist>
+            <values>
+                <fullName>Product 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product 2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technical Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Services</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes></CustomObject>

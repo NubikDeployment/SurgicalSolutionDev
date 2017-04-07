@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Approved Claim --></label>
+        <name>Approved_Claim__c</name>
+    </fields><fields>
+        <label><!-- Approved Request --></label>
+        <name>Approved_Request__c</name>
+    </fields><fields>
+        <label><!-- Approver Email --></label>
+        <name>Approver_Email__c</name>
+    </fields><fields>
+        <label><!-- Approver --></label>
+        <name>Approver__c</name>
+    </fields><fields>
+        <label><!-- Budget --></label>
+        <name>Channel_Budget__c</name>
+        <relationshipLabel><!-- Approval Audit Trail --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Entry Date --></label>
+        <name>Date__c</name>
+    </fields><fields>
+        <label><!-- Requestor --></label>
+        <name>Requestor__c</name>
+    </fields><fields>
+        <label><!-- Source Record ID --></label>
+        <name>Source_Record_ID__c</name>
+    </fields><fields>
+        <label><!-- Source Record --></label>
+        <name>Source_Record_Name_Nav__c</name>
+    </fields><fields>
+        <label><!-- Source Record Name --></label>
+        <name>Source_Record_Name__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Budget Entry</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Budget Entries</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Budget Entry Layout</layout>
+        <sections>
+            <label><!-- Key Entry Information --></label>
+            <section>Key Entry Information</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

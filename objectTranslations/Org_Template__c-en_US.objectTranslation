@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Back Background Gradient Bottom --></label>
+        <name>Back_Background_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Background Gradient Top --></label>
+        <name>Back_Background_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Body Gradient Bottom --></label>
+        <name>Back_Body_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Body Gradient Top --></label>
+        <name>Back_Body_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Button Gradient Bottom --></label>
+        <name>Back_Button_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Button Gradient Top --></label>
+        <name>Back_Button_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Button Hover Gradient Bottom --></label>
+        <name>Back_Button_H_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Button Hover Gradient Top --></label>
+        <name>Back_Button_H_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Footer Gradient Bottom --></label>
+        <name>Back_Footer_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Footer Gradient Top --></label>
+        <name>Back_Footer_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Google Chart 1 --></label>
+        <name>Back_Google_Chart_1__c</name>
+    </fields><fields>
+        <label><!-- Back Google Chart 2 --></label>
+        <name>Back_Google_Chart_2__c</name>
+    </fields><fields>
+        <label><!-- Back Google Chart 3 --></label>
+        <name>Back_Google_Chart_3__c</name>
+    </fields><fields>
+        <label><!-- Back Google Chart 4 --></label>
+        <name>Back_Google_Chart_4__c</name>
+    </fields><fields>
+        <label><!-- Back Header Bottom Gradient Bottom --></label>
+        <name>Back_Header_B_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Header Bottom Gradient Top --></label>
+        <name>Back_Header_B_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Header Mid Gradient Bottom --></label>
+        <name>Back_Header_Mid_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Header Mid Gradient Top --></label>
+        <name>Back_Header_Mid_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Header Top Gradient Bottom --></label>
+        <name>Back_Header_T_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Header Top Gradient Top --></label>
+        <name>Back_Header_T_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Navigation Menu Hover --></label>
+        <name>Back_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Back Navigation Menu --></label>
+        <name>Back_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Gradient Bottom --></label>
+        <name>Back_Page_Block_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Gradient Top --></label>
+        <name>Back_Page_Block_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Header Gradient Bottom --></label>
+        <name>Back_Page_Block_Header_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Header Gradient Top --></label>
+        <name>Back_Page_Block_Header_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Table Even --></label>
+        <name>Back_Page_Block_Table_Even__c</name>
+    </fields><fields>
+        <label><!-- Back Page Block Table Odd --></label>
+        <name>Back_Page_Block_Table_Odd__c</name>
+    </fields><fields>
+        <label><!-- Back Side Button Gradient Bottom --></label>
+        <name>Back_Side_Button_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Side Button Gradient Top --></label>
+        <name>Back_Side_Button_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Side Button Hover Gradient Bottom --></label>
+        <name>Back_Side_Button_H_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Side Button Hover Gradient Top --></label>
+        <name>Back_Side_Button_H_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Side Gradient Bottom --></label>
+        <name>Back_Side_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Side Gradient Top --></label>
+        <name>Back_Side_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Side Module Gradient Bottom --></label>
+        <name>Back_Side_Module_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Side Module Gradient Top --></label>
+        <name>Back_Side_Module_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Side Module Header Gradient Bottom --></label>
+        <name>Back_Side_Module_Header_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Side Module Header Gradient Top --></label>
+        <name>Back_Side_Module_Header_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Side --></label>
+        <name>Back_Side__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Active Gradient Bottom --></label>
+        <name>Back_Tab_A_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Active Gradient Top --></label>
+        <name>Back_Tab_A_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Gradient Bottom --></label>
+        <name>Back_Tab_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Gradient Top --></label>
+        <name>Back_Tab_G_T__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Hover Gradient Bottom --></label>
+        <name>Back_Tab_H_G_B__c</name>
+    </fields><fields>
+        <label><!-- Back Tab Hover Gradient Top --></label>
+        <name>Back_Tab_H_G_T__c</name>
+    </fields><fields>
+        <label><!-- Component Approvals --></label>
+        <name>Component_Approvals__c</name>
+    </fields><fields>
+        <label><!-- Component Articles --></label>
+        <name>Component_Articles__c</name>
+    </fields><fields>
+        <label><!-- Component Cases --></label>
+        <name>Component_Cases__c</name>
+    </fields><fields>
+        <label><!-- Component Charts --></label>
+        <name>Component_Charts__c</name>
+    </fields><fields>
+        <label><!-- Component Entitlements --></label>
+        <name>Component_Entitlements__c</name>
+    </fields><fields>
+        <label><!-- Component Ideas --></label>
+        <name>Component_Ideas__c</name>
+    </fields><fields>
+        <label><!-- Component Image --></label>
+        <name>Component_Image__c</name>
+    </fields><fields>
+        <label><!-- Component Leads --></label>
+        <name>Component_Leads__c</name>
+    </fields><fields>
+        <label><!-- Component Products --></label>
+        <name>Component_Products__c</name>
+    </fields><fields>
+        <label><!-- Component Solutions --></label>
+        <name>Component_Solutions__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Button Hover --></label>
+        <name>Font_Colour_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Button --></label>
+        <name>Font_Colour_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Main --></label>
+        <name>Font_Colour_Main__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Navigation Menu Hover --></label>
+        <name>Font_Colour_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Navigation Menu --></label>
+        <name>Font_Colour_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Page Title --></label>
+        <name>Font_Colour_Page_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Secondary Title --></label>
+        <name>Font_Colour_Secondary_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Side Button Hover --></label>
+        <name>Font_Colour_Side_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Side Button --></label>
+        <name>Font_Colour_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Side Header --></label>
+        <name>Font_Colour_Side_Header__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Small Information --></label>
+        <name>Font_Colour_Small_Information__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Tab Active --></label>
+        <name>Font_Colour_Tab_A__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Tab Hover --></label>
+        <name>Font_Colour_Tab_H__c</name>
+    </fields><fields>
+        <label><!-- Font Colour Tab --></label>
+        <name>Font_Colour_Tab__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Button Hover --></label>
+        <name>Font_Decoration_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Button --></label>
+        <name>Font_Decoration_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Main --></label>
+        <name>Font_Decoration_Main__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Navigation Menu Hover --></label>
+        <name>Font_Decoration_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Navigation Menu --></label>
+        <name>Font_Decoration_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Page Title --></label>
+        <name>Font_Decoration_Page_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Secondary Title --></label>
+        <name>Font_Decoration_Secondary_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Side Button Hover --></label>
+        <name>Font_Decoration_Side_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Side Button --></label>
+        <name>Font_Decoration_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Side Header --></label>
+        <name>Font_Decoration_Side_Header__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Small Information --></label>
+        <name>Font_Decoration_Small_Information__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Tab Active --></label>
+        <name>Font_Decoration_Tab_A__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Tab Hover --></label>
+        <name>Font_Decoration_Tab_H__c</name>
+    </fields><fields>
+        <label><!-- Font Decoration Tab --></label>
+        <name>Font_Decoration_Tab__c</name>
+    </fields><fields>
+        <label><!-- Font Size Button Hover --></label>
+        <name>Font_Size_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Size Button --></label>
+        <name>Font_Size_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Size Main --></label>
+        <name>Font_Size_Main__c</name>
+    </fields><fields>
+        <label><!-- Font Size Navigation Menu Hover --></label>
+        <name>Font_Size_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Font Size Navigation Menu --></label>
+        <name>Font_Size_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Font Size Page Title --></label>
+        <name>Font_Size_Page_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Size Secondary Title --></label>
+        <name>Font_Size_Secondary_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Size Side Button Hover --></label>
+        <name>Font_Size_Side_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Size Side Button --></label>
+        <name>Font_Size_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Size Side Header --></label>
+        <name>Font_Size_Side_Header__c</name>
+    </fields><fields>
+        <label><!-- Font Size Small Information --></label>
+        <name>Font_Size_Small_Information__c</name>
+    </fields><fields>
+        <label><!-- Font Size Tab Active --></label>
+        <name>Font_Size_Tab_A__c</name>
+    </fields><fields>
+        <label><!-- Font Size Tab Hover --></label>
+        <name>Font_Size_Tab_H__c</name>
+    </fields><fields>
+        <label><!-- Font Size Tab --></label>
+        <name>Font_Size_Tab__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Button Hover --></label>
+        <name>Font_Transform_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Button --></label>
+        <name>Font_Transform_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Main --></label>
+        <name>Font_Transform_Main__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Navigation Menu Hover --></label>
+        <name>Font_Transform_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Navigation Menu --></label>
+        <name>Font_Transform_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Page Title --></label>
+        <name>Font_Transform_Page_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Secondary Title --></label>
+        <name>Font_Transform_Secondary_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Side Button Hover --></label>
+        <name>Font_Transform_Side_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Side Button --></label>
+        <name>Font_Transform_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Side Header --></label>
+        <name>Font_Transform_Side_Header__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Small Information --></label>
+        <name>Font_Transform_Small_Information__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Tab Active --></label>
+        <name>Font_Transform_Tab_A__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Tab Hover --></label>
+        <name>Font_Transform_Tab_H__c</name>
+    </fields><fields>
+        <label><!-- Font Transform Tab --></label>
+        <name>Font_Transform_Tab__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Button Hover --></label>
+        <name>Font_Weight_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Button --></label>
+        <name>Font_Weight_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Main --></label>
+        <name>Font_Weight_Main__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Navigation Menu Hover --></label>
+        <name>Font_Weight_Navigation_Menu_H__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Navigation Menu --></label>
+        <name>Font_Weight_Navigation_Menu__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Page Title --></label>
+        <name>Font_Weight_Page_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Secondary Title --></label>
+        <name>Font_Weight_Secondary_Title__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Side Button Hover --></label>
+        <name>Font_Weight_Side_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Side Button --></label>
+        <name>Font_Weight_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Side Header --></label>
+        <name>Font_Weight_Side_Header__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Small Information --></label>
+        <name>Font_Weight_Small_Information__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Tab Active --></label>
+        <name>Font_Weight_Tab_A__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Tab Hover --></label>
+        <name>Font_Weight_Tab_H__c</name>
+    </fields><fields>
+        <label><!-- Font Weight Tab --></label>
+        <name>Font_Weight_Tab__c</name>
+    </fields><fields>
+        <label><!-- Image Background Image --></label>
+        <name>Image_Background_Image__c</name>
+    </fields><fields>
+        <label><!-- Image Background Position --></label>
+        <name>Image_Background_Position__c</name>
+    </fields><fields>
+        <label><!-- Image Background Repeat --></label>
+        <name>Image_Background_Repeat__c</name>
+    </fields><fields>
+        <label><!-- Image Background --></label>
+        <name>Image_Background__c</name>
+    </fields><fields>
+        <label><!-- Image Body --></label>
+        <name>Image_Body__c</name>
+    </fields><fields>
+        <label><!-- Image Button Hover --></label>
+        <name>Image_Button_H__c</name>
+    </fields><fields>
+        <label><!-- Image Button --></label>
+        <name>Image_Button__c</name>
+    </fields><fields>
+        <label><!-- Image Footer --></label>
+        <name>Image_Footer__c</name>
+    </fields><fields>
+        <label><!-- Image Logo --></label>
+        <name>Image_Logo__c</name>
+    </fields><fields>
+        <label><!-- Image Page Block Header --></label>
+        <name>Image_Page_Block_Header__c</name>
+    </fields><fields>
+        <label><!-- Image Slide1 --></label>
+        <name>Image_Slide1__c</name>
+    </fields><fields>
+        <label><!-- Image Slide2 --></label>
+        <name>Image_Slide2__c</name>
+    </fields><fields>
+        <label><!-- Image Slide3 --></label>
+        <name>Image_Slide3__c</name>
+    </fields><fields>
+        <label><!-- Logo --></label>
+        <name>Logo__c</name>
+    </fields><fields>
+        <label><!-- Position Footer --></label>
+        <name>Position_Footer__c</name>
+    </fields><fields>
+        <label><!-- Position Page --></label>
+        <name>Position_Page__c</name>
+    </fields><fields>
+        <label><!-- Position Sidebar --></label>
+        <name>Position_Sidebar__c</name>
+    </fields><fields>
+        <label><!-- Position Slider --></label>
+        <name>Position_Slider__c</name>
+    </fields><fields>
+        <label><!-- Position Tabs --></label>
+        <name>Position_Tabs__c</name>
+    </fields><fields>
+        <label><!-- Radius Button --></label>
+        <name>Radius_Button__c</name>
+    </fields><fields>
+        <label><!-- Radius Page Block --></label>
+        <name>Radius_Page_Block__c</name>
+    </fields><fields>
+        <label><!-- Radius Side Button --></label>
+        <name>Radius_Side_Button__c</name>
+    </fields><fields>
+        <label><!-- Radius Side Module --></label>
+        <name>Radius_Side_Module__c</name>
+    </fields><fields>
+        <label><!-- Radius Side --></label>
+        <name>Radius_Side__c</name>
+    </fields><fields>
+        <label><!-- Radius Tab --></label>
+        <name>Radius_Tab__c</name>
+    </fields><fields>
+        <label><!-- Shadow Body --></label>
+        <name>Shadow_Body__c</name>
+    </fields><fields>
+        <label><!-- Shadow Header --></label>
+        <name>Shadow_Header__c</name>
+    </fields><fields>
+        <label><!-- Shadow Page Block --></label>
+        <name>Shadow_Page_Block__c</name>
+    </fields><fields>
+        <label><!-- Shadow Side Module --></label>
+        <name>Shadow_Side_Module__c</name>
+    </fields><fields>
+        <label><!-- Shadow Side --></label>
+        <name>Shadow_Side__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Demo Template</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Demo Templates</value>
+    </caseValues><startsWith>Consonant</startsWith><webLinks>
+        <label><!-- Assign --></label>
+        <name>Assign</name>
+    </webLinks><webLinks>
+        <label><!-- Import --></label>
+        <name>Import</name>
+    </webLinks></CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<design:component label="Recent News">
+    <design:attribute name="title" label="Title" description="Title to display" />
+	<design:attribute name="numbberOfArticles" label="Articles to display" description="Number of articles to display" />
+	<design:attribute name="useInSideBar" label="Use in Sidebar?" description="Select this when rendering in sidebar of the template" />
+    <design:attribute name="ErrorMessage" label="Error Message" description="Error message when no records are found." />
+</design:component>

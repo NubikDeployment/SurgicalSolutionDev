@@ -1,0 +1,30 @@
+.THIS {
+    margin: 8px;
+}
+
+.THIS .center {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    align-self: center;
+}
+
+.THIS .disable-click{
+    pointer-events: none;
+    color: darkgray;
+}
+
+.THIS a.disable-click:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.THIS a.disable-click:focus {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.THIS a.disable-click:active {
+    text-decoration: none;
+    color: darkgray;
+}

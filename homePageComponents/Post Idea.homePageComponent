@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;div align=&quot;left&quot;&gt;&lt;a href=&quot;/ideas/editIdea.apexp&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001Qwxv&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;Post Idea&quot;&gt;&lt;/a&gt;&lt;/div&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

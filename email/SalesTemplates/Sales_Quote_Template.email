@@ -1,0 +1,25 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="p1"><span class="s1">Dear {!Quote.BillingName},&nbsp;</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">As we discussed, here's a preliminary quote for you to review. If this is on target, please tell me how you would like to proceed. If not, please let me know and I will revise it as quickly as possible to reflect your needs.</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">I can only guarantee the prices in this quote until {!Quote.ExpirationDate}, so please reply as soon as possible!</span></p><p class="p2"><span class="s1"></span><br></p><p class="p1"><span class="s1">Sincerely,&nbsp;</span></p><p class="p1"><span class="s1">{!User.Name}</span></p><p class="p1"><span class="s1">{!User.CompanyName}</span></p><p class="p1"><span class="s1">{!User.Email}</span></p><p class="p1"><span class="s1">{!User.Phone}</span></p><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class="p2"><span class="s1"></span><br></p>]]></td>
+</tr>
+</table>

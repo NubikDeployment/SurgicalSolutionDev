@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>ドキュメントタイプ</label>
+        <name>Document_Type__c</name>
+        <picklistValues>
+            <masterLabel>Audio</masterLabel>
+            <translation>オーディオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case study</masterLabel>
+            <translation>ケーススタディ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitive analysis</masterLabel>
+            <translation>競合分析</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firmware</masterLabel>
+            <translation>ファームウェア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Image</masterLabel>
+            <translation>画像</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation>法律関係</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product collateral</masterLabel>
+            <translation>製品担保</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product manual</masterLabel>
+            <translation>製品マニュアル</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public relations</masterLabel>
+            <translation>広報活動</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales presentation</masterLabel>
+            <translation>営業</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation>トレーニング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video</masterLabel>
+            <translation>動画</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White paper</masterLabel>
+            <translation>ホワイトペーパー</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>外部承認済</label>
+        <name>External_Approved__c</name>
+    </fields><fields>
+        <label>関連キャンペーン</label>
+        <name>Related_Campaign__c</name>
+        <relationshipLabel><!-- Content --></relationshipLabel>
+    </fields><fields>
+        <label>レビュー日</label>
+        <name>Review_Date__c</name>
+    </fields><recordTypes>
+        <label><!-- Marketing Document --></label>
+        <name>MarketingDocument</name>
+    </recordTypes><recordTypes>
+        <label><!-- Sales Asset --></label>
+        <name>SalesAsset</name>
+    </recordTypes><recordTypes>
+        <label><!-- Support Document --></label>
+        <name>SupportDocument</name>
+    </recordTypes></CustomObjectTranslation>

@@ -1,0 +1,145 @@
+<aura:component implements="force:appHostable" controller="accHierarchy.AccountHierarchyController">
+	<aura:attribute name="cases" type="Object[]" default="[]" />
+    <aura:attribute name="opportunities" type="Object[]" default="[]" />
+    <aura:attribute name="account" type="Object" default="null" />
+    <aura:attribute name="spinner" type="Boolean" default="true"/>
+    <aura:attribute name="canReadCaseObject" type="Boolean" default="false" />
+    <aura:attribute name="canReadOpportunityObject" type="Boolean" default="false" />
+
+	<div class="slds-popover slds-popover--panel slds-nubbin--left-top relatedRecords--panel" role="dialog">
+    	<div class="slds-popover__header">
+        	<div class="slds-media slds-media--center slds-m-bottom--small">
+          		<div class="slds-media__figure">
+            		<span class="slds-icon__container slds-icon-standard-account">
+              			<accHierarchy:Svg class="slds-icon slds-icon--large" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/standard-sprite/svg/symbols.svg#account" />
+              			<span class="slds-assistive-text">{!v.account.name}</span>
+            		</span>
+          		</div>
+          		<div class="slds-media__body slds-truncate">
+                	<a href="{!'/one/one.app#/sObject/' + v.account.id + '/view'}" class="slds-text-heading--medium">{!v.account.name}</a>
+                </div>
+        	</div>
+        	<!-- Account Fields -->
+        	<div class="slds-grid slds-wrap slds-grid--pull-padded">
+        		<aura:iteration items="{!v.account.fields}" var="acc" indexVar='i'>
+                	<div class="slds-col--padded slds-size--1-of-2 slds-p-bottom--x-small">
+                    	<dl>
+                      		<dt>
+                        		<p class="slds-text-heading--label slds-truncate">{!acc.name}</p>
+                      		</dt>
+                      		<dd>
+                          		<p class="slds-truncate">
+                                    <accHierarchy:RecordField value="{!acc.value}" name="{!acc.name}" type="{!acc.type}" link="{!acc.link}" id="{!v.account.id}" />
+                                </p>
+                      		</dd>
+                    	</dl>
+                  	</div>
+            	</aura:iteration>
+        	</div>
+      	</div>
+
+      	<!--Related List -->
+      	<div class="slds-popover__body">
+
+        	<!-- Opportunities Fields -->
+      		<aura:if isTrue="{!and(v.account.hasOpportunities,v.canReadOpportunityObject)}">
+            	<dl class="slds-popover__body-list">
+                	<dt class="slds-m-bottom--small">
+                    	<div class="slds-media slds-media--center">
+                        	<div class="slds-media__figure">
+                            	<span class="slds-icon__container slds-icon-standard-opportunity">
+                                	<accHierarchy:Svg class="slds-icon slds-icon--small" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/standard-sprite/svg/symbols.svg#opportunity" />
+                                	<span class="slds-assistive-text">Opportunities</span>
+                            	</span>
+                        	</div>
+                        	<div class="slds-media__body">
+                            	<aura:if isTrue="{!greaterthan(v.account.opportunitiesCount,3)}">
+                                	<h3 class="slds-text-heading--small">Opportunities (+3)</h3>
+                                </aura:if>    
+                                <aura:if isTrue="{!and(greaterthan(v.account.opportunitiesCount,0),lessthanorequal(v.account.opportunitiesCount,3))}">
+                                	<h3 class="slds-text-heading--small">Opportunities</h3>
+                                </aura:if>
+                                <aura:if isTrue="{!equals(v.account.opportunitiesCount,0)}">
+                                        <h3 class="slds-text-heading--small">Opportunities (0)</h3>   
+                               	</aura:if>
+                  			</div>
+                   		</div>
+                	</dt>
+                	<!-- Opportunities -->
+                    <aura:iteration items="{!v.opportunities}" var="opp" >
+                        <aura:if isTrue="{!opp.canReadRecord}">
+                            <dd class="slds-tile">
+                                <p class="slds-tile__title slds-truncate"><a href="{!'/one/one.app#/sObject/' + opp.id + '/view'}">{!opp.name}</a></p>
+                                <div class="slds-tile__detail">
+                                    <dl class="slds-dl--horizontal slds-text-body--small">
+                                        <aura:iteration items="{!opp.fields}" var="field"  indexVar="i" >
+                                            <dt class="slds-dl--horizontal__label">
+                                                <p class="slds-truncate">{!field.name}</p>
+                                            </dt>
+                                            <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                                                <p class="slds-truncate">
+                                                    <accHierarchy:RecordField value="{!field.value}" name="{!field.name}" type="{!field.type}" link="{!field.link}" id="{!v.account.id}" />
+                                                </p>
+                                            </dd>
+                                        </aura:iteration>
+                                    </dl>
+                                </div>
+                            </dd>
+                        </aura:if>
+                    </aura:iteration>
+                    <dd class="slds-m-top--small"><a href="{!'/one/one.app#/sObject/' + v.account.id + '/rlName/Opportunities/view'}" title="View all Opportunities" target="_blank">View All</a></dd>
+            	</dl>
+        	</aura:if>
+        	<!-- Cases Fields -->
+       		<aura:if isTrue="{!and(v.account.hasCases,v.canReadCaseObject)}">
+            	<dl class="slds-popover__body-list">
+              		<dt class="slds-m-bottom--small">
+                		<div class="slds-media slds-media--center">
+                  			<div class="slds-media__figure">
+                    			<span class="slds-icon__container slds-icon-standard-case">
+                      				<accHierarchy:Svg class="slds-icon slds-icon--small" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/standard-sprite/svg/symbols.svg#case" />
+                      				<span class="slds-assistive-text">Cases</span>
+                    			</span>
+                  			</div>
+                  			<div class="slds-media__body">
+                    			<aura:if isTrue="{!greaterthan(v.account.casesCount,3)}">
+                    				<h3 class="slds-text-heading--small">Cases (+3)</h3>
+                                </aura:if>
+                        		<aura:if isTrue="{!and(greaterthan(v.account.casesCount,0),lessthanorequal(v.account.casesCount,3)) }">
+                        			<h3 class="slds-text-heading--small">Cases</h3>
+                                </aura:if>
+                                <aura:if isTrue="{!equals(v.account.casesCount,0)}">
+                            		<h3 class="slds-text-heading--small">Cases (0)</h3>
+                                </aura:if>
+                  			</div>
+                		</div>
+              		</dt>
+                  	<aura:iteration items="{!v.cases}" var="case">
+                        <aura:if isTrue="{!case.canReadRecord}">
+                            <dd class="slds-tile">
+                                <p class="slds-tile__title slds-truncate">
+                                    <a href="{!'/one/one.app#/sObject/' + case.id + '/view'}">{!case.name}</a>
+                                </p>
+                                <div class="slds-tile__detail">
+                                    <dl class="slds-dl--horizontal slds-text-body--small">
+                                        <aura:iteration items="{!case.fields}" var="field"  indexVar="i" >
+                                            <dt class="slds-dl--horizontal__label">
+                                                <p class="slds-truncate">{!field.name}</p>
+                                            </dt>
+                                            <dd class="slds-dl--horizontal__detail slds-tile__meta">
+                                                <p class="slds-truncate">
+                                                    <accHierarchy:RecordField value="{!field.value}" name="{!field.name}" type="{!field.type}" link="{!field.link}" id="{!v.account.id}" />
+                                                </p>
+                                            </dd>
+                                        </aura:iteration>
+                                    </dl>
+                                </div>
+                            </dd>
+                        </aura:if>
+                    </aura:iteration>
+                  	<dd class="slds-m-top--small"><a href="{!'/one/one.app#/sObject/' + v.account.id + '/rlName/Cases/view'}" title="View all Cases" target="_blank">View All</a></dd>
+            	</dl>
+        	</aura:if>
+      	</div>
+	</div>
+</aura:component>

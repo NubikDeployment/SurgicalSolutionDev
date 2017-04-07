@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>不要在支付周期</label>
+        <name>Do_not_include_in_Pay_Cycle__c</name>
+    </fields><fields>
+        <label>员工编号</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label>营业时间</label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label>请求月份</label>
+        <name>Month_of_Request__c</name>
+    </fields><fields>
+        <label>支付周期</label>
+        <name>Pay_Cycle__c</name>
+        <relationshipLabel>要求天</relationshipLabel>
+    </fields><fields>
+        <label>要求日</label>
+        <name>Requested_Day__c</name>
+    </fields><fields>
+        <label>时间区切换请求</label>
+        <name>Time_Off_Request__c</name>
+        <relationshipLabel>要求天</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Requested Day --></value>
+    </caseValues><nameFieldLabel><!-- Request ID --></nameFieldLabel></CustomObjectTranslation>

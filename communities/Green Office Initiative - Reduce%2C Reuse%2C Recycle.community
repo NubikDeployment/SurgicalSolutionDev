@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>The world has a fixed amount of natural resources - some of which are already depleted. So as population growth greatly strains our finite resources, there are fewer resources available. If we intend to leave our children and grandchildren with the same standard of living we have enjoyed, we must preserve the foundation of that standard of living. We save for college educations, orthodontia, and weddings, but what about saving clean air, water, fuel sources and soil for future generations?
+
+Did you know...
+
+For every ton of paper that is recycled, the following is saved:
+7,000 gallons of water; 380 gallons of oil; and enough electricity to power an average house for six months.
+You can run a TV for six hours on the amount of electricity that is saved by recycling one aluminum can.
+By recycling just one glass bottle, you save enough electricity to power a 100-watt bulb for four hours.</description>
+    <showInPortal>false</showInPortal>
+</Community>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Item_Additional_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Additional Details</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Item_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Code</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Detail</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Item_Features__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Features</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Item_Image_Large__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Image Large</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Image__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Long_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Long Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Item_MSRP__c</fullName>
+        <externalId>false</externalId>
+        <label>Item MSRP</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Item_Model_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Model Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Short_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Short Description</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Item_Specifications__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Specifications</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>25</visibleLines>
+    </fields><fields>
+        <fullName>Item_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>In Review</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Published to Website</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>Catalog</label><nameField>
+        <label>Catalog Name</label>
+        <type>Text</type>
+    </nameField><pluralLabel>Catalog</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>Item_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_Code__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_Model_Number__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_MSRP__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_Status__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Item_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Item_MSRP__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Item_Status__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Item_Name__c</columns>
+        <columns>Item_Code__c</columns>
+        <columns>Item_Model_Number__c</columns>
+        <columns>Item_MSRP__c</columns>
+        <columns>Item_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Catalog Entries</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>Published</fullName>
+        <columns>NAME</columns>
+        <columns>Item_Name__c</columns>
+        <columns>Item_Code__c</columns>
+        <columns>Item_Model_Number__c</columns>
+        <columns>Item_MSRP__c</columns>
+        <columns>Item_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Item_Status__c</field>
+            <operation>equals</operation>
+            <value>Published to Website</value>
+        </filters>
+        <label>Published Catalog Entries</label>
+        <language>en_US</language>
+    </listViews></CustomObject>

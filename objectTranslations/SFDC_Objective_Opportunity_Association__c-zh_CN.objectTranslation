@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>目的</label>
+        <name>Objective__c</name>
+        <relationshipLabel>机会</relationshipLabel>
+    </fields><fields>
+        <label>机会</label>
+        <name>Opportunity__c</name>
+        <relationshipLabel>频道规划目标</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Objective - Opportunity Association --></value>
+    </caseValues><nameFieldLabel><!-- Objective - Opportunity Association --></nameFieldLabel></CustomObjectTranslation>

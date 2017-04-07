@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>预算差异</label>
+        <name>Budget_Variance__c</name>
+    </fields><fields>
+        <help>投资回报率是净增益。 （总中奖金额 - 实际成本）/实际成本</help>
+        <label>活动的ROI</label>
+        <name>Campaign_ROI__c</name>
+    </fields><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label>以前用的名字</label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <help>活动效果是由投资回报率驱动。 5块钱的迹象是超过300％。</help>
+        <label>活动效果</label>
+        <name>Effectiveness_Rating__c</name>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>主要优惠</label>
+        <name>Primary_Offer__c</name>
+        <picklistValues>
+            <masterLabel>Case Study</masterLabel>
+            <translation>案例分析</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Us Form</masterLabel>
+            <translation>联系表格</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo</masterLabel>
+            <translation>演示</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Trial</masterLabel>
+            <translation>免费试用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation>网络研讨会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitepaper</masterLabel>
+            <translation>白皮书</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>投资回报率走势</label>
+        <name>ROI_Chart__c</name>
+    </fields><fields>
+        <label>实现目标收益</label>
+        <name>Revenue_Towards_Goal__c</name>
+    </fields><fields>
+        <name>Status</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>取消</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>已完成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation>计划</translation>
+        </picklistValues>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation>直邮</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Marketing</masterLabel>
+            <translation>直销</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation>电子邮件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation>事件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Channel</masterLabel>
+            <translation>多通道</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Print Marketing</masterLabel>
+            <translation>打印市场</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>社交媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Marketing</masterLabel>
+            <translation>网络营销</translation>
+        </picklistValues>
+    </fields><layouts>
+        <layout>Campaign Layout</layout>
+        <sections>
+            <label>运动图表</label>
+            <section>Campaign Charts</section>
+        </sections>
+        <sections>
+            <label>活动结果</label>
+            <section>Campaign Results</section>
+        </sections>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Parent Campaign Layout</layout>
+        <sections>
+            <label>图表</label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label>分级规划</label>
+            <section>Hierarchy Planning</section>
+        </sections>
+        <sections>
+            <label>层次结果</label>
+            <section>Hierarchy Results</section>
+        </sections>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>儿童活动</label>
+        <name>ChildCampaign</name>
+    </recordTypes><recordTypes>
+        <label>父活动</label>
+        <name>ParentCampaign</name>
+    </recordTypes><webLinks>
+        <label><!-- Send_Text_To_Campaign_Members --></label>
+        <name>LiveText__Send_Text_To_Campaign_Members</name>
+    </webLinks><webLinks>
+        <label>今年的投资回报率</label>
+        <name>ThisyearsROI</name>
+    </webLinks><webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>ViewCampaignInfluenceReport</name>
+    </webLinks></CustomObjectTranslation>

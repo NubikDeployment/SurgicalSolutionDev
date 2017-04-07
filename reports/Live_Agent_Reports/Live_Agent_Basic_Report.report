@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LiveChatTranscript$Browser</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$EndedBy</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$BrowserLanguage</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$Platform</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$IpAddress</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$AverageResponseTimeOperator</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript$OperatorMessageCount</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LiveChatTranscript$UserAgent</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Live Agent Basic Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Live_Agent__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

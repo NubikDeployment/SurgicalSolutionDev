@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;table width=&quot;90%&quot; align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;10&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;23%&quot; align=&quot;center&quot;&gt;&lt;a href=&quot;/ideas/editIdea.apexp&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxB&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;Share&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/td&gt;&lt;td valign=&quot;center&quot; width=&quot;4%&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxF&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
+&lt;td width=&quot;23%&quot; align=&quot;center&quot;&gt;&lt;a href=&quot;/ideas/ideaList.apexp&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxC&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;Vote&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td valign=&quot;center&quot; width=&quot;4%&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxF&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
+&lt;td width=&quot;23%&quot; align=&quot;center&quot;&gt;&lt;a href=&quot;/ideas/ideaList.apexp&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxE&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;Discuss&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td valign=&quot;center&quot; width=&quot;4%&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxF&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;&quot;&gt;&lt;/td&gt;
+&lt;td width=&quot;23%&quot; align=&quot;center&quot;&gt;&lt;a href=&quot;/a0q/o&quot;&gt;&lt;img src=&quot;/servlet/servlet.ImageServer?id=01541000001QwxD&amp;amp;oid=00D41000001MYfZ&quot; alt=&quot;See&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Post your Idea—from ways we could
+improve to things we’ve never even thought of.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;Check out other people’s ideas and vote on the ones you like
+best. The community decides.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;Talk about ideas with other customers and employees and
+help make them even better.&lt;/td&gt;
+&lt;td&gt; &lt;/td&gt;
+&lt;td&gt;See which of your ideas were the most
+popular and watch as we take action.&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=&quot;7&quot;&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

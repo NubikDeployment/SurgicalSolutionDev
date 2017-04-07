@@ -1,0 +1,25 @@
+<aura:component >
+    <aura:attribute name="account" type="Object" />
+    <aura:attribute name="isOpen" type="Boolean" default="false" />
+    <aura:attribute name="timer" type="Object" />
+    <aura:attribute name="indexId" type="Integer" default="0" />
+	<aura:handler event="accHierarchy:WindowOnClickEvent" action="{!c.windowOnClick}"/>
+    <aura:registerEvent name="editAccount" type="accHierarchy:EditAccountEvent"/>
+	<div id="{!'action-' + v.indexId}">
+        <div class="{!v.isOpen ? 'slds-dropdown-trigger slds-dropdown-trigger--click slds-is-open' : 'slds-dropdown-trigger slds-dropdown-trigger--click initial'}" aria-expanded="true" >
+            <button class="{!v.isOpen ? 'slds-button slds-button--icon-border-filled slds-button--icon-x-small' :'initial slds-button slds-button--icon-border-filled slds-button--icon-x-small'}" aria-haspopup="true" onclick="{!c.displayDropdown}">
+                <accHierarchy:Svg class="slds-button__icon slds-button__icon--hint slds-button__icon--small" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/utility-sprite/svg/symbols.svg#down" />
+                <span class="slds-assistive-text">Show More</span>
+            </button>
+            <div class="slds-dropdown slds-dropdown--right slds-dropdown--actions">
+                <ul class="slds-dropdown__list" >
+                    <li id="menu-edit" href="#" class="slds-dropdown__item">
+                        <a aura:id="editAccountBtn" class="editlink" href="javascript:void(0)" role="menuitem" onclick="{!c.editAccount}" disabled="">
+                            <p class="slds-truncate">Edit Account</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</aura:component>

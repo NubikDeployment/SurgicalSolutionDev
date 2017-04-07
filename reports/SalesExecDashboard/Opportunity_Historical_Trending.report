@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Account</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Amount</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Opportunity__hd$Amount__hst</field>
+        <reverseColors>false</reverseColors>
+        <showChanges>false</showChanges>
+    </columns>
+    <columns>
+        <field>Opportunity$CloseDate</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Opportunity__hd$CloseDate__hst</field>
+        <reverseColors>false</reverseColors>
+        <showChanges>false</showChanges>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity.Opportunity__hd$StageName__hst</field>
+        <reverseColors>false</reverseColors>
+        <showChanges>false</showChanges>
+    </columns>
+    <description>All Opportunities</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <operator>notEqual</operator>
+            <value>Closed Won,Closed Lost</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Opportunity__hd$Amount__hst</column>
+            <columnToColumn>true</columnToColumn>
+            <operator>notEqual</operator>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <historicalSelector>
+        <snapshot>N_DAYS_AGO:1</snapshot>
+    </historicalSelector>
+    <name>Opportunity Historical Trending</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Historical_Trending__c</reportType>
+    <roleHierarchyFilter>VPSales</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

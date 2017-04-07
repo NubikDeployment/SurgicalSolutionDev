@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>选中该领域从能这个技能添加到他们的个人资料自己阻止用户。</help>
+        <label>限制技能</label>
+        <name>Restricted_skill__c</name>
+    </fields></CustomObjectTranslation>

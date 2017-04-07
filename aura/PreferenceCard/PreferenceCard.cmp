@@ -1,0 +1,256 @@
+<aura:component controller="PreferenceCard">
+    <!-- Attributes -->
+    <aura:attribute name="oppId" type="String" />
+    <aura:attribute name="opp" type="Opportunity" />
+    <aura:attribute name="pcId" type="String" />
+    <aura:attribute name="surgeon" type="String" />
+    <aura:attribute name="tech" type="String" />
+    <aura:attribute name="patientPosition" type="String" />
+    <aura:attribute name="arms" type="String" />
+    <aura:attribute name="legs" type="String" />
+    <aura:attribute name="roomSetup" type="String" />
+    <aura:attribute name="normal" type="String" />
+    <aura:attribute name="stirrups" type="String" />
+    <aura:attribute name="allInventories" type="List" />
+    <aura:attribute name="showSelect" type="Boolean" />
+
+    <!-- Handlers -->
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <ltng:require styles="/resource/SLDS/assets/styles/salesforce-lightning-design-system-ltng.css" />
+
+    <div class="surgical">
+        <!-- Top Card Header -->
+        <div class="slds-page-header" role="banner">
+            <div class="slds-grid">
+                <div class="slds-col slds-has-flexi-truncate">
+                    <div class="slds-media slds-no-space slds-grow">
+                        <div class="slds-media__figure">
+                            <c:svgIcon class="slds-icon update slds-icon-standard-user" svgpath="/resource/SLDS/assets/icons/standard-sprite/svg/symbols.svg#user" />
+                        </div>
+                        <div class="slds-media__body">
+                            <p class="slds-text-title--caps slds-line-height--reset">Surgical Solution</p>
+                            <h1 class="slds-page-header__title slds-m-right--small slds-align-middle slds-truncate" title="this should match the Record Title">Preference Card</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-col slds-no-flex slds-grid slds-align-top">
+                    <div class="slds-button-group" role="group">
+                        <button class="slds-button slds-button--neutral" onclick="{!c.save}">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SURGEON NAME + PROCEDURE TYPE -->
+        <div class="slds-grid slds-wrap" style="margin-top:20px;">
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="surgeon-name">Surgeon name:</label>
+                    <div class="slds-form-element__control">
+                        <input id="surgeon-name" class="slds-input" type="text" value="{!v.surgeon}" />
+                    </div>
+                </div>
+            </div>
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="procedure-type">Procedure type:</label>
+                    <div class="slds-form-element__control">
+                        <div class="slds-select_container">
+                            <select id="procedure-type" class="slds-select">
+                                <option>Procedure type #1</option>
+                                <option>Procedure type #2</option>
+                                <option>Procedure type #3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="surgeon-name">In:</label>
+                    <div class="slds-form-element__control">
+                        <input id="surgeon-name" class="slds-input" type="text" placeholder="10:00" />
+                    </div>
+                </div>
+            </div>
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="surgeon-name">Out:</label>
+                    <div class="slds-form-element__control">
+                        <input id="surgeon-name" class="slds-input" type="text" placeholder="11:15" />
+                    </div>
+                </div>
+            </div>
+            <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="surgeon-name">Tech name:</label>
+                    <div class="slds-form-element__control">
+                        <input id="surgeon-name" class="slds-input" type="text" value="{!v.tech}" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <!-- DEBUT SECTION ROOM SETUP -->
+        <div class="slds-section">
+            <h3 class="slds-section__title">
+                <button class="slds-button slds-section__title-action" onclick="{!c.openSection}">
+                    Room Set Up
+                </button>
+            </h3>
+            <div class="slds-section__content">
+                <div class="slds-grid slds-wrap" style="margin-top:20px;">
+                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                        <div class="slds-grid slds-wrap">
+                            <div class="slds-p-horizontal--small slds-size--1-of-1">
+                                <!-- Position -->
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="position">Patient Position:</label>
+                                    <div class="slds-form-element__control">
+                                        <input id="position" class="slds-input" type="text" value="{!v.patientPosition}" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-p-horizontal--small slds-size--1-of-2">
+                                <!-- ARMS -->
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="arms">Arms:</label>
+                                    <div class="slds-form-element__control">
+                                        <input id="arms" class="slds-input" type="text" value="{!v.arms}" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-p-horizontal--small slds-size--1-of-2">
+                                <!-- LEGS -->
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="legs">Legs:</label>
+                                    <div class="slds-form-element__control">
+                                        <input id="legs" class="slds-input" type="text" value="{!v.legs}" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-p-horizontal--small slds-size--1-of-2">
+                                <!-- NORMAL -->
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="normal">Normal:</label>
+                                    <div class="slds-form-element__control">
+                                        <input id="normal" class="slds-input" type="text" value="{!v.normal}" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slds-p-horizontal--small slds-size--1-of-2">
+                                <!-- STIRRUPS -->
+                                <div class="slds-form-element">
+                                    <label class="slds-form-element__label" for="stirrups">Stirrups:</label>
+                                    <div class="slds-form-element__control">
+                                        <input id="stirrups" class="slds-input" type="text" value="{!v.stirrups}" placeholder="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="room-setup">Room Setup:</label>
+                        </div>
+                        <div class="slds-form-element__control">
+                            <textarea id="room-setup" class="slds-textarea" rows="7" placeholder="">{!v.roomSetup}</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIN SECTION ROOM SETUP -->
+        <!-- DEBUT SECTION EQUIPMENT -->
+        <div class="slds-section">
+            <h3 class="slds-section__title">
+                <button class="slds-button slds-section__title-action" onclick="{!c.openSection}">
+                    Equipment
+                </button>
+            </h3>
+            <div class="slds-section__content">
+                <div class="slds-grid slds-wrap">
+                    <aura:iteration items="{!v.allInventories}" var="inventory" indexvar="key">
+                        <div class="slds-p-horizontal--small slds-size--1-of-1 slds-medium-size--1-of-2 slds-large-size--1-of-2">
+                            <!-- HEADING -->
+                            <div class="slds-text-heading--large">{!inventory.key}</div>
+                            <ul class="item-list">
+                                <aura:iteration items="{!inventory.value}" var="item">
+                                    <li>
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <div class="slds-grid slds-wrap">
+                                                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                                                        <!-- Item checkbox -->
+                                                        <span class="slds-checkbox" style="margin-top:7px;">
+                                                            <input type="checkbox" name="{!'checkbox-'+item.Id}" id="{!'checkbox-'+item.Id}" checked="" onclick="{!c.checkboxClicked}" />
+                                                            <label class="slds-checkbox__label" for="{!'checkbox-'+item.Id}">
+                                                                <span class="slds-checkbox--faux"></span>
+                                                                <span class="slds-form-element__label">{!item.Name}</span>
+                                                            </label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="slds-p-horizontal--small slds-size--1-of-1 slds-small-size--1-of-2">
+                                                        <div class="slds-grid slds-wrap controls-wrapper">
+                                                            <div class="slds-p-horizontal--small slds-size--1-of-1 controls">
+                                                                <div>
+                                                                    <!-- Item buttons + quantity -->
+                                                                    <span class="slds-text-not-selected btn" id="{!'decrease-'+item.Id}" onclick="{!c.decreaseQty}">
+                                                                        <c:svgIcon class="slds-button__icon--stateful slds-button__icon--left slds-icon-standard-user" aura:id="test1" svgpath="/resource/SLDS/assets/icons/utility-sprite/svg/symbols.svg#dash" />
+                                                                    </span>
+                                                                </div>
+                                                                <div>
+                                                                    <input id="{!'qty-'+item.Id}" name="{!'qty-'+item.Id}" class="slds-input qty" type="text" value="{!item.Quantity__c}" />
+                                                                    <!--<ui:inputnumber aura:id="{!'qty-'+item.Id}" class="{!'slds-input qty qty-'+item.Id}" value="{!item.Quantity__c}" />-->
+                                                                </div>
+                                                                <div>
+                                                                    <span class="slds-text-not-selected btn" id="{!'increase-'+item.Id}" onclick="{!c.increaseQty}">
+                                                                        <c:svgIcon class="slds-button__icon--stateful slds-button__icon--left slds-icon-standard-user" svgpath="/resource/SLDS/assets/icons/utility-sprite/svg/symbols.svg#add" />
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <aura:if isTrue="{!v.showSelect}">
+                                                        <div class="slds-p-horizontal--small slds-size--1-of-1 postop-selects">
+                                                            <div class="slds-form-element">
+                                                                <!--<label class="slds-form-element__label" for="select-01">Select Label</label>-->
+                                                                <div class="slds-form-element__control equip-select">
+                                                                    <div class="slds-select_container">
+                                                                        <select id="{!'select-'+item.Id}" class="slds-select">
+                                                                            <option>No Issue</option>
+                                                                            <option>Missing</option>
+                                                                            <option>Broken</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </aura:if>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </aura:iteration>
+                            </ul>
+                        </div>
+                    </aura:iteration>
+                </div>
+            </div>
+        </div>
+        <!-- FIN SECTION EQUIPMENT -->
+        <hr />
+        <div class="slds-grid slds-wrap" style="margin-top:20px;">
+            <div class="slds-p-horizontal--small slds-size--1-of-1">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label" for="adds">Additionnal Instructions:</label>
+                    <div class="slds-form-element__control">
+                        <textarea id="adds" class="slds-textarea" placeholder=""></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</aura:component>

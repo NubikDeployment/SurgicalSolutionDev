@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Item Additional Details --></label>
+        <name>Item_Additional_Details__c</name>
+    </fields><fields>
+        <label><!-- Item Code --></label>
+        <name>Item_Code__c</name>
+    </fields><fields>
+        <label><!-- Item Detail --></label>
+        <name>Item_Detail__c</name>
+    </fields><fields>
+        <label><!-- Item Features --></label>
+        <name>Item_Features__c</name>
+    </fields><fields>
+        <label><!-- Item Image Large --></label>
+        <name>Item_Image_Large__c</name>
+    </fields><fields>
+        <label><!-- Item Image --></label>
+        <name>Item_Image__c</name>
+    </fields><fields>
+        <label><!-- Item Long Description --></label>
+        <name>Item_Long_Description__c</name>
+    </fields><fields>
+        <label><!-- Item MSRP --></label>
+        <name>Item_MSRP__c</name>
+    </fields><fields>
+        <label><!-- Item Model Number --></label>
+        <name>Item_Model_Number__c</name>
+    </fields><fields>
+        <label><!-- Item Name --></label>
+        <name>Item_Name__c</name>
+    </fields><fields>
+        <label><!-- Item Short Description --></label>
+        <name>Item_Short_Description__c</name>
+    </fields><fields>
+        <label><!-- Item Specifications --></label>
+        <name>Item_Specifications__c</name>
+    </fields><fields>
+        <label><!-- Item Status --></label>
+        <name>Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation><!-- In Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation><!-- Published to Website --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Catalog</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Catalog</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

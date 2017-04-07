@@ -1,0 +1,3 @@
+<design:component label="My Content Libraries">
+    <design:attribute name="title" label="Component Title" description="My Libraries" />
+</design:component>

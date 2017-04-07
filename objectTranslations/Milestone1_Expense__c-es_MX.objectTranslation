@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>El valor del gasto</help>
+        <label>Importe</label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>La fecha en que el gasto fue cargado. Por defecto es hoy, si se deja en blanco</help>
+        <label>Fecha del gasto</label>
+        <name>Date_Incurred__c</name>
+    </fields><fields>
+        <help>Una descripción del gasto. Por ejemplo, porque se incurrió en el gasto.</help>
+        <label>Descripción</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>El usuario que cargó el gasto. El valor predeterminado es el usuario actual, si se deja en blanco.</help>
+        <label>Efectuado por</label>
+        <name>Incurred_By__c</name>
+        <relationshipLabel>Gastos</relationshipLabel>
+    </fields><fields>
+        <help>La tarea asociada a la cual se carga el gasto.</help>
+        <label>Tarea del proyecto</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>Gastos</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Gasto</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Gastos</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre gasto del proyecto</nameFieldLabel></CustomObjectTranslation>

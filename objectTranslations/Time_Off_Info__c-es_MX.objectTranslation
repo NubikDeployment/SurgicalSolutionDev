@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Desactivar solicitudes de vacaciones</label>
+        <name>Disable_time_off_requests__c</name>
+    </fields><fields>
+        <label>Número empleado</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label>&amp;nbsp;Nota</label>
+        <name>Note2__c</name>
+    </fields><fields>
+        <label>Nota</label>
+        <name>Note__c</name>
+    </fields><fields>
+        <label>Balance vacaciones (Días)</label>
+        <name>PTO_Balance_Days__c</name>
+    </fields><fields>
+        <label>Total vacaciones disponibles (Horas)</label>
+        <name>PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>Sistema de nómina</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel>Balance vacaciones</relationshipLabel>
+    </fields><fields>
+        <label>Solicitudes vacaciones pendientes (Hrs)</label>
+        <name>Pending_PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label>Vacaciones tomadas</label>
+        <name>Total_PTO_Accrued__c</name>
+    </fields><fields>
+        <label>Vacaciones disponibles</label>
+        <name>Total_PTO_Available__c</name>
+    </fields><fields>
+        <label>Total de horas de vacaciones tomadas</label>
+        <name>Total_PTO_Hours_Accrued_2__c</name>
+    </fields><fields>
+        <label>Vacaciones pendientes</label>
+        <name>Total_Pending_PTO_Requests__c</name>
+    </fields><fields>
+        <label>Total vacaciones disponibles (Horas)</label>
+        <name>Total_Time_Off_Available_Hours__c</name>
+    </fields><fields>
+        <label>Usuario</label>
+        <name>User__c</name>
+        <relationshipLabel>Balance vacaciones</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Balance vacaciones</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Balance vacaciones</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Número del empleado</nameFieldLabel><layouts>
+        <layout>Time-Off Balances (Admin)</layout>
+        <sections>
+            <label>Sólo Administrador -- Para ajustes manuales</label>
+            <section>Admin Only -- For Manual Adjustments</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Información del balance de vacaciones</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Time-Off Balances Layout</layout>
+        <sections>
+            <label>Mi calendario de vacaciones</label>
+            <section>My Time-Off Calendar</section>
+        </sections>
+        <sections>
+            <label>Notas</label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label>Información del balance de vacaciones</label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage>El balance de PTO pendiente no puede quedar en blanco</errorMessage>
+        <name>pending_balance_cannot_be_null</name>
+    </validationRules><webLinks>
+        <label>Ver programación acumulada vacaciones</label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks></CustomObjectTranslation>

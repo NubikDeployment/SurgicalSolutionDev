@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>announcementsKaId__c</fullName>
+        <description>Zone header Knowledge Article Version (if announcements enabled).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone header Knowledge Article Version (if announcements enabled).</inlineHelpText>
+        <label>Announcements Knowledge Article Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>announcements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable announcements in zone header.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable announcements in zone header.</inlineHelpText>
+        <label>Announcements Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>backgroundColor__c</fullName>
+        <description>Zone header background color (if no background image specified) in hex format (example #FFF).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone header background color (if no background image specified) in hex format (example #FFF).</inlineHelpText>
+        <label>Background color</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>backgroundImage__c</fullName>
+        <description>Background image to be displayed in zone header (mobile).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Background image to be displayed in zone header (mobile).</inlineHelpText>
+        <label>Background image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>dataCategory__c</fullName>
+        <description>Data category Unique name related to this zone.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data category Unique name related to this zone.</inlineHelpText>
+        <label>Data Category</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>iconImage__c</fullName>
+        <externalId>false</externalId>
+        <label>iconImage</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>publicName__c</fullName>
+        <description>Name to be displayed in mobile application.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Name to be displayed in mobile application.</inlineHelpText>
+        <label>Public name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>searchBannerLabel__c</fullName>
+        <description>Zone header search banner label.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone header search banner label.</inlineHelpText>
+        <label>Search banner label</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_id__c</fullName>
+        <description>Id of the parent (umSite custom setting).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the parent (umSite custom setting).</inlineHelpText>
+        <label>umSite Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>zoneDescription__c</fullName>
+        <externalId>false</externalId>
+        <label>zoneDescription</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>zone__c</fullName>
+        <description>Zone id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone id.</inlineHelpText>
+        <label>Zone Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>List</customSettingsType><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><label>umZone</label><visibility>Public</visibility></CustomObject>

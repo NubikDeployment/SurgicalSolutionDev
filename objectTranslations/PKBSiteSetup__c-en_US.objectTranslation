@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The amount of time (in seconds) the content distribution network (CDN) server caches the pages of your PKB site. A value of zero (0) disables caching. CDN caching is automatically enabled on sites. We recommend setting this to 300 seconds (5 minutes). --></help>
+        <label><!-- Cache Max Age --></label>
+        <name>CacheMaxAge__c</name>
+    </fields><fields>
+        <label><!-- Category 1 Description --></label>
+        <name>Category1Description__c</name>
+    </fields><fields>
+        <label><!-- Category 2 Description --></label>
+        <name>Category2Description__c</name>
+    </fields><fields>
+        <label><!-- Category 3 Description --></label>
+        <name>Category3Description__c</name>
+    </fields><fields>
+        <label><!-- Category 4 Description --></label>
+        <name>Category4Description__c</name>
+    </fields><fields>
+        <help><!-- The description of the third category in the home page. --></help>
+        <label><!-- Category 5 Description --></label>
+        <name>Category5Description__c</name>
+    </fields><fields>
+        <label><!-- Category 6 Description --></label>
+        <name>Category6Description__c</name>
+    </fields><fields>
+        <help><!-- The name of the category group. the Root Category must be a category of this group. --></help>
+        <label><!-- Category Group --></label>
+        <name>CategoryGroupName__c</name>
+    </fields><fields>
+        <help><!-- Copy and Paste the Customer Portal login URL.  It should look like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7 --></help>
+        <label><!-- Customer Portal Login URL --></label>
+        <name>Customer_Portal_Login_Link__c</name>
+    </fields><fields>
+        <label><!-- Customer Portal Login --></label>
+        <name>Customer_Portal_Login__c</name>
+    </fields><fields>
+        <label><!-- Customer Portal Sign Up --></label>
+        <name>Customer_Portal_Sign_Up__c</name>
+    </fields><fields>
+        <help><!-- The description of the advertising in the home page. --></help>
+        <label><!-- Home Advertising Text --></label>
+        <name>HomeAdText__c</name>
+    </fields><fields>
+        <help><!-- The title of the advertising in the home page. --></help>
+        <label><!-- Home Advertising Title --></label>
+        <name>HomeAdTitle__c</name>
+    </fields><fields>
+        <label><!-- Knowledge Categories --></label>
+        <name>Knowledge_Categories__c</name>
+    </fields><fields>
+        <label><!-- Knowledge Search --></label>
+        <name>Knowledge_Search__c</name>
+    </fields><fields>
+        <label><!-- Most Popular Articles --></label>
+        <name>Most_Popular_Articles__c</name>
+    </fields><fields>
+        <label><!-- Associated PKB Site Name --></label>
+        <name>PKBSiteName__c</name>
+    </fields><fields>
+        <help><!-- Copy and Paste the Customer Portal login URL. It should look like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7 --></help>
+        <label><!-- Partner Portal Login URL --></label>
+        <name>Partner_Portal_Login_URL__c</name>
+    </fields><fields>
+        <label><!-- Partner Portal Login --></label>
+        <name>Partner_Portal_Login__c</name>
+    </fields><fields>
+        <label><!-- Partner Portal Sign Up --></label>
+        <name>Partner_Portal_Sign_Up__c</name>
+    </fields><fields>
+        <label><!-- Portal Branding Source --></label>
+        <name>Portal_Branding_Source__c</name>
+        <picklistValues>
+            <masterLabel>Customer Portal</masterLabel>
+            <translation><!-- Customer Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Portal</masterLabel>
+            <translation><!-- Partner Portal --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Portal Branding --></label>
+        <name>Portal_Branding__c</name>
+    </fields><fields>
+        <label><!-- Root category --></label>
+        <name>RootCategoryName__c</name>
+    </fields><fields>
+        <label><!-- Site Login --></label>
+        <name>Site_Login__c</name>
+    </fields><fields>
+        <label><!-- Tabs --></label>
+        <name>Tabs__c</name>
+        <picklistValues>
+            <masterLabel>Answers</masterLabel>
+            <translation><!-- Answers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community (Ideas)</masterLabel>
+            <translation><!-- Community (Ideas) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Us</masterLabel>
+            <translation><!-- Contact Us --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customers (Tab to Site)</masterLabel>
+            <translation><!-- Customers (Tab to Site) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knowledge</masterLabel>
+            <translation><!-- Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partners (Tab to Site)</masterLabel>
+            <translation><!-- Partners (Tab to Site) --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Web-to-Lead --></label>
+        <name>W2L__c</name>
+    </fields><fields>
+        <label><!-- Web-to-Case --></label>
+        <name>Web_to_Case__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>SDO SiteSetup</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>SDO Site Setup</value>
+    </caseValues><nameFieldLabel>SDO Site Setup</nameFieldLabel><startsWith>Consonant</startsWith><layouts>
+        <layout>PKB Site Setup Layout</layout>
+        <sections>
+            <label><!-- Categories --></label>
+            <section>Categories</section>
+        </sections>
+        <sections>
+            <label><!-- General Site Information --></label>
+            <section>General Site Information</section>
+        </sections>
+        <sections>
+            <label><!-- Home Page Text and Titles --></label>
+            <section>Home Page Text and Titles</section>
+        </sections>
+        <sections>
+            <label><!-- Home advertising --></label>
+            <section>Home advertising</section>
+        </sections>
+        <sections>
+            <label><!-- Portal Login URLs --></label>
+            <section>Portal Login URLs</section>
+        </sections>
+        <sections>
+            <label><!-- Select what tabs you want on this site --></label>
+            <section>Select what tabs you want on this site</section>
+        </sections>
+        <sections>
+            <label><!-- Sidebar Components --></label>
+            <section>Sidebar Components</section>
+        </sections>
+        <sections>
+            <label><!-- What Portal do you want the Site Branded as? (insert portal ID) --></label>
+            <section>What Portal do you want the Site Branded as? (insert portal ID)</section>
+        </sections>
+        <sections>
+            <label><!-- What do you want the default category group to be for this site? --></label>
+            <section>What do you want the default category group to be for this site?</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

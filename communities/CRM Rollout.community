@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>A great way to get started with Salesforce Ideas is to use it to collect feedback on your CRM Rollout. It is incredibly easy to set up and it is included with Professional, Enterprise, or Unlimited Edition license.</description>
+    <showInPortal>false</showInPortal>
+</Community>

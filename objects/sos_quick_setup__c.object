@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>sfdc_email__c</fullName>
+        <externalId>false</externalId>
+        <label>sfdc_email</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>Hierarchy</customSettingsType><enableFeeds>false</enableFeeds><label>sos_quick_setup</label><visibility>Public</visibility></CustomObject>

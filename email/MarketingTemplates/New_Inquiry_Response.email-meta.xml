@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent automatically when a customer registers via web-to-lead form.  Used by the Web Response rule under Setup | Leads | Lead Auto-Response Rules.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>New Inquiry Response</name>
+    <style>freeForm</style>
+    <subject>Thank you for contacting {!Organization.Name}!</subject>
+    <type>html</type>
+</EmailTemplate>

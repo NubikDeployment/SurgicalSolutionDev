@@ -1,0 +1,82 @@
+<aura:component implements="force:hasRecordId,force:appHostable,flexipage:availableForRecordHome" controller="accHierarchy.AccountHierarchyController" access="global">
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="rows" type="Object[]" />
+    <aura:attribute name="errorMessage" type="String" />
+    <aura:attribute name="hasError" type="Boolean" default="false" />
+    <aura:attribute name="hierarchyResolvedMessage" type="String" default="Recent changes made to your hierarchy are still processing. Please try again in a few minutes" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <ltng:require styles="/resource/accHierarchy__SLDS100/assets/styles/salesforce-lightning-design-system-vf.min.css,/resource/accHierarchy__fontAwesome/css/font-awesome.min.css"/>
+     <div class="slds">
+         <div class="slds-card">
+             <div class="slds-card__header slds-grid">
+               <div class="slds-media slds-media--center slds-has-flexi-truncate">
+                 <div class="slds-media__figure">
+                   <accHierarchy:Svg class="slds-icon slds-icon-standard-contact slds-icon--small" xlinkHref="/resource/accHierarchy__SLDS100/assets/icons/standard-sprite/svg/symbols.svg#hierarchy" />
+                 </div>
+                 <div class="slds-media__body">
+                   <h2 class="slds-text-heading--small slds-truncate">Account Hierarchy</h2>
+                 </div>
+               </div>
+             </div>
+             <div style="{!v.hasError ? 'display:none' : 'display:auto'}">
+                 <div class="slds-card__body slds-grid slds-grid--vertical" style="margin-left: -45px;">
+                     <aura:iteration items="{!v.rows}" var="row" indexVar='i'>
+                        <div  class=" slds-hint-parent" style="{!'margin-left:calc(28px *' + row.level  + '); display:inline-flex; margin-top: -2px;'}">
+                             <div>
+                                <aura:if isTrue="{! i!=0}">
+                                     <div style="border-left: 0px solid rgb(186, 187, 187); margin-left: 12px;">
+                                        <div class="line-div"></div> <i style="{!row.id == v.recordId ? 'margin-left:3px; margin-top: 10px;' : 'color:#7E92AF; margin-left:3px; margin-top: 10px;' }" class="{! row.displayingChildren == true ? 'fa fa-chevron-down slds-m-right--small slds-m-down--medium slds-align-middle' : 'fa fa-chevron-right slds-m-right--small slds-m-down--medium slds-align-middle'}"></i>
+                                    </div>
+                                </aura:if>
+                                <aura:if isTrue="{! i==0}">
+                                     <div style="margin-left: 30px; margin-top: 10px;">
+                                        <i style="{!row.id == v.recordId ? 'margin-left:4px;' : 'color:#7E92AF; margin-left:4px;'}" class="{! row.displayingChildren == true ? 'fa fa-chevron-down slds-m-right--small slds-m-down--medium slds-align-middle' : 'fa fa-chevron-right slds-m-right--small slds-m-down--medium slds-align-middle'}"></i>
+                                    </div>
+                                </aura:if>
+    
+                                <div style="{!row.displayingChildren == false ? 'line-height: normal; margin-top: -6px;' : 'line-height: normal;'}">
+                                    <aura:if isTrue="{!row.lastRow != true}">
+                                        <div style="{!row.displayingChildren == false ? 'width:100%; border-left: 2px solid rgb(186, 187, 187); display: block; height: 28px; margin-right:calc(28px ' +'+ 12px ); margin-left: 12px;' : 'width:100%; border-right: 2px solid rgb(186, 187, 187); display:inline; margin-left:calc(28px '+ ' + 12px); ' }">
+                                        </div>
+                                    </aura:if>
+                                </div>
+                             </div>
+                             <div style="{! i!= 0 ? 'margin-top:5px;width:calc(100% - 70px)': 'margin-top: 10px; width:calc(100% - 70px)'}">
+                                 <div style="padding-top:0px;">
+                                     <ul class="slds-tile__detail slds-list--horizontal" style="{! i!=0 ? '' : ''}">
+                                        <li class='slds-truncate slds-list__item'>
+    
+                                         </li>
+                                        <li class="slds-truncate slds-list__item">
+                                             <aura:if isTrue="{!row.id == v.recordId}">
+                                                 <i class="fa fa-star" style="color:rgb(7, 120, 216);margin-right:5px;"></i>
+                                             </aura:if>
+                                            <!--<a class="slds-truncate" href="{!'/one/one.app#/sObject/' + row.id + '/view'}"> -->
+                                             <span><accHierarchy:GridCell value="{!row.name}" id="{!row.id}" type="Preview" accessControl="{!row.accessControl}"></accHierarchy:GridCell></span>
+                                            <!--</a> -->
+                                        </li>
+                                     </ul>
+                                 </div>
+                                 <div>
+                                    <ul class="{! i != 0 ? 'slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small border-down' :  'slds-tile__detail slds-list--horizontal slds-has-dividers slds-text-body--small border-down'}" style="{!row.displayingChildren == true ? '' : ''}">
+                                        <aura:iteration items="{!row.cells}" var="cell" indexVar='i'>
+                                                <li class="slds-truncate slds-list__item">
+                                                    <span>{!cell.name}: </span>
+                                                    <accHierarchy:GridCell value="{!cell}" id="{!v.recordId}" accessControl="{!row.accessControl}"></accHierarchy:GridCell>
+                                                </li>                                    
+                                        </aura:iteration>
+                                    </ul>
+                                 </div>
+                             </div>
+                        </div>
+                    </aura:iteration>
+                 </div>
+                <div class="slds-card__footer"><a aura:id="viewAll" href="javascript:void(0);" onclick="{!c.viewAll}">View All</a></div>
+            </div>
+            <div style="{!v.hasError ? 'display:auto' : 'display:none'}">
+                <p class="slds-m-around--medium">{!v.errorMessage}</p>
+            </div>
+    	</div>
+	</div>
+</aura:component>

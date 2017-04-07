@@ -1,0 +1,18 @@
+<img src="{!Contact.URLsrc__c}/servlet/servlet.ImageServer?id=01541000001Qwv3&oid=00D41000001MYfZ"><hr width="100%">
+
+Dear {!Contact.Name},
+<br><br>
+Thanks for your patience while we work through your issue. There are a few key pieces of information that I will need in order to make progress on your case:
+<br><br>
+<font color="red">AGENT: ENTER REQUIRED INFORMATION HERE.</font>
+<br><br>
+Can you provide this information at your earliest convenience?  We are eager to get back to work to resolve your issue as soon as possible!
+<br><br>
+If you have any other questions, please don't hesitate to reply to this email or visit the {!Organization.Name} Community.  
+<br><br>
+Thanks again! 
+<br>
+{!User.FirstName}
+<br>
+{!Organization.Name} Customer Support
+<br><br><br>

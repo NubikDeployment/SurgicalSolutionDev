@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Uses Product_Image_URL__c to reference the image stored in the Documents Tab. THUMBNAIL Version used for Product Related Lists --></help>
+        <label>Bild</label>
+        <name>Image__c</name>
+    </fields><fields>
+        <help>ID des Opportunity-Produkts, das aus dem Paket dieses Produkts stammt.</help>
+        <label><!-- Parent ID --></label>
+        <name>SBQQ__ParentID__c</name>
+    </fields><fields>
+        <label><!-- Quote Line --></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel><!-- Opportunity Product --></relationshipLabel>
+    </fields></CustomObjectTranslation>

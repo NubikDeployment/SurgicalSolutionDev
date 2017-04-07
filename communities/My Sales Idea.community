@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>The Corporate Sales organization is responsible for selling and educating prospects and existing customers on our products and services.  Please let us know any ideas you have!</description>
+    <showInPortal>false</showInPortal>
+</Community>

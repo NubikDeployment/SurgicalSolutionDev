@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields><fields>
+        <label>Kundenvorgangsnummer</label>
+        <name>Case_Number__c</name>
+    </fields><fields>
+        <label>Kundenvorgangs Eigentümer</label>
+        <name>Case_Owner__c</name>
+    </fields><fields>
+        <label>Kundenvorgangs Priorität</label>
+        <name>Case_Priority__c</name>
+    </fields><fields>
+        <label>Kundenvorgangs Status</label>
+        <name>Case_Status__c</name>
+    </fields><fields>
+        <label>Kundenvorgangs Beschreibung</label>
+        <name>Case_Subject__c</name>
+    </fields><fields>
+        <label>Erstelldatum</label>
+        <name>Run_Date__c</name>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><gender><!-- Neuter --></gender><nameFieldLabel><!-- CPS # --></nameFieldLabel></CustomObjectTranslation>

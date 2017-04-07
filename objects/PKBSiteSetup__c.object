@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>CacheMaxAge__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount of time (in seconds) the content distribution network (CDN) server caches the pages of your PKB site. A value of zero (0) disables caching. CDN caching is automatically enabled on sites. We recommend setting this to 300 seconds (5 minutes).</inlineHelpText>
+        <label>Cache Max Age</label>
+        <precision>10</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Category1Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 1 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Category2Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 2 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Category3Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 3 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Category4Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 4 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Category5Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The description of the third category in the home page.</inlineHelpText>
+        <label>Category 5 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>Category6Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Category 6 Description</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>CategoryGroupName__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The name of the category group. the Root Category must be a category of this group.</inlineHelpText>
+        <label>Category Group</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Customer_Portal_Login_Link__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Copy and Paste the Customer Portal login URL.  It should look like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7</inlineHelpText>
+        <label>Customer Portal Login URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Customer_Portal_Login__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer Portal Login</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Customer_Portal_Sign_Up__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Customer Portal Sign Up</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>HomeAdText__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The description of the advertising in the home page.</inlineHelpText>
+        <label>Home Advertising Text</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields><fields>
+        <fullName>HomeAdTitle__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The title of the advertising in the home page.</inlineHelpText>
+        <label>Home Advertising Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Knowledge_Categories__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Knowledge Categories</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Knowledge_Search__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Knowledge Search</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Most_Popular_Articles__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Most Popular Articles</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>PKBSiteName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Associated PKB Site Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><fields>
+        <fullName>Partner_Portal_Login_URL__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Copy and Paste the Customer Portal login URL. It should look like:
+https://na1.salesforce.com/secur/login_portal.jsp?orgId=00D30000000in6j&amp;portalId=06030000000SrY7</inlineHelpText>
+        <label>Partner Portal Login URL</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Partner_Portal_Login__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Partner Portal Login</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Partner_Portal_Sign_Up__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Partner Portal Sign Up</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Portal_Branding_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Portal Branding Source</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Customer Portal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partner Portal</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Portal_Branding__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(
+ ISPICKVAL(Portal_Branding_Source__c ,"Customer Portal") , TRIM(RIGHT( Customer_Portal_Login_Link__c , 15)) ,
+   if(
+    ISPICKVAL(Portal_Branding_Source__c ,"Partner Portal") , TRIM(RIGHT(  Partner_Portal_Login_URL__c  , 15)) , "none"))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Portal Branding</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>RootCategoryName__c</fullName>
+        <externalId>false</externalId>
+        <label>Root category</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Site_Login__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Site Login</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Tabs__c</fullName>
+        <externalId>false</externalId>
+        <label>Tabs</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Home</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Customers (Tab to Site)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Partners (Tab to Site)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Knowledge</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Community (Ideas)</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Contact Us</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Answers</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <visibleLines>6</visibleLines>
+    </fields><fields>
+        <fullName>W2L__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Web-to-Lead</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Web_to_Case__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Web-to-Case</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>SDO SiteSetup</label><nameField>
+        <label>PKB Site Setup Name</label>
+        <type>Text</type>
+    </nameField><pluralLabel>SDO Site Setup</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>CategoryGroupName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>RootCategoryName__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Tabs__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HomeAdTitle__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>HomeAdText__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>CategoryGroupName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RootCategoryName__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Tabs__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HomeAdTitle__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>HomeAdText__c</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CategoryGroupName__c</columns>
+        <columns>RootCategoryName__c</columns>
+        <columns>Tabs__c</columns>
+        <columns>HomeAdTitle__c</columns>
+        <columns>HomeAdText__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

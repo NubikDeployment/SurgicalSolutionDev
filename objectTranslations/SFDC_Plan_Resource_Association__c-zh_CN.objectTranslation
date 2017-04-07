@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>渠道计划</label>
+        <name>Channel_Account_Plan__c</name>
+        <relationshipLabel>渠道团队</relationshipLabel>
+    </fields><fields>
+        <label>资</label>
+        <name>Resource__c</name>
+        <relationshipLabel>球队</relationshipLabel>
+    </fields><fields>
+        <label>角色</label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>买方</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Manager</masterLabel>
+            <translation>渠道经理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Sales Rep</masterLabel>
+            <translation>渠道销售代表</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restocking</masterLabel>
+            <translation>放养</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>销售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipments</masterLabel>
+            <translation>发货</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer</masterLabel>
+            <translation>培训者</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Channel Team --></value>
+    </caseValues><nameFieldLabel><!-- Channel Team Member --></nameFieldLabel></CustomObjectTranslation>

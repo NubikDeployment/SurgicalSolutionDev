@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Kundenzufriedenheitsindex (CSAT)</label>
+        <name>CSAT__c</name>
+    </fields><fields>
+        <label>Kundenvorgang</label>
+        <name>Case__c</name>
+        <relationshipLabel>Kundenbefragungen</relationshipLabel>
+    </fields><fields>
+        <label>Kontakt</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Kundenbefragungen</relationshipLabel>
+    </fields><fields>
+        <label>Aufwand</label>
+        <name>Effort__c</name>
+    </fields><fields>
+        <label><!-- NPS --></label>
+        <name>NPS__c</name>
+    </fields><fields>
+        <help>Die Firma hat es leicht für mich gemacht?</help>
+        <label>Aufwands-Erfahrung</label>
+        <name>Question_1__c</name>
+        <picklistValues>
+            <masterLabel>1 - Strongly Disagree</masterLabel>
+            <translation>1 - Stark widersprechen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Disagree</masterLabel>
+            <translation>2 - Widersprechen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Somewhat Disagree</masterLabel>
+            <translation>3 - Wenig widersprechen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Neither Agree Nor Disagree</masterLabel>
+            <translation>4 - Weder noch</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Somewhat Agree</masterLabel>
+            <translation>5 - Stimme wenig zu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - Agree</masterLabel>
+            <translation>6 - Stimme zu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - Strongly Agree</masterLabel>
+            <translation>7 - Stimme stark zu</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Wie würden Sie die Zufriedenheit insgesamt bewerten?</help>
+        <label>Kundenzufriedenheitswert (CSAT)</label>
+        <name>Question_2__c</name>
+        <picklistValues>
+            <masterLabel>1 - Very Dissatisfied</masterLabel>
+            <translation>1 - Sehr unzufrieden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Not Satisfied</masterLabel>
+            <translation>2 - Unzufrieden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Neutral</masterLabel>
+            <translation>3 - Neutral</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Satisfied</masterLabel>
+            <translation>4 - Zufrieden</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Very Satisfied</masterLabel>
+            <translation>5 - Sehr zufrieden</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Wie wahrscheinlich ist es, dass Sie uns weiterempfehlen?</help>
+        <label>NPS-Wert</label>
+        <name>Question_3__c</name>
+        <picklistValues>
+            <masterLabel>0 - Not at all likely</masterLabel>
+            <translation>00 - Sehr unwahrscheinlich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation>01</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - Extremely Likely</masterLabel>
+            <translation>10 - Sehr wahrscheinlich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation>02</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation>03</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation>04</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation>05</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation>06</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation>07</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation>08</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation>09</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>Wurde ihr Anliegen komplett gelöst?</help>
+        <label>Problem behoben?</label>
+        <name>Question_4__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Nein</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Ja</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kundenbefragung</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kundenbefragungen</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Kundenbefragung</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Kundenbefragungen</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Kundenbefragung</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Kundenbefragungen</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Kundenbefragung</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Kundenbefragungen</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Kundenbefragung</nameFieldLabel></CustomObjectTranslation>

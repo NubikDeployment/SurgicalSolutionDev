@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The date on which the activities for this listing occurred. --></help>
+        <label>Fecha actividad</label>
+        <name>ActivityDate__c</name>
+    </fields><fields>
+        <help><!-- The number of installs on this listing on this date. Used to calculate 30-day popularity for the listing. --></help>
+        <label>Conteo instalación</label>
+        <name>InstallCount__c</name>
+    </fields><fields>
+        <help><!-- The number of page views for the listing on this date. Used to calculate 30-day popularity for the listing. --></help>
+        <label>Vistas de páginas</label>
+        <name>PageViews__c</name>
+    </fields><fields>
+        <help><!-- The listing with which the popularity is associated. --></help>
+        <label>Listado</label>
+        <name>asb_Listing__c</name>
+        <relationshipLabel><!-- Listing Popularity --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Listing Popularity --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- Listing Popularity --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- ListingPopularity Number --></nameFieldLabel></CustomObjectTranslation>

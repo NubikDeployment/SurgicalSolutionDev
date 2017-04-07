@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Disable time-off requests --></label>
+        <name>Disable_time_off_requests__c</name>
+    </fields><fields>
+        <label><!-- Employee Number --></label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <label><!-- &amp;nbsp;Note --></label>
+        <name>Note2__c</name>
+    </fields><fields>
+        <label><!-- Note --></label>
+        <name>Note__c</name>
+    </fields><fields>
+        <label><!-- PTO Balance (Days) --></label>
+        <name>PTO_Balance_Days__c</name>
+    </fields><fields>
+        <label><!-- Total PTO Available (Hours) --></label>
+        <name>PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label><!-- Payroll System --></label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel><!-- Time-Off Balances --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Pending PTO Requests (Hours) --></label>
+        <name>Pending_PTO_Balance_Hours__c</name>
+    </fields><fields>
+        <label><!-- PTO Accrued --></label>
+        <name>Total_PTO_Accrued__c</name>
+    </fields><fields>
+        <label><!-- PTO Available --></label>
+        <name>Total_PTO_Available__c</name>
+    </fields><fields>
+        <label><!-- Total PTO Hours Accrued --></label>
+        <name>Total_PTO_Hours_Accrued_2__c</name>
+    </fields><fields>
+        <label><!-- PTO Pending --></label>
+        <name>Total_Pending_PTO_Requests__c</name>
+    </fields><fields>
+        <label><!-- Total Time-Off Available (Hours) --></label>
+        <name>Total_Time_Off_Available_Hours__c</name>
+    </fields><fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Time-Off Balances --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Time-Off Balances</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Time-Off Balances</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Time-Off Balances (Admin)</layout>
+        <sections>
+            <label><!-- Admin Only - -  For Manual Adjustments --></label>
+            <section>Admin Only -- For Manual Adjustments</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Balance Information --></label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Time-Off Balances Layout</layout>
+        <sections>
+            <label><!-- My Time-Off Calendar --></label>
+            <section>My Time-Off Calendar</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Time-Off Balance Information --></label>
+            <section>Time-Off Balance Information</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- Pending PTO Balance cannot be blank --></errorMessage>
+        <name>pending_balance_cannot_be_null</name>
+    </validationRules><webLinks>
+        <label><!-- View_Accrual_Schedule --></label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks></CustomObjectTranslation>

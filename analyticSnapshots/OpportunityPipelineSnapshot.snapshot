@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <mappings>
+        <sourceField>AMOUNT</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Amount__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Run_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>FULL_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Opportunity_Owner__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>STAGE_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Stage__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>CLOSE_DATE</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Close_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ACCOUNT_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Account__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>OPPORTUNITY_NAME</sourceField>
+        <sourceType>tabular</sourceType>
+        <targetField>Opportunity_Pipeline_Snapshot__c.Opportunity_Name__c</targetField>
+    </mappings>
+    <name>Opportunity Pipeline Snapshot</name>
+    <runningUser>rnarayan@surgicalsolutions.demo</runningUser>
+    <sourceReport>Trending_Reports/OpportunityAnalyticSnapshot</sourceReport>
+    <targetObject>Opportunity_Pipeline_Snapshot__c</targetObject>
+</AnalyticSnapshot>

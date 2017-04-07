@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Companies that collaboratively create joint business plans to align targets, expectations, geographic coverage, employee initiatives, and demand generation activities have longer lasting and more profitable relationships.  Enabling a medium for cross channel planning helps companies identify each other’s strengths and weaknesses to proactively take action.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom15: People</motif>
+</CustomTab>

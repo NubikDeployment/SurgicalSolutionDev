@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>DuplicateRecordSet.DuplicateRecordItems$Name</field>
+    </columns>
+    <columns>
+        <field>DuplicateRecordSet.DuplicateRecordItems$Id</field>
+    </columns>
+    <columns>
+        <field>DuplicateRecordSet$DuplicateRule.MasterLabel</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>DuplicateRecordSet$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>All Duplicates</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>All_Duplicates__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>DuplicateRecordSet$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

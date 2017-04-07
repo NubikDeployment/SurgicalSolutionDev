@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>如果项目团队成员不存在在Salesforce的用户，你可以将它们添加为联系人。</help>
+        <label>联系</label>
+        <name>Contact__c</name>
+        <relationshipLabel>创意团队</relationshipLabel>
+    </fields><fields>
+        <label>项目</label>
+        <name>Project__c</name>
+        <relationshipLabel>创意团队</relationshipLabel>
+    </fields><fields>
+        <help>用这种感觉来跟踪参与项目团队的个人。</help>
+        <label>用户</label>
+        <name>User__c</name>
+        <relationshipLabel>创意团队</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Idea Team --></value>
+    </caseValues><nameFieldLabel><!-- Role --></nameFieldLabel></CustomObjectTranslation>

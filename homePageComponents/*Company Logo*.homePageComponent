@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;img align=&quot;left&quot; src=&quot;/servlet/servlet.FileDownload?file=Images_Logos_Buttons/CompanyLogo.png&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;background-color: #fff;&quot;&gt;&lt;/img&gt;</body>
+    <pageComponentType>imageOrNote</pageComponentType>
+</HomePageComponent>

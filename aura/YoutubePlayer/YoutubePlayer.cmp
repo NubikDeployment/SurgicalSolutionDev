@@ -1,0 +1,57 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,forceCommunity:availableForAllPageTypes">
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <ltng:require scripts="/resource/youtube_resource/youtubelogic.js, /resource/youtube_resource/utility.js" afterScriptsLoaded="{!c.afterScriptsLoaded}" />
+    <aura:attribute name="id"
+								type="String"
+                    			default=""/>
+    
+    <aura:attribute name="youtube_id"
+								type="String"
+                    			default="FwKpaBMTvJM"/>
+    
+    <aura:attribute name="autoplay"
+								type="Boolean"
+                    			default="1"/>
+    
+    <aura:attribute name="loop"
+								type="Boolean"
+                    			default="1"/>
+    
+    <aura:attribute name="controls"
+								type="Boolean"
+                    			default="0"/>
+    
+    <aura:attribute name="fullscreen"
+								type="Boolean"
+                    			default="0"/>
+    <aura:attribute name="fullscreen_class"
+								type="String"
+                    			default=""/>
+    
+    <aura:attribute name="width"
+								type="String"
+                    			default="100%"/>
+    
+    <aura:attribute name="height"
+								type="String"
+                    			default="inherit"/>
+    
+    <aura:attribute name="effect"
+								type="String"
+                    			default="default"/>
+    
+    <aura:attribute name="effect_class"
+								type="String"
+                    			default=""/>
+    
+   <div class="{!v.fullscreen_class}">
+       <section id="{! 'youtube-videoplayer' + v.id}" class="{! 'video_holder '+ v.effect_class}">
+            <iframe type="text/html" width="{!v.width}" height="{!v.height}"
+                src="{! 'https://www.youtube.com/embed/' + v.youtube_id + '?playlist=' + v.youtube_id + 
+                     '&amp;autoplay=' + v.autoplay + '&amp;controls=' + v.controls + '&amp;disablekb=1&amp;fs=0&amp;loop=' + v.loop + '&amp;modestbranding=1&amp;playsinline=1&amp;rel=0&amp;showinfo=0'}"
+                frameborder="0" allowfullscreen="0"
+             />
+        </section>
+    </div>
+    
+</aura:component>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Plan del canal</label>
+        <name>Channel_Account_Plan__c</name>
+        <relationshipLabel>Equipo del canal</relationshipLabel>
+    </fields><fields>
+        <label>Recurso</label>
+        <name>Resource__c</name>
+        <relationshipLabel>Equipo</relationshipLabel>
+    </fields><fields>
+        <label>Función</label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Buyer</masterLabel>
+            <translation>Comprador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Manager</masterLabel>
+            <translation>Gerente de canales</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Sales Rep</masterLabel>
+            <translation>Ejecutivo de cuenta del canal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>Finanzas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restocking</masterLabel>
+            <translation>Reabastecer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>Ventas</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipments</masterLabel>
+            <translation>Envios</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer</masterLabel>
+            <translation>Entrenador</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Equipo canal</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Equipo canal</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Miembro equipo del canal</nameFieldLabel></CustomObjectTranslation>

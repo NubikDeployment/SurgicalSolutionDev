@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Date de Fin</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>Prix</label>
+        <name>Price__c</name>
+    </fields><fields>
+        <label>Image</label>
+        <name>Product_Image__c</name>
+    </fields><fields>
+        <label>Produit</label>
+        <name>Product__c</name>
+        <relationshipLabel>Offres</relationshipLabel>
+    </fields><fields>
+        <label>Image</label>
+        <name>Recommended_Product_Image__c</name>
+    </fields><fields>
+        <help><!-- When the Recommendation Parent Product is viewed in the Catalog, the product in the Product field above will be recommended. --></help>
+        <label>Parent</label>
+        <name>Recommended_Product_Parent__c</name>
+        <relationshipLabel>Produits Recommandés</relationshipLabel>
+    </fields><fields>
+        <label>Produit Recommandé</label>
+        <name>Recommended_Product__c</name>
+        <relationshipLabel>Recommandations (Produit Recommandé)</relationshipLabel>
+    </fields><fields>
+        <label>Date de Début</label>
+        <name>Start_Date__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Offre &amp; Recommandation</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Offres &amp; Recommandations</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Nom de l'Offre</nameFieldLabel><startsWith>Vowel</startsWith><layouts>
+        <layout>Recommended Products</layout>
+        <sections>
+            <label>Informations sur le Produit Recommandé</label>
+            <section>Recommended Product Information</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>Offre</label>
+        <name>Offer</name>
+    </recordTypes><recordTypes>
+        <label>Produits Recommandés</label>
+        <name>Recommended_Products</name>
+    </recordTypes></CustomObjectTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Goal</baseObject>
+    <category>wdc</category>
+    <deployed>true</deployed>
+    <description>Work.com: Goals Report Type</description>
+    <label>Goals - Summer &apos;15</label>
+    <sections>
+        <masterLabel>Goals</masterLabel>
+    </sections>
+</ReportType>

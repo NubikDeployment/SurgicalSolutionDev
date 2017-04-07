@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>deployment__c</fullName>
+        <defaultValue>"SOS Deployment"</defaultValue>
+        <externalId>false</externalId>
+        <label>deployment</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>permission_set__c</fullName>
+        <defaultValue>"SOS Permission"</defaultValue>
+        <externalId>false</externalId>
+        <label>permission_set</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>queue__c</fullName>
+        <defaultValue>"SOS Queue"</defaultValue>
+        <externalId>false</externalId>
+        <label>queue</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>routing_config__c</fullName>
+        <defaultValue>"SOS Route"</defaultValue>
+        <externalId>false</externalId>
+        <label>routing_config</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>service_presence__c</fullName>
+        <defaultValue>"SOS Online"</defaultValue>
+        <externalId>false</externalId>
+        <label>service_presence</label>
+        <length>32</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>Hierarchy</customSettingsType><description>names of objects for auto create</description><enableFeeds>false</enableFeeds><label>sos_auto_setup</label><visibility>Public</visibility></CustomObject>

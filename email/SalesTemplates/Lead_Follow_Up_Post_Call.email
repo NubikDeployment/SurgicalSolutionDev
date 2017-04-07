@@ -1,0 +1,16 @@
+<img src="{!Contact.URLsrc__c}/servlet/servlet.ImageServer?id=01541000001Qwv3&oid=00D41000001MYfZ"><hr width="100%">
+
+Dear {!Lead.FirstName}, 
+<br><br>
+Thank you for the discussion today!  It was a pleasure speaking with you. 
+<br><br>
+As I understand it, your business is facing challenges that are impacting your bottom line.  You'd like to reduce costs and losses due to inefficiencies.  As we discussed, {!Organization.Name} helps businesses like yours be successful by focusing on these critical areas.  As a result, many of our customers see a return on their investment within months, not years.   
+<br><br>
+As soon as I receive your go-ahead, we can begin putting together a quote.  I look forward to working with you and your company!  
+<br><br>
+Best Regards,
+<br>
+{!User.Name}
+<br>
+{!Organization.Name}<br>
+{!User.Phone}

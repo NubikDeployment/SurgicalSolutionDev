@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact.pi__Category_Contact_Scores__r$pi__Scoring_Category_Name__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Contact.pi__Category_Contact_Scores__r$pi__Score__c</field>
+    </columns>
+    <columns>
+        <field>Contact.pi__Category_Contact_Scores__r$LastModifiedDate</field>
+    </columns>
+    <description>Top 10 accounts with the highest payroll product category score</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact.pi__Category_Contact_Scores__r$pi__Scoring_Category_Name__c</column>
+            <operator>equals</operator>
+            <value>Payroll</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Account</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Top Payroll Accounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_with_Pardot_Category_Scores__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Contact.pi__Category_Contact_Scores__r$pi__Score__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

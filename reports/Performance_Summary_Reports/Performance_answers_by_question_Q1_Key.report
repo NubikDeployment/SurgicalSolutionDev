@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>RowCount</calculatedFormula>
+        <datatype>number</datatype>
+        <description># of subjects that recieved this rating</description>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>Subjects</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <format>Matrix</format>
+    <name>Performance answers by question-Q1-Key</name>
+    <params>
+        <name>co</name>
+        <value>0</value>
+    </params>
+    <reportType>Performance_Summary_Requests_with_Answers__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

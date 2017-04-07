@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Activity_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Activity_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Activity Type</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Advertising</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Direct Mail</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Sales Tools</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Tradeshow</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>None</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>Age_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>NOW() - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Age (Days)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Requested Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Approval_History__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK("/00O41000005BWpO?pv0=" &amp; Id , "View Approval History" )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval History</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Approved_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Approved Amount</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Claimed_Amount__c</fullName>
+        <description>Roll-up of all claims to compare to the total amount requested.</description>
+        <externalId>false</externalId>
+        <label>Claimed Amount</label>
+        <summarizedField>SFDC_MDF_Claim__c.Claimed_Amount__c</summarizedField>
+        <summaryForeignKey>SFDC_MDF_Claim__c.MDF__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields><fields>
+        <fullName>Date_Approved__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Approved</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields><fields>
+        <fullName>Desired_Outcome__c</fullName>
+        <externalId>false</externalId>
+        <label>Desired Outcome</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Market_Development_Fund__c</fullName>
+        <description>Assign the Fund Request to a Market Development Fund.</description>
+        <externalId>false</externalId>
+        <label>Market Development Fund</label>
+        <referenceTo>SFDC_Channel_Budget__c</referenceTo>
+        <relationshipLabel>Fund Requests</relationshipLabel>
+        <relationshipName>Fund_Request</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><fields>
+        <fullName>My_Company_s_Request__c</fullName>
+        <description>True when current user's Account ID matches the account of the request.</description>
+        <externalId>false</externalId>
+        <formula>account__r.Id =  $User.Account_Id_Formula__c</formula>
+        <inlineHelpText>True when current user's Account ID matches the account of the request.</inlineHelpText>
+        <label>My Company's Request</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>Partner_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Partner Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Partner_Contribution__c</fullName>
+        <description>The amount the partner is contributing to this effort. This is in addition to the amount requested of the vendor.</description>
+        <externalId>false</externalId>
+        <label>Partner Contribution</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields><fields>
+        <fullName>Percent_Approved__c</fullName>
+        <externalId>false</externalId>
+        <formula>Approved_Amount__c / Amount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>% Approved</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields><fields>
+        <fullName>Request_Details__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Request_Name__c</fullName>
+        <description>Optional field which is more descriptive than the automatically assigned request number</description>
+        <externalId>false</externalId>
+        <label>Request Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>S1__c</fullName>
+        <description>Stores the servlet location which is substituted in formula fields.</description>
+        <externalId>false</externalId>
+        <formula>"/servlet/servlet.Integration?lid="</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>s_Servlet Location</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>S2__c</fullName>
+        <externalId>false</externalId>
+        <formula>"/servlet/servlet.FileDownload?file="</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>s_Document Directory</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Status_Action__c</fullName>
+        <externalId>false</externalId>
+        <formula>case(Status__c , "",  HYPERLINK(S1__c&amp;"01N41000000ZIfF&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwux", "Submit") ), "Submitted", HYPERLINK(S1__c&amp;"01N41000000ZIfG&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuy", "Approve") )  &amp;  HYPERLINK(S1__c&amp;"01N41000000ZIfH&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuz", "Reject") ), "Approved", HYPERLINK(S1__c&amp;"01N41000000ZIfH&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwuz", "Reject") ), "Rejected", HYPERLINK(S1__c&amp;"01N41000000ZIfF&amp;eid="&amp;Id, IMAGE(S2__c&amp;"01541000001Qwux", "Submit") ), "N/A")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Action</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Approval Status</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Submitted</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields><fields>
+        <fullName>account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Partner Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Fund Requests</relationshipLabel>
+        <relationshipName>R00N4100000GiusEEAR</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Details of the request Including: partner account, marketing activity, proposed activity date, requested amount, approved amount, and percentage approved.</description><enableActivities>true</enableActivities><enableBulkApi>true</enableBulkApi><enableEnhancedLookup>true</enableEnhancedLookup><enableFeeds>true</enableFeeds><enableHistory>false</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Fund Request</label><nameField>
+        <displayFormat>FR-{00000000}</displayFormat>
+        <label>Request Number</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Fund Requests</pluralLabel><searchLayouts>
+        <customTabListAdditionalFields>Request_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Status_Action__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Amount__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Request_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Approved_Amount__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <searchResultsAdditionalFields>account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Approved_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts><sharingModel>ControlledByParent</sharingModel><listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>account__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>ApprovedRequests</fullName>
+        <columns>NAME</columns>
+        <columns>Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <label>Approved Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>ApprovedRequestsPartners</fullName>
+        <columns>NAME</columns>
+        <columns>Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </filters>
+        <filters>
+            <field>My_Company_s_Request__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Approved Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allPartnerUsers></allPartnerUsers>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>Mine</fullName>
+        <columns>NAME</columns>
+        <columns>Status__c</columns>
+        <columns>Amount__c</columns>
+        <columns>Approved_Amount__c</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Fund Requests</label>
+        <language>en_US</language>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+            <allPartnerUsers></allPartnerUsers>
+            <group>Channel_Managers</group>
+            <role>DirChannel</role>
+        </sharedTo>
+    </listViews><listViews>
+        <fullName>PendingApprovalLast30Days</fullName>
+        <columns>NAME</columns>
+        <columns>account__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:30</value>
+        </filters>
+        <label>Pending Approval - Last 30 Days</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>PendingApprovalLast7Days</fullName>
+        <columns>NAME</columns>
+        <columns>account__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submitted</value>
+        </filters>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>Pending Approval - Last 7 Days</label>
+        <language>en_US</language>
+    </listViews><listViews>
+        <fullName>Rejected</fullName>
+        <columns>NAME</columns>
+        <columns>account__c</columns>
+        <columns>Status__c</columns>
+        <columns>Status_Action__c</columns>
+        <columns>Amount__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Rejected</label>
+        <language>en_US</language>
+    </listViews></CustomObject>

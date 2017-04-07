@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Id --></label>
+        <name>Id__c</name>
+    </fields><fields>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields><fields>
+        <label><!-- Picklist Values --></label>
+        <name>Picklist_Values__c</name>
+    </fields><fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Boolean</masterLabel>
+            <translation><!-- Boolean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Currency</masterLabel>
+            <translation><!-- Currency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Date</masterLabel>
+            <translation><!-- Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Datetime</masterLabel>
+            <translation><!-- Datetime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decimal</masterLabel>
+            <translation><!-- Decimal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double</masterLabel>
+            <translation><!-- Double --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Int</masterLabel>
+            <translation><!-- Int --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist</masterLabel>
+            <translation><!-- Picklist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>String</masterLabel>
+            <translation><!-- String --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textarea</masterLabel>
+            <translation><!-- Textarea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Url</masterLabel>
+            <translation><!-- Url --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- WebToObject --></label>
+        <name>WebToObject__c</name>
+        <relationshipLabel><!-- Fields --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Field</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Fields</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

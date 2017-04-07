@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields><fields>
+        <label><!-- External Id --></label>
+        <name>ExternalId__c</name>
+    </fields><fields>
+        <label><!-- Field --></label>
+        <name>Field__c</name>
+    </fields><fields>
+        <label><!-- New Value --></label>
+        <name>NewValue__c</name>
+    </fields><fields>
+        <label><!-- Old Value --></label>
+        <name>OldValue__c</name>
+    </fields><fields>
+        <label><!-- Opportunity --></label>
+        <name>OpportunityId__c</name>
+        <relationshipLabel><!-- Opportunity Field History --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Opportunity Field History</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Opportunity Field History</value>
+    </caseValues><startsWith>Vowel</startsWith></CustomObjectTranslation>

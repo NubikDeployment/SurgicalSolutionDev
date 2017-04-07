@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Une invitation à la Journée Succès Client!</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>FR MKT: Invite Inhouse Fair</name>
+    <style>freeForm</style>
+    <subject>Journée Succès Client</subject>
+    <textOnly>Cher {!Lead.FirstName},
+
+
+Je vous écris pour vous inviter personnellement comme l&apos;un de nos clients meilleurs mondiaux à se joindre à moi pour notre deuxième client Journée annuelle de succès à New York, le mercredi 25 Février. S&apos;il vous plaît joindre les dirigeants d&apos;IBM, Suntrust, ADP, Avis et autres pour un après-midi de nouvelles annonces et de partage des meilleures pratiques de nos plus grandes implémentations clients.
+
+
+Nous pensons que vous trouverez cet événement très significatif et agréable. En plus d&apos;un Forum exécutif, nous allons avoir une réception de réseautage et un concert mettant en vedette certains des meilleurs talents musicaux du monde, y compris David Byrne (Talking Heads) et Ray Davies (The Kinks).
+
+
+S&apos;il vous plaît laissez-nous savoir dès que possible si vous pouvez nous rejoindre pour une partie de cette journée passionnante! Pour confirmer votre présence, email info@universal.com.
+
+
+Succès Client Agenda Jour
+
+
+12 heures - 14 heures: Exclusif Pré-Forum déjeuner
+
+Lieu: Club 21
+
+Coup d&apos;envoi de la journée avec un déjeuner réception, où salesforce.com dirigeants, clients, analystes et membres de la presse vont se réunir pour entendre les dernières nouvelles de universelle, y compris une annonce avec IBM.
+
+
+14 heures-17h30: Forum exécutif
+
+Lieu: Le Parker Meridien Hôtel
+
+Réseau avec d&apos;autres clients de salesforce.com, partager les meilleures pratiques, et d&apos;obtenir un aperçu de la dernière feuille de route de produit universel à ce forum exclusif.
+
+
+17h30-19h00: Pré-événement
+
+Lieu: Le Parker Meridien Hôtel
+
+Dégustez des cocktails et des apéritifs et récupérer vos billets pour le concert de la soirée. Vous êtes invités à amener un invité à la réception et au concert!
+
+
+
+19h30: la Maison du Tibet 14 Concert bénéfice annuel
+
+Lieu: Carnegie Hall
+
+Les musiciens en vedette de cette année sont: Bright Eyes, David Byrne, Ray Davies, Philip Glass, Keb&apos;Mo &apos;, Yo La Tengo et les Drepung Gomang moines.
+
+
+21h30: après-concert
+
+Lieu: sera annoncé lors de l&apos;événement
+
+Cette réception post-concert est organisé par Uma Thurman et tous les artistes du concert seront présents.
+
+
+Nous serions ravis de vous compter parmi nous pour tout ou partie de cette célébration incroyable. N&apos;hésitez pas à contacter Thomas Ern à info@universal.com (800.536.6125) pour toute question supplémentaire. Nous avons hâte de vous voir le 25.
+
+
+
+Cordialement,
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Phone}</textOnly>
+    <type>html</type>
+</EmailTemplate>

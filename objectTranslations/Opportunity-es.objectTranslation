@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Account Region --></label>
+        <name>Account_Region__c</name>
+    </fields><fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields><fields>
+        <label><!-- Any specific feedback you wish to share? --></label>
+        <name>Any_specific_feedback_you_wish_to_share__c</name>
+    </fields><fields>
+        <help><!-- This is used in an equation to generate a random number --></help>
+        <label><!-- AutoNumber --></label>
+        <name>AutoNumber__c</name>
+    </fields><fields>
+        <label><!-- Budget Approved --></label>
+        <name>Budget_Approved__c</name>
+    </fields><fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Related Opportunities --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Closing Countdown --></label>
+        <name>CloseDate_TODAY__c</name>
+    </fields><fields>
+        <label><!-- Coaching --></label>
+        <name>Coaching__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Communicate Readiness to Nurse --></label>
+        <name>Communicate_Readiness_to_Nurse__c</name>
+    </fields><fields>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+    </fields><fields>
+        <label><!-- Competitive Coach --></label>
+        <name>Competitive_Coach__c</name>
+    </fields><fields>
+        <label><!-- Competitive Deal --></label>
+        <name>Competitive_Deal__c</name>
+    </fields><fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Complete ROI Analysis --></label>
+        <name>Complete_ROI_Analysis__c</name>
+    </fields><fields>
+        <label><!-- Confirm cable are securely connected --></label>
+        <name>Confirm_cable_are_securely_connected__c</name>
+    </fields><fields>
+        <label><!-- Contact City --></label>
+        <name>Contact_City__c</name>
+    </fields><fields>
+        <label><!-- Contact Company --></label>
+        <name>Contact_Company__c</name>
+    </fields><fields>
+        <label><!-- Contact Country --></label>
+        <name>Contact_Country__c</name>
+    </fields><fields>
+        <label><!-- Contact Email --></label>
+        <name>Contact_Email__c</name>
+    </fields><fields>
+        <label><!-- Contact Name --></label>
+        <name>Contact_Name__c</name>
+    </fields><fields>
+        <label><!-- Contact Phone --></label>
+        <name>Contact_Phone__c</name>
+    </fields><fields>
+        <label><!-- Contact Postal Code --></label>
+        <name>Contact_Postal_Code__c</name>
+    </fields><fields>
+        <label><!-- Contact State Province --></label>
+        <name>Contact_State_Province__c</name>
+    </fields><fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields><fields>
+        <label><!-- Contract Terms --></label>
+        <name>Contract_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Non-Standard</masterLabel>
+            <translation><!-- Non-Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Created Date --></label>
+        <name>CreatedDate__c</name>
+    </fields><fields>
+        <label><!-- DB Amount --></label>
+        <name>DB_Amount__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- Days Left Until Expire --></label>
+        <name>Days_Left_Until_Expire__c</name>
+    </fields><fields>
+        <label><!-- Deal Approved Date --></label>
+        <name>Deal_Approved_Date__c</name>
+    </fields><fields>
+        <label><!-- Deal Forward --></label>
+        <name>Deal_Forward__c</name>
+    </fields><fields>
+        <label><!-- Deal ID --></label>
+        <name>Deal_ID__c</name>
+    </fields><fields>
+        <label><!-- Deal Source --></label>
+        <name>Deal_Source__c</name>
+    </fields><fields>
+        <label><!-- Decision Role --></label>
+        <name>Decision_Role__c</name>
+    </fields><fields>
+        <label><!-- Demo Presentation Date --></label>
+        <name>Demo_Presentation_Date__c</name>
+    </fields><fields>
+        <label><!-- Did we meet your expectations? --></label>
+        <name>Did_we_meet_your_expectations__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Discount Approved --></label>
+        <name>Discount_Approved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Discount % --></label>
+        <name>Discount__c</name>
+    </fields><fields>
+        <label><!-- Disposables Safely Removed --></label>
+        <name>Disposables_Safely_Removed__c</name>
+    </fields><fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+    </fields><fields>
+        <label><!-- Engage Legal --></label>
+        <name>Engage_Legal__c</name>
+    </fields><fields>
+        <label><!-- Equipment Collected --></label>
+        <name>Equipment_Collected__c</name>
+    </fields><fields>
+        <label><!-- Equipment brought to SPD --></label>
+        <name>Equipment_brought_to_SPD__c</name>
+    </fields><fields>
+        <label><!-- Equipment packaged correctly --></label>
+        <name>Equipment_packaged_correctly__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label><!-- Feedback URL --></label>
+        <name>Feedback_URL__c</name>
+    </fields><fields>
+        <label><!-- Forwarded Lead ID --></label>
+        <name>Forwarded_Lead_ID__c</name>
+    </fields><fields>
+        <label><!-- How would you rate the service? --></label>
+        <name>How_would_you_rate_the_service__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Implementation Start --></label>
+        <name>Implementation_Start__c</name>
+    </fields><fields>
+        <help><!-- Dependent on Age field.  Good = Age &lt; 30 Days.  Warning = Age &lt; 45 Days. Poor = Age &gt; 60 Days. --></help>
+        <label><!-- Age Indicator --></label>
+        <name>IndStatus__c</name>
+    </fields><fields>
+        <label><!-- Internal Pricing Approvals --></label>
+        <name>Internal_Pricing_Approvals__c</name>
+    </fields><fields>
+        <label><!-- Initial Estimated Close Date --></label>
+        <name>Intial_Estimated_Close_Date__c</name>
+    </fields><fields>
+        <label><!-- Issues Logged --></label>
+        <name>Issues_Logged__c</name>
+    </fields><fields>
+        <name>LeadSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>Llamada en frío</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation><!-- Community --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>Lista de Compra</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation><!-- Inbound Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>Ferias</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Registro de oportunidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>Referencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Google Adwords</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation><!-- Website --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Margin --></label>
+        <name>Margin__c</name>
+    </fields><fields>
+        <label><!-- Nurse --></label>
+        <name>Nurse__c</name>
+    </fields><fields>
+        <label><!-- OR ID --></label>
+        <name>OR_ID__c</name>
+    </fields><fields>
+        <label><!-- Preference Card Changes Logged --></label>
+        <name>Preference_Card_Changes_Logged__c</name>
+    </fields><fields>
+        <label><!-- Preference Card --></label>
+        <name>Preference_Card__c</name>
+    </fields><fields>
+        <label><!-- Procedure Start Date &amp; Time --></label>
+        <name>Procedure_Data_Time__c</name>
+    </fields><fields>
+        <label><!-- Procedure End Date &amp; Time --></label>
+        <name>Procedure_End_Date_Time__c</name>
+    </fields><fields>
+        <label><!-- Procedure Name &amp; Owner --></label>
+        <name>Procedure_Name_Owner__c</name>
+    </fields><fields>
+        <label><!-- Product --></label>
+        <name>Products__c</name>
+        <picklistValues>
+            <masterLabel>GC1000 series</masterLabel>
+            <translation><!-- GC1000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC10001</masterLabel>
+            <translation><!-- GC10001 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC20002</masterLabel>
+            <translation><!-- GC20002 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC5000 series</masterLabel>
+            <translation><!-- GC5000 series --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GC50000</masterLabel>
+            <translation><!-- GC50000 --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Project Budget --></label>
+        <name>Project_Budget__c</name>
+    </fields><fields>
+        <label><!-- Project Budgeted? --></label>
+        <name>Project_Budgeted__c</name>
+    </fields><fields>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields><fields>
+        <label><!-- Project Manager Contact --></label>
+        <name>Project_Manager_Contact__c</name>
+        <relationshipLabel><!-- Procedures --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields><fields>
+        <label><!-- Projected Durations --></label>
+        <name>Projected_Durations__c</name>
+    </fields><fields>
+        <label><!-- Projected Finish --></label>
+        <name>Projected_Finish__c</name>
+    </fields><fields>
+        <label><!-- Pull Inventory per Preference Card --></label>
+        <name>Pull_Inventory_per_Preference_Card__c</name>
+    </fields><fields>
+        <help><!-- This field tracks many times an Opportunity has been pushed from month to month --></help>
+        <label><!-- Push Counter --></label>
+        <name>Push_Counter__c</name>
+    </fields><fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <label><!-- Random Number --></label>
+        <name>Random_Number__c</name>
+    </fields><fields>
+        <label><!-- Reason Lost --></label>
+        <name>Reason_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Issues</masterLabel>
+            <translation><!-- Product Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Registration Expiration --></label>
+        <name>Registration_Expiration__c</name>
+    </fields><fields>
+        <help><!-- Lookup to your Amended Contract. --></help>
+        <label><!-- Amended Contract --></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel><!-- Amendment Opportunities --></relationshipLabel>
+    </fields><fields>
+        <help><!-- SteelBrick CPQ uses this field to automatically convert assets and subscriptions. --></help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields><fields>
+        <help><!-- Select this checkbox to create Contracted Prices without creating a Contract. --></help>
+        <label><!-- Create Contracted Prices --></label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields><fields>
+        <help><!-- SteelBrick CPQ uses this to point to the primary quote on this opportunity. --></help>
+        <label><!-- Primary Quote --></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Quote Pricebook Id --></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields><fields>
+        <help><!-- Indicates this opportunity is a renewal opportunity. --></help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields><fields>
+        <help><!-- Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract. --></help>
+        <label><!-- Renewed Contract --></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel><!-- Renewal Opportunities --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Setup Room Appropriately --></label>
+        <name>Setup_Room_Appropriately__c</name>
+    </fields><fields>
+        <name>StageName</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed Lost</masterLabel>
+            <translation>Cerrado Perdido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intra-Op</masterLabel>
+            <translation><!-- Intra-Op --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Op</masterLabel>
+            <translation><!-- Post-Op --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Op</masterLabel>
+            <translation><!-- Pre-Op --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Stalled Opportunity --></label>
+        <name>Stalled_Opportunity__c</name>
+    </fields><fields>
+        <label><!-- Status Value --></label>
+        <name>Status_Value__c</name>
+    </fields><fields>
+        <label><!-- Surgeon --></label>
+        <name>Surgeon__c</name>
+    </fields><fields>
+        <label><!-- Things to Know: --></label>
+        <name>Things_to_Know__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Appendix</masterLabel>
+            <translation>Negocio Add-On</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gallbladder</masterLabel>
+            <translation>Negocio Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kidney</masterLabel>
+            <translation>Servicios</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label><!-- View Forwarded Lead --></label>
+        <name>View_Forwarded_Lead__c</name>
+    </fields><fields>
+        <label><!-- Winning Competitor --></label>
+        <name>Winning_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation>Competidor A</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation>Competidor B</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation>Competidor C</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- cv --></label>
+        <name>cv__c</name>
+    </fields><fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com_del__c</name>
+    </fields><fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields><layouts>
+        <layout>Advanced</layout>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Detail --></label>
+            <section>Opportunity Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Milestones --></label>
+            <section>Opportunity Milestones</section>
+        </sections>
+        <sections>
+            <label><!-- Stage Indicator --></label>
+            <section>Stage Indicator</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Opportunity</layout>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Summary --></label>
+            <section>Opportunity Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Path Milestones --></label>
+            <section>Sales Path Milestones</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Opportunity - Channel Manager View</layout>
+        <sections>
+            <label><!-- Discount Information --></label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Plans --></label>
+            <section>Implementation Plans</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing/Advanced Tracking --></label>
+            <section>Marketing/Advanced Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Partner Information --></label>
+            <section>Partner Information</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Opportunity - Community View</layout>
+        <sections>
+            <label><!-- Discount Information --></label>
+            <section>Discount Information</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Plans --></label>
+            <section>Implementation Plans</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing/Advanced Tracking --></label>
+            <section>Marketing/Advanced Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple</layout>
+        <sections>
+            <label><!-- Intra-Op --></label>
+            <section>Intra-Op</section>
+        </sections>
+        <sections>
+            <label><!-- Nurse Feedback --></label>
+            <section>Nurse Feedback</section>
+        </sections>
+        <sections>
+            <label><!-- Post-Op --></label>
+            <section>Post-Op</section>
+        </sections>
+        <sections>
+            <label><!-- Pre-Op --></label>
+            <section>Pre-Op</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><quickActions>
+        <label><!-- New Opportunity Product --></label>
+        <name>Add_Product_Line</name>
+    </quickActions><quickActions>
+        <label><!-- Log Issue --></label>
+        <name>Log_Issue</name>
+    </quickActions><quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_SteelBrick_Quote</name>
+    </quickActions><quickActions>
+        <label><!-- Preference Card Change --></label>
+        <name>Preference_Card_Change</name>
+    </quickActions><recordTypes>
+        <label><!-- Advanced --></label>
+        <name>Advanced</name>
+    </recordTypes><recordTypes>
+        <label><!-- Indirect (Partner) --></label>
+        <name>IndirectPartner</name>
+    </recordTypes><recordTypes>
+        <label><!-- SalesWaveScripted --></label>
+        <name>SalesWaveScripted</name>
+    </recordTypes><recordTypes>
+        <label><!-- Simple --></label>
+        <name>Simple</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Please complete Pre-Op checklist before advancing to Intra-Op --></errorMessage>
+        <name>Checkboxes_required_for_IntraOp_Stage</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- If the stage equals closed - lost, then the reason lost is a required field. --></errorMessage>
+        <name>Reason_Lost_Required</name>
+    </validationRules><webLinks>
+        <label><!-- Financial_System_Integration --></label>
+        <name>Financial_System_Integration</name>
+    </webLinks><webLinks>
+        <label><!-- Great_Plains_Integration --></label>
+        <name>Great_Plains_Integration</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label><!-- Amend_Contract --></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks><webLinks>
+        <label><!-- CreateOrder --></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks><webLinks>
+        <label><!-- Include_Document --></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks><webLinks>
+        <label><!-- Sales_Coach --></label>
+        <name>Sales_Coach</name>
+    </webLinks><webLinks>
+        <label><!-- Sales_Methodology --></label>
+        <name>Sales_Methodology</name>
+    </webLinks><webLinks>
+        <label><!-- Sign_with_DocuSign --></label>
+        <name>Sign_with_DocuSign</name>
+    </webLinks><workflowTasks>
+        <name>SendProposalandPricing</name>
+        <subject><!-- Send Proposal and Pricing --></subject>
+    </workflowTasks></CustomObjectTranslation>

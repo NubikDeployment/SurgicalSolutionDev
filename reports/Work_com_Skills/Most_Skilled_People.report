@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ProfileSkill$Name</field>
+    </columns>
+    <columns>
+        <field>ProfileSkill.ProfileSkillUserChildren$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>ProfileSkill.ProfileSkillUserChildren$EndorsementCount</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>ProfileSkill.ProfileSkillUserChildren$User</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <name>Most Skilled People</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Skills_Report_Type__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>ProfileSkill$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

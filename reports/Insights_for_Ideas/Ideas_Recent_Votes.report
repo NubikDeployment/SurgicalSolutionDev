@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Idea.Votes$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Idea.Votes$CreatedBy.Contact</field>
+    </columns>
+    <columns>
+        <field>Idea$Title</field>
+    </columns>
+    <columns>
+        <field>Idea$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Idea.Votes$Value</field>
+    </columns>
+    <columns>
+        <field>Idea$Community</field>
+    </columns>
+    <columns>
+        <field>Idea$Status</field>
+    </columns>
+    <columns>
+        <field>Idea$Categories</field>
+    </columns>
+    <description>Shows recent idea voters.</description>
+    <filter>
+        <criteriaItems>
+            <column>Idea$Community</column>
+            <operator>equals</operator>
+            <value>Product Suggestions</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Ideas: Recent Votes</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Insights_for_Ideas__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <sortColumn>Idea$CreatedDate</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Idea$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

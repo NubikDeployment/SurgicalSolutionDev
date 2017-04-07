@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- If the project team member doesn&apos;t exist as a user in Salesforce you can add them as a contact. --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Idea Team --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Idea Team --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Use this feeling to track individuals participating on the project team. --></help>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Idea Team --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Idea Team</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Idea Team</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

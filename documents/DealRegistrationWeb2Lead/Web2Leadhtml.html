@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+    <title>Submit Deal Registration&nbsp;~&nbsp;Universal Containers</title>
+
+<script src="main.js" type="text/javascript"></script>
+<script src="validatePartnerWebToLead.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function closeWindow() {
+	var cancelURL = document.getElementById("retURL").value;
+	if(cancelURL != null)
+		window.location.href = cancelURL;
+	else
+		history.back();
+}
+
+function initPage() {
+	document.getElementById("00N30000001OPG6").selectedIndex = -1;
+}
+
+function checkOtherElements(){ 
+	var retVal = "";
+	//Disclaimer
+	if(	document.getElementById("00N30000001OPG6").selectedIndex == -1)
+		retVal += "* Accept the deal registration disclaimer" + '\n';
+	return retVal;
+}
+
+function validateThisForm() {
+	var otherCheck = checkOtherElements();
+	var s = otherCheck + YY_checkPartnerApplicationForm('dealRegForm', '00N30000001OPG6','#q','0','Accept the disclaimer.', 'last_name','#q','0','Please enter the end customer\'s last name.', 'company','#q','0','Please enter the end customer\'s name.', '00N30000001OWfB','#q','0','Please enter your last name.','00N30000001OWf8','#q','0','Please enter your company  name.', 'email','#q','0','Please enter your email.');
+		
+	if (s!=''){
+		alert('The required information is incomplete or contains errors:\t\t\t\t\t\n\n'+s)
+	}
+	document.MM_returnValue = (s=='');
+}
+</script>
+<link rel="stylesheet" type="text/css" href="https://na1-api.salesforce.com/services/StyleSheet?oid=00D3000000071Ns&amp;id=01530000000Ba3K">
+<link rel="shortcut icon" href="/prm/img/favicon.ico">
+</head>
+<body onload="initPage()">
+<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" name="dealRegForm" id="dealRegForm"  
+onsubmit="validateThisForm();return document.MM_returnValue" >
+
+<!-- Header Begin -->
+<div class="portalheader">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr><td width="200px" class="logo"><img src="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D3000000071Ns&id=01530000000Ba3N"></td></tr>
+  </table>
+</div>
+<!-- Header End -->
+
+<input type=hidden name="oid" value="00D3000000071Ns">
+<input type=hidden name="retURL" id="retURL" value="http://www.partnerforce.com">
+<input type=hidden id="recordType" name="recordType" value="0123000000050dO">
+<input type=hidden id="lead_source" name="lead_source" value="Web">
+<input type=hidden id="00N30000001OWfN" name="00N30000001OWfN" value="0">
+
+<div id="body">
+	<div class="topButtonBar">
+		<input type="submit" name="submit" value="Submit Deal" class="button">
+		<input type="button" name="cancel" value="Cancel" onclick="javascript:closeWindow()";" class="button">
+	</div>
+
+<table border="0" cellspacing="0" cellpadding="0" class="maincontent" id="ep">
+      <tr valign="top" class="lastdatarow">
+            <td class="requiredInput" nowrap>
+              <label for="Accept_Disclaimer__c">Accept Disclaimer:</label>
+            </td>
+			<td colspan="1">
+				<select  id="00N30000001OPG6" name="00N30000001OPG6" title="Accept Disclaimer">
+					<option value="I have read and I agree">I have read and I agree</option>
+				</select>
+				<a href="https://na1.salesforce.com/servlet/servlet.ImageServer?oid=00D3000000071Ns&id=01530000000Ba3u" target="_blank">View Disclaimer</a>
+            </td>
+            <td class="dataLabel" nowrap>&nbsp;</td>
+			<td colspan="1">&nbsp;</td>
+      </tr>
+
+	<!-- End Cusomer Lead Information Begin -->
+	<tr><td colspan="4" ><img src="/prm/img/s.gif" height="1" width="1"></td></tr>
+    <tr><td colspan="4" ><img src="/prm/img/s.gif" height="10" width="1"></td></tr>
+    <tr class="contentheader">
+        <td colspan="2" >End Customer Lead Information</td>
+        <td colspan="2" >
+			<img src="/prm/img/s.gif" height="1" width="1">
+        </td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Salutation">First Name:</label>
+        </td>
+		<td colspan="1">
+			<select  id="salutation" name="salutation"><option value="">--None--</option><option value="Mr.">Mr.</option>
+				<option value="Ms.">Ms.</option>
+				<option value="Mrs.">Mrs.</option>
+				<option value="Dr.">Dr.</option>
+				<option value="Prof.">Prof.</option>
+			</select>                
+			<input  id="first_name" maxlength="40" name="first_name" size="20" type="text" />
+        </td>
+        <td class="dataLabel" nowrap>
+              <label for="Phone">Phone:</label>
+		</td>
+		<td colspan="1">
+            <input  id="phone" maxlength="40" name="phone" size="20" type="text" />        
+        </td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="requiredInput" nowrap>
+			<label for="LastName">Last Name:</label>
+		</td>
+		<td colspan="1">
+            <input  id="last_name" maxlength="40" name="last_name" size="20" type="text" />          
+        </td>
+		<td class="dataLabel" nowrap>
+			<label for="Email">Email:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OWfI" maxlength="80" name="00N30000001OWfI" size="20" type="text" />
+		</td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="requiredInput" nowrap>
+			<label for="Company">Company:</label>
+		</td>
+		<td colspan="1">
+			<input  id="company" maxlength="80" name="company" size="20" type="text" />
+        </td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Decision_Role__c">Decision Role:</label>
+		</td>
+		<td colspan="1">
+			<select  id="00N30000001OPG7" name="00N30000001OPG7" title="Decision Role">
+				<option value="">--None--</option>
+				<option value="Decison Maker">Decison Maker</option>
+				<option value="Recommender">Recommender</option>
+				<option value="Influencer">Influencer</option>
+			</select>  
+		</td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Street">Street:</label>
+		</td>
+		<td colspan="1">
+			<textarea name="street"></textarea>
+		</td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="City">City:</label>
+		</td>
+		<td colspan="1">
+			<input  id="city" maxlength="40" name="city" size="20" type="text" />
+        </td>
+        <td colspan="2">&nbsp;
+        </td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="State">State/Province:</label>
+		</td>
+		<td colspan="1">
+			<input  id="state" maxlength="20" name="state" size="20" type="text" />
+		</td>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="PostalCode">Zip/Postal Code:</label>
+		</td>
+		<td colspan="1">
+	        <input  id="zip" maxlength="20" name="zip" size="20" type="text" />
+        </td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<tr valign="top" class="lastdatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Country">Country:</label>
+		</td>
+		<td colspan="1">
+			<input  id="country" maxlength="40" name="country" size="20" type="text" />
+		</td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<!-- End Cusomer Lead Information End -->
+
+	<!-- Reseller Information Begin -->
+    <tr><td colspan="4" ><img src="/prm/img/s.gif" height="1" width="1"></td></tr>
+    <tr><td colspan="4" ><img src="/prm/img/s.gif" height="10" width="1"></td></tr>
+    <tr class="contentheader">
+        <td colspan="2" >Reseller Information</td>
+        <td colspan="2" >
+			<img src="/prm/img/s.gif" height="1" width="1">
+        </td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Salutation">First Name:</label>
+        </td>
+		<td colspan="1">
+			<input  id="00N30000001OWfA" maxlength="40" name="00N30000001OWfA" size="20" type="text" />
+        </td>
+        <td class="dataLabel" nowrap>
+             <label for="Phone">Phone:</label>
+		</td>
+		<td colspan="1">
+            <input  id="00N30000001OWfC" maxlength="40" name="00N30000001OWfC" size="20" type="text" />        
+        </td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="requiredInput" nowrap>
+			<label for="LastName">Last Name:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OWfB" maxlength="80" name="00N30000001OWfB" size="20" type="text" />          
+        </td>
+		<td class="requiredInput" nowrap>
+			<label for="Email">Email:</label>
+		</td>
+		<td colspan="1">
+			<input  id="email" maxlength="80" name="email" size="20" type="text" />
+		</td>
+	</tr>
+    <tr valign="top" class="maindatarow">
+		<td class="requiredInput" nowrap>
+			<label for="Company">Company:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OWf8" maxlength="80" name="00N30000001OWf8" size="20" type="text" />
+        </td>
+        <td colspan="2">&nbsp;</td>
+	</tr>
+	<!-- Reseller Information End -->
+
+	<!-- Deal Registration Information Begin -->
+    <tr><td colspan="4" ><img src="/prm/img/s.gif" height="1" width="1"></td></tr>
+    <tr><td colspan="4" ><img src="/prm/img/s.gif" height="10" width="1"></td></tr>
+    <tr class="contentheader">
+        <td colspan="2" >Deal Registration Information</td>
+        <td colspan="2" >
+	        <img src="/prm/img/s.gif" height="1" width="1">
+        </td>
+	</tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Project_Name__c">Project Name:</label>
+		</td>
+		<td colspan="1">
+	        <input  id="00N30000001OPG8" maxlength="50" name="00N30000001OPG8" size="20" type="text" />  
+        </td>
+		<td class="dataLabel" nowrap>
+			<label for="Deal_Source__c">Deal Source:</label>
+		</td>
+		<td colspan="1">
+			<select  id="00N30000001OWYq" name="00N30000001OWYq" title="Deal Source">
+				<option value="">--None--</option>
+				<option value="Existing Customer">Existing Customer</option>
+				<option value="New Business">New Business</option>
+				<option value="RFP">RFP</option>
+			</select>  
+        </td>
+      </tr>
+      <tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>Estimated Close Date:
+		</td>
+		<td colspan="1">
+			<span class="dateInput"><input  id="00N30000001OWYg" name="00N30000001OWYg" size="12" type="text" /></span>        
+        </td>
+		<td class="dataLabel" nowrap>
+			<label for="Distributor__c">Distributor:</label>
+		</td>
+		<td colspan="1">
+			<select  id="00N30000001OWYn" name="00N30000001OWYn" title="Distributor">
+				<option value="">--None--</option>
+				<option value="CDW">CDW</option>
+				<option value="Ingram Micro">Ingram Micro</option>
+				<option value="Tech Data">Tech Data</option>
+			</select>                          
+        </td>
+    </tr>
+	<tr valign="top" class="maindatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Project_Budgeted__c">Project Budgeted?:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OPGA" name="00N30000001OPGA" type="checkbox" value="1" />
+        </td>
+		<td class="dataLabel" nowrap>
+			<label for="Competitive_Deal__c">Competitive Deal:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OWYm" name="00N30000001OWYm" type="checkbox" value="1" />  
+        </td>
+	</tr>
+	<tr valign="top" class="lastdatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Project_Budget_Amount__c">Project Budget Amount:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OPG9" name="00N30000001OPG9" size="20" type="text" />
+        </td>
+		<td class="dataLabel" nowrap>
+			<label for="Competition__c">Competition:</label>
+		</td>
+		<td colspan="1">
+			<input  id="00N30000001OWYr" maxlength="80" name="00N30000001OWYr" size="20" type="text" />            
+        </td>
+	</tr>
+	<tr valign="top" class="lastdatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Project_Description__c">Project Description:</label>
+		</td>
+		<td colspan="3">
+			<textarea  id="00N30000001OPGg" maxlength="255" name="00N30000001OPGg" type="text" wrap="soft"></textarea>
+        </td>
+	</tr>
+	<tr valign="top" class="lastdatarow">
+		<td class="dataLabel" nowrap>
+			<label for="Product__c">Product:</label>
+		</td>
+		<td colspan="3">
+			<span><select id="00N30000001OWYl" size="6" multiple="multiple" name="00N30000001OWYl" title="Product">
+				<option value="GC1000 series">GC1000 series</option>
+				<option value="GC5000 series">GC5000 series</option>
+				<option value="GC10001">GC10001</option>
+				<option value="GC20002">GC20002</option>
+				<option value="GC50000">GC50000</option>
+			</select></span>        
+		</td>
+	</tr>
+	<!-- Deal Registration Information End -->
+
+</table>
+
+<div class="bottomButtonBar">
+	<input type="submit" name="submit" value="Submit Deal" class="button">
+	<input type="button" name="cancel" value="Cancel" onclick="javascript:closeWindow()";" class="button">
+</div>
+</div>
+</form>
+</body>
+</html>

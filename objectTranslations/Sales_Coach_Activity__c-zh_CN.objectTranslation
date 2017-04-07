@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>活动详细信息</label>
+        <name>Activity_Details__c</name>
+    </fields><fields>
+        <label>订购号</label>
+        <name>Ordering_Number__c</name>
+    </fields><fields>
+        <label>销售教练舞台</label>
+        <name>Sales_Coach_Stage__c</name>
+        <relationshipLabel>销售教练活动</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Sales Coach Activity --></value>
+    </caseValues><nameFieldLabel><!-- Sales Coach Activity Number --></nameFieldLabel></CustomObjectTranslation>

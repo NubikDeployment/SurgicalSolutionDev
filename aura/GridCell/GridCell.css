@@ -1,0 +1,22 @@
+.THIS {
+}
+
+.THIS .accountName-hoverContainer {
+    position: absolute;
+    top: -37px;
+    left: 17px;
+}
+
+.THIS .accountName-hoverContainer-preview {
+    position: absolute;
+    top: -24px;
+    left: 21px;
+}
+
+.THIS .hidden {
+    display:none;
+}
+
+.THIS .slds-popover.slds-popover--panel.relatedRecords--panel {
+    min-width:360px;
+}

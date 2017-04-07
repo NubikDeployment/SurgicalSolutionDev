@@ -1,0 +1,8 @@
+{!Lead.OwnerFullName}
+The {!Organization.Name} channel development management team has received your deal registration for {!Lead.Company} submitted on {!Lead.LastModifiedDate}
+
+A {!Organization.Name} representative will respond to you within 24 hours. 
+
+Good Selling!
+
+{!Organization.Name} Channel Development Team

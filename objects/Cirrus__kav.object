@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><compactLayouts>
+        <fullName>Feed_Notification</fullName>
+        <fields>Title</fields>
+        <label>Feed Notification</label>
+    </compactLayouts><fields>
+        <fullName>Chat_Answer__c</fullName>
+        <externalId>false</externalId>
+        <label>Chat Answer</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields><fields>
+        <fullName>Details__c</fullName>
+        <description>Content to be displayed to the community members.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Content to be displayed to the community members.</inlineHelpText>
+        <label>Details</label>
+        <length>60000</length>
+        <type>Html</type>
+        <visibleLines>30</visibleLines>
+    </fields><fields>
+        <fullName>Internal_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal Comments</label>
+        <length>32768</length>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields><articleTypeChannelDisplay>
+        <articleTypeTemplates>
+            <channel>App</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Prm</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Csp</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+        <articleTypeTemplates>
+            <channel>Pkb</channel>
+            <template>Toc</template>
+        </articleTypeTemplates>
+    </articleTypeChannelDisplay><compactLayoutAssignment>Feed_Notification</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Articles related to specific "Cirrus" products.  Undeploy this article type to exclude these articles from search.</description><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><label>Cirrus</label><pluralLabel>Cirrus</pluralLabel></CustomObject>

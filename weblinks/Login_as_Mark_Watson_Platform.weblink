@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <description>Login used for the App Cloud demo</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Login as Mark Watson (Platform)</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/servlet/servlet.su?oid=00D41000001MYfZ&amp;suorgadminid=00541000001fRkf&amp;targetURL=%2Fhome%2Fhome.jsp&amp;retURL=%2Fhome%2Fhome.jsp</url>
+</CustomPageWebLink>

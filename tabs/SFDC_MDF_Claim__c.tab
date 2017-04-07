@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customObject>true</customObject>
+    <description>Submit a fund claim tied to a specifc fund request. Each claim is approved individually, tracks partner proof of performance, and can be analyzed by the claim age in days.</description>
+    <mobileReady>false</mobileReady>
+    <motif>Custom19: Wrench</motif>
+</CustomTab>

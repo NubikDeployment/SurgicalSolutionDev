@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- Check this if you are correcting a previously submitted request for time off that you are no longer going to take. --></help>
+        <label>Vorherigen Antrag zurückrufen</label>
+        <name>Balance_Correction__c</name>
+    </fields><fields>
+        <label>Kommentare</label>
+        <name>Comments_text__c</name>
+    </fields><fields>
+        <label>Datum der Genehmigung</label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label>Datum des Antrags</label>
+        <name>Date_Submitted__c</name>
+    </fields><fields>
+        <label>Genehmigungsdatuer (in T)</label>
+        <name>Days_Awaiting_Approval__c</name>
+    </fields><fields>
+        <label>Mitarbeiterbeschreibung</label>
+        <name>Employee_Description__c</name>
+    </fields><fields>
+        <label>Mitarbeitername</label>
+        <name>Employee_Name__c</name>
+    </fields><fields>
+        <label>Mitarbeiternummer</label>
+        <name>Employee_Number__c</name>
+    </fields><fields>
+        <help><!-- The last day of the requested time off. --></help>
+        <label>Ende</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <help><!-- By checking this checkbox, you are acknowledging that you have read the negative balance terms and agree to bound by them. --></help>
+        <label>Ich akzeptiere die Bedingungen</label>
+        <name>I_accept_terms__c</name>
+    </fields><fields>
+        <label>Urlaubsüberschreitung</label>
+        <name>Negative_Balance_Terms__c</name>
+    </fields><fields>
+        <label>Anzahl der Tage (absolut)</label>
+        <name>Number_of_Days_Absolute__c</name>
+    </fields><fields>
+        <help><!-- Number of business days between the Start Date and End Date of this request.  Does not include weekends or company holidays.  This is the number of days that will be deducted from your time-off balance. --></help>
+        <label>Anzahl der Tage</label>
+        <name>Number_of_Days__c</name>
+    </fields><fields>
+        <label>Abrechnungssystem</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel><!-- Time-Off Requests --></relationshipLabel>
+    </fields><fields>
+        <label>Auf Genehmigung wartend</label>
+        <name>Pending_Approval__c</name>
+    </fields><fields>
+        <help><!-- The policy exception flag indicates that a request does not comply with one or more company policies. (e.g., a request submitted after the time-off was already taken) --></help>
+        <label>Regelverletzung</label>
+        <name>Policy_Exception__c</name>
+    </fields><fields>
+        <label>Antragsteller</label>
+        <name>Requestor__c</name>
+        <relationshipLabel><!-- Time-Off Requests --></relationshipLabel>
+    </fields><fields>
+        <help><!-- The first day of the requested time off. --></help>
+        <label>Start</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <label>Status</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requires Re-Approval</masterLabel>
+            <translation><!-- Requires Re-Approval --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Status of this request.  If the lock icon is displayed, it means the request cannot be edited in its current status. --></help>
+        <label>&amp;nbsp;Status</label>
+        <name>Status_image__c</name>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Urlaubsantrag</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Urlaubsanträge</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Urlaubsantrag</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Urlaubsanträgen</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Urlaubsantrags</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Urlaubsanträgen</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Urlaubsantrag</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Urlaubsanträge</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Antrags-ID</nameFieldLabel><layouts>
+        <layout>US-Admin Layout</layout>
+        <sections>
+            <label>Kommentare</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Versteckte Felder</label>
+            <section>Hidden Fields</section>
+        </sections>
+        <sections>
+            <label>Urlaubsüberschreitung</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Antragsdetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Antragsinformationen</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Clone</layout>
+        <sections>
+            <label>Kommentare</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Urlaubsüberschreitung</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Antragsdetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Antragsinformationen</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Cancel</layout>
+        <sections>
+            <label>Kommentare</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Urlaubsüberschreitung</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Antragsdetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Antragsinformationen</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Clone-Submit-Cancel</layout>
+        <sections>
+            <label>Kommentare</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Urlaubsüberschreitung</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Antragsdetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Antragsinformationen</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><layouts>
+        <layout>US-Edit-Delete-Clone-Submit</layout>
+        <sections>
+            <label>Kommentare</label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label>Urlaubsüberschreitung</label>
+            <section>Negative Balance Terms</section>
+        </sections>
+        <sections>
+            <label>Antragsdetails</label>
+            <section>Request Details</section>
+        </sections>
+        <sections>
+            <label>Antragsinformationen</label>
+            <section>Request Info</section>
+        </sections>
+        <sections>
+            <label>Urlaubskalender</label>
+            <section>Time-Off Calendar</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- TEST-Approved --></label>
+        <name>TESTApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Canceled --></label>
+        <name>TESTCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Not Submitted --></label>
+        <name>TESTNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Pending Approval --></label>
+        <name>TESTPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Processed --></label>
+        <name>TESTProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Rejected --></label>
+        <name>TESTRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- TEST-Requires Re-Approval --></label>
+        <name>TESTRequiresReApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Approved --></label>
+        <name>USApproved</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Canceled --></label>
+        <name>USCanceled</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Not Submitted --></label>
+        <name>USNotSubmitted</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Pending Approval --></label>
+        <name>USPendingApproval</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Processed --></label>
+        <name>USProcessed</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Rejected --></label>
+        <name>USRejected</name>
+    </recordTypes><recordTypes>
+        <label><!-- US-Requires Re-Approval --></label>
+        <name>USRequiresReApproval</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- The End Date cannot be before the Start Date. --></errorMessage>
+        <name>End_Date_Cannot_Come_Before_Start_Date</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- The End Date is Required. --></errorMessage>
+        <name>End_Date_Required</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please read the negative balance terms and check the &quot;I accept terms&quot; checkbox --></errorMessage>
+        <name>I_accept_terms_checkbox_is_required</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- The Start Date is Required --></errorMessage>
+        <name>Start_Date_Required</name>
+    </validationRules><webLinks>
+        <label>Storniere Anfrage</label>
+        <name>Cancel_Request</name>
+    </webLinks><webLinks>
+        <label>Zur Genehmigung einreichen</label>
+        <name>Submit_for_Approval</name>
+    </webLinks><webLinks>
+        <label>Anzeige Urlaubsplan</label>
+        <name>View_Accrual_Schedule</name>
+    </webLinks><webLinks>
+        <label>Anzeige Urlaubs anfragen des Mitarbeiter</label>
+        <name>View_Employee_Time_Off_Requests</name>
+    </webLinks></CustomObjectTranslation>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Número de la  cuenta</label>
+        <name>Account_Number__c</name>
+    </fields><fields>
+        <label>Cuenta</label>
+        <name>Account__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields><fields>
+        <label>Importe de la factura</label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label>Saldo a pagar</label>
+        <name>Balance_Due__c</name>
+    </fields><fields>
+        <label>Dirección del banco</label>
+        <name>Bank_Address__c</name>
+    </fields><fields>
+        <label>Dirección de facturación</label>
+        <name>Billing_Address__c</name>
+    </fields><fields>
+        <label>Facturación - Nombre de la compañía</label>
+        <name>Billing_Company_Name__c</name>
+    </fields><fields>
+        <label>Facturación - Contacto</label>
+        <name>Billing_Contact__c</name>
+    </fields><fields>
+        <label>Facturación - Correo electrónico</label>
+        <name>Billing_Email__c</name>
+    </fields><fields>
+        <label>Facturación - Fax</label>
+        <name>Billing_Fax__c</name>
+    </fields><fields>
+        <label>Facturación - Idioma</label>
+        <name>Billing_Language__c</name>
+        <picklistValues>
+            <masterLabel>Chinese - Traditional</masterLabel>
+            <translation>Chino - Tradicional</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>English</masterLabel>
+            <translation>Inglés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>French</masterLabel>
+            <translation>Francés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japanese</masterLabel>
+            <translation>Japonés</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spanish</masterLabel>
+            <translation>Español</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Facturación - Teléfono</label>
+        <name>Billing_Phone__c</name>
+    </fields><fields>
+        <label>Contrato</label>
+        <name>Contract__c</name>
+        <relationshipLabel>Facturas</relationshipLabel>
+    </fields><fields>
+        <help>Antecedentes de cuentas por cobrar si un crédito u otra cuestión ocurrieran con la factura.</help>
+        <label>Nota crédito</label>
+        <name>Credit_Memo__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>Este es el ID de factura del sistema de cuentas por cobrar.</help>
+        <label><!-- External System ID --></label>
+        <name>External_System_ID__c</name>
+    </fields><fields>
+        <label>Indicador</label>
+        <name>Indicator__c</name>
+    </fields><fields>
+        <label>Fecha de facturación</label>
+        <name>Invoice_Date__c</name>
+    </fields><fields>
+        <label>Fecha de vencimiento de la factura</label>
+        <name>Invoice_Due_Date__c</name>
+    </fields><fields>
+        <label>Fecha del último correo electrónico</label>
+        <name>Last_Email_Date__c</name>
+    </fields><fields>
+        <label>Fecha de la última impresión</label>
+        <name>Last_Print_Date__c</name>
+    </fields><fields>
+        <label>Método de pago</label>
+        <name>Payment_Method__c</name>
+        <picklistValues>
+            <masterLabel>Check</masterLabel>
+            <translation>Cheque</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wire Transfer</masterLabel>
+            <translation>Transferencia bancaria</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Términos de pago</label>
+        <name>Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>Net 30</masterLabel>
+            <translation>Neto 30</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 60</masterLabel>
+            <translation>Neto 60</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net 90</masterLabel>
+            <translation>Neto 90</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Dirección de envio</label>
+        <name>Shipping_Address__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Borrador</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalized</masterLabel>
+            <translation>Finalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Overdue</masterLabel>
+            <translation>Vencido</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>Pendiente</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>A enviar por correo electrónico</label>
+        <name>To_Be_Emailed__c</name>
+    </fields><fields>
+        <label>A imprimir</label>
+        <name>To_Be_Printed__c</name>
+    </fields><fields>
+        <label>Total crédito</label>
+        <name>Total_Credit__c</name>
+    </fields><fields>
+        <label>Total pago</label>
+        <name>Total_Payment__c</name>
+    </fields><fields>
+        <label>Total amortización</label>
+        <name>Total_Write_off__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Factura</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Facturas</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Número de la factura</nameFieldLabel><layouts>
+        <layout>Invoice Layout</layout>
+        <sections>
+            <label>Notas Crédito</label>
+            <section>Credit Notes</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

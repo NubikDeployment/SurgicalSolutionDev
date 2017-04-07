@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>DB天</label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <help>该日期时间发生的。默认为今天如果留空。</help>
+        <label>发生日期</label>
+        <name>Date__c</name>
+    </fields><fields>
+        <help>关于时间的描述。例如</help>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>Charged 的小时数。注意：此不能超过1天（24小时）。</help>
+        <label>小时</label>
+        <name>Hours__c</name>
+    </fields><fields>
+        <label><!-- ImportID --></label>
+        <name>ImportID__c</name>
+    </fields><fields>
+        <help>The user who incurred the time being charged. Defaults to current user if left blank</help>
+        <label>发生的</label>
+        <name>Incurred_By__c</name>
+        <relationshipLabel>时间</relationshipLabel>
+    </fields><fields>
+        <help>Charged 时间的任务。</help>
+        <label>项目任务</label>
+        <name>Project_Task__c</name>
+        <relationshipLabel>次数</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Time --></value>
+    </caseValues><nameFieldLabel><!-- Project Time Name --></nameFieldLabel><validationRules>
+        <errorMessage>输入的时间不能为负数。</errorMessage>
+        <name>Hours_Not_Negative</name>
+    </validationRules><validationRules>
+        <errorMessage>该时间不能超过24小时。</errorMessage>
+        <name>Validation_Time_Hours_Less_Than_24_Hours</name>
+    </validationRules></CustomObjectTranslation>

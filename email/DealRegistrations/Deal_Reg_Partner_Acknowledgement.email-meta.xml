@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to the Channel Manager that a deal registration has been submitted.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Deal Reg: Partner Ackowledgement</name>
+    <style>freeForm</style>
+    <subject>{!Organization.Name}: Thank You For Your Deal Registration</subject>
+    <textOnly>{!Lead.OwnerFullName}
+
+The {!Organization.Name} channel development team has received your deal registration for {!Lead.Company} submitted on {!Lead.LastModifiedDate}.
+
+A {!Organization.Name} representative will respond to you within 24 hours.
+
+Good Selling!
+
+{!Organization.Name} Channel Development Team
+
+REGISTRATION DETAILS
+Name: {!Lead.FirstName} {!Lead.LastName}
+Company: {!Lead.Company}
+Product Interest: {!Lead.Product_Interest__c}</textOnly>
+    <type>html</type>
+</EmailTemplate>

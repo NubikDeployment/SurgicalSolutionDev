@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Version 1.0</label>
+            <name>Version_1</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Version 2.0</label>
+            <name>Version_2</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Version 3.0</label>
+            <name>Version_3</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>The versions of the product articles apply to.</description>
+    <label>Product Version</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

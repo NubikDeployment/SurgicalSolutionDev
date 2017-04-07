@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>If you have an announcement for the community or a update on an Idea in action, post it here.</description>
+    <showInPortal>false</showInPortal>
+</Community>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>signUpProfile__c</fullName>
+        <description>Profile assigned to new FB Users</description>
+        <externalId>false</externalId>
+        <label>signUpProfile</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umChatterAnswers_dataCategoryGroup__c</fullName>
+        <description>Data category group assigned to chatter answers.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Data category group assigned to chatter answers.</inlineHelpText>
+        <label>Chatter Answers Data Category Group</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umChatterAnswers_enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable Chatter Answers feature (mobile).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable Chatter Answers feature (mobile).</inlineHelpText>
+        <label>Chatter Answers Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umChatterAnswers_richTextEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable rich text editor for chatter answers (mobile).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable rich text editor for chatter answers (mobile).</inlineHelpText>
+        <label>Chatter Answers Rich text editor enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umChatterAnswers_zoneLabelPlural__c</fullName>
+        <description>Zone label plural to be displayed in mobile site (example Zones,Communities,Products,etc.).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone label plural to be displayed in mobile site (example Zones,Communities,Products,etc.).</inlineHelpText>
+        <label>Chatter Answers Zone label plural</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umChatterAnswers_zoneLabelSingular__c</fullName>
+        <description>Zone label to be used in mobile chatter answers feature (example zone,community,product,etc.).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Zone label to be used in mobile chatter answers feature (example zone,community,product,etc.).</inlineHelpText>
+        <label>Chatter Answers Zone label singular</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_addCaseNumberEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable add case number to phone call feature.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable add case number to phone call feature.</inlineHelpText>
+        <label>Contact Us add case number</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_authenticated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Contact us authenticated or unauthenticated access</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact us authenticated or unauthenticated access</inlineHelpText>
+        <label>Contact Us Authenticated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_businessHourName__c</fullName>
+        <description>Business hour name for call feature.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Business hour name for call feature.</inlineHelpText>
+        <label>Contact Us business hours</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_createContactAndAccount__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable the creation of contact and account when user make use of contact us feature.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable the creation of contact and account when user make use of contact us feature.</inlineHelpText>
+        <label>Contact Us enable create contact/account</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_ctiConfiguration__c</fullName>
+        <description>CTI configuration for call feature (if add case number enabled).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>CTI configuration for call feature (if add case number enabled).</inlineHelpText>
+        <label>Contact Us CTI configuration</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_enableCall__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable call feature.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable call feature.</inlineHelpText>
+        <label>Contact Us enable call</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_enableLiveAgent__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable Live Agent.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable Live Agent.</inlineHelpText>
+        <label>Contact Us Live Agent Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable contact us section.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable contact us section.</inlineHelpText>
+        <label>Contact Us Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umContactus_liveAgentChatButtonId__c</fullName>
+        <description>Live Agent Button Id (if contact us enabled).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Live Agent Button Id (if contact us enabled).</inlineHelpText>
+        <label>Contact Us Live Agent Chat button id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_liveAgentChatServerURL__c</fullName>
+        <description>Live Agent chat server URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Live Agent chat server URL.</inlineHelpText>
+        <label>Contact Us Live Agent chat server url</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_liveAgentDeploymentId__c</fullName>
+        <description>Live Agent Deployment Id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Live Agent Deployment Id.</inlineHelpText>
+        <label>Contact Us Live Agent deployment id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_liveAgentDeploymentURL__c</fullName>
+        <description>Live Agent deployment URL.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Live Agent deployment URL.</inlineHelpText>
+        <label>Contact Us Live Agent deployment url</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umContactus_phoneNumber__c</fullName>
+        <description>Phone number to use in call feature (if enabled).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Phone number to use in call feature (if enabled).</inlineHelpText>
+        <label>Contact Us Phone number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umKnowledgeBase_enabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable Knowledge Base.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable Knowledge Base.</inlineHelpText>
+        <label>Knowledge Base Enabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umSite_announcementsKaId__c</fullName>
+        <description>Knowledge Article Version Id to display as Announcement in site Announcement area (if enabled).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Knowledge Article Version Id to display as Announcement in site Announcement area (if enabled).</inlineHelpText>
+        <label>Site Announcement Knowledge Article Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_announcements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Enable / Disable Article Display as announcement in mobile site header (by enabling this option the announcements Knowledge Article Id field must be filled.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable / Disable Article Display as announcement in mobile site header (by enabling this option the announcements Knowledge Article Id field must be filled.</inlineHelpText>
+        <label>Site Announcements Area</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umSite_apiName__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Site API Name</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Site API Name</inlineHelpText>
+        <label>Site Api Name</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields><fields>
+        <fullName>umSite_authenticated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Authentication enabled/disabled</description>
+        <externalId>false</externalId>
+        <label>Site Authentication</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umSite_backgroundColor__c</fullName>
+        <description>Mobile Site header background color (if no background image set up mobile application will use this field value as background color), specified as hex color (example #FFF).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mobile Site header background color (if no background image set up mobile application will use this field value as background color), specified as hex color (example #FFF).</inlineHelpText>
+        <label>Site Header Background Color</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_backgroundImage__c</fullName>
+        <description>Mobile Site header background image, this image must be inside the static resource selected for this site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mobile Site header background image, this image must be inside the static resource selected for this site.</inlineHelpText>
+        <label>Site Header Background Image</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_casesAuthenticated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Cases access level, authenticated or unauthenticated.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cases access level, authenticated or unauthenticated.</inlineHelpText>
+        <label>Site Cases Authenticated</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umSite_casesEnabled__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Cases enabled for site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Cases enabled for site.</inlineHelpText>
+        <label>Site Cases Enabled/Disabled</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>umSite_guestProfileId__c</fullName>
+        <description>Profile Name for guest users in mobile application.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Profile Name for guest users in mobile application.</inlineHelpText>
+        <label>Site Guest Profile Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_iconImage__c</fullName>
+        <description>Site Header icon image, this image must be allocated in the selected static resource for this site.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Site Header icon image, this image must be allocated in the selected static resource for this site.</inlineHelpText>
+        <label>Site Header Icon Image</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_searchBannerLabel__c</fullName>
+        <description>Mobile Site search banner label.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mobile Site search banner label.</inlineHelpText>
+        <label>Site search banner label</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_staticResource__c</fullName>
+        <description>Site Static Resource (used for mobile site stylesheet and images)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Site Static Resource (used for mobile site stylesheet and images)</inlineHelpText>
+        <label>Site Static Resource</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>umSite_welcomeMessage__c</fullName>
+        <description>Mobile Site welcome message</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Mobile Site welcome message</inlineHelpText>
+        <label>Site Welcome Message</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>List</customSettingsType><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><label>umSite</label><visibility>Public</visibility></CustomObject>

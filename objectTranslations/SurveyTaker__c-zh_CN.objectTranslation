@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>案子</label>
+        <name>Case__c</name>
+        <relationshipLabel>调查采样</relationshipLabel>
+    </fields><fields>
+        <label>调查采样联系</label>
+        <name>Contact__c</name>
+        <relationshipLabel>调查采样</relationshipLabel>
+    </fields><fields>
+        <label>调查</label>
+        <name>Survey__c</name>
+        <relationshipLabel>调查采样</relationshipLabel>
+    </fields><fields>
+        <label><!-- Taken --></label>
+        <name>Taken__c</name>
+    </fields><fields>
+        <label>调查采样用户</label>
+        <name>User__c</name>
+        <relationshipLabel>调查采样</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Survey Taken --></value>
+    </caseValues><nameFieldLabel><!-- ID --></nameFieldLabel></CustomObjectTranslation>

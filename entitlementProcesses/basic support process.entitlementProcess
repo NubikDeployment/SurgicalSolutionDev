@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Standard support process used by basic service products and warranties.</description>
+    <entryStartDateField>Case.DateTime_Opened_c__c</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>Closed - First Call, Closed</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Web, Portal</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Critical</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Response</milestoneName>
+        <minutesToComplete>120</minutesToComplete>
+        <successActions>
+            <name>Milestone_1st_Response_SUCCESSFUL</name>
+            <type>Alert</type>
+        </successActions>
+        <successActions>
+            <name>Set_Case_Status_to_Researching</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Milestone_1st_Response_Warning</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Owner_to_Tier_2_Queue</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-10</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Milestone_1st_Response_VIOLATION</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Mark_Case_as_Non_Compliant</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Escalated_to_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Status_to_Escalated</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>High, Medium, Low</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email, Web, Portal</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>First Response</milestoneName>
+        <minutesToComplete>240</minutesToComplete>
+        <successActions>
+            <name>Milestone_1st_Response_SUCCESSFUL</name>
+            <type>Alert</type>
+        </successActions>
+        <successActions>
+            <name>Set_Case_Status_to_Researching</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <timeTriggers>
+            <actions>
+                <name>Milestone_1st_Response_VIOLATION</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Escalated_to_True</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Status_to_Escalated</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>15</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Milestone_1st_Response_Warning</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Set_Case_Owner_to_Tier_2_Queue</name>
+                <type>FieldUpdate</type>
+            </actions>
+            <timeLength>-15</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Technical Issue, Technical Issue - Advanced</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Under Investigation</milestoneName>
+        <minutesToComplete>480</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneName>Solution Proposed</milestoneName>
+        <minutesToComplete>1440</minutesToComplete>
+        <successActions>
+            <name>Set_Case_Status_to_Waiting_on_Customer</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Stop_SLA_Clock_on_Case</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Critical</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Case Closed</milestoneName>
+        <minutesToComplete>1920</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>High, Medium, Low</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Case Closed</milestoneName>
+        <minutesToComplete>2400</minutesToComplete>
+        <useCriteriaStartTime>false</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Activo</label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label>Asignado</label>
+        <name>Allocated__c</name>
+    </fields><fields>
+        <label>Socio canal</label>
+        <name>Channel_Partner__c</name>
+        <relationshipLabel>Fondos de desarollo de mercados</relationshipLabel>
+    </fields><fields>
+        <label>Fecha de finalización</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>fecha última actualización</label>
+        <name>Last_Refresh_Date__c</name>
+    </fields><fields>
+        <label>Actualizar saldos</label>
+        <name>Refresh__c</name>
+    </fields><fields>
+        <label>Restante</label>
+        <name>Remaining__c</name>
+    </fields><fields>
+        <label>Solicitado</label>
+        <name>Requested__c</name>
+    </fields><fields>
+        <label>Fecha de inicio</label>
+        <name>Start_Date__c</name>
+    </fields><fields>
+        <help>Estipendio: Una cantidad mensual/trimestral/anual Cantidad fija: Acceso a un número fijo de recursos o servicios Descuento: Programas de Marketing subsidiados Reembolso: Reembolso de gastos aprobados</help>
+        <label>Tipo</label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Discount</masterLabel>
+            <translation>Descuento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Quantity</masterLabel>
+            <translation>Cantidad fija</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate</masterLabel>
+            <translation>Reembolso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stipend</masterLabel>
+            <translation>Estipendio</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- MDF --></value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value><!-- MDF --></value>
+    </caseValues><gender><!-- Masculine --></gender><nameFieldLabel><!-- Name --></nameFieldLabel><layouts>
+        <layout>MDF Layout</layout>
+        <sections>
+            <label>Detalles financieros</label>
+            <section>Financial Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Ende</label>
+        <name>End_Date__c</name>
+    </fields><fields>
+        <label>Abrechnungssystem</label>
+        <name>Payroll_System__c</name>
+        <relationshipLabel><!-- Pay Cycles --></relationshipLabel>
+    </fields><fields>
+        <label>Verarbeitet am</label>
+        <name>Processed__c</name>
+    </fields><fields>
+        <label>Jahr</label>
+        <name>Year__c</name>
+    </fields><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Abrechnungsperiode</value>
+    </caseValues><caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Abrechnungsperioden</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Abrechnungsperiode</value>
+    </caseValues><caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Abrechnungsperioden</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Abrechnungsperiode</value>
+    </caseValues><caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Abrechnungsperioden</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Abrechnungsperiode</value>
+    </caseValues><caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Abrechnungsperioden</value>
+    </caseValues><gender>Feminine</gender><nameFieldLabel>Abrechnungsperiode</nameFieldLabel><layouts>
+        <layout>Pay Cycle Layout</layout>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><validationRules>
+        <errorMessage><!-- Processed pay cycles cannot be changed.  Reset Pay Cycle to edit fields. --></errorMessage>
+        <name>Processed_pay_cycles_cannot_be_changed</name>
+    </validationRules><webLinks>
+        <label>Erstelle Export Datei</label>
+        <name>Create_Extract_File</name>
+    </webLinks><webLinks>
+        <label>Report über die Gehalts Auszahlung</label>
+        <name>Pay_Cycle_Summary_Report</name>
+    </webLinks><webLinks>
+        <label>Führe Gehalts Auszahlung durch</label>
+        <name>Process_Pay_Cycle_2</name>
+    </webLinks><webLinks>
+        <label>Setze die Gehalts Auszahlung zurück</label>
+        <name>Reset_Pay_Cycle_2</name>
+    </webLinks></CustomObjectTranslation>

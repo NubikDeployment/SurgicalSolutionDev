@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><layouts>
+        <layout>Contract Line Item Layout</layout>
+        <sections>
+            <label>合同行项目信息</label>
+            <section>Contract Line Item Information</section>
+        </sections>
+        <sections>
+            <label>涵盖资产</label>
+            <section>Covered Asset</section>
+        </sections>
+        <sections>
+            <label>定价</label>
+            <section>Pricing</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

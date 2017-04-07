@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>从项目的情况，项目组更新。</help>
+        <label>在行动更新观念</label>
+        <name>A_Note_from_the_Project_Team__c</name>
+    </fields><fields>
+        <help>为什么做这个项目？ \ r \ nWhat发生，如果我们don_“ZT办呢？ \ r \ nWhy现在就这样做？ \ r \ NHOW关键将在项目的影响有多大？</help>
+        <label>企业论证</label>
+        <name>Business_Justification__c</name>
+    </fields><fields>
+        <help>你打算如何在沟通这个项目的情况向社会？</help>
+        <label>交流计划</label>
+        <name>Communication_Plan__c</name>
+    </fields><fields>
+        <help>什么部门负责这个项目？</help>
+        <label>部门</label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>Business Development &amp; Alliances</masterLabel>
+            <translation>业务发展和联盟</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Support</masterLabel>
+            <translation>客户支持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Services (HR)</masterLabel>
+            <translation>员工服务（HR）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facilities &amp; Real Estate</masterLabel>
+            <translation>设施与房地产</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation</masterLabel>
+            <translation>基础</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Services</masterLabel>
+            <translation>全球服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information Technology (IT)</masterLabel>
+            <translation>信息技术（IT）</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Salesforce App</masterLabel>
+            <translation>内部Salesforce的应用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation>法律</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation>市场营销</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation>产品管理</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research &amp; Development</masterLabel>
+            <translation>研究和发展</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation>销售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security</masterLabel>
+            <translation>安全</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>注意改变的预计完成日期跟踪该领域的历史追踪下文</help>
+        <label>预计落成日期</label>
+        <name>Estimated_Completion_Date__c</name>
+    </fields><fields>
+        <help>最直接负责这个项目是什么群体？</help>
+        <label>组</label>
+        <name>Group__c</name>
+        <picklistValues>
+            <masterLabel>Applications</masterLabel>
+            <translation>应用</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apps</masterLabel>
+            <translation>应用程序</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Sales</masterLabel>
+            <translation>企业销售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demand Generation</masterLabel>
+            <translation>需求生成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Services</masterLabel>
+            <translation>员工服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise Sales</masterLabel>
+            <translation>企业销售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events</masterLabel>
+            <translation>活动</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global</masterLabel>
+            <translation>全球</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation>硬件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Services</masterLabel>
+            <translation>实施服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive</masterLabel>
+            <translation>互动</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>London</masterLabel>
+            <translation>伦敦</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation>纽约</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation>平台</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premiere Support</masterLabel>
+            <translation>首映支持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recruiting</masterLabel>
+            <translation>招聘</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation>旧金山</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Support</masterLabel>
+            <translation>标准支持</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sydney</masterLabel>
+            <translation>悉尼</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tokyo</masterLabel>
+            <translation>东京</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toronto</masterLabel>
+            <translation>多伦多</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>理念</label>
+        <name>Idea__c</name>
+        <relationshipLabel>在操作思路</relationshipLabel>
+    </fields><fields>
+        <help>什么是努力完成这个项目的水平？它是一个速赢或资源密集型的项目？</help>
+        <label>努力程度</label>
+        <name>Level_of_Effort__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>注4</label>
+        <name>Note_4__c</name>
+    </fields><fields>
+        <label>注5</label>
+        <name>Note_5__c</name>
+    </fields><fields>
+        <label>注1</label>
+        <name>Notes_1__c</name>
+    </fields><fields>
+        <label>注2</label>
+        <name>Notes_2__c</name>
+    </fields><fields>
+        <label>注3</label>
+        <name>Notes_3__c</name>
+    </fields><fields>
+        <help>根据下面的项目清单上的公式字段。</help>
+        <label>完成百分比（％）</label>
+        <name>Percent_Complete__c</name>
+    </fields><fields>
+        <label>项目优先〜</label>
+        <name>Priority_Flag__c</name>
+    </fields><fields>
+        <help>如何优先级高是它的组织和集团？</help>
+        <label>项目优先</label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation>高</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation>低</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation>中</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>计算天数自创建这个项目。</help>
+        <label>项目年龄</label>
+        <name>Project_Age__c</name>
+    </fields><fields>
+        <help>提供项目，以明确目标的简短描述</help>
+        <label>项目介绍</label>
+        <name>Project_Description__c</name>
+    </fields><fields>
+        <help>什么是一些关键的里程碑这个项目的？ \ r \ñ\ r \ nMilestones也可以分类和跟踪在下面的相关列表。</help>
+        <label>里程碑</label>
+        <name>Project_Milestones__c</name>
+    </fields><fields>
+        <label>二期工程</label>
+        <name>Project_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>已完成</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluating</masterLabel>
+            <translation>评估</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation>进行中</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Hold</masterLabel>
+            <translation>等候接听</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Present Initial Plan for Approval</masterLabel>
+            <translation>准备提交审批初步方案</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation>计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabeled</masterLabel>
+            <translation><!-- Tabeled --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>项目状态〜</label>
+        <name>Project_Status_Indicator__c</name>
+    </fields><fields>
+        <label>项目状态</label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation>绿色</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation>红</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation>黄色</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>1分</label>
+        <name>S1__c</name>
+    </fields><fields>
+        <label>2分</label>
+        <name>Score_2__c</name>
+    </fields><fields>
+        <label>3分</label>
+        <name>Score_3__c</name>
+    </fields><fields>
+        <label>分数4</label>
+        <name>Score_4__c</name>
+    </fields><fields>
+        <label>分数5</label>
+        <name>Score_5__c</name>
+    </fields><fields>
+        <help>请简要介绍，这将需要之前或在项目过程中需要解决的所有问题。是否有任何风险</help>
+        <label>成功因素</label>
+        <name>Success_Factors__c</name>
+    </fields><fields>
+        <label>项目类型</label>
+        <name>Type_of_Project__c</name>
+        <picklistValues>
+            <masterLabel>Customer Facing</masterLabel>
+            <translation>面对客户</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation>内部</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Program</masterLabel>
+            <translation>合作伙伴计划</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>项目中所有对象的字段已经排满了，该项目已准备好提交。</help>
+        <label>初步计划</label>
+        <name>checkbox1__c</name>
+    </fields><fields>
+        <help>该项目已提交和资源已被批准。</help>
+        <label>资源化</label>
+        <name>checkbox2__c</name>
+    </fields><fields>
+        <help>详细的项目计划已被写入，一切都准备开始工作。</help>
+        <label>规划明确</label>
+        <name>checkbox3__c</name>
+    </fields><fields>
+        <help>该项目计划已执行，工作就完成了。</help>
+        <label>计划执行的</label>
+        <name>checkbox4__c</name>
+    </fields><fields>
+        <help>该项目的情况已反馈给社区和项目组听取。</help>
+        <label>沟通</label>
+        <name>checkbox5__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Idea in Action --></value>
+    </caseValues><nameFieldLabel><!-- Idea in Action --></nameFieldLabel><layouts>
+        <layout>Customer Portal Layout</layout>
+        <sections>
+            <label>客户沟通</label>
+            <section>Customer Communication</section>
+        </sections>
+        <sections>
+            <label>项目更新</label>
+            <section>Project Update</section>
+        </sections>
+        <sections>
+            <label>友情链接</label>
+            <section>Web Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Project Layout</layout>
+        <sections>
+            <label>客户/员工沟通</label>
+            <section>Customer/Employee Communication</section>
+        </sections>
+        <sections>
+            <label>图像域</label>
+            <section>Image Fields</section>
+        </sections>
+        <sections>
+            <label>项目清单</label>
+            <section>Project Checklist</section>
+        </sections>
+        <sections>
+            <label>项目总结</label>
+            <section>Project Summary</section>
+        </sections>
+        <sections>
+            <label>友情链接</label>
+            <section>Web Links</section>
+        </sections>
+    </layouts><webLinks>
+        <label>创意社区</label>
+        <name>Ideas_Community</name>
+    </webLinks><webLinks>
+        <label>设置：思想在行动</label>
+        <name>Setup_Ideas_in_Action</name>
+    </webLinks><webLinks>
+        <label>设置：页面布局</label>
+        <name>Setup_Page_Layout</name>
+    </webLinks></CustomObjectTranslation>

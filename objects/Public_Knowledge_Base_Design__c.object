@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <content>PKBDesigner</content>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Visualforce</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>Body_BG_Color__c</fullName>
+        <defaultValue>"#FFFFFF"</defaultValue>
+        <externalId>false</externalId>
+        <label>Body BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Body_Font_Color__c</fullName>
+        <defaultValue>"#333333"</defaultValue>
+        <externalId>false</externalId>
+        <label>Body Font Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>action_color__c</fullName>
+        <defaultValue>"#1796bf"</defaultValue>
+        <externalId>false</externalId>
+        <label>action color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>ahref_color__c</fullName>
+        <defaultValue>"#015BA7"</defaultValue>
+        <externalId>false</externalId>
+        <label>ahref color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_article_div_data_Color__c</fullName>
+        <defaultValue>"#777777"</defaultValue>
+        <externalId>false</externalId>
+        <label>div.article div.data Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_body_BG_Color__c</fullName>
+        <defaultValue>"#fafbfb"</defaultValue>
+        <externalId>false</externalId>
+        <label>div#body BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_body_Border_Color__c</fullName>
+        <defaultValue>"#e8e9e9"</defaultValue>
+        <externalId>false</externalId>
+        <label>div#body Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_feedbackDialog_Border_Color__c</fullName>
+        <defaultValue>"#8acde0"</defaultValue>
+        <externalId>false</externalId>
+        <label>div#feedbackDialog Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_narrowSearch_Border_Color__c</fullName>
+        <defaultValue>"#eeeeee"</defaultValue>
+        <externalId>false</externalId>
+        <label>div.narrowSearch Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_right_column_BG_Color__c</fullName>
+        <defaultValue>"#ffffff"</defaultValue>
+        <externalId>false</externalId>
+        <label>div#right_column BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_right_column_Border_Color__c</fullName>
+        <defaultValue>"#e8e9e9"</defaultValue>
+        <externalId>false</externalId>
+        <label>div#right_column Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_selectedArticle_Background_Color__c</fullName>
+        <defaultValue>"#d8f1f9"</defaultValue>
+        <externalId>false</externalId>
+        <label>div.selectedArticle Background Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>div_selectedArticle_Border_Color__c</fullName>
+        <defaultValue>"#42a1bd"</defaultValue>
+        <externalId>false</externalId>
+        <label>div.selectedArticle Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>h2_section_Border_Color__c</fullName>
+        <defaultValue>"#eeeeee"</defaultValue>
+        <externalId>false</externalId>
+        <label>h2.section Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>h2_section_Color__c</fullName>
+        <defaultValue>"#333333"</defaultValue>
+        <externalId>false</externalId>
+        <label>h2.section Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>knowledgeTOCRendererSection_BG_Color__c</fullName>
+        <defaultValue>"#E4E4E4"</defaultValue>
+        <externalId>false</externalId>
+        <label>.knowledgeTOCRendererSection BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>knowledgeTOCRendererSection_selected_BG__c</fullName>
+        <defaultValue>"#3F44AF"</defaultValue>
+        <externalId>false</externalId>
+        <label>.knowledgeTOCRendererSection.selected BG</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>knowledgeTOCRendererSection_selected_FC__c</fullName>
+        <defaultValue>"#FFFFFF"</defaultValue>
+        <externalId>false</externalId>
+        <label>.knowledgeTOCRendererSection.selected FC</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>knowledgeTOCRendererSections_BG_Color__c</fullName>
+        <defaultValue>"#E7E8EC"</defaultValue>
+        <externalId>false</externalId>
+        <label>knowledgeTOCRendererSections BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>knowledgeTOCRendererSections_color__c</fullName>
+        <defaultValue>"#333333"</defaultValue>
+        <externalId>false</externalId>
+        <label>knowledgeTOCRendererSections color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>searchAskInputContainer_Border_Color__c</fullName>
+        <defaultValue>"#8DCDE2"</defaultValue>
+        <externalId>false</externalId>
+        <label>#searchAskInputContainer Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>searchAskInputContainer_shadow_Color__c</fullName>
+        <defaultValue>"#85a6b0"</defaultValue>
+        <externalId>false</externalId>
+        <label>#searchAskInputContainer shadow Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>sectionName_BG_Color__c</fullName>
+        <defaultValue>"#989898"</defaultValue>
+        <externalId>false</externalId>
+        <label>sectionName BG Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>sectionName_selected_BGColor__c</fullName>
+        <defaultValue>"#6B70C5"</defaultValue>
+        <externalId>false</externalId>
+        <label>.sectionName.selected BGColor</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>sectionName_selected_td_color__c</fullName>
+        <defaultValue>"#333333"</defaultValue>
+        <externalId>false</externalId>
+        <label>.sectionName.selected td color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>sectionName_td_color__c</fullName>
+        <defaultValue>"#333333"</defaultValue>
+        <externalId>false</externalId>
+        <label>.sectionName td color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>select_language_Border_Color__c</fullName>
+        <defaultValue>"#8ac7d7"</defaultValue>
+        <externalId>false</externalId>
+        <label>select.language Border Color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>textarea_default_color__c</fullName>
+        <defaultValue>"#D3D3D3"</defaultValue>
+        <externalId>false</externalId>
+        <label>textarea.default color</label>
+        <length>7</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>false</enableHistory><enableReports>false</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ReadWrite</externalSharingModel><label>PKB Design</label><nameField>
+        <label>Public Knowledge Base Design Name</label>
+        <type>Text</type>
+    </nameField><pluralLabel>PKB Designs</pluralLabel><searchLayouts /><sharingModel>ReadWrite</sharingModel><listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews></CustomObject>

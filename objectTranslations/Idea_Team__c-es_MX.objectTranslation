@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>Si el miembro de equipo de proyecto no existe como un usuario en Salesforce usted puede añadirlos como un contacto.</help>
+        <label>Contacto</label>
+        <name>Contact__c</name>
+        <relationshipLabel>Equipo idea</relationshipLabel>
+    </fields><fields>
+        <label>Proyecto</label>
+        <name>Project__c</name>
+        <relationshipLabel>Equipo idea</relationshipLabel>
+    </fields><fields>
+        <help>Utilizar este campo para individuos que participan en el equipo del proyecto.</help>
+        <label>Usuario</label>
+        <name>User__c</name>
+        <relationshipLabel>Equipo idea</relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Equipo idea</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Equipo idea</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Función</nameFieldLabel></CustomObjectTranslation>

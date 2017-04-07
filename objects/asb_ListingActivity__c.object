@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>AssetType__c</fullName>
+        <description>The type of asset that was viewed on the listing.</description>
+        <externalId>false</externalId>
+        <formula>ListingAsset__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The type of asset that was viewed on the listing.</inlineHelpText>
+        <label>Asset Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>Duplicate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Indicates if the same type of activity was taken by the same user on the same listing within the last 180 days.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates if the same type of activity was taken by the same user on the same listing within the last 180 days.</inlineHelpText>
+        <label>Duplicate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields><fields>
+        <fullName>ListingAsset__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The listing asset that was accessed if applicable.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The listing asset that was accessed if applicable.</inlineHelpText>
+        <label>Listing Asset</label>
+        <referenceTo>asb_ListingAsset__c</referenceTo>
+        <relationshipLabel>Listing Activities</relationshipLabel>
+        <relationshipName>Listing_Activities</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>asb_Listing__c</fullName>
+        <description>The listing on which the activity occurred.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The listing on which the activity occurred.</inlineHelpText>
+        <label>Listing</label>
+        <referenceTo>asb_Listing__c</referenceTo>
+        <relationshipLabel>Listing Activities</relationshipLabel>
+        <relationshipName>Listing_Activities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields><allowInChatterGroups>false</allowInChatterGroups><compactLayoutAssignment>SYSTEM</compactLayoutAssignment><deploymentStatus>Deployed</deploymentStatus><description>Tracks user activity (e.g. install) on each listing in the store.</description><enableActivities>false</enableActivities><enableBulkApi>true</enableBulkApi><enableFeeds>false</enableFeeds><enableHistory>true</enableHistory><enableReports>true</enableReports><enableSearch>true</enableSearch><enableSharing>true</enableSharing><enableStreamingApi>true</enableStreamingApi><externalSharingModel>ControlledByParent</externalSharingModel><label>Listing Activity</label><nameField>
+        <displayFormat>LA-{0}</displayFormat>
+        <label>Listing Activity Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField><pluralLabel>Listing Activities</pluralLabel><recordTypeTrackHistory>false</recordTypeTrackHistory><searchLayouts /><sharingModel>ControlledByParent</sharingModel><recordTypes>
+        <fullName>AssetView</fullName>
+        <active>true</active>
+        <description>Viewed a listing asset.</description>
+        <label>AssetView</label>
+    </recordTypes><recordTypes>
+        <fullName>Install</fullName>
+        <active>true</active>
+        <description>Installed the app.</description>
+        <label>Install</label>
+    </recordTypes><recordTypes>
+        <fullName>PageView</fullName>
+        <active>true</active>
+        <description>Viewed the listing page.</description>
+        <label>PageView</label>
+    </recordTypes></CustomObject>

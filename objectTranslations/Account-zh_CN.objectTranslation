@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>AccountSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>冷拨</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>社区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation><!-- Data.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>呼入电话</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>营销事件</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>伙伴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>推荐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>社交媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>网站</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>户口所在地</label>
+        <name>Account_Location__c</name>
+    </fields><fields>
+        <label>客户优先</label>
+        <name>Account_Priority__c</name>
+    </fields><fields>
+        <label><!-- Account Source Custom --></label>
+        <name>Account_Source_Custom__c</name>
+        <picklistValues>
+            <masterLabel>Added from Data.com</masterLabel>
+            <translation><!-- Added from Data.com --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>帐户状态</label>
+        <name>Account_Status__c</name>
+    </fields><fields>
+        <label>年收入</label>
+        <name>Annual_Income__c</name>
+    </fields><fields>
+        <label>申请日期</label>
+        <name>Application_Date__c</name>
+    </fields><fields>
+        <label>商务家庭成员数</label>
+        <name>Business_Family_Members_Data__c</name>
+    </fields><fields>
+        <label>求购关系</label>
+        <name>Buying_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation>直接</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indirect</masterLabel>
+            <translation>间接</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside</masterLabel>
+            <translation>外</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>封闭式失落Opptys</label>
+        <name>Closed_Lost_Opptys__c</name>
+    </fields><fields>
+        <label>封闭荣获Opptys</label>
+        <name>Closed_Won_Opptys__c</name>
+    </fields><fields>
+        <help>这是从封闭机会自动计算。</help>
+        <label>销售总额</label>
+        <name>Closed_Won_Value__c</name>
+    </fields><fields>
+        <label>竞争性认证</label>
+        <name>Competitive_Certifications__c</name>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation>思科</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation>生命值</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUN</masterLabel>
+            <translation>太阳</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>签订合同</label>
+        <name>Contract_Signed__c</name>
+    </fields><fields>
+        <label>本年度销售目标</label>
+        <name>Current_Year_Revenue_Goal__c</name>
+    </fields><fields>
+        <label>本年度目标</label>
+        <name>Current_Year_Target__c</name>
+    </fields><fields>
+        <label>用户帐号</label>
+        <name>Customer_Account__c</name>
+    </fields><fields>
+        <help>这是什么客户对我们的看法？</help>
+        <label>客户满意度指数</label>
+        <name>Customer_Satisfaction_Index__c</name>
+        <picklistValues>
+            <masterLabel>A - Extremely Satisfied - Customer Evangelist</masterLabel>
+            <translation>A  - 非常满意 - 客户传播者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Satisfied</masterLabel>
+            <translation>乙 - 满意</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Neutral</masterLabel>
+            <translation>Ç - 中性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Dissatisfied - At risk of losing business</masterLabel>
+            <translation>ð - 不满意 - 在失去业务的风险</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Unsatisfactory - Losing Business</masterLabel>
+            <translation>的F  - 不满意 - 亏本生意</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>客户价值</label>
+        <name>Customer_Value__c</name>
+    </fields><fields>
+        <label>由于活动天数</label>
+        <name>Days_Since_Activity__c</name>
+    </fields><fields>
+        <label>犯罪风险</label>
+        <name>Delinquency_Risk_Data__c</name>
+    </fields><fields>
+        <label><!-- DB --></label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label>老字号</label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <label>外部ID</label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>全球商业名称</label>
+        <name>Global_Business_Name_Data__c</name>
+    </fields><fields>
+        <label><!-- Global Ultimate D-U-N-S Number --></label>
+        <name>Global_Ultimate_D_U_N_S_Number__c</name>
+    </fields><fields>
+        <label>％目标实现</label>
+        <name>Goal_Attainment__c</name>
+    </fields><fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>农业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation>服饰</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>银行业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>生物技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>化学制品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>施工</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>咨询</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation>教育</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>电子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>能源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation>工程</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>环境的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation>金融服务</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>食品与饮料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare &amp; Life Sciences</masterLabel>
+            <translation>医疗保健与生命科学</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>招待费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>保险</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>机械</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>制造业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>不以盈利为目的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>零售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>送货</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>电信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>运输</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation>公用事业</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>去年产生的收入</label>
+        <name>Last_Year_Revenue_Generated__c</name>
+    </fields><fields>
+        <label>纬度</label>
+        <name>Latitude__c</name>
+    </fields><fields>
+        <label>铅转换率</label>
+        <name>Lead_Conversion_Rate__c</name>
+    </fields><fields>
+        <label>导致机会关闭率</label>
+        <name>Lead_To_Opportunity_Close_Rate__c</name>
+    </fields><fields>
+        <label>负债</label>
+        <name>Liabilities__c</name>
+    </fields><fields>
+        <label>经度</label>
+        <name>Longitude__c</name>
+    </fields><fields>
+        <label>地图账户</label>
+        <name>Map_the_Account__c</name>
+    </fields><fields>
+        <label>净值</label>
+        <name>Net_Worth__c</name>
+    </fields><fields>
+        <label>失去的机会</label>
+        <name>Number_Closed_Lost_Opportunities__c</name>
+    </fields><fields>
+        <label>封闭式机会</label>
+        <name>Number_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>赢得机遇</label>
+        <name>Number_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>活动信息</label>
+        <name>Number_Leads_Active__c</name>
+    </fields><fields>
+        <label>转换信息</label>
+        <name>Number_Leads_Converted__c</name>
+    </fields><fields>
+        <label>总信息</label>
+        <name>Number_Leads_Total__c</name>
+    </fields><fields>
+        <label>开机会</label>
+        <name>Number_Open_Opportunities__c</name>
+    </fields><fields>
+        <label>员工人数 - 位置</label>
+        <name>Number_of_Employees_Location_Data__c</name>
+    </fields><fields>
+        <label>打开Oppty价值</label>
+        <name>Open_Oppty_Value__c</name>
+    </fields><fields>
+        <label>打开Opptys</label>
+        <name>Open_Opptys__c</name>
+    </fields><fields>
+        <label>开放式与封闭式机会</label>
+        <name>Open_vs_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>开放式与封闭式赢得机会</label>
+        <name>Open_vs_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>机会赢率</label>
+        <name>Opportunity_Win_Rate__c</name>
+    </fields><fields>
+        <label>其他的收入</label>
+        <name>Other_Income__c</name>
+    </fields><fields>
+        <label>逾期发票收入</label>
+        <name>Overdue_Invoice_Revenue__c</name>
+    </fields><fields>
+        <label>逾期发票</label>
+        <name>Overdue_Invoices__c</name>
+    </fields><fields>
+        <name>Ownership</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation>私人</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation>上市</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>辅助者</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>合作伙伴认证</label>
+        <name>Partner_Certification__c</name>
+        <picklistValues>
+            <masterLabel>Certified Partner</masterLabel>
+            <translation>认证合作伙伴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elite Partner</masterLabel>
+            <translation>精英合作伙伴</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>合作伙伴地理覆盖</label>
+        <name>Partner_Geographic_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation>亚太地区</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation><!-- EMEA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LACA</masterLabel>
+            <translation><!-- LACA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation>北美</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>合作伙伴计划级别</label>
+        <name>Partner_Program_Level__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation>青铜</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>金</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>铂</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>银</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>合作伙伴类型</label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alliance Partner</masterLabel>
+            <translation>联盟合作伙伴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation>分销商</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>伙伴</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation>经销商</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service &amp; Support Specialist</masterLabel>
+            <translation>服务与支持专家</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>服务提供者</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Integrator</masterLabel>
+            <translation>系统集成商</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>合作伙伴地位</label>
+        <name>Partnership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>活性</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>非活动</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>待定</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation>暂停</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>百分比韩元</label>
+        <name>Percent_Won__c</name>
+    </fields><fields>
+        <label>个人资产</label>
+        <name>Personal_Assets__c</name>
+    </fields><fields>
+        <label>程式</label>
+        <name>Programs__c</name>
+        <picklistValues>
+            <masterLabel>Consulting Program</masterLabel>
+            <translation>咨询项目</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor Program</masterLabel>
+            <translation>分销商计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation>推荐计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller Program</masterLabel>
+            <translation>经销商计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Program</masterLabel>
+            <translation>服务计划</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worldwide Reseller Agreement</masterLabel>
+            <translation>全球经销协议</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>此记录相关的关键字</help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation>凉</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation>热</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation>暖</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>值指示器</label>
+        <name>Rating_Indicator__c</name>
+    </fields><fields>
+        <label>地区</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation>中央</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation>东</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation>西</translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated. --></help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields><fields>
+        <help><!-- Enable to combine assets and subscriptions from multiple co-termed contracts. By default, each co-termed contract generates a separate group on renewal quote. --></help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields><fields>
+        <help><!-- Determines when contracts are co-terminated. --></help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation><!-- Add-on --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Determines how service and subscription contracts for this customer are co-terminated. --></help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation><!-- Always --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation><!-- Prompt --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Default opportunity for this account used by an e-Commerce module to obtain the customer&apos;s price book and associate with &quot;shopping cart&quot; quotes. --></help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields><fields>
+        <help><!-- Select if contracted prices should not be inherited from the parent account. --></help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields><fields>
+        <help><!-- Select checkbox to maintain bundle hierarchy on renewal quotes and amendments. --></help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields><fields>
+        <help><!-- Enter date until which the prices must be held. --></help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields><fields>
+        <help><!-- Choose Asset Based to make renewals based off of an account&apos;s Assets or choose Subscription based to makes renewals based off of subscriptions created from a quote. --></help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation><!-- Asset Based --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation><!-- Contract Based --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Use &quot;Same&quot; to keep the same price paid last time. Use &quot;List&quot; to use current list price. Use &quot;Uplift&quot; to use the price paid last time plus some uplift. --></help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation><!-- Same --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation><!-- Uplift --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>记分卡最近更新</label>
+        <name>Scorecard_Last_Updated__c</name>
+    </fields><fields>
+        <label>显示合作伙伴用户</label>
+        <name>Show_Partner_Users__c</name>
+    </fields><fields>
+        <label>显示上签地图</label>
+        <name>Show_on_Checkin_Map__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>企业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Market</masterLabel>
+            <translation>中端市场</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business</masterLabel>
+            <translation>小型企业</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label>已完成机会的价值</label>
+        <name>Value_Closed_Won_Opportunties__c</name>
+    </fields><fields>
+        <label>未完成机会的价值</label>
+        <name>Value_Open_Opportunties__c</name>
+    </fields><fields>
+        <label>值</label>
+        <name>Value__c</name>
+    </fields><fields>
+        <label>行业覆盖</label>
+        <name>Vertical_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>银行业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>生物技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>化学制品</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>施工</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>咨询</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation>教育</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>电子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>能源</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation>工程</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>环境的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>食品与饮料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>政府</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation>卫生保健</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>招待费</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>保险</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>机械</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>制造业</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>媒体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>不以盈利为目的</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>娱乐</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>零售</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>送货</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>技术</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>电信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>运输</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation>公用事业</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>关单未关单率</label>
+        <name>Win_Loss_Ratio__c</name>
+    </fields><fields>
+        <label>年初至今产生的收入</label>
+        <name>YTD_Revenue_Generated__c</name>
+    </fields><fields>
+        <label><!-- Hierarchy Parents --></label>
+        <name>accHierarchy__Hierarchy_Parents__c</name>
+    </fields><fields>
+        <label><!-- On Previous Hierarchy Level --></label>
+        <name>accHierarchy__On_Previous_Hierarchy_Level__c</name>
+    </fields><fields>
+        <label><!-- Top Parent Id --></label>
+        <name>accHierarchy__TopParentId__c</name>
+    </fields><fields>
+        <label><!-- Has Child With Changes --></label>
+        <name>accHierarchy__hasChildWithChanges__c</name>
+    </fields><fields>
+        <label>从Data.com来源</label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields><fields>
+        <label>新增的Data.com</label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields><fields>
+        <label>Data.com管理</label>
+        <name>jsImpacts__Data_com_Managed__c</name>
+    </fields><fields>
+        <label>Data.com匹配</label>
+        <name>jsImpacts__Data_com_Matched__c</name>
+    </fields><fields>
+        <help>从Data.com清理作业自动化领域的更新中排除这一纪录</help>
+        <label>Data.com不会自动更新</label>
+        <name>jsImpacts__Data_com_does_not_auto_update__c</name>
+    </fields><fields>
+        <label>已培训的百分率</label>
+        <name>of_Reps_Trained__c</name>
+    </fields><layouts>
+        <layout>Account Service</layout>
+        <sections>
+            <label><!-- Account Hierarchy --></label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com --></label>
+            <section>Data.com</section>
+        </sections>
+        <sections>
+            <label><!-- ERP Integration --></label>
+            <section>ERP Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Advanced Account</layout>
+        <sections>
+            <label><!-- Account Analytics --></label>
+            <section>Account Analytics</section>
+        </sections>
+        <sections>
+            <label><!-- Account Hierarchy --></label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Integration --></label>
+            <section>Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- Wave Analytics --></label>
+            <section>Wave Analytics</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Data.com Account</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Description --></label>
+            <section>Data.com Description</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Information --></label>
+            <section>Data.com Information</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Premium --></label>
+            <section>Data.com Premium</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Account</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Account</layout>
+        <sections>
+            <label><!-- Account Tracking --></label>
+            <section>Account Tracking</section>
+        </sections>
+        <sections>
+            <label><!-- Market Information --></label>
+            <section>Market Information</section>
+        </sections>
+        <sections>
+            <label><!-- Open Partner Opportunities --></label>
+            <section>Open Partner Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- Partnership Information --></label>
+            <section>Partnership Information</section>
+        </sections>
+        <sections>
+            <label><!-- Scorecard --></label>
+            <section>Scorecard</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>客户财务</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout - Lightning</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>客户财务</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Service Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>客户财务</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>相关链接</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Account</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>高级</label>
+        <name>Advanced</name>
+    </recordTypes><recordTypes>
+        <label><!-- Data.com --></label>
+        <name>Data_com</name>
+    </recordTypes><recordTypes>
+        <label>伙伴</label>
+        <name>Partner</name>
+    </recordTypes><recordTypes>
+        <label>简单</label>
+        <name>Simple</name>
+    </recordTypes><validationRules>
+        <errorMessage>有效的三个字母的国家代码是必需的。</errorMessage>
+        <name>CountryValidation</name>
+    </validationRules><validationRules>
+        <errorMessage>这个纪录已从Data.com自动清理更新任务中排除。</errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules><webLinks>
+        <label>科目主集成</label>
+        <name>Account_Master_Integration</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_out_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_out_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_Out_for_Text_Messages_detail --></label>
+        <name>Opt_Out_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_detail --></label>
+        <name>Opt_in_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label>重置</label>
+        <name>Reset</name>
+    </webLinks><webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Text_Message --></label>
+        <name>Send_Text_Message</name>
+    </webLinks><webLinks>
+        <label>支持</label>
+        <name>Support</name>
+    </webLinks><webLinks>
+        <label>更新记分卡</label>
+        <name>Update_Scorecard</name>
+    </webLinks><webLinks>
+        <label>空白报告</label>
+        <name>Whitespace_Report</name>
+    </webLinks><webLinks>
+        <label><!-- Button_View_Hierarchy --></label>
+        <name>accHierarchy__Button_View_Hierarchy</name>
+    </webLinks><webLinks>
+        <label>金融研究（胡佛）</label>
+        <name>financialprofile</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks></CustomObjectTranslation>

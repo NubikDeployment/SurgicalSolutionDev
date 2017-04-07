@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><layouts>
+        <layout>Entitlement Layout</layout>
+        <sections>
+            <label>詳細</label>
+            <section>Entitlement Information</section>
+        </sections>
+        <sections>
+            <label>事象あたり</label>
+            <section>Per Incident</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

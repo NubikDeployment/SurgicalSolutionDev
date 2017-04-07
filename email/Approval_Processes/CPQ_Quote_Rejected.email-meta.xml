@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used by the Opportunity Approval Process.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>CPQ Quote Rejected</name>
+    <style>freeForm</style>
+    <subject>Quote Discount Rejected</subject>
+    <textOnly>The discount of {!SBQQ__Quote__c.SBQQ__AverageCustomerDiscount__c} on the following Quote has been rejected:
+
+Customer: {!SBQQ__Quote__c.SBQQ__BillingName__c} 
+Expiration Date: {!SBQQ__Quote__c.SBQQ__ExpirationDate__c} 
+List Price: {!SBQQ__Quote__c.SBQQ__ListAmount__c} 
+Discount: {!SBQQ__Quote__c.SBQQ__TotalCustomerDiscountAmount__c} 
+Net Price: {!SBQQ__Quote__c.SBQQ__NetAmount__c} 
+
+To go to the Quote, please click here: {!SBQQ__Quote__c.Link}.</textOnly>
+    <type>html</type>
+</EmailTemplate>

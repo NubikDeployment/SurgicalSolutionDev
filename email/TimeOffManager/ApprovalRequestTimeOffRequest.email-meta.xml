@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Approval request template for Time-Off Manager app.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Time_Off_Manager_Approvals</letterhead>
+    <name>Time-Off Approval Request</name>
+    <style>freeForm</style>
+    <subject>Time-Off Request: {!Time_Off_Request__c.Requestor__c} starting {!Time_Off_Request__c.Start_Date__c} for {!Time_Off_Request__c.Number_of_Days__c} days</subject>
+    <textOnly>Time-Off Request {!Time_Off_Request__c.Name}
+
+A new Time-Off Request from {!Time_Off_Request__c.Employee_Name__c} is awaiting your approval.  Here are the details:
+
+Employee Number: {!Time_Off_Request__c.Employee_Number__c}
+Employee Name: {!Time_Off_Request__c.Employee_Name__c}
+
+Start Date: {!Time_Off_Request__c.Start_Date__c}
+End Date: {!Time_Off_Request__c.End_Date__c}
+
+# of Days Off: {!Time_Off_Request__c.Number_of_Days__c}
+Comments: {!Time_Off_Request__c.Comments_text__c}
+
+You can approve or reject this request directly from your desktop email program or mobile email device:1) Click the Reply button2) Type the word APPROVE or REJECT in the first line of the reply3) Click Send
+
+You can also review this request in Salesforce before approving.
+
+If the link above does not work, paste this URL into your browser:
+{!Time_Off_Request__c.Link}
+
+Audit Trail Info:
+{!ApprovalRequest.Process_Name} - {!ApprovalRequest.Process_Step_Name} - {!Workitem.ID}</textOnly>
+    <type>html</type>
+</EmailTemplate>

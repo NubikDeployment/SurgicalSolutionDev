@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<font face="Verdana">Hallo,&nbsp;<br><br>Dank u voor een vraag, we kijken ernaar uit om met u samen te werken.<br><br>Graag zou ik mezelf willen voorstellen als uw accountmanager. Twijfel neit om contact op te nemen indien u vragen hebt, u kunt me bereiken op telefoon {!User.Phone} of email {!User.Email}. <br><br>U kunt {!Organization.Name} ook bereiken op onderstaande telefoonnummers: <br><br>Algemeen: 810-545-1000 <br>Verkoop: 810-545-1222 <br>Klantenservice &amp; Support: 810-545-1333 <br>Fax: 810-545-1001 <br><br>Ik heb er volledig vertrouwen in dat {!Organization.Name} u goed kan bedienen en we kunnen bouwen aan een optimale relatie. <br><br>Met vriendelijke groet, <br>{!User.Name}</font>]]></td>
+</tr>
+</table>

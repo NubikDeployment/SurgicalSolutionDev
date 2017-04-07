@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <height>520</height>
+    <icon>GooglePin</icon>
+    <label>Check In</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <page>DE_CheckIn2</page>
+    <type>VisualforcePage</type>
+    <width>-100</width>
+</QuickAction>

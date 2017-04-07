@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Work.com: This sample report displays goals which haven&apos;t been modified in 30 days.</description>
+    <format>Summary</format>
+    <name>Stale Goals</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Goals_2__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

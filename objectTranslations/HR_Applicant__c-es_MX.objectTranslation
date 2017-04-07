@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>ID del candidato</label>
+        <name>HR_Applicant_ID__c</name>
+    </fields><fields>
+        <label>Contacto RH</label>
+        <name>HR_Contact__c</name>
+        <relationshipLabel>Candidatos (Contacto RH)</relationshipLabel>
+    </fields><fields>
+        <label>Empleador actual</label>
+        <name>HR_Current_Employer__c</name>
+    </fields><fields>
+        <label>Titulo actual</label>
+        <name>HR_Current_Title__c</name>
+    </fields><fields>
+        <label>Educación</label>
+        <name>HR_Education__c</name>
+        <picklistValues>
+            <masterLabel>2 year college</masterLabel>
+            <translation>2 años de universidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 year college</masterLabel>
+            <translation>4 años de universidad</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degree in Progress - BS</masterLabel>
+            <translation>Grado en curso - BS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Degree in Progress - MS</masterLabel>
+            <translation>Grado en curso - MS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doctorate</masterLabel>
+            <translation>Doctorado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High School</masterLabel>
+            <translation>Bachillerato</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masters</masterLabel>
+            <translation>Maestría</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional (MD, JD, CPA)</masterLabel>
+            <translation>Profesional (MD, JD, CPA)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Training</masterLabel>
+            <translation>Entrenamiento técnico</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Correo Electrónico</label>
+        <name>HR_Email__c</name>
+    </fields><fields>
+        <label><!-- Headshot Url --></label>
+        <name>HR_Headshot_Url__c</name>
+    </fields><fields>
+        <label>Gerente contratante</label>
+        <name>HR_Hiring_Manager__c</name>
+        <relationshipLabel>Candidatos (Gerente Contratante)</relationshipLabel>
+    </fields><fields>
+        <label>Ubicación</label>
+        <name>HR_Location__c</name>
+    </fields><fields>
+        <label>Ciudad</label>
+        <name>HR_Mailing_City__c</name>
+    </fields><fields>
+        <label>Código postal</label>
+        <name>HR_Mailing_Postal_Code__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>HR_Mailing_State__c</name>
+    </fields><fields>
+        <label>Calle</label>
+        <name>HR_Mailing_Street__c</name>
+    </fields><fields>
+        <label>Experiencia como gerente</label>
+        <name>HR_Manager_Experience__c</name>
+    </fields><fields>
+        <label>Celular</label>
+        <name>HR_Mobile_Phone__c</name>
+    </fields><fields>
+        <label>Solicitud de empleo</label>
+        <name>HR_Position__c</name>
+        <relationshipLabel>Candidatos</relationshipLabel>
+    </fields><fields>
+        <label>Curriculum Vitae</label>
+        <name>HR_Resume__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>HR_Status__c</name>
+        <picklistValues>
+            <masterLabel>Expend Offer</masterLabel>
+            <translation>Oferta de trabajo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hired</masterLabel>
+            <translation>Contratado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>Nuevo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone Screen</masterLabel>
+            <translation>Entrevista teléfonica</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation>Rechazado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review Resume</masterLabel>
+            <translation>Revisión del curriculum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule interview</masterLabel>
+            <translation>Programar entrevista</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>Ciudadano Estadounidense</label>
+        <name>HR_US_Citizen__c</name>
+    </fields><fields>
+        <label>Visa requerida</label>
+        <name>HR_Visa_Required__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Candidato</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Candidatos</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre</nameFieldLabel><layouts>
+        <layout>Applicant Layout</layout>
+        <sections>
+            <label>Información del empleador actual</label>
+            <section>Current Employer Information</section>
+        </sections>
+        <sections>
+            <label>Otras informaciones del candidato</label>
+            <section>Other Applicant Information</section>
+        </sections>
+        <sections>
+            <label>Curriculum vitae</label>
+            <section>Resume</section>
+        </sections>
+    </layouts><quickActions>
+        <label>Actualizar estado</label>
+        <name>Update_Status</name>
+    </quickActions></CustomObjectTranslation>

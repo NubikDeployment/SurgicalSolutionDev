@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Standard Preisbuch</label>
+        <name>Default_Order_Pricebook__c</name>
+    </fields><fields>
+        <label>Externe ID</label>
+        <name>External_ID__c</name>
+    </fields></CustomObjectTranslation>

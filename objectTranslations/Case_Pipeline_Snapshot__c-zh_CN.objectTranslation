@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>帐户</label>
+        <name>Account__c</name>
+    </fields><fields>
+        <label>案件编号</label>
+        <name>Case_Number__c</name>
+    </fields><fields>
+        <label>案例所有者</label>
+        <name>Case_Owner__c</name>
+    </fields><fields>
+        <label>案例优先</label>
+        <name>Case_Priority__c</name>
+    </fields><fields>
+        <label>案例状态</label>
+        <name>Case_Status__c</name>
+    </fields><fields>
+        <label>案例主题</label>
+        <name>Case_Subject__c</name>
+    </fields><fields>
+        <label>运行日期</label>
+        <name>Run_Date__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Case Pipeline Snapshot --></value>
+    </caseValues><nameFieldLabel><!-- CPS # --></nameFieldLabel></CustomObjectTranslation>

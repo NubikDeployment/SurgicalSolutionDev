@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>项目的其他细节</label>
+        <name>Item_Additional_Details__c</name>
+    </fields><fields>
+        <label>项目代码</label>
+        <name>Item_Code__c</name>
+    </fields><fields>
+        <label>项目详细信息</label>
+        <name>Item_Detail__c</name>
+    </fields><fields>
+        <label>产品特点</label>
+        <name>Item_Features__c</name>
+    </fields><fields>
+        <label>项目图片大</label>
+        <name>Item_Image_Large__c</name>
+    </fields><fields>
+        <label>产品图片</label>
+        <name>Item_Image__c</name>
+    </fields><fields>
+        <label>项目详细描述</label>
+        <name>Item_Long_Description__c</name>
+    </fields><fields>
+        <label>项目建议零售价</label>
+        <name>Item_MSRP__c</name>
+    </fields><fields>
+        <label>项目型号</label>
+        <name>Item_Model_Number__c</name>
+    </fields><fields>
+        <label>项目名</label>
+        <name>Item_Name__c</name>
+    </fields><fields>
+        <label>项目简述</label>
+        <name>Item_Short_Description__c</name>
+    </fields><fields>
+        <label>项目规格</label>
+        <name>Item_Specifications__c</name>
+    </fields><fields>
+        <label>项目状态</label>
+        <name>Item_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>批准</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Review</masterLabel>
+            <translation>回顾</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published to Website</masterLabel>
+            <translation>发布到网站</translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- Catalog --></value>
+    </caseValues><nameFieldLabel><!-- Catalog Name --></nameFieldLabel></CustomObjectTranslation>

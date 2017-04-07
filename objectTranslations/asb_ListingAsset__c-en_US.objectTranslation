@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The caption on a video or screenshot listing asset. --></help>
+        <label><!-- Caption --></label>
+        <name>Caption__c</name>
+    </fields><fields>
+        <help><!-- The Company ID of the Brainshark  video that is embedded on the listing if applicable. --></help>
+        <label><!-- Company ID --></label>
+        <name>CompanyId__c</name>
+    </fields><fields>
+        <help><!-- The URL location where the asset can be found if it is referenced, not uploaded. --></help>
+        <label><!-- Link --></label>
+        <name>Location__c</name>
+    </fields><fields>
+        <help><!-- The order in which assets of the same type are shown on the listing. Lower numbers are shown first. --></help>
+        <label><!-- Order --></label>
+        <name>Order__c</name>
+    </fields><fields>
+        <help><!-- The ID of the video that is embedded on the listing if applicable. --></help>
+        <label><!-- Video Embed ID --></label>
+        <name>VideoEmbedId__c</name>
+    </fields><fields>
+        <help><!-- The type of video (YouTube, Vimeo or Brainshark) that is included on the listing. --></help>
+        <label><!-- Video Type --></label>
+        <name>VideoType__c</name>
+        <picklistValues>
+            <masterLabel>Brainshark</masterLabel>
+            <translation><!-- Brainshark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vimeo</masterLabel>
+            <translation><!-- Vimeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YouTube</masterLabel>
+            <translation><!-- YouTube --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- The listing that owns the asset. --></help>
+        <label><!-- Listing --></label>
+        <name>asb_Listing__c</name>
+        <relationshipLabel><!-- Listing Assets --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Listing Asset</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Listing Assets</value>
+    </caseValues><startsWith>Consonant</startsWith><recordTypes>
+        <label>Document</label>
+        <name>Document</name>
+    </recordTypes><recordTypes>
+        <label>Image</label>
+        <name>Image</name>
+    </recordTypes><recordTypes>
+        <label>Video</label>
+        <name>Video</name>
+    </recordTypes></CustomObjectTranslation>

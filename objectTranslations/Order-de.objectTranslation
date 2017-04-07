@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Credit Card Expiration Date --></label>
+        <name>Credit_Card_Expiration_Date__c</name>
+    </fields><fields>
+        <label><!-- Credit Card Name --></label>
+        <name>Credit_Card_Name__c</name>
+    </fields><fields>
+        <label><!-- Credit Card Number --></label>
+        <name>Credit_Card_Number__c</name>
+    </fields><fields>
+        <label><!-- DB Days --></label>
+        <name>DB_Days__c</name>
+    </fields><fields>
+        <label><!-- Indicator --></label>
+        <name>Indicator__c</name>
+    </fields><fields>
+        <help><!-- Defines the billing frequency. --></help>
+        <label><!-- Billing Frequency --></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields><fields>
+        <help><!-- Indicates if the order is contracted. --></help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields><fields>
+        <help><!-- The payment term for this order. --></help>
+        <label><!-- Payment Term --></label>
+        <name>SBQQ__PaymentTerm__c</name>
+    </fields><fields>
+        <help><!-- The quote where the order is created from. --></help>
+        <label><!-- Quote --></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel><!-- Orders --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method__c</name>
+        <picklistValues>
+            <masterLabel>DHL</masterLabel>
+            <translation><!-- DHL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FedEx</masterLabel>
+            <translation><!-- FedEx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS</masterLabel>
+            <translation><!-- UPS --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Track It! --></label>
+        <name>Track_It__c</name>
+    </fields><fields>
+        <help><!-- Sample Tracking Number:
+FedEx: 123456789012 --></help>
+        <label><!-- Tracking ID --></label>
+        <name>Tracking_ID__c</name>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><layouts>
+        <layout>Order Layout - Standard</layout>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Order Script --></label>
+            <section>Order Script</section>
+        </sections>
+        <sections>
+            <label><!-- Related To --></label>
+            <section>Related To</section>
+        </sections>
+        <sections>
+            <label><!-- Shipping Information --></label>
+            <section>Shipping Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Order Layout - eCommerce</layout>
+        <sections>
+            <label><!-- Customer Information --></label>
+            <section>Customer Information</section>
+        </sections>
+        <sections>
+            <label><!-- Order Script --></label>
+            <section>Order Script</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>Auftrag - B2B</label>
+        <name>Order_Business</name>
+    </recordTypes><recordTypes>
+        <label>Auftrag - B2C</label>
+        <name>Order_Consumer</name>
+    </recordTypes><webLinks>
+        <label><!-- Product_Catalog --></label>
+        <name>Product_Catalog</name>
+    </webLinks><webLinks>
+        <label><!-- EditOrderProducts --></label>
+        <name>SBQQ__EditOrderProducts</name>
+    </webLinks></CustomObjectTranslation>

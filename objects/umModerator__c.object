@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <fullName>umSite_id__c</fullName>
+        <description>Id of the parent (umSite custom setting).</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Id of the parent (umSite custom setting).</inlineHelpText>
+        <label>umSite Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>userId__c</fullName>
+        <description>Agent Id.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Agent Id.</inlineHelpText>
+        <label>User Id</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><fields>
+        <fullName>userInfo__c</fullName>
+        <description>Agent Username.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Agent Username.</inlineHelpText>
+        <label>Username</label>
+        <length>255</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields><customSettingsType>List</customSettingsType><enableEnhancedLookup>false</enableEnhancedLookup><enableFeeds>false</enableFeeds><label>umModerator</label><visibility>Public</visibility></CustomObject>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Community xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>The vision of the Salesforce.com Foundation is to use salesforce.com’s people, technology and relationships to improve our communities, inspire youth to be more successful, support the world during times of extreme need, and promote peace.</description>
+    <showInPortal>false</showInPortal>
+</Community>

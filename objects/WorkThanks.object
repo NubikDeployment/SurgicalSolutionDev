@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata"><actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides><actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides><fields>
+        <fullName>FeedItemId</fullName>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>GiverId</fullName>
+        <type>Lookup</type>
+    </fields><fields>
+        <fullName>Message</fullName>
+    </fields><fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields><enableFeeds>false</enableFeeds><sharingModel>Read</sharingModel></CustomObject>

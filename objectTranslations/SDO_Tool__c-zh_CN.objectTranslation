@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>只有激活工具将显示在SDO工具首页。</help>
+        <label>活性</label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label>先进的信息</label>
+        <name>Advanced_Information__c</name>
+    </fields><fields>
+        <label>类别</label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Advanced Tools</masterLabel>
+            <translation>高级工具</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday Tools</masterLabel>
+            <translation>日常工具</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Tools</masterLabel>
+            <translation>新工具</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old Tools</masterLabel>
+            <translation>旧的工具</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portals / Communities / Chatter Answers Branding</masterLabel>
+            <translation>门户/社区/颤振答案品牌</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sites</masterLabel>
+            <translation>网站</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>描述</label>
+        <name>Description__c</name>
+    </fields><fields>
+        <help>如果您希望此工具显示在主页的最喜欢的工具部分选中此复选框。</help>
+        <label>喜爱</label>
+        <name>Favorite__c</name>
+    </fields><fields>
+        <label>高度</label>
+        <name>Height__c</name>
+    </fields><fields>
+        <label>说明</label>
+        <name>Instructions__c</name>
+    </fields><fields>
+        <label>默认未完成</label>
+        <name>Open__c</name>
+    </fields><fields>
+        <label>订购</label>
+        <name>Order__c</name>
+    </fields><fields>
+        <label>弹出新窗口</label>
+        <name>Pop_new_window__c</name>
+    </fields><fields>
+        <label>产品云</label>
+        <name>Product_Cloud__c</name>
+        <picklistValues>
+            <masterLabel>Analytics Cloud</masterLabel>
+            <translation>分析云</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Cloud</masterLabel>
+            <translation>社区云</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Cloud</masterLabel>
+            <translation>营销云</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>其他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation>平台</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Cloud</masterLabel>
+            <translation>销售云</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Cloud</masterLabel>
+            <translation>服务云计算</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>页面的URL流行研究。</help>
+        <label>网址</label>
+        <name>URL__c</name>
+    </fields><fields>
+        <label>宽度</label>
+        <name>Width__c</name>
+    </fields><fields>
+        <help>该工具的字体真棒图标名称</help>
+        <label>FA图标名称</label>
+        <name>fa_icon_name__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value><!-- SDO Tool --></value>
+    </caseValues><nameFieldLabel><!-- SDO Tool Name --></nameFieldLabel><webLinks>
+        <label>测试尺寸</label>
+        <name>Test_Dimensions</name>
+    </webLinks></CustomObjectTranslation>

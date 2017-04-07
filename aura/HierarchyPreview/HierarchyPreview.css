@@ -1,0 +1,32 @@
+.THIS .border-line {
+    border-left: 1px solid rgb(186, 187, 187);
+}
+.THIS .border-line {
+    padding-left: 1px solid rgb(186, 187, 187);
+}
+.THIS .border-down {
+
+
+}
+.THIS .margin-tree {
+    margin-left: px
+}
+
+.THIS .line-div {
+    border-bottom: 2px solid rgb(186, 187, 187);
+    border-left: 2px solid rgb(186, 187, 187);
+    display: inline-flex;
+    width: 19px;
+    height: 18px;
+    margin-right: 0px;
+}
+.THIS .rotate90 {
+    transform: rotate(90deg);
+}
+.THIS .slds-list__item:after {
+    height: 2px !important;
+    width:  2px !important;
+}
+.THIS .slds-card__footer {
+	text-align:left;    
+}

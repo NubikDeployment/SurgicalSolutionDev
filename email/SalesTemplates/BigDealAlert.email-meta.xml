@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used by the Big Deal Alert workflow rule, which runs when a deal closes with an amount greater than $100,000.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>CorporateLogo</letterhead>
+    <name>Big Deal Alert</name>
+    <style>formalLetter</style>
+    <subject>{!Organization.Name} does it again !!!</subject>
+    <textOnly>Congratulations all!
+
+{!Opportunity.OwnerFullName} has just closed {!Account.Name}, for {!Opportunity.Amount}.
+
+Please email {!Opportunity.OwnerFirstName} to congratulate them !</textOnly>
+    <type>html</type>
+</EmailTemplate>

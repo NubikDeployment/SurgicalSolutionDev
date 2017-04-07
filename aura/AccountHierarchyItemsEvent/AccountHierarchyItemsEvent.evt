@@ -1,0 +1,5 @@
+<aura:event type="APPLICATION">
+    <aura:attribute name="number" type="Integer"/>
+    <aura:attribute name="active" type="Object"/>
+    <aura:attribute name="canCreateAccount" type="Boolean"/>
+</aura:event>

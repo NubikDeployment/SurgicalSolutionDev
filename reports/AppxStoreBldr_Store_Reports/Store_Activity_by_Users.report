@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>asb_App__c$Name</field>
+    </columns>
+    <columns>
+        <field>asb_App__c.Listings__r$Language__c</field>
+    </columns>
+    <columns>
+        <field>asb_App__c.Listings__r.Listing_Activities__r$RecordType</field>
+    </columns>
+    <columns>
+        <field>asb_App__c.Listings__r.Listing_Activities__r$Name</field>
+    </columns>
+    <description>Activity on the store grouped by user over the last 90 days</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>asb_App__c.Listings__r.Listing_Activities__r$CreatedBy</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Activity by Users</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Asb_Apps_with_Listings_and_Listing_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <timeFrameFilter>
+        <dateColumn>asb_App__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

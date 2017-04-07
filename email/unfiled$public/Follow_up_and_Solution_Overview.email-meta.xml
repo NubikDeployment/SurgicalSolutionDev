@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Contains a link to the solution overview web page.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow-up and Solution Overview</name>
+    <style>none</style>
+    <subject>Follow-up and Solution Overview</subject>
+    <type>custom</type>
+</EmailTemplate>

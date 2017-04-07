@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- ComponentId --></label>
+        <name>ComponentId__c</name>
+    </fields><fields>
+        <label><!-- Template Map --></label>
+        <name>Template_Map__c</name>
+        <relationshipLabel><!-- Custom Widgets --></relationshipLabel>
+    </fields><fields>
+        <label><!-- Display Mode --></label>
+        <name>isDisplayed__c</name>
+        <picklistValues>
+            <masterLabel>Center</masterLabel>
+            <translation><!-- Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left</masterLabel>
+            <translation><!-- Left --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Right</masterLabel>
+            <translation><!-- Right --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Custom Widget</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Custom Widgets</value>
+    </caseValues><startsWith>Consonant</startsWith><recordTypes>
+        <label><!-- Center Widgets --></label>
+        <name>Center_Widgets</name>
+    </recordTypes><recordTypes>
+        <label><!-- Side Widgets --></label>
+        <name>Side_Widgets</name>
+    </recordTypes></CustomObjectTranslation>

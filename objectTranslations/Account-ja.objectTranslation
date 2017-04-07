@@ -1,0 +1,1041 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <name>AccountSource</name>
+        <picklistValues>
+            <masterLabel>Cold Call</masterLabel>
+            <translation>コールドコール</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community</masterLabel>
+            <translation>コミュニティ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data.com</masterLabel>
+            <translation>購入リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbound Call</masterLabel>
+            <translation>入電</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Event</masterLabel>
+            <translation>展示会</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>商談登録</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation>紹介</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation>Googleアドワーズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website</masterLabel>
+            <translation>ウェブサイト</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>場所</label>
+        <name>Account_Location__c</name>
+    </fields><fields>
+        <label>優先度</label>
+        <name>Account_Priority__c</name>
+    </fields><fields>
+        <label><!-- Account Source Custom --></label>
+        <name>Account_Source_Custom__c</name>
+        <picklistValues>
+            <masterLabel>Added from Data.com</masterLabel>
+            <translation><!-- Added from Data.com --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>ステータス</label>
+        <name>Account_Status__c</name>
+    </fields><fields>
+        <label>本年度お取引実績</label>
+        <name>Annual_Income__c</name>
+    </fields><fields>
+        <label>申込日</label>
+        <name>Application_Date__c</name>
+    </fields><fields>
+        <label><!-- Number of Business Family Members --></label>
+        <name>Business_Family_Members_Data__c</name>
+    </fields><fields>
+        <label>購買関係</label>
+        <name>Buying_Relationship__c</name>
+        <picklistValues>
+            <masterLabel>Direct</masterLabel>
+            <translation>直販</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indirect</masterLabel>
+            <translation>関接販売</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside</masterLabel>
+            <translation>外販</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>クローズしたロスト商談</label>
+        <name>Closed_Lost_Opptys__c</name>
+    </fields><fields>
+        <label>クローズした受注商談</label>
+        <name>Closed_Won_Opptys__c</name>
+    </fields><fields>
+        <help><!-- This is automatically calculated from closed opportunities. --></help>
+        <label>売上累計</label>
+        <name>Closed_Won_Value__c</name>
+    </fields><fields>
+        <label>競合優位な証明</label>
+        <name>Competitive_Certifications__c</name>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUN</masterLabel>
+            <translation><!-- SUN --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label>契約書サイン済み</label>
+        <name>Contract_Signed__c</name>
+    </fields><fields>
+        <label>本年度収益目標</label>
+        <name>Current_Year_Revenue_Goal__c</name>
+    </fields><fields>
+        <label>本年度ターゲット</label>
+        <name>Current_Year_Target__c</name>
+    </fields><fields>
+        <label>顧客取引先番号</label>
+        <name>Customer_Account__c</name>
+    </fields><fields>
+        <help><!-- What does this customer think of us? --></help>
+        <label>顧客満足度</label>
+        <name>Customer_Satisfaction_Index__c</name>
+        <picklistValues>
+            <masterLabel>A - Extremely Satisfied - Customer Evangelist</masterLabel>
+            <translation>5 - 非常に高い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Satisfied</masterLabel>
+            <translation>4 - 高い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - Neutral</masterLabel>
+            <translation>3- 普通</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D - Dissatisfied - At risk of losing business</masterLabel>
+            <translation>2 - 低い</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F - Unsatisfactory - Losing Business</masterLabel>
+            <translation>1 - とても低い</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>顧客価値</label>
+        <name>Customer_Value__c</name>
+    </fields><fields>
+        <label>未活動日数</label>
+        <name>Days_Since_Activity__c</name>
+    </fields><fields>
+        <label>支払い延滞リスク</label>
+        <name>Delinquency_Risk_Data__c</name>
+    </fields><fields>
+        <label>DB（ツール用）</label>
+        <name>EDY_ORGCUSTOM__DB__c</name>
+    </fields><fields>
+        <label><!-- Old Name --></label>
+        <name>EDY_ORGCUSTOM__Old_Name__c</name>
+    </fields><fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields><fields>
+        <label>グローバルビジネス名</label>
+        <name>Global_Business_Name_Data__c</name>
+    </fields><fields>
+        <label><!-- Global Ultimate D-U-N-S Number --></label>
+        <name>Global_Ultimate_D_U_N_S_Number__c</name>
+    </fields><fields>
+        <label>％目標の達成</label>
+        <name>Goal_Attainment__c</name>
+    </fields><fields>
+        <name>Industry</name>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation>農林</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Apparel</masterLabel>
+            <translation>アパレル・衣服</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>バイオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>科学</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>コンサルティング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation>教育</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>電気・電子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>エネルギー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation>エンジニアリング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>マスコミ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>環境</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>食品・飲料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>官公庁</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare &amp; Life Sciences</masterLabel>
+            <translation>医療</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>機械</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>製造</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>メディア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>非営利団体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>リクリエーション</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>小売</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation>海運</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation>ハイテク</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation>運輸</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation>公共</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>昨年の収益</label>
+        <name>Last_Year_Revenue_Generated__c</name>
+    </fields><fields>
+        <label>緯度</label>
+        <name>Latitude__c</name>
+    </fields><fields>
+        <label>リード変換率</label>
+        <name>Lead_Conversion_Rate__c</name>
+    </fields><fields>
+        <label>リードの商談クローズ率</label>
+        <name>Lead_To_Opportunity_Close_Rate__c</name>
+    </fields><fields>
+        <label>負債</label>
+        <name>Liabilities__c</name>
+    </fields><fields>
+        <label>経度</label>
+        <name>Longitude__c</name>
+    </fields><fields>
+        <label>地図</label>
+        <name>Map_the_Account__c</name>
+    </fields><fields>
+        <label>ネット価値</label>
+        <name>Net_Worth__c</name>
+    </fields><fields>
+        <label>ロストした商談</label>
+        <name>Number_Closed_Lost_Opportunities__c</name>
+    </fields><fields>
+        <label>クローズした商談</label>
+        <name>Number_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>受注商談</label>
+        <name>Number_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>有効リード</label>
+        <name>Number_Leads_Active__c</name>
+    </fields><fields>
+        <label>元リード</label>
+        <name>Number_Leads_Converted__c</name>
+    </fields><fields>
+        <label>リード合計</label>
+        <name>Number_Leads_Total__c</name>
+    </fields><fields>
+        <label>オープン商談</label>
+        <name>Number_Open_Opportunities__c</name>
+    </fields><fields>
+        <label>従業員数 - 場所</label>
+        <name>Number_of_Employees_Location_Data__c</name>
+    </fields><fields>
+        <label>オープン商談価格</label>
+        <name>Open_Oppty_Value__c</name>
+    </fields><fields>
+        <label>オープン商談</label>
+        <name>Open_Opptys__c</name>
+    </fields><fields>
+        <label>オープン vs クローズ商談</label>
+        <name>Open_vs_Closed_Opportunities__c</name>
+    </fields><fields>
+        <label>オープン vs 受注商談</label>
+        <name>Open_vs_Closed_Won_Opportunities__c</name>
+    </fields><fields>
+        <label>商談受注率</label>
+        <name>Opportunity_Win_Rate__c</name>
+    </fields><fields>
+        <label>その他の収益</label>
+        <name>Other_Income__c</name>
+    </fields><fields>
+        <label>未払い収益</label>
+        <name>Overdue_Invoice_Revenue__c</name>
+    </fields><fields>
+        <label>未払い請求</label>
+        <name>Overdue_Invoices__c</name>
+    </fields><fields>
+        <name>Ownership</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private</masterLabel>
+            <translation>株式会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public</masterLabel>
+            <translation>合同会社</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsidiary</masterLabel>
+            <translation>子会社</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Partner Certification --></label>
+        <name>Partner_Certification__c</name>
+        <picklistValues>
+            <masterLabel>Certified Partner</masterLabel>
+            <translation>認定済みパートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elite Partner</masterLabel>
+            <translation>上級パートナー</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Partner Geographic Coverage --></label>
+        <name>Partner_Geographic_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>APAC</masterLabel>
+            <translation>アジア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMEA</masterLabel>
+            <translation>ヨーロッパ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LACA</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation>アメリカ</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Partner Program Level --></label>
+        <name>Partner_Program_Level__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation>ブロンズ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation>ゴールド</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation>プラチナ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation>シルバー</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>パートナータイプ</label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alliance Partner</masterLabel>
+            <translation>アライアンスパートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor</masterLabel>
+            <translation>販売代理店</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller</masterLabel>
+            <translation>リセラー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service &amp; Support Specialist</masterLabel>
+            <translation>サポート＆サービス スペシャリスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Provider</masterLabel>
+            <translation>サービスプロバイダー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Integrator</masterLabel>
+            <translation>システムインテグレーター</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>パートナーシップステータス</label>
+        <name>Partnership_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation>アクティブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation>非アクティブ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation>保留</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation>一時停止</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>勝率</label>
+        <name>Percent_Won__c</name>
+    </fields><fields>
+        <label><!-- Personal Assets --></label>
+        <name>Personal_Assets__c</name>
+    </fields><fields>
+        <label>プログラム</label>
+        <name>Programs__c</name>
+        <picklistValues>
+            <masterLabel>Consulting Program</masterLabel>
+            <translation><!-- Consulting Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributor Program</masterLabel>
+            <translation><!-- Distributor Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Program</masterLabel>
+            <translation><!-- Referral Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reseller Program</masterLabel>
+            <translation><!-- Reseller Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Program</masterLabel>
+            <translation><!-- Services Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Worldwide Reseller Agreement</masterLabel>
+            <translation><!-- Worldwide Reseller Agreement --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Relevant keywords for this record --></help>
+        <label><!-- RC_Keywords --></label>
+        <name>RC_Keywords__c</name>
+    </fields><fields>
+        <name>Rating</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation>興味なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation>興味あり</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation>どちらとも言えない</translation>
+        </picklistValues>
+    </fields><fields>
+        <label>評価フラグ</label>
+        <name>Rating_Indicator__c</name>
+    </fields><fields>
+        <label>地域</label>
+        <name>Region__c</name>
+        <picklistValues>
+            <masterLabel>Central</masterLabel>
+            <translation>北海道・東北・関東</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East</masterLabel>
+            <translation>中部・近畿</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West</masterLabel>
+            <translation>中国・四国・九州</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>更新見積の生成時、同じ商品の複数の納入商品の数量を 1 つの品目に統合するオプション。</help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields><fields>
+        <help>複数の期間調整される契約から納入商品とサブスクリプションを統合できるようにします。デフォルトでは、期間調整される契約ごとに更新見積に別個のグループが生成されます。</help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields><fields>
+        <help>契約がいつ期間調整されるかを決定します。</help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation>アドオン</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>更新</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>この顧客のサービスおよびサブスクリプション契約の期間調整方法を決定します。</help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>常に</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>なし</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation>ユーザが選択</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>顧客の価格表を取得し、「ショッピングカート」見積に関連付けるために E コマースモジュールで使用されるこの取引先のデフォルトの商談。</help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields><fields>
+        <help>契約価格を親取引先から継承しない場合に選択します。</help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields><fields>
+        <help>更新見積と修正のバンドル階層を保持するにはチェックボックスをオンにします。</help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields><fields>
+        <help>価格を維持する期限の日付を入力します。</help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields><fields>
+        <help>取引先の納入商品に基づいて更新を行うには [納入商品ベース] を選択し、見積から作成されたサブスクリプションに基づいて更新を行うには [サブスクリプションベース] を選択します。</help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation>納入商品ベース</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation>契約ベース</translation>
+        </picklistValues>
+    </fields><fields>
+        <help>前回の支払価格と同じ価格を維持するには [同じ] を使用します。現在のリスト価格を使用するには [リスト] を使用します。前回の支払価格より引き上げた価格を使用するには [上昇] を使用します。</help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>リスト</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation>同じ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation>上昇</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Scorecard Last Updated --></label>
+        <name>Scorecard_Last_Updated__c</name>
+    </fields><fields>
+        <label><!-- Show Partner Users --></label>
+        <name>Show_Partner_Users__c</name>
+    </fields><fields>
+        <label><!-- Show on Checkin Map --></label>
+        <name>Show_on_Checkin_Map__c</name>
+    </fields><fields>
+        <name>Type</name>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation>お客様</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Market</masterLabel>
+            <translation>パートナー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Business</masterLabel>
+            <translation>リセラー</translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- URLsrc --></label>
+        <name>URLsrc__c</name>
+    </fields><fields>
+        <label>受注商談額</label>
+        <name>Value_Closed_Won_Opportunties__c</name>
+    </fields><fields>
+        <label>オープン商談額</label>
+        <name>Value_Open_Opportunties__c</name>
+    </fields><fields>
+        <label>価値</label>
+        <name>Value__c</name>
+    </fields><fields>
+        <label>カバレッジ</label>
+        <name>Vertical_Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation>銀行</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation>バイオ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation>化学</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications</masterLabel>
+            <translation>通信</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation>建設</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consulting</masterLabel>
+            <translation>コンサルティング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation>教育</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation>電気・電子</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation>エネルギー</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation>エンジニアリング</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment</masterLabel>
+            <translation>マスコミ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation>環境</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation>金融</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverage</masterLabel>
+            <translation>食品・飲料</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation>官公庁</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation>医療</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation>サービス</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation>保険</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation>機械</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation>製造</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation>メディア</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not For Profit</masterLabel>
+            <translation>非営利団体</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>その他</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation>娯楽</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation>小売</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipping</masterLabel>
+            <translation><!-- Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology</masterLabel>
+            <translation><!-- Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Win Loss Ratio --></label>
+        <name>Win_Loss_Ratio__c</name>
+    </fields><fields>
+        <label>年度累計収益</label>
+        <name>YTD_Revenue_Generated__c</name>
+    </fields><fields>
+        <label><!-- Hierarchy Parents --></label>
+        <name>accHierarchy__Hierarchy_Parents__c</name>
+    </fields><fields>
+        <label><!-- On Previous Hierarchy Level --></label>
+        <name>accHierarchy__On_Previous_Hierarchy_Level__c</name>
+    </fields><fields>
+        <label><!-- Top Parent Id --></label>
+        <name>accHierarchy__TopParentId__c</name>
+    </fields><fields>
+        <label><!-- Has Child With Changes --></label>
+        <name>accHierarchy__hasChildWithChanges__c</name>
+    </fields><fields>
+        <label><!-- Sourced from Data.com --></label>
+        <name>ddc_prospector__Sourced_from_Data_com__c</name>
+    </fields><fields>
+        <label><!-- Added from Data.com --></label>
+        <name>jsImpacts__Added_from_Data_com__c</name>
+    </fields><fields>
+        <label><!-- Data.com Managed --></label>
+        <name>jsImpacts__Data_com_Managed__c</name>
+    </fields><fields>
+        <label><!-- Data.com Matched --></label>
+        <name>jsImpacts__Data_com_Matched__c</name>
+    </fields><fields>
+        <help><!-- Exclude this record from automated field updates from Data.com Clean jobs --></help>
+        <label><!-- Data.com Does Not Auto-Update --></label>
+        <name>jsImpacts__Data_com_does_not_auto_update__c</name>
+    </fields><fields>
+        <label>担当者訓練の％</label>
+        <name>of_Reps_Trained__c</name>
+    </fields><layouts>
+        <layout>Account Service</layout>
+        <sections>
+            <label>取引先 階層関係</label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com --></label>
+            <section>Data.com</section>
+        </sections>
+        <sections>
+            <label>ERP連携</label>
+            <section>ERP Integration</section>
+        </sections>
+        <sections>
+            <label>便利なリンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Advanced Account</layout>
+        <sections>
+            <label>取引先 分析情報</label>
+            <section>Account Analytics</section>
+        </sections>
+        <sections>
+            <label>取引先 階層関係</label>
+            <section>Account Hierarchy</section>
+        </sections>
+        <sections>
+            <label>マッシュアップ情報</label>
+            <section>Integration</section>
+        </sections>
+        <sections>
+            <label>関連リンク</label>
+            <section>Useful Links</section>
+        </sections>
+        <sections>
+            <label><!-- Wave Analytics --></label>
+            <section>Wave Analytics</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Data.com Account</layout>
+        <sections>
+            <label>住所</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Description --></label>
+            <section>Data.com Description</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Information --></label>
+            <section>Data.com Information</section>
+        </sections>
+        <sections>
+            <label><!-- Data.com Premium --></label>
+            <section>Data.com Premium</section>
+        </sections>
+        <sections>
+            <label>関連リンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Lightning Account</layout>
+        <sections>
+            <label>住所</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>関連リンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Partner Account</layout>
+        <sections>
+            <label>取引先トラッキング</label>
+            <section>Account Tracking</section>
+        </sections>
+        <sections>
+            <label>マーケット情報</label>
+            <section>Market Information</section>
+        </sections>
+        <sections>
+            <label>パートナー商談をオープン</label>
+            <section>Open Partner Opportunities</section>
+        </sections>
+        <sections>
+            <label>パートナー情報</label>
+            <section>Partnership Information</section>
+        </sections>
+        <sections>
+            <label>スコアカード</label>
+            <section>Scorecard</section>
+        </sections>
+        <sections>
+            <label>関連リンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>顧客の経済情報</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>便利なリンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Layout - Lightning</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>顧客の経済情報</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>便利なリンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Person Account Service Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label>顧客の経済情報</label>
+            <section>Customer Finances</section>
+        </sections>
+        <sections>
+            <label>便利なリンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Simple Account</layout>
+        <sections>
+            <label>住所</label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label>関連リンク</label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts><recordTypes>
+        <label>アドバンス</label>
+        <name>Advanced</name>
+    </recordTypes><recordTypes>
+        <label><!-- Data.com --></label>
+        <name>Data_com</name>
+    </recordTypes><recordTypes>
+        <label>パートナー</label>
+        <name>Partner</name>
+    </recordTypes><recordTypes>
+        <label>シンプル</label>
+        <name>Simple</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- A valid three-letter country code is required. --></errorMessage>
+        <name>CountryValidation</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- This record has been excluded from automated field updates from Data.com Clean jobs. --></errorMessage>
+        <name>jsImpacts__Block_autoupdate_from_Data_com</name>
+    </validationRules><webLinks>
+        <label>取引先連携</label>
+        <name>Account_Master_Integration</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_in_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_out_for_Text_Messages_list --></label>
+        <name>LiveText__Opt_out_for_Text_Messages_list</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Bulk_SMS --></label>
+        <name>LiveText__Send_Bulk_SMS</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_Out_for_Text_Messages_detail --></label>
+        <name>Opt_Out_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label><!-- Opt_in_for_Text_Messages_detail --></label>
+        <name>Opt_in_for_Text_Messages_detail</name>
+    </webLinks><webLinks>
+        <label>リセット</label>
+        <name>Reset</name>
+    </webLinks><webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Text_Message --></label>
+        <name>Send_Text_Message</name>
+    </webLinks><webLinks>
+        <label>サポート</label>
+        <name>Support</name>
+    </webLinks><webLinks>
+        <label>スコアカード更新</label>
+        <name>Update_Scorecard</name>
+    </webLinks><webLinks>
+        <label>ホワイトスペース</label>
+        <name>Whitespace_Report</name>
+    </webLinks><webLinks>
+        <label><!-- Button_View_Hierarchy --></label>
+        <name>accHierarchy__Button_View_Hierarchy</name>
+    </webLinks><webLinks>
+        <label>経済リサーチ</label>
+        <name>financialprofile</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Pardot_Emails --></label>
+        <name>pi__Send_Pardot_Emails</name>
+    </webLinks><webLinks>
+        <label><!-- Send_Single_Pardot_Email --></label>
+        <name>pi__Send_Single_Pardot_Email</name>
+    </webLinks></CustomObjectTranslation>

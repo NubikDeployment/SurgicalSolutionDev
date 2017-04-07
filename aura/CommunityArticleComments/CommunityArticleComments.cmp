@@ -1,0 +1,35 @@
+<aura:component controller="CommunityArticleCommentsCtrl" implements="forceCommunity:availableForAllPageTypes">
+    <ltng:require scripts="/resource/CommBlogJQMD"
+                  afterScriptsLoaded="{!c.doInit}" />
+    
+	<ltng:require styles="/resource/CommBlogLDSMD/assets/styles/salesforce-lightning-design-system-ltng.css"/>
+    <aura:attribute name="theFeedItems" type="SObject[]"></aura:attribute>
+    <aura:attribute name="theTitle" type="String"></aura:attribute>
+    <aura:attribute name="theUrl" type="String"></aura:attribute>
+    <div class="slds">
+        <ul class="slds-list--vertical slds-has-dividers">
+            <aura:iteration items="{!v.theFeedItems}" var="fi">
+                <li class="slds-list__item">
+                    <div class="slds-tile">
+                        <p class="slds-tile__title slds-truncate"><span style="color:#4F6A92;font-weight:bold;"><aura:unescapedHtml value="{!fi.InsertedBy.Name}" /></span> - <ui:outputDateTime aura:id="date" class="date" value="{!fi.CreatedDate}" /></p>
+                        <div class="slds-tile__detail slds-text-body--small">
+                            <p class="slds-truncate" style="font-size:14px;"><aura:unescapedHtml value="{!fi.Body}" /></p>
+                        </div>
+                    </div>
+                </li>
+            </aura:iteration>
+        </ul>
+        <div class="slds-grid slds-grid--align-space" style="margin-top:8px;">
+            <div class="slds-form-element__control slds-col--padded slds-size--1-of-2 slds-medium-size--5-of-6 slds-large-size--8-of-12">
+            <ui:inputText aura:id="commentBox" class="slds-input" placeholder="Add Comment..." />
+            </div>
+            <div class="slds-form-element__control slds-col--padded slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--4-of-12">
+                <ui:button aura:id="commentButton" class="slds-button slds-button--brand" label="Submit" press="{!c.getComment}"/>
+            </div>
+        </div>
+        
+        
+        
+    </div>            
+	
+</aura:component>

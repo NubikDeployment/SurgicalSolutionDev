@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label>Frecuencia de compensación</label>
+        <name>Compensation_frequency__c</name>
+    </fields><fields>
+        <label>Moneda</label>
+        <name>Currency__c</name>
+    </fields><fields>
+        <label>Tipo de empleado</label>
+        <name>Employee_type__c</name>
+    </fields><fields>
+        <label>Nivel de grado</label>
+        <name>Grade_level__c</name>
+    </fields><fields>
+        <label><!-- Id --></label>
+        <name>Id__c</name>
+    </fields><fields>
+        <label>Categoría del trabajo</label>
+        <name>Job_category__c</name>
+    </fields><fields>
+        <label>Código del trabajo</label>
+        <name>Job_code__c</name>
+    </fields><fields>
+        <label>Descripción</label>
+        <name>Job_description__c</name>
+    </fields><fields>
+        <label>Familia del trabajo</label>
+        <name>Job_family__c</name>
+    </fields><fields>
+        <label>Estado</label>
+        <name>Job_status__c</name>
+    </fields><fields>
+        <label>Cargo</label>
+        <name>Job_title__c</name>
+    </fields><fields>
+        <label>Salario máximo</label>
+        <name>Maximum_salary__c</name>
+    </fields><fields>
+        <label>Salario punto medio</label>
+        <name>Mid_point_salary__c</name>
+    </fields><fields>
+        <label>Salario minimo</label>
+        <name>Minimum_salary__c</name>
+    </fields><fields>
+        <label>Horas estándar</label>
+        <name>Standard_hours__c</name>
+    </fields><fields>
+        <label>Período de trabajo estándar</label>
+        <name>Standard_work_period__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Empleo</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Empleos</value>
+    </caseValues><gender>Masculine</gender><layouts>
+        <layout>Jobs Layout</layout>
+        <sections>
+            <label>Campos</label>
+            <section>Fields</section>
+        </sections>
+    </layouts></CustomObjectTranslation>

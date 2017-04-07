@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Which questions were asked in each Self Summary Cycle?</description>
+    <format>Summary</format>
+    <name>Self Summary Questions - X</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Performance_Cycles_with_Questions__c</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+</Report>

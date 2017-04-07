@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help><!-- The types of apps that can be listed in the store. --></help>
+        <label>Tipos de app</label>
+        <name>AppTypes__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web</masterLabel>
+            <translation><!-- Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iOS</masterLabel>
+            <translation><!-- iOS --></translation>
+        </picklistValues>
+    </fields><fields>
+        <help><!-- Indicates if Chatter is enabled to facilitate communication and collaboration around the app. Only available if Chatter is enabled in the Salesforce organization. --></help>
+        <label>Habilitar Chatter</label>
+        <name>EnableChatter__c</name>
+    </fields><fields>
+        <help><!-- The number of apps that are currently listed in the store and available for install. --></help>
+        <label>Apps publicadas</label>
+        <name>LiveApps__c</name>
+    </fields><fields>
+        <help><!-- The total number page views of listings in the store over all time. --></help>
+        <label>Vistas de páginas (Todo el tiempo)</label>
+        <name>PageViewsAllTime__c</name>
+    </fields><fields>
+        <help><!-- The total installs done on listings in the store over all time. --></help>
+        <label>Instalados</label>
+        <name>PopularityAllTime__c</name>
+    </fields><fields>
+        <help><!-- Describes whether the store is online and available to standard users or offline and available only to store administrators. --></help>
+        <label>Estado</label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Offline</masterLabel>
+            <translation><!-- Offline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Tienda</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Tiendas</value>
+    </caseValues><gender>Masculine</gender><nameFieldLabel>Nombre de la tienda</nameFieldLabel></CustomObjectTranslation>

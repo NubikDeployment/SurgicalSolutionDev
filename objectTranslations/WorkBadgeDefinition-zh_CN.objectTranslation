@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <help>输入要与此相关的徽章点数。</help>
+        <label>积分</label>
+        <name>BadgePoints__c</name>
+    </fields></CustomObjectTranslation>

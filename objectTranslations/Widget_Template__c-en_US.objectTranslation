@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- WB_BackgroundColor --></label>
+        <name>WBBackgroundColor__c</name>
+    </fields><fields>
+        <label><!-- WB_Color --></label>
+        <name>WBColor__c</name>
+    </fields><fields>
+        <label><!-- WB_FontFamily --></label>
+        <name>WBFontFamily__c</name>
+    </fields><fields>
+        <label><!-- WB_Font_Size --></label>
+        <name>WBFontSize__c</name>
+    </fields><fields>
+        <label><!-- WB_FontWeight --></label>
+        <name>WBFontWeight__c</name>
+    </fields><fields>
+        <label><!-- WBFont_Size --></label>
+        <name>WBFont_Size__c</name>
+    </fields><fields>
+        <label><!-- WB_Height --></label>
+        <name>WBHeight__c</name>
+    </fields><fields>
+        <label><!-- WB_LHoverColor --></label>
+        <name>WBLHoverColor__c</name>
+    </fields><fields>
+        <label><!-- WB_LinkColor --></label>
+        <name>WBLinkColor__c</name>
+    </fields><fields>
+        <label><!-- WB_LinkFont_Style --></label>
+        <name>WBLinkFontStyle__c</name>
+    </fields><fields>
+        <label><!-- WB_LinkFont_Weight --></label>
+        <name>WBLinkFontWeight__c</name>
+    </fields><fields>
+        <label><!-- WB_LinkHover_Text_Decoration --></label>
+        <name>WBLinkHoverTextDecoration__c</name>
+    </fields><fields>
+        <label><!-- WB_Padding --></label>
+        <name>WBPadding__c</name>
+    </fields><fields>
+        <label><!-- WB_TextAlign --></label>
+        <name>WBTextAlign__c</name>
+    </fields><fields>
+        <label><!-- WH_BackgroundColor --></label>
+        <name>WHBackgroundColor__c</name>
+    </fields><fields>
+        <label><!-- WH_BorderColor --></label>
+        <name>WHBorderColor__c</name>
+    </fields><fields>
+        <label><!-- WH_BorderStyle --></label>
+        <name>WHBorderStyle__c</name>
+    </fields><fields>
+        <label><!-- WH_BorderWidth --></label>
+        <name>WHBorderWidth__c</name>
+    </fields><fields>
+        <label><!-- WH_Color --></label>
+        <name>WHColor__c</name>
+    </fields><fields>
+        <label><!-- WH_FontFamily --></label>
+        <name>WHFontFamily__c</name>
+    </fields><fields>
+        <label><!-- WH_Font_Size --></label>
+        <name>WHFontSize__c</name>
+    </fields><fields>
+        <label><!-- WH_FontWeight --></label>
+        <name>WHFontWeight__c</name>
+    </fields><fields>
+        <label><!-- WH_Height --></label>
+        <name>WHHeight__c</name>
+    </fields><fields>
+        <label><!-- WH_Padding --></label>
+        <name>WHPadding__c</name>
+    </fields><fields>
+        <label><!-- WH_TextAlign --></label>
+        <name>WHTextAlign__c</name>
+    </fields><fields>
+        <label><!-- WI_BackgroundColor --></label>
+        <name>WIBackgroundColor__c</name>
+    </fields><fields>
+        <label><!-- WI_Color --></label>
+        <name>WIColor__c</name>
+    </fields><fields>
+        <label><!-- WI_FontFamily --></label>
+        <name>WIFontFamily__c</name>
+    </fields><fields>
+        <label><!-- WI_FontWeight --></label>
+        <name>WIFontWeight__c</name>
+    </fields><fields>
+        <label><!-- WI_Height --></label>
+        <name>WIHeight__c</name>
+    </fields><fields>
+        <label><!-- WI_TextAlign --></label>
+        <name>WITextAlign__c</name>
+    </fields><fields>
+        <label><!-- WO_BorderColor --></label>
+        <name>WOBorderColor__c</name>
+    </fields><fields>
+        <label><!-- WO_BorderRadius --></label>
+        <name>WOBorderRadius__c</name>
+    </fields><fields>
+        <label><!-- WO_BorderStyle --></label>
+        <name>WOBorderStyle__c</name>
+    </fields><fields>
+        <label><!-- WO_BorderWidth --></label>
+        <name>WOBorderWidth__c</name>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Widget Template</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Widget Template</value>
+    </caseValues><startsWith>Consonant</startsWith></CustomObjectTranslation>

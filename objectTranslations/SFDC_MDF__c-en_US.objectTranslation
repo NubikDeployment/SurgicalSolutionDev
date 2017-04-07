@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields><fields>
+        <label><!-- Activity Date --></label>
+        <name>Activity_Date__c</name>
+    </fields><fields>
+        <label><!-- Activity Type --></label>
+        <name>Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Advertising</masterLabel>
+            <translation><!-- Advertising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Mail</masterLabel>
+            <translation><!-- Direct Mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Tools</masterLabel>
+            <translation><!-- Sales Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seminar</masterLabel>
+            <translation><!-- Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation><!-- Tradeshow --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Age (Days) --></label>
+        <name>Age_Days__c</name>
+    </fields><fields>
+        <label><!-- Requested Amount --></label>
+        <name>Amount__c</name>
+    </fields><fields>
+        <label><!-- Approval History --></label>
+        <name>Approval_History__c</name>
+    </fields><fields>
+        <label><!-- Approved Amount --></label>
+        <name>Approved_Amount__c</name>
+    </fields><fields>
+        <label><!-- Claimed Amount --></label>
+        <name>Claimed_Amount__c</name>
+    </fields><fields>
+        <label><!-- Date Approved --></label>
+        <name>Date_Approved__c</name>
+    </fields><fields>
+        <label><!-- Desired Outcome --></label>
+        <name>Desired_Outcome__c</name>
+    </fields><fields>
+        <label><!-- Market Development Fund --></label>
+        <name>Market_Development_Fund__c</name>
+        <relationshipLabel><!-- Fund Requests --></relationshipLabel>
+    </fields><fields>
+        <help><!-- True when current user&apos;s Account ID matches the account of the request. --></help>
+        <label><!-- My Company&apos;s Request --></label>
+        <name>My_Company_s_Request__c</name>
+    </fields><fields>
+        <label><!-- Partner Comments --></label>
+        <name>Partner_Comments__c</name>
+    </fields><fields>
+        <label><!-- Partner Contribution --></label>
+        <name>Partner_Contribution__c</name>
+    </fields><fields>
+        <label><!-- % Approved --></label>
+        <name>Percent_Approved__c</name>
+    </fields><fields>
+        <label><!-- Request Details --></label>
+        <name>Request_Details__c</name>
+    </fields><fields>
+        <label><!-- Request Name --></label>
+        <name>Request_Name__c</name>
+    </fields><fields>
+        <label><!-- s_Servlet Location --></label>
+        <name>S1__c</name>
+    </fields><fields>
+        <label><!-- s_Document Directory --></label>
+        <name>S2__c</name>
+    </fields><fields>
+        <label><!-- Approval Action --></label>
+        <name>Status_Action__c</name>
+    </fields><fields>
+        <label><!-- Approval Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields><fields>
+        <label><!-- Partner Account --></label>
+        <name>account__c</name>
+        <relationshipLabel><!-- Fund Requests --></relationshipLabel>
+    </fields><caseValues>
+        <plural>false</plural>
+        <value>Fund Request</value>
+    </caseValues><caseValues>
+        <plural>true</plural>
+        <value>Fund Requests</value>
+    </caseValues><startsWith>Consonant</startsWith><layouts>
+        <layout>Fund Request Layout</layout>
+        <sections>
+            <label><!-- Approval --></label>
+            <section>Approval</section>
+        </sections>
+        <sections>
+            <label><!-- Fund Details --></label>
+            <section>Fund Details</section>
+        </sections>
+    </layouts></CustomObjectTranslation>
